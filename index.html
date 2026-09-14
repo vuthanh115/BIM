@@ -1,0 +1,2064 @@
+<!DOCTYPE html>
+<html lang="vi" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hệ Thống Quy Trình & Năng Lực BIM - BIM Management Platform</title>
+  <!-- Google Fonts & Font Awesome -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <style>
+    /* CSS Variables for Dark Mode (Default) */
+    :root[data-theme="dark"] {
+      --bg-body: #080c14;
+      --bg-surface: #0f172a;
+      --bg-card: #141e33;
+      --bg-card-hover: #192640;
+      --bg-accent: #1e293b;
+      --border-color: #202d45;
+      --border-highlight: #334668;
+      --text-primary: #f8fafc;
+      --text-secondary: #94a3b8;
+      --text-muted: #64748b;
+      
+      --primary: #38bdf8;
+      --primary-hover: #0ea5e9;
+      --primary-glow: rgba(56, 189, 248, 0.15);
+      
+      --accent: #f59e0b;
+      --accent-glow: rgba(245, 158, 11, 0.15);
+      
+      --success: #10b981;
+      --success-glow: rgba(16, 185, 129, 0.15);
+      
+      --danger: #f43f5e;
+      --danger-glow: rgba(244, 63, 94, 0.15);
+      
+      --table-header: #10192e;
+      --table-row-even: #0e1526;
+      --box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
+      --box-shadow-hover: 0 20px 40px -10px rgba(0, 0, 0, 0.7);
+    }
+
+    /* Light Mode Variables (Optional toggle) */
+    :root[data-theme="light"] {
+      --bg-body: #f8fafc;
+      --bg-surface: #ffffff;
+      --bg-card: #ffffff;
+      --bg-card-hover: #f1f5f9;
+      --bg-accent: #f1f5f9;
+      --border-color: #e2e8f0;
+      --border-highlight: #cbd5e1;
+      --text-primary: #0f172a;
+      --text-secondary: #475569;
+      --text-muted: #94a3b8;
+      
+      --primary: #0284c7;
+      --primary-hover: #0369a1;
+      --primary-glow: rgba(2, 132, 199, 0.12);
+      
+      --accent: #d97706;
+      --accent-glow: rgba(217, 119, 6, 0.12);
+      
+      --success: #16a34a;
+      --success-glow: rgba(22, 163, 74, 0.12);
+      
+      --danger: #e11d48;
+      --danger-glow: rgba(225, 29, 72, 0.12);
+      
+      --table-header: #f1f5f9;
+      --table-row-even: #f8fafc;
+      --box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05);
+      --box-shadow-hover: 0 20px 30px -5px rgba(0, 0, 0, 0.1);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background-color: var(--bg-body);
+      color: var(--text-primary);
+      line-height: 1.6;
+      scroll-behavior: smooth;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    /* Top Navbar */
+    .navbar {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: rgba(15, 23, 42, 0.9);
+      backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--border-color);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.85rem 2.5rem;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      text-decoration: none;
+    }
+
+    .brand-badge {
+      background: linear-gradient(135deg, var(--primary), #2563eb);
+      color: #ffffff;
+      font-weight: 800;
+      font-size: 1.15rem;
+      padding: 8px 12px;
+      border-radius: 10px;
+      letter-spacing: 1px;
+      box-shadow: 0 0 15px var(--primary-glow);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .brand-text h1 {
+      font-size: 1.1rem;
+      font-weight: 800;
+      color: var(--text-primary);
+      line-height: 1.2;
+      letter-spacing: -0.3px;
+    }
+
+    .brand-text p {
+      font-size: 0.75rem;
+      color: var(--primary);
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: 0.8px;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      list-style: none;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: var(--text-secondary);
+      font-weight: 600;
+      font-size: 0.9rem;
+      padding: 8px 14px;
+      border-radius: 8px;
+      transition: all 0.2s ease;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .nav-links a:hover, .nav-links a.active {
+      color: var(--primary);
+      background: var(--primary-glow);
+    }
+
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 16px;
+      font-size: 0.875rem;
+      font-weight: 600;
+      border-radius: 8px;
+      border: 1px solid transparent;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      text-decoration: none;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, var(--primary), #2563eb);
+      color: white;
+      box-shadow: 0 0 15px var(--primary-glow);
+    }
+
+    .btn-primary:hover {
+      opacity: 0.95;
+      transform: translateY(-1px);
+    }
+
+    .btn-outline {
+      border-color: var(--border-highlight);
+      background: var(--bg-card);
+      color: var(--text-primary);
+    }
+
+    .btn-outline:hover {
+      border-color: var(--primary);
+      color: var(--primary);
+      background: var(--primary-glow);
+    }
+
+    .theme-toggle-btn {
+      background: var(--bg-card);
+      border: 1px solid var(--border-highlight);
+      color: var(--text-primary);
+      width: 38px;
+      height: 38px;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: all 0.2s;
+    }
+
+    .theme-toggle-btn:hover {
+      border-color: var(--primary);
+      color: var(--primary);
+    }
+
+    /* Hero Section */
+    .hero {
+      background: radial-gradient(circle at 80% 20%, rgba(56, 189, 248, 0.12) 0%, transparent 60%),
+                  radial-gradient(circle at 10% 80%, rgba(244, 63, 94, 0.08) 0%, transparent 50%),
+                  var(--bg-body);
+      color: white;
+      padding: 4.5rem 2rem 5rem;
+      position: relative;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    .hero-container {
+      max-width: 1280px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 3.5rem;
+      align-items: center;
+    }
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--primary-glow);
+      border: 1px solid rgba(56, 189, 248, 0.4);
+      color: var(--primary);
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 0.8rem;
+      font-weight: 700;
+      letter-spacing: 0.8px;
+      margin-bottom: 1.5rem;
+      text-transform: uppercase;
+    }
+
+    .hero-title {
+      font-size: 2.9rem;
+      font-weight: 800;
+      line-height: 1.15;
+      margin-bottom: 1.25rem;
+      color: var(--text-primary);
+    }
+
+    .hero-title span {
+      background: linear-gradient(90deg, var(--primary), #818cf8, #f43f5e);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero-subtitle {
+      font-size: 1.15rem;
+      color: var(--text-secondary);
+      margin-bottom: 2.25rem;
+      line-height: 1.7;
+    }
+
+    .hero-stats {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1.25rem;
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      padding: 1.5rem;
+      border-radius: 14px;
+      box-shadow: var(--box-shadow);
+    }
+
+    .stat-item h3 {
+      font-size: 1.85rem;
+      font-weight: 800;
+      color: var(--primary);
+      margin-bottom: 0.2rem;
+    }
+
+    .stat-item p {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+
+    .hero-preview {
+      position: relative;
+      border-radius: 14px;
+      overflow: hidden;
+      box-shadow: var(--box-shadow-hover);
+      border: 1px solid var(--border-highlight);
+      cursor: pointer;
+      transition: all 0.3s ease;
+      background: var(--bg-card);
+    }
+
+    .hero-preview:hover {
+      transform: translateY(-4px);
+      border-color: var(--primary);
+      box-shadow: 0 0 25px var(--primary-glow);
+    }
+
+    .hero-preview img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .hero-preview-badge {
+      position: absolute;
+      bottom: 14px;
+      right: 14px;
+      background: rgba(15, 23, 42, 0.9);
+      backdrop-filter: blur(8px);
+      padding: 8px 14px;
+      border-radius: 8px;
+      font-size: 0.8rem;
+      color: var(--primary);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      border: 1px solid var(--border-color);
+      font-weight: 600;
+    }
+
+    /* Main Container */
+    .container {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 4rem 1.5rem;
+    }
+
+    /* Section Headers */
+    .section-header {
+      text-align: center;
+      margin-bottom: 3.5rem;
+    }
+
+    .section-tag {
+      font-size: 0.85rem;
+      font-weight: 800;
+      color: var(--primary);
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      margin-bottom: 0.5rem;
+      display: inline-block;
+    }
+
+    .section-title {
+      font-size: 2.3rem;
+      font-weight: 800;
+      color: var(--text-primary);
+      margin-bottom: 0.85rem;
+    }
+
+    .section-desc {
+      font-size: 1.05rem;
+      color: var(--text-secondary);
+      max-width: 780px;
+      margin: 0 auto;
+    }
+
+    /* Interactive BIM Planner Tool */
+    .workflow-tool-card {
+      background: var(--bg-card);
+      border-radius: 16px;
+      box-shadow: var(--box-shadow);
+      border: 1px solid var(--border-color);
+      padding: 2.25rem;
+      margin-bottom: 4.5rem;
+      position: relative;
+    }
+
+    .tool-topbar {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1.5rem;
+      padding-bottom: 1.75rem;
+      border-bottom: 1px solid var(--border-color);
+      margin-bottom: 1.75rem;
+    }
+
+    .tool-title h2 {
+      font-size: 1.45rem;
+      font-weight: 800;
+      color: var(--text-primary);
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .tool-title p {
+      font-size: 0.875rem;
+      color: var(--text-secondary);
+      margin-top: 4px;
+    }
+
+    .progress-box {
+      min-width: 280px;
+      background: var(--bg-surface);
+      padding: 12px 18px;
+      border-radius: 10px;
+      border: 1px solid var(--border-color);
+    }
+
+    .progress-info {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: var(--text-secondary);
+      margin-bottom: 8px;
+    }
+
+    .progress-bar-bg {
+      height: 10px;
+      background: var(--bg-accent);
+      border-radius: 5px;
+      overflow: hidden;
+    }
+
+    .progress-bar-fill {
+      height: 100%;
+      background: linear-gradient(90deg, var(--primary), #6366f1);
+      width: 0%;
+      transition: width 0.4s ease;
+      border-radius: 5px;
+      box-shadow: 0 0 10px var(--primary-glow);
+    }
+
+    /* Stage Tabs */
+    .stage-tabs {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      margin-bottom: 2rem;
+    }
+
+    .stage-tab-btn {
+      padding: 14px 16px;
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: 10px;
+      text-align: left;
+      cursor: pointer;
+      font-weight: 700;
+      color: var(--text-secondary);
+      transition: all 0.2s;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 0.9rem;
+    }
+
+    .stage-tab-btn .step-num {
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      background: var(--bg-card);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.8rem;
+      font-weight: 800;
+      color: var(--text-muted);
+      border: 1px solid var(--border-color);
+    }
+
+    .stage-tab-btn:hover {
+      border-color: var(--border-highlight);
+      color: var(--text-primary);
+    }
+
+    .stage-tab-btn.active {
+      background: var(--bg-accent);
+      color: var(--primary);
+      border-color: var(--primary);
+      box-shadow: 0 0 15px var(--primary-glow);
+    }
+
+    .stage-tab-btn.active .step-num {
+      background: var(--primary);
+      color: #080c14;
+      border-color: var(--primary);
+    }
+
+    .checklist-container {
+      display: none;
+    }
+
+    .checklist-container.active {
+      display: block;
+      animation: fadeIn 0.3s ease;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(6px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .checklist-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.25rem;
+    }
+
+    .check-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 1.35rem;
+      display: flex;
+      gap: 14px;
+      align-items: flex-start;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .check-card:hover {
+      border-color: var(--primary);
+      transform: translateY(-2px);
+      box-shadow: var(--box-shadow);
+    }
+
+    .check-card.checked {
+      background: rgba(16, 185, 129, 0.08);
+      border-color: var(--success);
+    }
+
+    .check-card input[type="checkbox"] {
+      width: 22px;
+      height: 22px;
+      accent-color: var(--success);
+      cursor: pointer;
+      margin-top: 2px;
+    }
+
+    .check-content h4 {
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--text-primary);
+      margin-bottom: 6px;
+    }
+
+    .check-content p {
+      font-size: 0.85rem;
+      color: var(--text-secondary);
+      line-height: 1.5;
+    }
+
+    .check-tag {
+      display: inline-block;
+      font-size: 0.725rem;
+      font-weight: 700;
+      padding: 3px 10px;
+      border-radius: 4px;
+      margin-top: 8px;
+      background: var(--bg-accent);
+      color: var(--text-muted);
+      border: 1px solid var(--border-color);
+    }
+
+    .check-card.checked .check-tag {
+      background: var(--success-glow);
+      color: var(--success);
+      border-color: rgba(16, 185, 129, 0.3);
+    }
+
+    /* Flow Steps Diagrams */
+    .flow-steps {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 14px;
+      margin: 2rem 0;
+      position: relative;
+    }
+
+    .flow-step-item {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 1.35rem 1rem;
+      text-align: center;
+      position: relative;
+      box-shadow: var(--box-shadow);
+    }
+
+    .flow-step-item::after {
+      content: '→';
+      position: absolute;
+      right: -16px;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 1.4rem;
+      color: var(--text-muted);
+      font-weight: bold;
+    }
+
+    .flow-step-item:last-child::after {
+      display: none;
+    }
+
+    .flow-step-item .step-circle {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: var(--primary-glow);
+      color: var(--primary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 12px;
+      font-weight: 800;
+      font-size: 1.05rem;
+      border: 1px solid rgba(56, 189, 248, 0.3);
+    }
+
+    .flow-step-item h4 {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--text-primary);
+      margin-bottom: 6px;
+    }
+
+    .flow-step-item p {
+      font-size: 0.8rem;
+      color: var(--text-secondary);
+    }
+
+    /* Grid Layouts */
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+      margin-bottom: 3.5rem;
+    }
+
+    .grid-4 {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1.5rem;
+      margin-bottom: 3.5rem;
+    }
+
+    /* Cards */
+    .card {
+      background: var(--bg-card);
+      border-radius: 14px;
+      border: 1px solid var(--border-color);
+      box-shadow: var(--box-shadow);
+      padding: 2rem;
+      transition: all 0.25s ease;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .card:hover {
+      transform: translateY(-3px);
+      box-shadow: var(--box-shadow-hover);
+      border-color: var(--border-highlight);
+    }
+
+    .card-icon {
+      width: 50px;
+      height: 50px;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.35rem;
+      margin-bottom: 1.35rem;
+    }
+
+    .card-icon.cyan { background: var(--primary-glow); color: var(--primary); border: 1px solid rgba(56, 189, 248, 0.3); }
+    .card-icon.amber { background: var(--accent-glow); color: var(--accent); border: 1px solid rgba(245, 158, 11, 0.3); }
+    .card-icon.green { background: var(--success-glow); color: var(--success); border: 1px solid rgba(16, 185, 129, 0.3); }
+    .card-icon.rose { background: var(--danger-glow); color: var(--danger); border: 1px solid rgba(244, 63, 94, 0.3); }
+
+    .card-title {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--text-primary);
+      margin-bottom: 0.6rem;
+    }
+
+    .card-body {
+      font-size: 0.9rem;
+      color: var(--text-secondary);
+      flex-grow: 1;
+      line-height: 1.6;
+    }
+
+    .card-list {
+      list-style: none;
+      margin-top: 1rem;
+    }
+
+    .card-list li {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 0.875rem;
+      color: var(--text-secondary);
+      margin-bottom: 8px;
+    }
+
+    .card-list li i {
+      color: var(--primary);
+      font-size: 0.8rem;
+    }
+
+    /* Slide Card with Media */
+    .slide-card {
+      background: var(--bg-card);
+      border-radius: 16px;
+      border: 1px solid var(--border-color);
+      overflow: hidden;
+      box-shadow: var(--box-shadow);
+      margin-bottom: 3rem;
+      display: grid;
+      grid-template-columns: 1fr 1.2fr;
+    }
+
+    .slide-card.reverse {
+      grid-template-columns: 1.2fr 1fr;
+    }
+
+    .slide-card.reverse .slide-img-box {
+      order: 2;
+    }
+
+    .slide-card.reverse .slide-content {
+      order: 1;
+    }
+
+    .slide-img-box {
+      background: #020617;
+      position: relative;
+      cursor: zoom-in;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.75rem;
+      border-right: 1px solid var(--border-color);
+    }
+
+    .slide-card.reverse .slide-img-box {
+      border-right: none;
+      border-left: 1px solid var(--border-color);
+    }
+
+    .slide-img-box img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      border-radius: 8px;
+      transition: transform 0.3s ease;
+    }
+
+    .slide-img-box:hover img {
+      transform: scale(1.02);
+    }
+
+    .slide-zoom-hint {
+      position: absolute;
+      bottom: 14px;
+      right: 14px;
+      background: rgba(15, 23, 42, 0.9);
+      color: var(--primary);
+      font-size: 0.75rem;
+      padding: 6px 12px;
+      border-radius: 6px;
+      pointer-events: none;
+      border: 1px solid var(--border-color);
+      font-weight: 600;
+    }
+
+    .slide-content {
+      padding: 2.5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .slide-tag {
+      font-size: 0.8rem;
+      font-weight: 800;
+      color: var(--primary);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 0.6rem;
+    }
+
+    .slide-title {
+      font-size: 1.6rem;
+      font-weight: 800;
+      color: var(--text-primary);
+      margin-bottom: 0.85rem;
+      line-height: 1.3;
+    }
+
+    .slide-desc {
+      font-size: 0.95rem;
+      color: var(--text-secondary);
+      margin-bottom: 1.5rem;
+      line-height: 1.6;
+    }
+
+    /* Tables */
+    .data-table-wrapper {
+      background: var(--bg-surface);
+      border-radius: 12px;
+      border: 1px solid var(--border-color);
+      overflow-x: auto;
+      margin: 1.5rem 0;
+    }
+
+    table.data-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.875rem;
+      text-align: left;
+    }
+
+    table.data-table th {
+      background: var(--table-header);
+      color: var(--text-secondary);
+      font-weight: 700;
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    table.data-table td {
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border-color);
+      color: var(--text-primary);
+    }
+
+    table.data-table tr:nth-child(even) {
+      background: var(--table-row-even);
+    }
+
+    table.data-table tr:hover {
+      background: var(--bg-accent);
+    }
+
+    /* Modal for Image Preview */
+    .image-modal {
+      display: none;
+      position: fixed;
+      inset: 0;
+      z-index: 2000;
+      background: rgba(2, 6, 23, 0.95);
+      padding: 2rem;
+      align-items: center;
+      justify-content: center;
+      backdrop-filter: blur(10px);
+    }
+
+    .image-modal.active {
+      display: flex;
+    }
+
+    .modal-content {
+      max-width: 92vw;
+      max-height: 92vh;
+      position: relative;
+    }
+
+    .modal-content img {
+      max-width: 100%;
+      max-height: 88vh;
+      object-fit: contain;
+      border-radius: 10px;
+      box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
+      border: 1px solid var(--border-highlight);
+    }
+
+    .modal-close {
+      position: absolute;
+      top: -45px;
+      right: 0;
+      color: var(--text-primary);
+      font-size: 2.2rem;
+      cursor: pointer;
+      background: none;
+      border: none;
+      transition: color 0.2s;
+    }
+
+    .modal-close:hover {
+      color: var(--primary);
+    }
+
+    /* Footer */
+    footer {
+      background: var(--bg-surface);
+      color: white;
+      padding: 4.5rem 2rem 2.5rem;
+      border-top: 1px solid var(--border-color);
+    }
+
+    .footer-grid {
+      max-width: 1280px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1.5fr 1fr 1fr 1fr;
+      gap: 3rem;
+      margin-bottom: 3.5rem;
+    }
+
+    .footer-col h4 {
+      font-size: 1.15rem;
+      font-weight: 700;
+      margin-bottom: 1.35rem;
+      color: var(--text-primary);
+    }
+
+    .footer-col p, .footer-col li {
+      font-size: 0.875rem;
+      color: var(--text-secondary);
+      margin-bottom: 0.85rem;
+      line-height: 1.6;
+    }
+
+    .footer-col ul {
+      list-style: none;
+    }
+
+    .footer-col ul a {
+      color: var(--text-secondary);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .footer-col ul a:hover {
+      color: var(--primary);
+    }
+
+    .footer-bottom {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding-top: 2rem;
+      border-top: 1px solid var(--border-color);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.825rem;
+      color: var(--text-muted);
+    }
+
+    /* Print & Responsive */
+    @media (max-width: 1024px) {
+      .hero-container { grid-template-columns: 1fr; }
+      .stage-tabs { grid-template-columns: 1fr 1fr; }
+      .flow-steps { grid-template-columns: 1fr; }
+      .flow-step-item::after { display: none; }
+      .slide-card, .slide-card.reverse { grid-template-columns: 1fr; }
+      .footer-grid { grid-template-columns: 1fr 1fr; }
+      .grid-4 { grid-template-columns: 1fr 1fr; }
+    }
+
+    @media (max-width: 640px) {
+      .hero-stats { grid-template-columns: 1fr 1fr; }
+      .stage-tabs { grid-template-columns: 1fr; }
+      .checklist-grid { grid-template-columns: 1fr; }
+      .grid-2, .grid-4 { grid-template-columns: 1fr; }
+      .footer-grid { grid-template-columns: 1fr; }
+      .nav-links { display: none; }
+    }
+
+    @media print {
+      .navbar, .hero, .tool-topbar button, .image-modal, footer, .theme-toggle-btn { display: none !important; }
+      body { background: white !important; color: black !important; }
+      .workflow-tool-card { box-shadow: none; border: 1px solid #ccc; background: white; }
+      .checklist-container { display: block !important; }
+      .check-card { background: #fff !important; border: 1px solid #ddd !important; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Navigation Bar (Neutral Branding) -->
+  <nav class="navbar">
+    <a href="#" class="brand">
+      <div class="brand-badge"><i class="fa-solid fa-cube"></i> BIM</div>
+      <div class="brand-text">
+        <h1>BIM MANAGEMENT PLATFORM</h1>
+        <p>Standard Lifecycle & Execution Workflow</p>
+      </div>
+    </a>
+
+    <ul class="nav-links">
+      <li><a href="#tong-quan"><i class="fa-solid fa-layer-group"></i> Tổng quan</a></li>
+      <li><a href="#quy-trinh" class="active"><i class="fa-solid fa-list-check"></i> Quy trình BIM</a></li>
+      <li><a href="#thiet-ke"><i class="fa-solid fa-compass-drafting"></i> Thiết kế 3D/4D/5D</a></li>
+      <li><a href="#thi-cong"><i class="fa-solid fa-trowel-bricks"></i> Thi công & QA/QC</a></li>
+      <li><a href="#van-hanh"><i class="fa-solid fa-building-circle-check"></i> Vận hành 50 năm</a></li>
+      <li><a href="#du-an"><i class="fa-solid fa-city"></i> Dự án</a></li>
+    </ul>
+
+    <div class="nav-actions">
+      <!-- Dark/Light Mode Switcher -->
+      <button class="theme-toggle-btn" id="themeToggleBtn" onclick="toggleTheme()" title="Chuyển chế độ Sáng / Tối">
+        <i class="fa-solid fa-sun" id="themeIcon"></i>
+      </button>
+
+      <button class="btn btn-outline" onclick="window.print()"><i class="fa-solid fa-print"></i> In SOP</button>
+      <a href="#quy-trinh" class="btn btn-primary"><i class="fa-solid fa-bolt"></i> Thực thi Quy trình</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-container">
+      <div>
+        <div class="hero-badge"><i class="fa-solid fa-microchip"></i> Tiêu Chuẩn Năng Lực & Quy Trình BIM Vòng Đời</div>
+        <h1 class="hero-title">DESIGN & BIM <span>CAPABILITY</span></h1>
+        <p class="hero-subtitle">
+          "From Data to Better Building" – Hệ sinh thái quản trị dữ liệu BIM thống nhất xuyên suốt toàn bộ vòng đời công trình: Lập kế hoạch $\rightarrow$ Thiết kế $\rightarrow$ Thi công $\rightarrow$ Bàn giao số & Quản lý vận hành tài sản trong 50 năm.
+        </p>
+
+        <div class="hero-stats">
+          <div class="stat-item">
+            <h3>15+</h3>
+            <p>Dự án BIM đã thực hiện</p>
+          </div>
+          <div class="stat-item">
+            <h3>1.5M+</h3>
+            <p>m² Sàn mô hình hóa BIM</p>
+          </div>
+          <div class="stat-item">
+            <h3>50+</h3>
+            <p>Kỹ sư BIM & Thiết kế</p>
+          </div>
+          <div class="stat-item">
+            <h3>100%</h3>
+            <p>Chuẩn hóa quy trình</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-preview" onclick="openModal('assets/pages/page_01.png')">
+        <img src="assets/pages/page_01.png" alt="BIM Capability Cover">
+        <div class="hero-preview-badge">
+          <i class="fa-solid fa-magnifying-glass-plus"></i> Nhấp để xem slide gốc đã chuẩn hóa
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="container">
+
+    <!-- TOOL: Interactive BIM Workflow & SOP Checklist -->
+    <section id="quy-trinh" style="scroll-margin-top: 90px;">
+      <div class="section-header">
+        <span class="section-tag">CÔNG CỤ THỰC THI THỰC TẾ</span>
+        <h2 class="section-title">Bảng Kiểm Soát & Quản Lý Quy Trình BIM</h2>
+        <p class="section-desc">
+          Công cụ tương tác hỗ trợ Kỹ sư BIM, Quản lý dự án và Ban điều hành theo dõi tiến độ chuẩn hóa từng bước trong vòng đời dự án xây dựng. Dữ liệu được lưu trữ trực tiếp trên trình duyệt của bạn.
+        </p>
+      </div>
+
+      <div class="workflow-tool-card">
+        <div class="tool-topbar">
+          <div class="tool-title">
+            <h2><i class="fa-solid fa-list-check" style="color: var(--primary);"></i> Checklist Quy Trình Triển Khai BIM Tiêu Chuẩn</h2>
+            <p>Chọn từng nhiệm vụ đã hoàn thành để hệ thống tính toán tỷ lệ % chuẩn hóa dự án</p>
+          </div>
+
+          <div class="progress-box">
+            <div class="progress-info">
+              <span>TIẾN ĐỘ QUY TRÌNH BIM</span>
+              <span id="progress-percentage">0% Hoàn thành</span>
+            </div>
+            <div class="progress-bar-bg">
+              <div class="progress-bar-fill" id="progress-bar"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Stage Switcher Tabs -->
+        <div class="stage-tabs">
+          <button class="stage-tab-btn active" onclick="switchStage(1, this)">
+            <span class="step-num">1</span>
+            <span>Giai đoạn Lập kế hoạch & BEP</span>
+          </button>
+          <button class="stage-tab-btn" onclick="switchStage(2, this)">
+            <span class="step-num">2</span>
+            <span>Thiết kế & Phối hợp (3D/4D/5D)</span>
+          </button>
+          <button class="stage-tab-btn" onclick="switchStage(3, this)">
+            <span class="step-num">3</span>
+            <span>Thi công & RFI/QAQC</span>
+          </button>
+          <button class="stage-tab-btn" onclick="switchStage(4, this)">
+            <span class="step-num">4</span>
+            <span>Bàn giao số & Vận hành (FM)</span>
+          </button>
+        </div>
+
+        <!-- STAGE 1 CHECKLIST -->
+        <div class="checklist-container active" id="stage-1">
+          <div class="checklist-grid">
+            <label class="check-card" onclick="toggleTask(this)">
+              <input type="checkbox" onchange="updateProgress()">
+              <div class="check-content">
+                <h4>Xác định yêu cầu thông tin của Chủ đầu tư (EIR)</h4>
+                <p>Thu thập mục tiêu BIM của CĐT: mục tiêu kiểm soát chi phí, tiến độ 4D, hay yêu cầu quản lý vận hành FM.</p>
+                <span class="check-tag">Tài liệu chuẩn bị</span>
+              </div>
+            </label>
+
+            <label class="check-card" onclick="toggleTask(this)">
+              <input type="checkbox" onchange="updateProgress()">
+              <div class="check-content">
+                <h4>Lập Kế hoạch thực hiện BIM (BEP - BIM Execution Plan)</h4>
+                <p>Quy định hệ tọa độ dự án, quy tắc đặt tên file, phân chia LOD (Level of Development) từ LOD 100 đến LOD 500.</p>
+                <span class="check-tag">Quản trị dự án</span>
+              </div>
+            </label>
+
+            <label class="check-card" onclick="toggleTask(this)">
+              <input type="checkbox" onchange="updateProgress()">
+              <div class="check-content">
+                <h4>Thiết lập môi trường dữ liệu chung CDE (Data BIM Core)</h4>
+                <p>Khởi tạo CDE, phân quyền truy cập cho Kiến trúc, Kết cấu, Cơ điện MEPF, Ban điều hành và Chủ đầu tư.</p>
+                <span class="check-tag">Hạ tầng công nghệ</span>
+              </div>
+            </label>
+
+            <label class="check-card" onclick="toggleTask(this)">
+              <input type="checkbox" onchange="updateProgress()">
+              <div class="check-content">
+                <h4>Tạo lập Template & Bộ thư viện đối tượng tiêu chuẩn</h4>
+                <p>Chuẩn hóa family, thông số tham biến (parameters), mã vật liệu đồng nhất cho toàn bộ các bộ môn.</p>
+                <span class="check-tag">Chuẩn hóa dữ liệu</span>
+              </div>
+            </label>
+          </div>
+        </div>
+
+        <!-- STAGE 2 CHECKLIST -->
+        <div class="checklist-container" id="stage-2">
+          <div class="checklist-grid">
+            <label class="check-card" onclick="toggleTask(this)">
+              <input type="checkbox" onchange="updateProgress()">
+              <div class="check-content">
+                <h4>Mô hình hóa hợp nhất Đa bộ môn (3D Multi-Discipline)</h4>
+                <p>Mô hình hóa Kiến trúc, Kết cấu chịu lực, Hệ thống Cơ điện (MEPF) và Hạ tầng kỹ thuật theo đúng bản vẽ thiết kế.</p>
+                <span class="check-tag">BIM 3D</span>
+              </div>
+            </label>
+
+            <label class="check-card" onclick="toggleTask(this)">
+              <input type="checkbox" onchange="updateProgress()">
+              <div class="check-content">
+                <h4>Quy trình Phát hiện & Xử lý Xung đột (Clash Detection)</h4>
+                <p>Chạy kiểm tra Hard Clash (dầm đâm ống gió), Soft Clash & Clearance Clash. Phân loại, gán trách nhiệm và cập nhật mô hình tối ưu.</p>
+                <span class="check-tag">Phối hợp bộ môn</span>
+              </div>
+            </label>
+
+            <label class="check-card" onclick="toggleTask(this)">
+              <input type="checkbox" onchange="updateProgress()">
+              <div class="check-content">
+                <h4>Bóc tách khối lượng tự động & Đánh giá chi phí (BIM 5D)</h4>
+                <p>Liên kết khối lượng bóc tách từ mô hình với đơn giá để lập dự toán và so sánh biến động chi phí khi có thay đổi phương án.</p>
+                <span class="check-tag">BIM 5D Cost</span>
+              </div>
+            </label>
+
+            <label class="check-card" onclick="toggleTask(this)">
+              <input type="checkbox" onchange="updateProgress()">
+              <div class="check-content">
+                <h4>Mô phỏng trình tự thi công & Kiểm soát tiến độ (BIM 4D)</h4>
+                <p>Gắn tiến độ Gantt với các cấu kiện mô hình 3D, mô phỏng trực quan các giai đoạn thi công móng, dầm sàn, mái và hoàn thiện.</p>
+                <span class="check-tag">BIM 4D Simulation</span>
+              </div>
+            </label>
+          </div>
+        </div>
+
+        <!-- STAGE 3 CHECKLIST -->
+        <div class="checklist-container" id="stage-3">
+          <div class="checklist-grid">
+            <label class="check-card" onclick="toggleTask(this)">
+              <input type="checkbox" onchange="updateProgress()">
+              <div class="check-content">
+                <h4>Chia sẻ Mô hình Dùng chung & Dashboard Điều hành</h4>
+                <p>Đồng bộ dữ liệu mô hình trên Cloud Collaboration, cung cấp mô hình 3D trực tiếp cho kỹ sư hiện trường qua tablet/mobile.</p>
+                <span class="check-tag">Điều hành công trường</span>
+              </div>
+            </label>
+
+            <label class="check-card" onclick="toggleTask(this)">
+              <input type="checkbox" onchange="updateProgress()">
+              <div class="check-content">
+                <h4>Quy trình Quản lý Thay đổi & RFI 5 bước chuẩn hóa</h4>
+                <p>Ghi nhận RFI trực tiếp trên mô hình: Before $\rightarrow$ Phát sinh Issue $\rightarrow$ Đánh giá $\rightarrow$ Phê duyệt $\rightarrow$ Cập nhật mô hình (After).</p>
+                <span class="check-tag">Kiểm soát thay đổi</span>
+              </div>
+            </label>
+
+            <label class="check-card" onclick="toggleTask(this)">
+              <input type="checkbox" onchange="updateProgress()">
+              <div class="check-content">
+                <h4>Kiểm soát Chất lượng Hiện trường (QA/QC Dashboard)</h4>
+                <p>Ghi nhận lỗi thi công tại hiện trường kèm ảnh và tọa độ 3D, phân công nhà thầu phụ khắc phục, kiểm tra lại và đóng biên bản nghiệm thu.</p>
+                <span class="check-tag">QA/QC</span>
+              </div>
+            </label>
+
+            <label class="check-card" onclick="toggleTask(this)">
+              <input type="checkbox" onchange="updateProgress()">
+              <div class="check-content">
+                <h4>Giám sát công trường thông minh bằng Camera AI 24/7</h4>
+                <p>Ứng dụng trí tuệ nhân tạo nhận diện an toàn lao động, máy móc thi công và đối chiếu tiến độ với mô hình dữ liệu BIM Core.</p>
+                <span class="check-tag">Công nghệ AI</span>
+              </div>
+            </label>
+          </div>
+        </div>
+
+        <!-- STAGE 4 CHECKLIST -->
+        <div class="checklist-container" id="stage-4">
+          <div class="checklist-grid">
+            <label class="check-card" onclick="toggleTask(this)">
+              <input type="checkbox" onchange="updateProgress()">
+              <div class="check-content">
+                <h4>Cập nhật mô hình Hoàn công (As-built BIM Model)</h4>
+                <p>Hiệu chỉnh toàn bộ kích thước, vị trí thực tế sau nghiệm thu, đảm bảo mô hình phản ánh 100% thực trạng công trình ngoài hiện trường.</p>
+                <span class="check-tag">Hoàn công</span>
+              </div>
+            </label>
+
+            <label class="check-card" onclick="toggleTask(this)">
+              <input type="checkbox" onchange="updateProgress()">
+              <div class="check-content">
+                <h4>Gắn Dữ liệu Tài sản Thiết bị (Asset & Equipment Data)</h4>
+                <p>Nhập thông số vận hành (công suất, lưu lượng, mã thiết bị), liên kết tài liệu Catalogue, quy trình O&M Manual và thông tin bảo hành.</p>
+                <span class="check-tag">Quản lý tài sản</span>
+              </div>
+            </label>
+
+            <label class="check-card" onclick="toggleTask(this)">
+              <input type="checkbox" onchange="updateProgress()">
+              <div class="check-content">
+                <h4>Đóng gói Hồ sơ Bàn giao Số (Digital Handover Package)</h4>
+                <p>Chuẩn hóa 8 thư mục: Bản vẽ As-built, Model 3D, Sổ tay O&M, Chứng chỉ bảo hành, Biên bản kiểm định, Ảnh/Video, Dữ liệu tài sản, IFC/COBie.</p>
+                <span class="check-tag">Bàn giao số</span>
+              </div>
+            </label>
+
+            <label class="check-card" onclick="toggleTask(this)">
+              <input type="checkbox" onchange="updateProgress()">
+              <div class="check-content">
+                <h4>Thiết lập Kế hoạch Vận hành & Bảo trì 50 Năm</h4>
+                <p>Tích hợp mô hình dữ liệu vào hệ thống quản lý tòa nhà BMS/FM, lên lịch bảo trì định kỳ 5 năm, 10 năm, hỗ trợ cải tạo và mở rộng trong tương lai.</p>
+                <span class="check-tag">Vận hành lâu dài</span>
+              </div>
+            </label>
+          </div>
+        </div>
+
+        <div style="margin-top: 2rem; display: flex; justify-content: space-between; align-items: center;">
+          <button class="btn btn-outline" onclick="resetTasks()"><i class="fa-solid fa-rotate-left"></i> Đặt lại tất cả</button>
+          <button class="btn btn-primary" onclick="exportChecklistReport()"><i class="fa-solid fa-file-arrow-down"></i> Xuất Báo Cáo Quy Trình (.JSON)</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 1: TỔNG QUAN HỆ SINH THÁI SỐ -->
+    <section id="tong-quan" style="scroll-margin-top: 90px; margin-bottom: 4.5rem;">
+      <div class="section-header">
+        <span class="section-tag">PHẦN I</span>
+        <h2 class="section-title">Hệ Sinh Thái Quản Trị Dự Án Số</h2>
+        <p class="section-desc">
+          Kết nối dữ liệu – con người – quy trình – hệ thống trên một nền tảng thống nhất, lấy <strong>DATA BIM CORE</strong> làm nền tảng xuyên suốt vòng đời dự án.
+        </p>
+      </div>
+
+      <!-- Slide 4 Card -->
+      <div class="slide-card">
+        <div class="slide-img-box" onclick="openModal('assets/pages/page_04.png')">
+          <img src="assets/pages/page_04.png" alt="Hệ sinh thái quản trị số">
+          <div class="slide-zoom-hint"><i class="fa-solid fa-search-plus"></i> Xem Slide 04</div>
+        </div>
+        <div class="slide-content">
+          <div class="slide-tag">Nền Tảng Dữ Liệu Cốt Lõi</div>
+          <h3 class="slide-title">Data BIM Core & Các Hệ Thống Vệ Tinh</h3>
+          <p class="slide-desc">
+            Dữ liệu được hình thành từ mô hình BIM, chuẩn hóa và cập nhật liên tục từ Lập kế hoạch $\rightarrow$ Thiết kế $\rightarrow$ Thi công $\rightarrow$ Vận hành $\rightarrow$ Tài sản số.
+          </p>
+          <ul class="card-list">
+            <li><i class="fa-solid fa-circle-check"></i> <strong>Camera AI:</strong> Giám sát hiện trường 24/7 kết nối dữ liệu mô hình</li>
+            <li><i class="fa-solid fa-circle-check"></i> <strong>PM Platform:</strong> Nền tảng điều hành dự án, quản trị tiến độ, chất lượng & an toàn</li>
+            <li><i class="fa-solid fa-circle-check"></i> <strong>Dashboard & Analytics:</strong> Trực quan hóa dữ liệu, theo dõi KPI thời gian thực</li>
+            <li><i class="fa-solid fa-circle-check"></i> <strong>Internal Workflow & Finance:</strong> Phê duyệt quy trình và minh bạch thanh toán tài chính</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- 4 Pillars of Value -->
+      <div class="grid-4">
+        <div class="card">
+          <div class="card-icon cyan"><i class="fa-solid fa-check-double"></i></div>
+          <h4 class="card-title">01. Kiểm Soát Chất Lượng</h4>
+          <p class="card-body">Kiểm soát đồng bộ từ hồ sơ thiết kế đến nghiệm thu hiện trường và thay đổi trên cùng một nguồn dữ liệu duy nhất.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon amber"><i class="fa-solid fa-coins"></i></div>
+          <h4 class="card-title">02. Kiểm Soát Chi Phí</h4>
+          <p class="card-body">Dữ liệu bóc tách chính xác từ 3D, hỗ trợ dự toán và cảnh báo tức thì mọi phát sinh vượt ngân sách khi thay đổi thiết kế.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon green"><i class="fa-solid fa-stopwatch"></i></div>
+          <h4 class="card-title">03. Tối Ưu Tiến Độ</h4>
+          <p class="card-body">Mô phỏng 4D giúp phát hiện trước điểm nghẽn thi công, theo dõi thực tế và giữ vững cam kết hoàn thành đúng hoặc sớm hạn.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon rose"><i class="fa-solid fa-gears"></i></div>
+          <h4 class="card-title">04. Tối Ưu Vận Hành</h4>
+          <p class="card-body">Tạo nền tảng số sẵn sàng cho công tác bảo dưỡng, tra cứu thiết bị và cải tạo mở rộng trong 50 năm tiếp theo.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2: GIAI ĐOẠN THIẾT KẾ (BIM 3D - 4D - 5D) -->
+    <section id="thiet-ke" style="scroll-margin-top: 90px; margin-bottom: 4.5rem;">
+      <div class="section-header">
+        <span class="section-tag">PHẦN II</span>
+        <h2 class="section-title">Năng Lực Thiết Kế Trên Nền Tảng BIM</h2>
+        <p class="section-desc">
+          "Hiểu đúng công trình trước khi xây dựng" – Xây dựng trước công trình nhiều lần trên nền tảng số nhằm tối ưu hóa giải pháp, triệt tiêu xung đột và minh bạch hóa ngân sách.
+        </p>
+      </div>
+
+      <!-- Sơ đồ quy trình xử lý xung đột 5 bước -->
+      <div style="background: var(--bg-card); padding: 2.25rem; border-radius: 14px; border: 1px solid var(--border-color); margin-bottom: 3rem; box-shadow: var(--box-shadow);">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.25rem;">
+          <h3 style="font-size: 1.3rem; font-weight: 800; color: var(--text-primary);">
+            <i class="fa-solid fa-arrows-split-up-and-left" style="color: var(--primary);"></i> Quy Trình 5 Bước Phối Hợp Đa Bộ Môn & Xử Lý Xung Đột
+          </h3>
+          <span style="font-size: 0.8rem; background: var(--primary-glow); color: var(--primary); font-weight: 700; padding: 4px 12px; border-radius: 6px; border: 1px solid rgba(56, 189, 248, 0.3);">CLASH DETECTION SOP</span>
+        </div>
+
+        <div class="flow-steps">
+          <div class="flow-step-item">
+            <div class="step-circle">01</div>
+            <h4>Mô Hình Hợp Nhất</h4>
+            <p>Tích hợp Kiến trúc, Kết cấu, MEPF, Hạ tầng trên cùng 1 tọa độ</p>
+          </div>
+          <div class="flow-step-item">
+            <div class="step-circle">02</div>
+            <h4>Phát Hiện Xung Đột</h4>
+            <p>Quét va chạm tự động: Hard Clash, Soft Clash, Clearance Clash</p>
+          </div>
+          <div class="flow-step-item">
+            <div class="step-circle">03</div>
+            <h4>Xử Lý Xung Đột</h4>
+            <p>Phân loại mức độ ưu tiên, phân công người chủ trì và giải pháp xử lý</p>
+          </div>
+          <div class="flow-step-item">
+            <div class="step-circle">04</div>
+            <h4>Cập Nhật & Phối Hợp</h4>
+            <p>Hiệu chỉnh mô hình, đồng bộ thông tin dữ liệu giữa các bên</p>
+          </div>
+          <div class="flow-step-item">
+            <div class="step-circle">05</div>
+            <h4>Mô Hình Tối Ưu</h4>
+            <p>Mô hình sạch xung đột, phát hành bản vẽ Shop Drawing thi công</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 7 & 8: Clash Detection & 5D Cost -->
+      <div class="slide-card">
+        <div class="slide-img-box" onclick="openModal('assets/pages/page_07.png')">
+          <img src="assets/pages/page_07.png" alt="Phối hợp đa bộ môn">
+          <div class="slide-zoom-hint"><i class="fa-solid fa-search-plus"></i> Xem Slide 07</div>
+        </div>
+        <div class="slide-content">
+          <div class="slide-tag">Kiểm Soát Kỹ Thuật</div>
+          <h3 class="slide-title">Triệt Tiêu Xung Đột Trước Khi Ra Hiện Trường</h3>
+          <p class="slide-desc">
+            Việc phát hiện xung đột trên mô hình giúp giảm thiểu tối đa tình trạng "đập đi xây lại" ngoài công trường, rút ngắn 30-50% thời gian họp phối hợp giữa các bên.
+          </p>
+          <div style="background: var(--bg-surface); padding: 1.25rem; border-radius: 10px; border-left: 4px solid var(--primary); border: 1px solid var(--border-color); border-left-width: 4px;">
+            <p style="font-size: 0.9rem; color: var(--text-primary);"><strong>Các cấp độ xung đột quản lý:</strong></p>
+            <p style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 6px;">• <strong>Hard Clash:</strong> Va chạm vật lý trực tiếp giữa kết cấu và đường ống cơ điện.</p>
+            <p style="font-size: 0.85rem; color: var(--text-secondary);">• <strong>Soft Clash:</strong> Vi phạm khoảng cách an toàn, cách nhiệt hoặc bảo trì.</p>
+            <p style="font-size: 0.85rem; color: var(--text-secondary);">• <strong>Clearance Clash:</strong> Thiếu khoảng không gian thao tác lắp đặt thiết bị.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- BIM 5D & 4D Showcase -->
+      <div class="grid-2">
+        <!-- 5D Cost Card -->
+        <div class="card">
+          <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 1rem;">
+            <div>
+              <span class="slide-tag">BIM 5D COST MANAGEMENT</span>
+              <h3 class="card-title">Kiểm Soát Khối Lượng & Chi Phí Tức Thời</h3>
+            </div>
+            <button class="btn btn-outline" style="padding: 4px 10px; font-size: 0.75rem;" onclick="openModal('assets/pages/page_08.png')"><i class="fa-solid fa-image"></i> Slide 08</button>
+          </div>
+          <p class="card-body">
+            Khi thiết kế thay đổi (ví dụ: tăng thêm dầm và hệ thống MEP), hệ thống BIM 5D tự động cập nhật bảng so sánh ngân sách:
+          </p>
+
+          <div class="data-table-wrapper">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>Hạng mục hệ thống</th>
+                  <th>Tỷ trọng</th>
+                  <th>Chi phí (VNĐ)</th>
+                  <th>Biến động</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Kết cấu (Structure)</strong></td>
+                  <td>35.6%</td>
+                  <td>1,970,680,000</td>
+                  <td style="color: var(--danger); font-weight: 700;">+4.81%</td>
+                </tr>
+                <tr>
+                  <td><strong>Cơ điện (MEP)</strong></td>
+                  <td>24.8%</td>
+                  <td>1,372,420,000</td>
+                  <td style="color: var(--danger); font-weight: 700;">+2.85%</td>
+                </tr>
+                <tr>
+                  <td><strong>Kiến trúc (Architectural)</strong></td>
+                  <td>16.7%</td>
+                  <td>924,160,000</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td><strong>Hạ tầng sân đường (Sitework)</strong></td>
+                  <td>12.9%</td>
+                  <td>715,020,000</td>
+                  <td>-</td>
+                </tr>
+                <tr style="background: rgba(56, 189, 248, 0.1); font-weight: 800;">
+                  <td>TỔNG CHI PHÍ DỰ ÁN</td>
+                  <td>100%</td>
+                  <td>5,531,522,000</td>
+                  <td style="color: var(--danger);">+2.85% (+250.3 triệu)</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- 4D Schedule Card -->
+        <div class="card">
+          <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 1rem;">
+            <div>
+              <span class="slide-tag">BIM 4D SCHEDULE SIMULATION</span>
+              <h3 class="card-title">Mô Phỏng Trình Tự & Kiểm Soát Tiến Độ</h3>
+            </div>
+            <button class="btn btn-outline" style="padding: 4px 10px; font-size: 0.75rem;" onclick="openModal('assets/pages/page_09.png')"><i class="fa-solid fa-image"></i> Slide 09</button>
+          </div>
+          <p class="card-body">
+            Gắn kết cấu kiện 3D với biểu đồ tiến độ Gantt, hiển thị trực quan tỷ lệ % hoàn thành và cảnh báo độ trễ theo thời gian thực:
+          </p>
+
+          <div style="background: var(--bg-surface); border: 1px solid var(--border-color); border-radius: 12px; padding: 1.35rem; margin-top: 1rem;">
+            <div style="display: flex; justify-content: space-between; margin-bottom: 12px;">
+              <span style="font-weight: 700; font-size: 0.95rem; color: var(--text-primary);">Tiến độ tổng thể dự án mẫu:</span>
+              <span style="color: var(--primary); font-weight: 800;">52% Complete</span>
+            </div>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; font-size: 0.85rem;">
+              <div style="background: var(--bg-card); padding: 10px; border-radius: 8px; border: 1px solid var(--border-color);">
+                <div style="color: var(--text-muted);">Kế hoạch (Planned):</div>
+                <div style="font-weight: 700; font-size: 1.1rem; color: var(--primary);">52%</div>
+              </div>
+              <div style="background: var(--bg-card); padding: 10px; border-radius: 8px; border: 1px solid var(--border-color);">
+                <div style="color: var(--text-muted);">Thực tế (Actual):</div>
+                <div style="font-weight: 700; font-size: 1.1rem; color: var(--accent);">48% (-4%)</div>
+              </div>
+            </div>
+            <div style="margin-top: 12px; font-size: 0.85rem; color: var(--text-secondary); display: flex; justify-content: space-between;">
+              <span>Ngày bắt đầu: <strong style="color: var(--text-primary);">01/04/2025</strong></span>
+              <span>Độ trễ dự báo: <strong style="color: var(--danger);">7 ngày</strong></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: GIAI ĐOẠN THI CÔNG & RFI / QAQC -->
+    <section id="thi-cong" style="scroll-margin-top: 90px; margin-bottom: 4.5rem;">
+      <div class="section-header">
+        <span class="section-tag">PHẦN III</span>
+        <h2 class="section-title">Điều Hành Thi Công Bằng Dữ Liệu</h2>
+        <p class="section-desc">
+          "Một mô hình – Một nguồn dữ liệu – Một cơ sở chung để ra quyết định". Xóa bỏ sự sai lệch giữa bản vẽ thiết kế và công trường thi công thực tế.
+        </p>
+      </div>
+
+      <!-- Slide 11: Change & RFI Management Workflow -->
+      <div class="slide-card reverse">
+        <div class="slide-img-box" onclick="openModal('assets/pages/page_11.png')">
+          <img src="assets/pages/page_11.png" alt="Quản lý thay đổi RFI">
+          <div class="slide-zoom-hint"><i class="fa-solid fa-search-plus"></i> Xem Slide 11</div>
+        </div>
+        <div class="slide-content">
+          <div class="slide-tag">QUY TRÌNH QUẢN LÝ THAY ĐỔI & RFI</div>
+          <h3 class="slide-title">Mọi Thay Đổi Đều Được Ghi Nhận & Lưu Vết</h3>
+          <p class="slide-desc">
+            Quy trình chuẩn hóa 5 bước xử lý yêu cầu thông tin (RFI) và thay đổi thiết kế trên mô hình:
+          </p>
+          <div style="display: flex; flex-direction: column; gap: 10px;">
+            <div style="display: flex; align-items: center; gap: 12px; font-size: 0.875rem;">
+              <span style="background: var(--bg-accent); border: 1px solid var(--border-color); padding: 3px 10px; border-radius: 6px; font-weight: 700; color: var(--text-secondary);">01. Before</span>
+              <span>Xác định phiên bản mô hình hiện tại (Version Control)</span>
+            </div>
+            <div style="display: flex; align-items: center; gap: 12px; font-size: 0.875rem;">
+              <span style="background: var(--danger-glow); border: 1px solid rgba(244, 63, 94, 0.3); color: var(--danger); padding: 3px 10px; border-radius: 6px; font-weight: 700;">02. Issue</span>
+              <span>Phát sinh yêu cầu thay đổi thiết kế / tạo phiếu RFI</span>
+            </div>
+            <div style="display: flex; align-items: center; gap: 12px; font-size: 0.875rem;">
+              <span style="background: var(--accent-glow); border: 1px solid rgba(245, 158, 11, 0.3); color: var(--accent); padding: 3px 10px; border-radius: 6px; font-weight: 700;">03. Review</span>
+              <span>Đánh giá xung đột & phân tích tác động chi phí, tiến độ</span>
+            </div>
+            <div style="display: flex; align-items: center; gap: 12px; font-size: 0.875rem;">
+              <span style="background: var(--success-glow); border: 1px solid rgba(16, 185, 129, 0.3); color: var(--success); padding: 3px 10px; border-radius: 6px; font-weight: 700;">04. Approve</span>
+              <span>Chủ đầu tư & Tư vấn giám sát phê duyệt trực tiếp trên hệ thống</span>
+            </div>
+            <div style="display: flex; align-items: center; gap: 12px; font-size: 0.875rem;">
+              <span style="background: var(--primary-glow); border: 1px solid rgba(56, 189, 248, 0.3); color: var(--primary); padding: 3px 10px; border-radius: 6px; font-weight: 700;">05. After</span>
+              <span>Đồng bộ cập nhật mô hình BIM và thông báo toàn dự án</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 12: QA/QC 5 Steps Process -->
+      <div class="slide-card">
+        <div class="slide-img-box" onclick="openModal('assets/pages/page_12.png')">
+          <img src="assets/pages/page_12.png" alt="Quản lý chất lượng QA/QC">
+          <div class="slide-zoom-hint"><i class="fa-solid fa-search-plus"></i> Xem Slide 12</div>
+        </div>
+        <div class="slide-content">
+          <div class="slide-tag">QUẢN LÝ CHẤT LƯỢNG HIỆN TRƯỜNG</div>
+          <h3 class="slide-title">Kiểm Soát Chất Lượng Toàn Diện Bằng QA/QC Dashboard</h3>
+          <p class="slide-desc">
+            Chuẩn hóa quy trình 5 bước kiểm tra chất lượng thi công, loại bỏ giấy tờ rời rạc và nâng cao tính minh bạch:
+          </p>
+          <div class="flow-steps" style="grid-template-columns: repeat(5, 1fr); margin: 1.25rem 0;">
+            <div class="flow-step-item" style="padding: 12px 8px;">
+              <div class="step-circle" style="width: 36px; height: 36px; font-size: 0.85rem;">1</div>
+              <h4 style="font-size: 0.85rem;">Kiểm Tra</h4>
+              <p style="font-size: 0.725rem;">Tại hiện trường</p>
+            </div>
+            <div class="flow-step-item" style="padding: 12px 8px;">
+              <div class="step-circle" style="width: 36px; height: 36px; font-size: 0.85rem;">2</div>
+              <h4 style="font-size: 0.85rem;">Ghi Nhận Issue</h4>
+              <p style="font-size: 0.725rem;">Ảnh & tọa độ 3D</p>
+            </div>
+            <div class="flow-step-item" style="padding: 12px 8px;">
+              <div class="step-circle" style="width: 36px; height: 36px; font-size: 0.85rem;">3</div>
+              <h4 style="font-size: 0.85rem;">Xử Lý & Theo Dõi</h4>
+              <p style="font-size: 0.725rem;">Gán nhà thầu phụ</p>
+            </div>
+            <div class="flow-step-item" style="padding: 12px 8px;">
+              <div class="step-circle" style="width: 36px; height: 36px; font-size: 0.85rem;">4</div>
+              <h4 style="font-size: 0.85rem;">Kiểm Tra Lại</h4>
+              <p style="font-size: 0.725rem;">Xác minh & đóng</p>
+            </div>
+            <div class="flow-step-item" style="padding: 12px 8px;">
+              <div class="step-circle" style="width: 36px; height: 36px; font-size: 0.85rem;">5</div>
+              <h4 style="font-size: 0.85rem;">Báo Cáo & Lưu</h4>
+              <p style="font-size: 0.725rem;">Truy xuất hồ sơ</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: BÀN GIAO SỐ & VẬN HÀNH 50 NĂM -->
+    <section id="van-hanh" style="scroll-margin-top: 90px; margin-bottom: 4.5rem;">
+      <div class="section-header">
+        <span class="section-tag">PHẦN IV</span>
+        <h2 class="section-title">Bàn Giao Dữ Liệu Số & Quản Trị Vận Hành</h2>
+        <p class="section-desc">
+          "Khi công trình hoàn thành, dữ liệu mới bắt đầu tạo giá trị". Mô hình As-built BIM và hệ thống thông tin tài sản đồng hành cùng doanh nghiệp suốt 50 năm vòng đời công trình.
+        </p>
+      </div>
+
+      <!-- Slide 13 & 14: Digital Handover & Asset Info -->
+      <div class="grid-2">
+        <div class="card">
+          <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 1rem;">
+            <div>
+              <span class="slide-tag">DIGITAL HANDOVER PACKAGE</span>
+              <h3 class="card-title">Bộ Hồ Sơ Bàn Giao Số Chuẩn Hóa</h3>
+            </div>
+            <button class="btn btn-outline" style="padding: 4px 10px; font-size: 0.75rem;" onclick="openModal('assets/pages/page_13.png')"><i class="fa-solid fa-image"></i> Slide 13</button>
+          </div>
+          <p class="card-body">
+            Chuyển giao hệ thống tài sản số bao gồm 8 phân vùng dữ liệu liên kết mật thiết với phần mềm quản lý tòa nhà:
+          </p>
+          <ul class="card-list" style="margin-top: 0.75rem;">
+            <li><i class="fa-solid fa-folder-closed"></i> <strong>01_As-built Drawings:</strong> Bản vẽ hoàn công số</li>
+            <li><i class="fa-solid fa-cube"></i> <strong>02_BIM Model:</strong> Mô hình As-built 3D đầy đủ thông tin</li>
+            <li><i class="fa-solid fa-book"></i> <strong>03_O&M Manual:</strong> Sổ tay hướng dẫn vận hành & bảo trì</li>
+            <li><i class="fa-solid fa-certificate"></i> <strong>04_Warranty & Certificate:</strong> Chứng chỉ bảo hành</li>
+            <li><i class="fa-solid fa-clipboard-check"></i> <strong>05_Inspection Records:</strong> Hồ sơ kiểm định & nghiệm thu</li>
+            <li><i class="fa-solid fa-camera"></i> <strong>06_Photos & Videos:</strong> Tư liệu thi công thực tế</li>
+            <li><i class="fa-solid fa-database"></i> <strong>07_Asset Information:</strong> Cơ sở dữ liệu tài sản thiết bị</li>
+            <li><i class="fa-solid fa-network-wired"></i> <strong>08_IFC & COBie:</strong> Định dạng dữ liệu mở tiêu chuẩn quốc tế</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 1rem;">
+            <div>
+              <span class="slide-tag">ASSET & EQUIPMENT DATA</span>
+              <h3 class="card-title">Mô Hình Dữ Liệu Thiết Bị Mẫu</h3>
+            </div>
+            <button class="btn btn-outline" style="padding: 4px 10px; font-size: 0.75rem;" onclick="openModal('assets/pages/page_14.png')"><i class="fa-solid fa-image"></i> Slide 14</button>
+          </div>
+          <p class="card-body">
+            Mỗi thiết bị trong mô hình (ví dụ: máy bơm, AHU, máy biến áp) đều được số hóa toàn bộ thuộc tính kỹ thuật phục vụ vận hành:
+          </p>
+
+          <div style="background: var(--bg-surface); border: 1px solid var(--border-color); border-radius: 12px; padding: 1.25rem; margin-top: 0.85rem; font-size: 0.875rem;">
+            <div style="display: flex; justify-content: space-between; padding-bottom: 8px; border-bottom: 1px solid var(--border-color); margin-bottom: 8px;">
+              <span style="color: var(--text-secondary);">Tên thiết bị:</span>
+              <strong style="color: var(--text-primary);">Bơm cấp nước sinh hoạt</strong>
+            </div>
+            <div style="display: flex; justify-content: space-between; padding-bottom: 8px; border-bottom: 1px solid var(--border-color); margin-bottom: 8px;">
+              <span style="color: var(--text-secondary);">Mã thiết bị (Tag):</span>
+              <code style="background: var(--bg-accent); padding: 3px 8px; border-radius: 4px; color: var(--primary);">PWP-01</code>
+            </div>
+            <div style="display: flex; justify-content: space-between; padding-bottom: 8px; border-bottom: 1px solid var(--border-color); margin-bottom: 8px;">
+              <span style="color: var(--text-secondary);">Công suất / Lưu lượng:</span>
+              <span><strong style="color: var(--text-primary);">7.5 kW</strong> | <strong style="color: var(--text-primary);">36.5 m³/h</strong></span>
+            </div>
+            <div style="display: flex; justify-content: space-between; padding-bottom: 8px; border-bottom: 1px solid var(--border-color); margin-bottom: 8px;">
+              <span style="color: var(--text-secondary);">Trạng thái hiện tại:</span>
+              <span style="color: var(--success); font-weight: 700;"><i class="fa-solid fa-circle" style="font-size: 0.6rem;"></i> Hoạt động ổn định</span>
+            </div>
+            <div style="display: flex; justify-content: space-between;">
+              <span style="color: var(--text-secondary);">Tài liệu đính kèm:</span>
+              <span style="color: var(--text-primary);"><i class="fa-solid fa-paperclip"></i> Catalogue, O&M Manual, Shop Drawing</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 15: 50 Years Timeline -->
+      <div style="background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 16px; padding: 2.25rem; box-shadow: var(--box-shadow); margin-top: 1.75rem;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.75rem;">
+          <div>
+            <span class="slide-tag">LIFECYCLE BIM ROADMAP</span>
+            <h3 style="font-size: 1.35rem; font-weight: 800; color: var(--text-primary);">Hành Trình Khai Thác Giá Trị Dữ Liệu 50 Năm Vòng Đời Công Trình</h3>
+          </div>
+          <button class="btn btn-outline" style="padding: 4px 10px; font-size: 0.75rem;" onclick="openModal('assets/pages/page_15.png')"><i class="fa-solid fa-image"></i> Slide 15</button>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(6, 1fr); gap: 12px; text-align: center;">
+          <div style="background: var(--bg-surface); padding: 1.25rem 0.6rem; border-radius: 10px; border-top: 4px solid var(--primary); border: 1px solid var(--border-color); border-top-width: 4px;">
+            <div style="font-weight: 800; color: var(--primary); font-size: 1.15rem;">TODAY</div>
+            <div style="font-weight: 700; font-size: 0.85rem; margin: 6px 0; color: var(--text-primary);">Bàn giao</div>
+            <p style="font-size: 0.75rem; color: var(--text-secondary);">Bàn giao đồng thời công trình & tài sản số</p>
+          </div>
+
+          <div style="background: var(--bg-surface); padding: 1.25rem 0.6rem; border-radius: 10px; border-top: 4px solid var(--accent); border: 1px solid var(--border-color); border-top-width: 4px;">
+            <div style="font-weight: 800; color: var(--accent); font-size: 1.15rem;">5 NĂM</div>
+            <div style="font-weight: 700; font-size: 0.85rem; margin: 6px 0; color: var(--text-primary);">Bảo trì & Vận hành</div>
+            <p style="font-size: 0.75rem; color: var(--text-secondary);">Theo dõi định kỳ & tối ưu chi phí vận hành</p>
+          </div>
+
+          <div style="background: var(--bg-surface); padding: 1.25rem 0.6rem; border-radius: 10px; border-top: 4px solid #6366f1; border: 1px solid var(--border-color); border-top-width: 4px;">
+            <div style="font-weight: 800; color: #818cf8; font-size: 1.15rem;">10 NĂM</div>
+            <div style="font-weight: 700; font-size: 0.85rem; margin: 6px 0; color: var(--text-primary);">Thay thế & Nâng cấp</div>
+            <p style="font-size: 0.75rem; color: var(--text-secondary);">Cập nhật hệ thống thiết bị già cỗi</p>
+          </div>
+
+          <div style="background: var(--bg-surface); padding: 1.25rem 0.6rem; border-radius: 10px; border-top: 4px solid var(--danger); border: 1px solid var(--border-color); border-top-width: 4px;">
+            <div style="font-weight: 800; color: var(--danger); font-size: 1.15rem;">20 NĂM</div>
+            <div style="font-weight: 700; font-size: 0.85rem; margin: 6px 0; color: var(--text-primary);">Cải tạo công năng</div>
+            <p style="font-size: 0.75rem; color: var(--text-secondary);">Tái bố trí không gian theo nhu cầu mới</p>
+          </div>
+
+          <div style="background: var(--bg-surface); padding: 1.25rem 0.6rem; border-radius: 10px; border-top: 4px solid var(--success); border: 1px solid var(--border-color); border-top-width: 4px;">
+            <div style="font-weight: 800; color: var(--success); font-size: 1.15rem;">30 NĂM</div>
+            <div style="font-weight: 700; font-size: 0.85rem; margin: 6px 0; color: var(--text-primary);">Mở rộng & Bổ sung</div>
+            <p style="font-size: 0.75rem; color: var(--text-secondary);">Phát triển xây mới trên nền dữ liệu cũ</p>
+          </div>
+
+          <div style="background: var(--bg-surface); padding: 1.25rem 0.6rem; border-radius: 10px; border-top: 4px solid var(--text-muted); border: 1px solid var(--border-color); border-top-width: 4px;">
+            <div style="font-weight: 800; color: var(--text-secondary); font-size: 1.15rem;">50 NĂM</div>
+            <div style="font-weight: 700; font-size: 0.85rem; margin: 6px 0; color: var(--text-primary);">Lịch sử tài sản</div>
+            <p style="font-size: 0.75rem; color: var(--text-secondary);">Lưu trữ trọn vẹn toàn bộ hồ sơ công trình</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 5: DỰ ÁN TIÊU BIỂU -->
+    <section id="du-an" style="scroll-margin-top: 90px; margin-bottom: 4.5rem;">
+      <div class="section-header">
+        <span class="section-tag">PHẦN V</span>
+        <h2 class="section-title">Dự Án Tiêu Biểu Ứng Dụng BIM</h2>
+        <p class="section-desc">
+          Các dự án công nghiệp quy mô lớn áp dụng giải pháp mô hình thông tin công trình BIM, mang lại hiệu quả vượt trội trong phối hợp và kiểm soát.
+        </p>
+      </div>
+
+      <!-- Slide 16 Showcase -->
+      <div class="grid-2">
+        <!-- Project 1 -->
+        <div class="card" style="padding: 0; overflow: hidden;">
+          <div style="background: var(--bg-surface); border-bottom: 1px solid var(--border-color); padding: 1.5rem;">
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+              <span style="background: var(--primary-glow); color: var(--primary); font-weight: 800; font-size: 0.75rem; padding: 3px 10px; border-radius: 6px; border: 1px solid rgba(56, 189, 248, 0.3);">01. NHÀ MÁY CÔNG NGHIỆP</span>
+              <span style="font-size: 0.8rem; color: var(--text-muted);"><i class="fa-solid fa-cube"></i> BIM Kiến trúc</span>
+            </div>
+            <h3 style="font-size: 1.35rem; margin-top: 8px; font-weight: 800; color: var(--text-primary);">AIMER VIETNAM</h3>
+          </div>
+          <div style="padding: 1.5rem;">
+            <ul class="card-list" style="margin-top: 0;">
+              <li><i class="fa-solid fa-ruler-combined"></i> <strong>Quy mô:</strong> 20,000 m²</li>
+              <li><i class="fa-solid fa-location-dot"></i> <strong>Vị trí:</strong> KCN Nhơn Trạch, Đồng Nai</li>
+              <li><i class="fa-solid fa-user-tie"></i> <strong>Chủ đầu tư:</strong> Aimer</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="card" style="padding: 0; overflow: hidden;">
+          <div style="background: var(--bg-surface); border-bottom: 1px solid var(--border-color); padding: 1.5rem;">
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+              <span style="background: var(--primary-glow); color: var(--primary); font-weight: 800; font-size: 0.75rem; padding: 3px 10px; border-radius: 6px; border: 1px solid rgba(56, 189, 248, 0.3);">02. NHÀ MÁY CÔNG NGHIỆP</span>
+              <span style="font-size: 0.8rem; color: var(--text-muted);"><i class="fa-solid fa-cube"></i> BIM Kết cấu</span>
+            </div>
+            <h3 style="font-size: 1.35rem; margin-top: 8px; font-weight: 800; color: var(--text-primary);">MEGA TEXTILE</h3>
+          </div>
+          <div style="padding: 1.5rem;">
+            <ul class="card-list" style="margin-top: 0;">
+              <li><i class="fa-solid fa-ruler-combined"></i> <strong>Quy mô:</strong> 67.5 ha</li>
+              <li><i class="fa-solid fa-location-dot"></i> <strong>Vị trí:</strong> KCN VSIP 2, Nghệ An</li>
+              <li><i class="fa-solid fa-user-tie"></i> <strong>Chủ đầu tư:</strong> Mega Textile</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="card" style="padding: 0; overflow: hidden;">
+          <div style="background: var(--bg-surface); border-bottom: 1px solid var(--border-color); padding: 1.5rem;">
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+              <span style="background: var(--primary-glow); color: var(--primary); font-weight: 800; font-size: 0.75rem; padding: 3px 10px; border-radius: 6px; border: 1px solid rgba(56, 189, 248, 0.3);">03. NHÀ XƯỞNG CÔNG NGHIỆP</span>
+              <span style="font-size: 0.8rem; color: var(--text-muted);"><i class="fa-solid fa-cube"></i> BIM Hạ tầng</span>
+            </div>
+            <h3 style="font-size: 1.35rem; margin-top: 8px; font-weight: 800; color: var(--text-primary);">APF DONG NAI</h3>
+          </div>
+          <div style="padding: 1.5rem;">
+            <ul class="card-list" style="margin-top: 0;">
+              <li><i class="fa-solid fa-ruler-combined"></i> <strong>Quy mô:</strong> 122,000 m²</li>
+              <li><i class="fa-solid fa-location-dot"></i> <strong>Vị trí:</strong> KCN Nhơn Trạch I, Đồng Nai</li>
+              <li><i class="fa-solid fa-user-tie"></i> <strong>Chủ đầu tư:</strong> APF</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="card" style="padding: 0; overflow: hidden;">
+          <div style="background: var(--bg-surface); border-bottom: 1px solid var(--border-color); padding: 1.5rem;">
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+              <span style="background: var(--primary-glow); color: var(--primary); font-weight: 800; font-size: 0.75rem; padding: 3px 10px; border-radius: 6px; border: 1px solid rgba(56, 189, 248, 0.3);">04. NHÀ XƯỞNG CÔNG NGHIỆP</span>
+              <span style="font-size: 0.8rem; color: var(--text-muted);"><i class="fa-solid fa-cube"></i> BIM MEPF</span>
+            </div>
+            <h3 style="font-size: 1.35rem; margin-top: 8px; font-weight: 800; color: var(--text-primary);">KIM TIN DAU GIAY</h3>
+          </div>
+          <div style="padding: 1.5rem;">
+            <ul class="card-list" style="margin-top: 0;">
+              <li><i class="fa-solid fa-ruler-combined"></i> <strong>Quy mô:</strong> 311,845 m²</li>
+              <li><i class="fa-solid fa-location-dot"></i> <strong>Vị trí:</strong> KCN Dầu Giây, Đồng Nai</li>
+              <li><i class="fa-solid fa-user-tie"></i> <strong>Chủ đầu tư:</strong> Kim Tín</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Modal View for Clean Original Slide Images -->
+  <div class="image-modal" id="imageModal" onclick="closeModal()">
+    <div class="modal-content" onclick="event.stopPropagation()">
+      <button class="modal-close" onclick="closeModal()">&times;</button>
+      <img id="modalImg" src="" alt="Slide Preview">
+    </div>
+  </div>
+
+  <!-- Footer (Neutral) -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-col">
+        <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 1.25rem;">
+          <div class="brand-badge"><i class="fa-solid fa-cube"></i> BIM</div>
+          <h3 style="font-size: 1.25rem; font-weight: 800; color: var(--text-primary);">BIM Management Platform</h3>
+        </div>
+        <p style="color: var(--primary); font-weight: 700; letter-spacing: 0.5px;">"DESIGN WITH DATA. BUILD WITH CONFIDENCE."</p>
+        <p>Hệ thống số hóa quy trình và quản lý vòng đời công trình ứng dụng công nghệ Mô hình Thông tin Công trình (BIM).</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Năng Lực Cốt Lõi</h4>
+        <ul>
+          <li><a href="#thiet-ke">• Architecture & Structure Modeling</a></li>
+          <li><a href="#thiet-ke">• MEP Systems & Clash Detection</a></li>
+          <li><a href="#thiet-ke">• 4D Scheduling & 5D Quantity Takeoff</a></li>
+          <li><a href="#thi-cong">• Site Management & Inspection QA/QC</a></li>
+          <li><a href="#van-hanh">• Digital Handover & Asset Management</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Tiêu Chuẩn Áp Dụng</h4>
+        <ul>
+          <li><a href="#quy-trinh">• ISO 19650 Quản lý Thông tin BIM</a></li>
+          <li><a href="#quy-trinh">• Quy trình BEP & CDE Centralized</a></li>
+          <li><a href="#quy-trinh">• Chuẩn dữ liệu mở IFC & COBie</a></li>
+          <li><a href="#quy-trinh">• Hướng dẫn áp dụng BIM Bộ Xây dựng</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Hỗ Trợ & Vận Hành</h4>
+        <p><i class="fa-solid fa-laptop-code" style="color: var(--primary);"></i> Nền tảng Điều hành Dữ liệu BIM Core</p>
+        <p><i class="fa-solid fa-file-shield" style="color: var(--primary);"></i> Tiêu chuẩn hóa quy trình SOP</p>
+        <p><i class="fa-solid fa-envelope" style="color: var(--primary);"></i> support@bimplatform.vn</p>
+        <p><i class="fa-solid fa-globe" style="color: var(--primary);"></i> bimplatform.vn</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div>&copy; 2026 BIM Management Platform. Tất cả quyền được bảo lưu.</div>
+      <div>Hệ Thống Số Hóa Quy Trình BIM Dự Án (BIM Process & Management Platform)</div>
+    </div>
+  </footer>
+
+  <!-- Script for Checklist & Dark Mode -->
+  <script>
+    // Theme Toggle Logic
+    function toggleTheme() {
+      const html = document.documentElement;
+      const currentTheme = html.getAttribute('data-theme') || 'dark';
+      const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+      html.setAttribute('data-theme', newTheme);
+      localStorage.setItem('bim_theme_preference', newTheme);
+      updateThemeIcon(newTheme);
+    }
+
+    function updateThemeIcon(theme) {
+      const icon = document.getElementById('themeIcon');
+      if (icon) {
+        if (theme === 'dark') {
+          icon.className = 'fa-solid fa-sun';
+          document.getElementById('themeToggleBtn').title = "Chuyển sang chế độ Sáng";
+        } else {
+          icon.className = 'fa-solid fa-moon';
+          document.getElementById('themeToggleBtn').title = "Chuyển sang chế độ Tối";
+        }
+      }
+    }
+
+    // Tab switching for stages
+    function switchStage(stageNum, btn) {
+      document.querySelectorAll('.stage-tab-btn').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('.checklist-container').forEach(c => c.classList.remove('active'));
+
+      btn.classList.add('active');
+      const target = document.getElementById('stage-' + stageNum);
+      if (target) {
+        target.classList.add('active');
+      }
+    }
+
+    // Toggle Check Card
+    function toggleTask(card) {
+      const checkbox = card.querySelector('input[type="checkbox"]');
+      if (event.target !== checkbox) {
+        checkbox.checked = !checkbox.checked;
+      }
+      if (checkbox.checked) {
+        card.classList.add('checked');
+      } else {
+        card.classList.remove('checked');
+      }
+      updateProgress();
+      saveState();
+    }
+
+    // Update Progress Bar
+    function updateProgress() {
+      const checkboxes = document.querySelectorAll('.checklist-container input[type="checkbox"]');
+      const total = checkboxes.length;
+      let checkedCount = 0;
+
+      checkboxes.forEach(cb => {
+        const parentCard = cb.closest('.check-card');
+        if (cb.checked) {
+          checkedCount++;
+          if (parentCard) parentCard.classList.add('checked');
+        } else {
+          if (parentCard) parentCard.classList.remove('checked');
+        }
+      });
+
+      const percent = total === 0 ? 0 : Math.round((checkedCount / total) * 100);
+      document.getElementById('progress-bar').style.width = percent + '%';
+      document.getElementById('progress-percentage').innerText = `${percent}% Hoàn thành (${checkedCount}/${total} mục)`;
+    }
+
+    // Save state to LocalStorage
+    function saveState() {
+      const state = [];
+      const checkboxes = document.querySelectorAll('.checklist-container input[type="checkbox"]');
+      checkboxes.forEach((cb) => {
+        state.push(cb.checked);
+      });
+      localStorage.setItem('bim_standard_checklist_state', JSON.stringify(state));
+    }
+
+    // Load state from LocalStorage
+    function loadState() {
+      const savedTheme = localStorage.getItem('bim_theme_preference') || 'dark';
+      document.documentElement.setAttribute('data-theme', savedTheme);
+      updateThemeIcon(savedTheme);
+
+      const saved = localStorage.getItem('bim_standard_checklist_state');
+      if (saved) {
+        try {
+          const state = JSON.parse(saved);
+          const checkboxes = document.querySelectorAll('.checklist-container input[type="checkbox"]');
+          checkboxes.forEach((cb, idx) => {
+            if (state[idx] !== undefined) {
+              cb.checked = state[idx];
+              const parent = cb.closest('.check-card');
+              if (cb.checked && parent) parent.classList.add('checked');
+            }
+          });
+        } catch (e) {
+          console.error("Error parsing saved checklist state", e);
+        }
+      }
+      updateProgress();
+    }
+
+    // Reset All Tasks
+    function resetTasks() {
+      if (confirm("Bạn có chắc chắn muốn đặt lại toàn bộ checklist về ban đầu?")) {
+        const checkboxes = document.querySelectorAll('.checklist-container input[type="checkbox"]');
+        checkboxes.forEach(cb => {
+          cb.checked = false;
+          const parent = cb.closest('.check-card');
+          if (parent) parent.classList.remove('checked');
+        });
+        localStorage.removeItem('bim_standard_checklist_state');
+        updateProgress();
+      }
+    }
+
+    // Export Checklist Report JSON
+    function exportChecklistReport() {
+      const tasks = [];
+      document.querySelectorAll('.check-card').forEach((card, i) => {
+        const title = card.querySelector('h4') ? card.querySelector('h4').innerText : '';
+        const desc = card.querySelector('p') ? card.querySelector('p').innerText : '';
+        const tag = card.querySelector('.check-tag') ? card.querySelector('.check-tag').innerText : '';
+        const checked = card.querySelector('input[type="checkbox"]').checked;
+        tasks.push({
+          id: i + 1,
+          task: title,
+          description: desc,
+          category: tag,
+          status: checked ? 'Completed' : 'Pending'
+        });
+      });
+
+      const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify({
+        system: "BIM Lifecycle Management Platform",
+        standard: "ISO 19650 Standard Workflow",
+        exportedAt: new Date().toISOString(),
+        tasks: tasks
+      }, null, 2));
+
+      const downloadAnchor = document.createElement('a');
+      downloadAnchor.setAttribute("href", dataStr);
+      downloadAnchor.setAttribute("download", "BIM_Workflow_Report.json");
+      document.body.appendChild(downloadAnchor);
+      downloadAnchor.click();
+      downloadAnchor.remove();
+    }
+
+    // Modal Image Preview
+    function openModal(imgSrc) {
+      const modal = document.getElementById('imageModal');
+      const modalImg = document.getElementById('modalImg');
+      modalImg.src = imgSrc;
+      modal.classList.add('active');
+    }
+
+    function closeModal() {
+      const modal = document.getElementById('imageModal');
+      modal.classList.remove('active');
+    }
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeModal();
+    });
+
+    window.addEventListener('DOMContentLoaded', () => {
+      loadState();
+    });
+  </script>
+</body>
+</html>
