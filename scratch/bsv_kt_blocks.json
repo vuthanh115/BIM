@@ -1,0 +1,3877 @@
+[
+  {
+    "index": 0,
+    "bbox": [
+      1659.8,
+      44.3,
+      1746.0,
+      57.1
+    ],
+    "text": "0.1.1.1.1. Mặt bằng",
+    "lines": [
+      "0.1.1.1.1. Mặt bằng"
+    ]
+  },
+  {
+    "index": 1,
+    "bbox": [
+      1122.8,
+      84.8,
+      1597.4,
+      111.1
+    ],
+    "text": "0.1.1. Cad template\n0.1.1.1. Trong folder này sẽ chứa các mục \nsau:",
+    "lines": [
+      "0.1.1. Cad template",
+      "0.1.1.1. Trong folder này sẽ chứa các mục",
+      "sau:"
+    ]
+  },
+  {
+    "index": 2,
+    "bbox": [
+      1659.8,
+      75.8,
+      1749.0,
+      88.6
+    ],
+    "text": "0.1.1.1.2. Mặt đứng",
+    "lines": [
+      "0.1.1.1.2. Mặt đứng"
+    ]
+  },
+  {
+    "index": 3,
+    "bbox": [
+      1659.8,
+      107.3,
+      1737.4,
+      120.1
+    ],
+    "text": "0.1.1.1.3. Mặt cắt",
+    "lines": [
+      "0.1.1.1.3. Mặt cắt"
+    ]
+  },
+  {
+    "index": 4,
+    "bbox": [
+      587.2,
+      156.8,
+      923.2,
+      183.1
+    ],
+    "text": "0. Khởi tạo thư mục chung \n(Folder trên sever)\n0.1. Architech",
+    "lines": [
+      "0. Khởi tạo thư mục chung",
+      "(Folder trên sever)",
+      "0.1. Architech"
+    ]
+  },
+  {
+    "index": 5,
+    "bbox": [
+      1659.8,
+      138.8,
+      1787.5,
+      151.6
+    ],
+    "text": "0.1.1.1.4. Mặt cắt thang bộ",
+    "lines": [
+      "0.1.1.1.4. Mặt cắt thang bộ"
+    ]
+  },
+  {
+    "index": 6,
+    "bbox": [
+      1122.8,
+      170.3,
+      1615.9,
+      210.1
+    ],
+    "text": "0.1.2. Rvt file\nKhởi tạo file mới từ template\nZ:\\BIM_BSV_Project\\0.BSV_TaiLieuThamChi\neu\\0.Teamplate_Rvt_R20\\ARC",
+    "lines": [
+      "0.1.2. Rvt file",
+      "Khởi tạo file mới từ template",
+      "Z:\\BIM_BSV_Project\\0.BSV_TaiLieuThamChi",
+      "eu\\0.Teamplate_Rvt_R20\\ARC"
+    ]
+  },
+  {
+    "index": 7,
+    "bbox": [
+      1659.8,
+      183.8,
+      1834.7,
+      196.6
+    ],
+    "text": "Sau khi khởi tạo sẽ tạo Center file",
+    "lines": [
+      "Sau khi khởi tạo sẽ tạo Center file"
+    ]
+  },
+  {
+    "index": 8,
+    "bbox": [
+      1122.8,
+      228.8,
+      1610.1,
+      255.1
+    ],
+    "text": "0.1.3. BoQ Architech\nFile này sẽ lưu bản sao của BoQ dự án, đổi \nđuôi thành _Arch_Version",
+    "lines": [
+      "0.1.3. BoQ Architech",
+      "File này sẽ lưu bản sao của BoQ dự án, đổi",
+      "đuôi thành _Arch_Version"
+    ]
+  },
+  {
+    "index": 9,
+    "bbox": [
+      854.2,
+      272.3,
+      1069.5,
+      325.6
+    ],
+    "text": "A.1. Nắm được các hạng mục có trong dự \nán\n- Hạng mục chính\n- Hạng mục phụ",
+    "lines": [
+      "A.1. Nắm được các hạng mục có trong dự",
+      "án",
+      "- Hạng mục chính",
+      "- Hạng mục phụ"
+    ]
+  },
+  {
+    "index": 10,
+    "bbox": [
+      587.2,
+      324.1,
+      809.7,
+      363.9
+    ],
+    "text": "A. Đọc qua các bản vẽ để nắm được thông \ntin chung và có cái nhìn tổng quan về dự \nán đang thực hiện",
+    "lines": [
+      "A. Đọc qua các bản vẽ để nắm được thông",
+      "tin chung và có cái nhìn tổng quan về dự",
+      "án đang thực hiện"
+    ]
+  },
+  {
+    "index": 11,
+    "bbox": [
+      1122.8,
+      344.3,
+      1196.8,
+      357.1
+    ],
+    "text": "- Diện tích sàn",
+    "lines": [
+      "- Diện tích sàn"
+    ]
+  },
+  {
+    "index": 12,
+    "bbox": [
+      330.0,
+      385.1,
+      482.7,
+      418.1
+    ],
+    "text": "Step 1: Tiếp cận bản vẽ\n( đi từ trên xuống dưới)",
+    "lines": [
+      "Step 1: Tiếp cận bản vẽ",
+      "( đi từ trên xuống dưới)"
+    ]
+  },
+  {
+    "index": 13,
+    "bbox": [
+      854.2,
+      375.8,
+      1062.3,
+      402.1
+    ],
+    "text": "A.2. Nắm được thông tin tổng quan cho \ntừng hạng mục",
+    "lines": [
+      "A.2. Nắm được thông tin tổng quan cho",
+      "từng hạng mục"
+    ]
+  },
+  {
+    "index": 14,
+    "bbox": [
+      1122.8,
+      375.8,
+      1169.0,
+      388.6
+    ],
+    "text": "- Số tầng",
+    "lines": [
+      "- Số tầng"
+    ]
+  },
+  {
+    "index": 15,
+    "bbox": [
+      1122.8,
+      407.3,
+      1328.8,
+      447.1
+    ],
+    "text": "- Kiểu kiến trúc xưởng (vách tole, vách \ngạch, thông tin trang trí mặt đứng, mặt \ncắt, mặt bằng...)",
+    "lines": [
+      "- Kiểu kiến trúc xưởng (vách tole, vách",
+      "gạch, thông tin trang trí mặt đứng, mặt",
+      "cắt, mặt bằng...)"
+    ]
+  },
+  {
+    "index": 16,
+    "bbox": [
+      1122.8,
+      464.3,
+      1343.6,
+      544.6
+    ],
+    "text": "B1.1. Cần đọc qua để nắm được các khối \nlượng nhỏ đi kèm, tránh trường hợp bóc \nsót khối lượng đầu mục. \nSẽ có nhiều công tác trong phần này \nkhông bao gồm trong BoQ -> bổ sung đầu \nmục công tác vào BoQ",
+    "lines": [
+      "B1.1. Cần đọc qua để nắm được các khối",
+      "lượng nhỏ đi kèm, tránh trường hợp bóc",
+      "sót khối lượng đầu mục.",
+      "Sẽ có nhiều công tác trong phần này",
+      "không bao gồm trong BoQ -> bổ sung đầu",
+      "mục công tác vào BoQ"
+    ]
+  },
+  {
+    "index": 17,
+    "bbox": [
+      854.2,
+      513.8,
+      1074.4,
+      567.1
+    ],
+    "text": "B.1. Các mục trong chỉ mục chung sẽ có \nthông tin hoàn thiện chung, các chi tiết \nđiển hình mà thường trong bản vẽ chi tiết \nít thể hiện",
+    "lines": [
+      "B.1. Các mục trong chỉ mục chung sẽ có",
+      "thông tin hoàn thiện chung, các chi tiết",
+      "điển hình mà thường trong bản vẽ chi tiết",
+      "ít thể hiện"
+    ]
+  },
+  {
+    "index": 18,
+    "bbox": [
+      1122.8,
+      563.3,
+      1337.0,
+      589.6
+    ],
+    "text": "B1.2. Nắm được thông tin hoàn thiện cho \ncấu kiện chung, tường, sàn, trần . . .",
+    "lines": [
+      "B1.2. Nắm được thông tin hoàn thiện cho",
+      "cấu kiện chung, tường, sàn, trần . . ."
+    ]
+  },
+  {
+    "index": 19,
+    "bbox": [
+      1122.8,
+      608.3,
+      1326.2,
+      675.1
+    ],
+    "text": "B2.1. kết hợp với thông tin ở các bản vẽ \nhoàn thiện (sàn, trần, tường...) để nắm \nđược thông tin tổng quát và kiểm tra \nnhững hạng mục đá nhau về thông tin \nhoàn thiện",
+    "lines": [
+      "B2.1. kết hợp với thông tin ở các bản vẽ",
+      "hoàn thiện (sàn, trần, tường...) để nắm",
+      "được thông tin tổng quát và kiểm tra",
+      "những hạng mục đá nhau về thông tin",
+      "hoàn thiện"
+    ]
+  },
+  {
+    "index": 20,
+    "bbox": [
+      587.2,
+      627.5,
+      781.3,
+      640.3
+    ],
+    "text": "B. Thông tin trong các chỉ mục chung",
+    "lines": [
+      "B. Thông tin trong các chỉ mục chung"
+    ]
+  },
+  {
+    "index": 21,
+    "bbox": [
+      854.2,
+      615.1,
+      1074.6,
+      668.4
+    ],
+    "text": "B.2. Trong mục này cần đặc biệt chú ý đến \nSheet \"Schedules Finishing\"\nĐây là 1 bảng thống kê danh mục vật liệu \nhoàn thiện thường là theo phòng",
+    "lines": [
+      "B.2. Trong mục này cần đặc biệt chú ý đến",
+      "Sheet \"Schedules Finishing\"",
+      "Đây là 1 bảng thống kê danh mục vật liệu",
+      "hoàn thiện thường là theo phòng"
+    ]
+  },
+  {
+    "index": 22,
+    "bbox": [
+      1438.4,
+      644.9,
+      1650.7,
+      671.2
+    ],
+    "text": "này chưa?\nNếu chưa có sẽ bổ sung luôn trong bước",
+    "lines": [
+      "này chưa?",
+      "Nếu chưa có sẽ bổ sung luôn trong bước"
+    ]
+  },
+  {
+    "index": 23,
+    "bbox": [
+      1441.5,
+      631.4,
+      1647.6,
+      644.2
+    ],
+    "text": "Kiểm tra trong template có Family type",
+    "lines": [
+      "Kiểm tra trong template có Family type"
+    ]
+  },
+  {
+    "index": 24,
+    "bbox": [
+      1509.3,
+      671.9,
+      1579.8,
+      684.7
+    ],
+    "text": "thực hiện này",
+    "lines": [
+      "thực hiện này"
+    ]
+  },
+  {
+    "index": 25,
+    "bbox": [
+      854.2,
+      693.8,
+      1078.7,
+      760.6
+    ],
+    "text": "B.3. Trong thư mục chỉ dẫn chung của kết \ncấu thường sẽ luôn có thông tin về quy \ncách và kích thước lanh tô, bổ trụ, giằng \ntường và cấu tạo thép cho các cấu kiện \nnày. cần đọc kỹ k để sót hoặc sai khối lượng",
+    "lines": [
+      "B.3. Trong thư mục chỉ dẫn chung của kết",
+      "cấu thường sẽ luôn có thông tin về quy",
+      "cách và kích thước lanh tô, bổ trụ, giằng",
+      "tường và cấu tạo thép cho các cấu kiện",
+      "này. cần đọc kỹ k để sót hoặc sai khối lượng"
+    ]
+  },
+  {
+    "index": 26,
+    "bbox": [
+      1122.8,
+      714.1,
+      1328.5,
+      740.4
+    ],
+    "text": "B.3.1. Nắm được kích thước của các loại \nlanh tô, bổ trụ, giằng tường",
+    "lines": [
+      "B.3.1. Nắm được kích thước của các loại",
+      "lanh tô, bổ trụ, giằng tường"
+    ]
+  },
+  {
+    "index": 27,
+    "bbox": [
+      1926.0,
+      799.6,
+      2133.0,
+      866.4
+    ],
+    "text": "- Kiểm tra lưới trục, Level.  giữa kết cấu, \nkiến trúc, cơ điện có khác nhau không? \nNếu khác sẽ thống nhất tên cho hệ lưới \ntrục giữa các bộ môn trùng nhau \n(điều này là bắt buộc)",
+    "lines": [
+      "- Kiểm tra lưới trục, Level.  giữa kết cấu,",
+      "kiến trúc, cơ điện có khác nhau không?",
+      "Nếu khác sẽ thống nhất tên cho hệ lưới",
+      "trục giữa các bộ môn trùng nhau",
+      "(điều này là bắt buộc)"
+    ]
+  },
+  {
+    "index": 28,
+    "bbox": [
+      854.2,
+      837.8,
+      1070.4,
+      918.1
+    ],
+    "text": "C.1. Tách bản vẽ đúng theo quy hoạch kết \ncấu file cho dự án ở mục 0.1.1.1, đảm bảo \ncác block trong file cad đều được break.\n=> chỉ được xử dụng lệnh BURST k xử \ndụng lệnh X trong cad, tránh trường hợp \nbị miss thông tin bản cad",
+    "lines": [
+      "C.1. Tách bản vẽ đúng theo quy hoạch kết",
+      "cấu file cho dự án ở mục 0.1.1.1, đảm bảo",
+      "các block trong file cad đều được break.",
+      "=> chỉ được xử dụng lệnh BURST k xử",
+      "dụng lệnh X trong cad, tránh trường hợp",
+      "bị miss thông tin bản cad"
+    ]
+  },
+  {
+    "index": 29,
+    "bbox": [
+      1391.2,
+      826.6,
+      1712.9,
+      839.4
+    ],
+    "text": "C.1.1.1. Tạo lưới trục, Level\nQuy cách:",
+    "lines": [
+      "C.1.1.1. Tạo lưới trục, Level",
+      "Quy cách:"
+    ]
+  },
+  {
+    "index": 30,
+    "bbox": [
+      587.2,
+      871.6,
+      810.1,
+      884.4
+    ],
+    "text": "C. Tách bản vẽ cad & import vào Central file",
+    "lines": [
+      "C. Tách bản vẽ cad & import vào Central file"
+    ]
+  },
+  {
+    "index": 31,
+    "bbox": [
+      1122.8,
+      864.8,
+      1341.5,
+      891.1
+    ],
+    "text": "C.1.1. Import tất cả những file cad vừa tách \nvào file Center đã tạo ở mục 0.1.2",
+    "lines": [
+      "C.1.1. Import tất cả những file cad vừa tách",
+      "vào file Center đã tạo ở mục 0.1.2"
+    ]
+  },
+  {
+    "index": 32,
+    "bbox": [
+      1391.2,
+      885.1,
+      1541.3,
+      897.9
+    ],
+    "text": "C.1.1.2. Đúng vị trí, hệ lưới trục",
+    "lines": [
+      "C.1.1.2. Đúng vị trí, hệ lưới trục"
+    ]
+  },
+  {
+    "index": 33,
+    "bbox": [
+      330.0,
+      930.2,
+      523.7,
+      963.1
+    ],
+    "text": "Step 2: Xử lí thông tin bản vẽ \n(đi từ trên xuống dưới)",
+    "lines": [
+      "Step 2: Xử lí thông tin bản vẽ",
+      "(đi từ trên xuống dưới)"
+    ]
+  },
+  {
+    "index": 34,
+    "bbox": [
+      1391.2,
+      916.6,
+      1529.6,
+      929.4
+    ],
+    "text": "C.1.1.3Đúng kích thước, tỉ lệ",
+    "lines": [
+      "C.1.1.3Đúng kích thước, tỉ lệ"
+    ]
+  },
+  {
+    "index": 35,
+    "bbox": [
+      1122.8,
+      946.6,
+      1343.2,
+      1013.4
+    ],
+    "text": "D.1.1. Vào bản thống kê cửa\n- Khởi tạo cửa trên file Central đúng theo \ntên và kích thước của\n- Quy cách đặt tên: Tên cửa(Width x Heigh)\nVí dụ: SD(1000x2100)",
+    "lines": [
+      "D.1.1. Vào bản thống kê cửa",
+      "- Khởi tạo cửa trên file Central đúng theo",
+      "tên và kích thước của",
+      "- Quy cách đặt tên: Tên cửa(Width x Heigh)",
+      "Ví dụ: SD(1000x2100)"
+    ]
+  },
+  {
+    "index": 36,
+    "bbox": [
+      587.2,
+      1002.8,
+      1077.0,
+      1029.1
+    ],
+    "text": "D. Xử lí thông tin cửa\nD.1. Trong folder kiến trúc luôn có 1 file mặt \nbằng bố trí cửa và 1 file bảng thống kê cửa",
+    "lines": [
+      "D. Xử lí thông tin cửa",
+      "D.1. Trong folder kiến trúc luôn có 1 file mặt",
+      "bằng bố trí cửa và 1 file bảng thống kê cửa"
+    ]
+  },
+  {
+    "index": 37,
+    "bbox": [
+      1489.0,
+      992.0,
+      1695.1,
+      1004.8
+    ],
+    "text": "Kiểm tra trong template có Family type",
+    "lines": [
+      "Kiểm tra trong template có Family type"
+    ]
+  },
+  {
+    "index": 38,
+    "bbox": [
+      1122.8,
+      1032.1,
+      1346.3,
+      1071.9
+    ],
+    "text": "D.1.2. Set parameter \"Cost\" cho mỗi cửa \nbằng số lượng trong bản thông kê của chủ \nđầu tư",
+    "lines": [
+      "D.1.2. Set parameter \"Cost\" cho mỗi cửa",
+      "bằng số lượng trong bản thông kê của chủ",
+      "đầu tư"
+    ]
+  },
+  {
+    "index": 39,
+    "bbox": [
+      1485.9,
+      1005.5,
+      1698.2,
+      1031.8
+    ],
+    "text": "này chưa?\nNếu chưa có sẽ bổ sung luôn trong bước",
+    "lines": [
+      "này chưa?",
+      "Nếu chưa có sẽ bổ sung luôn trong bước"
+    ]
+  },
+  {
+    "index": 40,
+    "bbox": [
+      1556.7,
+      1032.5,
+      1627.3,
+      1045.3
+    ],
+    "text": "thực hiện này",
+    "lines": [
+      "thực hiện này"
+    ]
+  },
+  {
+    "index": 41,
+    "bbox": [
+      1391.2,
+      1110.8,
+      1745.3,
+      1123.6
+    ],
+    "text": "- 1\nSơn tường trong",
+    "lines": [
+      "- 1",
+      "Sơn tường trong"
+    ]
+  },
+  {
+    "index": 42,
+    "bbox": [
+      1391.2,
+      1142.3,
+      1744.6,
+      1155.1
+    ],
+    "text": "- 2\nTrát tường trong",
+    "lines": [
+      "- 2",
+      "Trát tường trong"
+    ]
+  },
+  {
+    "index": 43,
+    "bbox": [
+      1391.2,
+      1173.8,
+      1745.4,
+      1186.6
+    ],
+    "text": "- 3\nTrát tường ngoài",
+    "lines": [
+      "- 3",
+      "Trát tường ngoài"
+    ]
+  },
+  {
+    "index": 44,
+    "bbox": [
+      1391.2,
+      1205.3,
+      1746.1,
+      1218.1
+    ],
+    "text": "- 4\nSơn tường ngoài",
+    "lines": [
+      "- 4",
+      "Sơn tường ngoài"
+    ]
+  },
+  {
+    "index": 45,
+    "bbox": [
+      1933.7,
+      1188.4,
+      2149.8,
+      1255.2
+    ],
+    "text": "Ví dụ: BSV_ExWall_100_1231\n+ ExWall: Kí hiệu tường ngoài\n+100: Kí hiệu chiều dày tường\n+1231: thứ tự các lớp hoàn thiện: \nSơn trong-Trát trong-Trát ngoài-Sơn trong",
+    "lines": [
+      "Ví dụ: BSV_ExWall_100_1231",
+      "+ ExWall: Kí hiệu tường ngoài",
+      "+100: Kí hiệu chiều dày tường",
+      "+1231: thứ tự các lớp hoàn thiện:",
+      "Sơn trong-Trát trong-Trát ngoài-Sơn trong"
+    ]
+  },
+  {
+    "index": 46,
+    "bbox": [
+      1122.8,
+      1236.8,
+      1336.0,
+      1249.6
+    ],
+    "text": "E.1.1.1. Thông tin tường trong file template",
+    "lines": [
+      "E.1.1.1. Thông tin tường trong file template"
+    ]
+  },
+  {
+    "index": 47,
+    "bbox": [
+      1391.2,
+      1236.8,
+      1773.3,
+      1249.6
+    ],
+    "text": "- 5\nTrát kết cấu trong nhà",
+    "lines": [
+      "- 5",
+      "Trát kết cấu trong nhà"
+    ]
+  },
+  {
+    "index": 48,
+    "bbox": [
+      1391.2,
+      1268.3,
+      1774.1,
+      1281.1
+    ],
+    "text": "- 6\nTrát kết cấu ngoài nhà",
+    "lines": [
+      "- 6",
+      "Trát kết cấu ngoài nhà"
+    ]
+  },
+  {
+    "index": 49,
+    "bbox": [
+      1391.2,
+      1299.8,
+      1796.2,
+      1312.6
+    ],
+    "text": "- 7\nMài mịn kết cấu trong nhà",
+    "lines": [
+      "- 7",
+      "Mài mịn kết cấu trong nhà"
+    ]
+  },
+  {
+    "index": 50,
+    "bbox": [
+      854.2,
+      1330.2,
+      1061.8,
+      1343.0
+    ],
+    "text": "E.1.1. Phân biệt tường trong, tường ngoài",
+    "lines": [
+      "E.1.1. Phân biệt tường trong, tường ngoài"
+    ]
+  },
+  {
+    "index": 51,
+    "bbox": [
+      1391.2,
+      1331.3,
+      1797.0,
+      1344.1
+    ],
+    "text": "- 8\nMài mịn kết cấu ngoài nhà",
+    "lines": [
+      "- 8",
+      "Mài mịn kết cấu ngoài nhà"
+    ]
+  },
+  {
+    "index": 52,
+    "bbox": [
+      1391.2,
+      1362.8,
+      2067.8,
+      1375.6
+    ],
+    "text": "- 9\nLớp vật liệu trừ khối lượng sơn trên trần\nBSV_TruSonTrat_010_0900",
+    "lines": [
+      "- 9",
+      "Lớp vật liệu trừ khối lượng sơn trên trần",
+      "BSV_TruSonTrat_010_0900"
+    ]
+  },
+  {
+    "index": 53,
+    "bbox": [
+      1659.8,
+      1394.3,
+      1872.1,
+      1420.6
+    ],
+    "text": "- Base Contraint đặt đúng Level dưới của \ntường (Vách)",
+    "lines": [
+      "- Base Contraint đặt đúng Level dưới của",
+      "tường (Vách)"
+    ]
+  },
+  {
+    "index": 54,
+    "bbox": [
+      1122.8,
+      1423.6,
+      1522.5,
+      1436.4
+    ],
+    "text": "E.1.1.2. Quy cách vẽ\nE.1.1.2.1. Bắt buộc thực thi",
+    "lines": [
+      "E.1.1.2. Quy cách vẽ",
+      "E.1.1.2.1. Bắt buộc thực thi"
+    ]
+  },
+  {
+    "index": 55,
+    "bbox": [
+      1659.8,
+      1439.3,
+      1863.9,
+      1465.6
+    ],
+    "text": "- Top Contraint đặt đúng Level trên của \ntường vách",
+    "lines": [
+      "- Top Contraint đặt đúng Level trên của",
+      "tường vách"
+    ]
+  },
+  {
+    "index": 56,
+    "bbox": [
+      1659.8,
+      1484.3,
+      1873.9,
+      1524.1
+    ],
+    "text": "- Base Contraint đặt đúng Level dưới của \ntường (Vách) : luôn Offset cách mặt hoàn \nthiện nền +100",
+    "lines": [
+      "- Base Contraint đặt đúng Level dưới của",
+      "tường (Vách) : luôn Offset cách mặt hoàn",
+      "thiện nền +100"
+    ]
+  },
+  {
+    "index": 57,
+    "bbox": [
+      1122.8,
+      1513.6,
+      1322.0,
+      1539.9
+    ],
+    "text": "E.1.2.1. Vách Compact (Composite) cho \nphạm vi nhà vệ sinh",
+    "lines": [
+      "E.1.2.1. Vách Compact (Composite) cho",
+      "phạm vi nhà vệ sinh"
+    ]
+  },
+  {
+    "index": 58,
+    "bbox": [
+      1391.2,
+      1497.8,
+      1529.9,
+      1510.6
+    ],
+    "text": "E.1.2.1.1. Vách ngăn chia WC",
+    "lines": [
+      "E.1.2.1.1. Vách ngăn chia WC"
+    ]
+  },
+  {
+    "index": 59,
+    "bbox": [
+      1391.2,
+      1542.8,
+      1509.3,
+      1555.6
+    ],
+    "text": "E.1.2.1.2. Vách ngăn tiểu",
+    "lines": [
+      "E.1.2.1.2. Vách ngăn tiểu"
+    ]
+  },
+  {
+    "index": 60,
+    "bbox": [
+      587.2,
+      1546.2,
+      662.0,
+      1559.0
+    ],
+    "text": "E. Dựng tường",
+    "lines": [
+      "E. Dựng tường"
+    ]
+  },
+  {
+    "index": 61,
+    "bbox": [
+      1122.8,
+      1574.3,
+      1329.9,
+      1600.6
+    ],
+    "text": "E.1.2.2. Vách Panel (chia theo kích thước \nđúng)",
+    "lines": [
+      "E.1.2.2. Vách Panel (chia theo kích thước",
+      "đúng)"
+    ]
+  },
+  {
+    "index": 62,
+    "bbox": [
+      854.2,
+      1609.2,
+      1053.6,
+      1622.0
+    ],
+    "text": "E.1.2. Dựng các loại vách trong phạm vi",
+    "lines": [
+      "E.1.2. Dựng các loại vách trong phạm vi"
+    ]
+  },
+  {
+    "index": 63,
+    "bbox": [
+      1122.8,
+      1632.8,
+      1319.6,
+      1659.1
+    ],
+    "text": "E.1.2.3. Vách Thạch cao (chia theo kích \nthước đúng)",
+    "lines": [
+      "E.1.2.3. Vách Thạch cao (chia theo kích",
+      "thước đúng)"
+    ]
+  },
+  {
+    "index": 64,
+    "bbox": [
+      1391.2,
+      1619.3,
+      1612.4,
+      1672.6
+    ],
+    "text": "Kiểm tra đúng các loại vách và cấu tạo các \nlớp hoàn thiện, dựng đúng khối lượng\n- mặt che khuất, không thể thi công sẽ k \nhoàn thiện",
+    "lines": [
+      "Kiểm tra đúng các loại vách và cấu tạo các",
+      "lớp hoàn thiện, dựng đúng khối lượng",
+      "- mặt che khuất, không thể thi công sẽ k",
+      "hoàn thiện"
+    ]
+  },
+  {
+    "index": 65,
+    "bbox": [
+      1122.8,
+      1691.3,
+      1863.9,
+      1717.6
+    ],
+    "text": "E.1.2.4. Quy cách vẽ\nE.1.1.2.1. Bắt buộc thực thi \n- Top Contraint đặt đúng Level trên của \ntường (Vách)",
+    "lines": [
+      "E.1.2.4. Quy cách vẽ",
+      "E.1.1.2.1. Bắt buộc thực thi",
+      "- Top Contraint đặt đúng Level trên của",
+      "tường (Vách)"
+    ]
+  },
+  {
+    "index": 66,
+    "bbox": [
+      1122.8,
+      1736.3,
+      1347.3,
+      1762.6
+    ],
+    "text": "BSV_Arch_DieuChinhOffsetTuongtheoKetC\nau",
+    "lines": [
+      "BSV_Arch_DieuChinhOffsetTuongtheoKetC",
+      "au"
+    ]
+  },
+  {
+    "index": 67,
+    "bbox": [
+      854.2,
+      1755.5,
+      1060.9,
+      1781.8
+    ],
+    "text": "E.1.3. Kiểm soát lại các mục va chạm với \nkết cấu bằng tool",
+    "lines": [
+      "E.1.3. Kiểm soát lại các mục va chạm với",
+      "kết cấu bằng tool"
+    ]
+  },
+  {
+    "index": 68,
+    "bbox": [
+      1122.8,
+      1781.3,
+      1315.4,
+      1794.1
+    ],
+    "text": "BSV_Arch_GiaoCatTuongtheoKetCau",
+    "lines": [
+      "BSV_Arch_GiaoCatTuongtheoKetCau"
+    ]
+  },
+  {
+    "index": 69,
+    "bbox": [
+      854.2,
+      1811.3,
+      1043.6,
+      1824.1
+    ],
+    "text": "F.1. Set tên Room đúng với mặt bằng",
+    "lines": [
+      "F.1. Set tên Room đúng với mặt bằng"
+    ]
+  },
+  {
+    "index": 70,
+    "bbox": [
+      587.2,
+      1830.5,
+      746.5,
+      1843.3
+    ],
+    "text": "F. Set Room cho toàn bộ dự án",
+    "lines": [
+      "F. Set Room cho toàn bộ dự án"
+    ]
+  },
+  {
+    "index": 71,
+    "bbox": [
+      854.2,
+      1842.8,
+      1054.5,
+      1869.1
+    ],
+    "text": "F.2. Set Ceiling Height đúng với cao độ \nhoàn thiện trần",
+    "lines": [
+      "F.2. Set Ceiling Height đúng với cao độ",
+      "hoàn thiện trần"
+    ]
+  },
+  {
+    "index": 72,
+    "bbox": [
+      854.2,
+      1886.3,
+      1049.2,
+      1899.1
+    ],
+    "text": "G.1.1. Dựng sàn bằng Atool theo Room",
+    "lines": [
+      "G.1.1. Dựng sàn bằng Atool theo Room"
+    ]
+  },
+  {
+    "index": 73,
+    "bbox": [
+      587.2,
+      1905.5,
+      675.2,
+      1918.3
+    ],
+    "text": "G. Dựng sàn, trần",
+    "lines": [
+      "G. Dựng sàn, trần"
+    ]
+  },
+  {
+    "index": 74,
+    "bbox": [
+      854.2,
+      1917.8,
+      1058.2,
+      1944.1
+    ],
+    "text": "G.1.2. Dựng trần bằng sàn đã tạo ở mục \nG.1.1.",
+    "lines": [
+      "G.1.2. Dựng trần bằng sàn đã tạo ở mục",
+      "G.1.1."
+    ]
+  },
+  {
+    "index": 75,
+    "bbox": [
+      587.2,
+      1961.3,
+      731.0,
+      1974.1
+    ],
+    "text": "H. Dựng tất cả cửa đi cửa sổ",
+    "lines": [
+      "H. Dựng tất cả cửa đi cửa sổ"
+    ]
+  },
+  {
+    "index": 76,
+    "bbox": [
+      854.2,
+      1991.3,
+      1018.1,
+      2004.1
+    ],
+    "text": "I.1. Dựng bằng Atool cho lanh tô",
+    "lines": [
+      "I.1. Dựng bằng Atool cho lanh tô"
+    ]
+  },
+  {
+    "index": 77,
+    "bbox": [
+      854.2,
+      2022.8,
+      1026.0,
+      2049.1
+    ],
+    "text": "I.2. Dựng bổ trụ bằng Tool: \nBSV_Arch_BoTriBoTruTuDong_V2",
+    "lines": [
+      "I.2. Dựng bổ trụ bằng Tool:",
+      "BSV_Arch_BoTriBoTruTuDong_V2"
+    ]
+  },
+  {
+    "index": 78,
+    "bbox": [
+      1122.8,
+      2067.8,
+      1300.9,
+      2080.6
+    ],
+    "text": "BSV_Arch_RaiGiangDinhTuong_V1",
+    "lines": [
+      "BSV_Arch_RaiGiangDinhTuong_V1"
+    ]
+  },
+  {
+    "index": 79,
+    "bbox": [
+      587.2,
+      2096.0,
+      767.8,
+      2108.8
+    ],
+    "text": "I. Dựng lanh tô, bổ trụ, giằng tường",
+    "lines": [
+      "I. Dựng lanh tô, bổ trụ, giằng tường"
+    ]
+  },
+  {
+    "index": 80,
+    "bbox": [
+      1122.8,
+      2099.3,
+      1303.3,
+      2112.1
+    ],
+    "text": "BSV_Arch_RaiGiangChanTuong_V1",
+    "lines": [
+      "BSV_Arch_RaiGiangChanTuong_V1"
+    ]
+  },
+  {
+    "index": 81,
+    "bbox": [
+      854.2,
+      2115.1,
+      1061.9,
+      2127.9
+    ],
+    "text": "I.3. Dựng các loại giằng tường bằng tool:",
+    "lines": [
+      "I.3. Dựng các loại giằng tường bằng tool:"
+    ]
+  },
+  {
+    "index": 82,
+    "bbox": [
+      1122.8,
+      2130.8,
+      1276.0,
+      2143.6
+    ],
+    "text": "BSV_Arch_RaiGiangTuong_V1",
+    "lines": [
+      "BSV_Arch_RaiGiangTuong_V1"
+    ]
+  },
+  {
+    "index": 83,
+    "bbox": [
+      1122.8,
+      2162.3,
+      1328.4,
+      2175.1
+    ],
+    "text": "BSV_Arch_RaiGiangDinhTuongKCua_V1",
+    "lines": [
+      "BSV_Arch_RaiGiangDinhTuongKCua_V1"
+    ]
+  },
+  {
+    "index": 84,
+    "bbox": [
+      854.2,
+      2193.8,
+      1048.6,
+      2220.1
+    ],
+    "text": "I.4. Tính KL thép lanh tô, bổ trụ, giằng \ntường",
+    "lines": [
+      "I.4. Tính KL thép lanh tô, bổ trụ, giằng",
+      "tường"
+    ]
+  },
+  {
+    "index": 85,
+    "bbox": [
+      587.2,
+      2237.3,
+      1072.2,
+      2263.6
+    ],
+    "text": "K. Dựng các lớp hoàn thiện theo Room\nK.1. Dựng các lớp chống thấm, hoàn thiện \ntường bằng Atool",
+    "lines": [
+      "K. Dựng các lớp hoàn thiện theo Room",
+      "K.1. Dựng các lớp chống thấm, hoàn thiện",
+      "tường bằng Atool"
+    ]
+  },
+  {
+    "index": 86,
+    "bbox": [
+      854.2,
+      2280.8,
+      1074.0,
+      2320.6
+    ],
+    "text": "L.1. Chạy tool: \nBSV_Arch_HoanThienCotTranKetCauDung\nSan_V1",
+    "lines": [
+      "L.1. Chạy tool:",
+      "BSV_Arch_HoanThienCotTranKetCauDung",
+      "San_V1"
+    ]
+  },
+  {
+    "index": 87,
+    "bbox": [
+      1391.2,
+      2339.3,
+      1614.3,
+      2379.1
+    ],
+    "text": "B1. Mở view 3D (1) full không ẩn cấu kiện gì \nhết, chạy tool joint tường với cột, tường với \ndầm",
+    "lines": [
+      "B1. Mở view 3D (1) full không ẩn cấu kiện gì",
+      "hết, chạy tool joint tường với cột, tường với",
+      "dầm"
+    ]
+  },
+  {
+    "index": 88,
+    "bbox": [
+      1391.2,
+      2397.8,
+      1612.4,
+      2437.6
+    ],
+    "text": "B2. quét chọn trong view 3D (1) đó toàn bộ \ncategories cột, dầm, special equipment \n(ván khuôn LTBT) => ẩn bằng lệnh EH",
+    "lines": [
+      "B2. quét chọn trong view 3D (1) đó toàn bộ",
+      "categories cột, dầm, special equipment",
+      "(ván khuôn LTBT) => ẩn bằng lệnh EH"
+    ]
+  },
+  {
+    "index": 89,
+    "bbox": [
+      1391.2,
+      2456.3,
+      1611.5,
+      2509.6
+    ],
+    "text": "B3. tạo 1 3D view mới có tên View KC (2), \ntạo filter cho parameter BSV_XuongChinh \n: TenXuong_KC => chọn filter contain cho \nparameter BSV_XuongChinh với KC",
+    "lines": [
+      "B3. tạo 1 3D view mới có tên View KC (2),",
+      "tạo filter cho parameter BSV_XuongChinh",
+      ": TenXuong_KC => chọn filter contain cho",
+      "parameter BSV_XuongChinh với KC"
+    ]
+  },
+  {
+    "index": 90,
+    "bbox": [
+      1391.2,
+      2528.3,
+      1603.1,
+      2581.6
+    ],
+    "text": "B4. vào view 3D (1) HI (isolate) file kết cấu \ncần convert => chạy tool \nConvertlinktomodel dynamo trong sever \nđể conver file link",
+    "lines": [
+      "B4. vào view 3D (1) HI (isolate) file kết cấu",
+      "cần convert => chạy tool",
+      "Convertlinktomodel dynamo trong sever",
+      "để conver file link"
+    ]
+  },
+  {
+    "index": 91,
+    "bbox": [
+      587.2,
+      2537.9,
+      710.0,
+      2550.7
+    ],
+    "text": "L. KL hoàn thiện kết cấu",
+    "lines": [
+      "L. KL hoàn thiện kết cấu"
+    ]
+  },
+  {
+    "index": 92,
+    "bbox": [
+      1391.2,
+      2600.3,
+      1599.3,
+      2653.6
+    ],
+    "text": "B5. Convert xong quét chọn toàn bộ đối \ntượng đã convert trong view 3D (1) gắn \nbiến cho parameter BSV_XuongChinh : \nTenXuong_KC",
+    "lines": [
+      "B5. Convert xong quét chọn toàn bộ đối",
+      "tượng đã convert trong view 3D (1) gắn",
+      "biến cho parameter BSV_XuongChinh :",
+      "TenXuong_KC"
+    ]
+  },
+  {
+    "index": 93,
+    "bbox": [
+      330.0,
+      2639.2,
+      531.2,
+      2672.2
+    ],
+    "text": "Step 3: Triển khai dựng Model \ntrên Central file",
+    "lines": [
+      "Step 3: Triển khai dựng Model",
+      "trên Central file"
+    ]
+  },
+  {
+    "index": 94,
+    "bbox": [
+      1391.2,
+      2672.3,
+      1611.5,
+      2698.6
+    ],
+    "text": "B6. qua view 3D (2) quét chọn toàn bộ ván \nkhuôn => xóa",
+    "lines": [
+      "B6. qua view 3D (2) quét chọn toàn bộ ván",
+      "khuôn => xóa"
+    ]
+  },
+  {
+    "index": 95,
+    "bbox": [
+      1926.0,
+      2717.3,
+      2060.5,
+      2784.1
+    ],
+    "text": "Code phân biệt tính chất: \nEx : mặt ngoài, \nIn: mặt trong, \nCe: trần, \nSt: thang , tam cấp",
+    "lines": [
+      "Code phân biệt tính chất:",
+      "Ex : mặt ngoài,",
+      "In: mặt trong,",
+      "Ce: trần,",
+      "St: thang , tam cấp"
+    ]
+  },
+  {
+    "index": 96,
+    "bbox": [
+      854.2,
+      2774.7,
+      1061.7,
+      2801.0
+    ],
+    "text": "L.2. Sử dụng lớp special equipment làm \nlớp hoàn thiện",
+    "lines": [
+      "L.2. Sử dụng lớp special equipment làm",
+      "lớp hoàn thiện"
+    ]
+  },
+  {
+    "index": 97,
+    "bbox": [
+      1122.8,
+      2774.7,
+      1346.5,
+      2801.0
+    ],
+    "text": "Cần thực hiện đúng các bước theo trình tự \nđể không bị rối thông tin",
+    "lines": [
+      "Cần thực hiện đúng các bước theo trình tự",
+      "để không bị rối thông tin"
+    ]
+  },
+  {
+    "index": 98,
+    "bbox": [
+      1926.0,
+      2802.8,
+      2150.8,
+      2950.6
+    ],
+    "text": "+ 1: \nCode này áp dụng cho công tác trát kết \ncấu cùng mặt với tường xây hoặc phần \ndiện tích kết cấu nhỏ nằm trong room sẽ \nđược cộng vào khối lượng trát tường xây\nví dụ: \n1.In(Ex). \nTratTrongSonTrong(TratNgoaiSonNgoai/Trat\nNgoaiSonTrong...) :hiểu là hoàn thiện kết \ncấu trát trong sơn trong sẽ được cộng vào \nkhối lượng trát tường trong, sơn tường \ntrong, áp dụng cho cả phần lanh tô bổ trụ",
+    "lines": [
+      "+ 1:",
+      "Code này áp dụng cho công tác trát kết",
+      "cấu cùng mặt với tường xây hoặc phần",
+      "diện tích kết cấu nhỏ nằm trong room sẽ",
+      "được cộng vào khối lượng trát tường xây",
+      "ví dụ:",
+      "1.In(Ex).",
+      "TratTrongSonTrong(TratNgoaiSonNgoai/Trat",
+      "NgoaiSonTrong...) :hiểu là hoàn thiện kết",
+      "cấu trát trong sơn trong sẽ được cộng vào",
+      "khối lượng trát tường trong, sơn tường",
+      "trong, áp dụng cho cả phần lanh tô bổ trụ"
+    ]
+  },
+  {
+    "index": 99,
+    "bbox": [
+      1926.0,
+      2969.3,
+      2150.8,
+      3184.6
+    ],
+    "text": "+ 2: \nCode này áp dụng cho công tác trát/mài \nkết cấu, sẽ tách ra đầu mục trát/mài kết \ncấu riêng nếu BoQ không có. Cấu kiện \nthường dùng: Chân tường ngoài nhà bằng \nbê tông, vách parapet mái, Vách bê tông, \nVách bể . . .\nví dụ: 2.Ex(In). \nTratNgoaiSonNgoai(TratTrongSonTrong/Mai\nNgoaiSonNgoai/MaiTrongSonTrong/MaiTro\nng/MaiNgoai/TratTrong/TratNgoai): \nhiểu là hoàn thiện kết cấu trát/mài \nngoài(trong) sơn ngoài(trong) khối lượng \nnày là đầu mục công tác riêng, sơn \nngoài(trong) được cộng vào khối lượng sơn \ntường ngoài(trong)",
+    "lines": [
+      "+ 2:",
+      "Code này áp dụng cho công tác trát/mài",
+      "kết cấu, sẽ tách ra đầu mục trát/mài kết",
+      "cấu riêng nếu BoQ không có. Cấu kiện",
+      "thường dùng: Chân tường ngoài nhà bằng",
+      "bê tông, vách parapet mái, Vách bê tông,",
+      "Vách bể . . .",
+      "ví dụ: 2.Ex(In).",
+      "TratNgoaiSonNgoai(TratTrongSonTrong/Mai",
+      "NgoaiSonNgoai/MaiTrongSonTrong/MaiTro",
+      "ng/MaiNgoai/TratTrong/TratNgoai):",
+      "hiểu là hoàn thiện kết cấu trát/mài",
+      "ngoài(trong) sơn ngoài(trong) khối lượng",
+      "này là đầu mục công tác riêng, sơn",
+      "ngoài(trong) được cộng vào khối lượng sơn",
+      "tường ngoài(trong)"
+    ]
+  },
+  {
+    "index": 100,
+    "bbox": [
+      1391.2,
+      3189.8,
+      1615.7,
+      3243.1
+    ],
+    "text": "B7. qua view 3D (1) dùng lệnh HR để hiện \nthị toàn bộ tường lên => chạy ván khuôn lại \ncho kết cấu và lấy phần này làm hoàn \nthiện kết cấu",
+    "lines": [
+      "B7. qua view 3D (1) dùng lệnh HR để hiện",
+      "thị toàn bộ tường lên => chạy ván khuôn lại",
+      "cho kết cấu và lấy phần này làm hoàn",
+      "thiện kết cấu"
+    ]
+  },
+  {
+    "index": 101,
+    "bbox": [
+      1659.8,
+      3196.6,
+      1872.8,
+      3236.4
+    ],
+    "text": "Nguyên tắc gán giá trị cho parameter: \nLuôn tập trung vào code đầu tiên để gán \ngiá trị",
+    "lines": [
+      "Nguyên tắc gán giá trị cho parameter:",
+      "Luôn tập trung vào code đầu tiên để gán",
+      "giá trị"
+    ]
+  },
+  {
+    "index": 102,
+    "bbox": [
+      1926.0,
+      3203.3,
+      2150.5,
+      3324.1
+    ],
+    "text": "+ 3: \nCode này áp dụng cho 2 mặt bên hông FW \nBEAM SIDE của dầm trần kết cấu có thể là \ntrát hoặc mài tùy theo thông tin bản vẽ\nví dụ: 3.Ce. TratTranSonTran : hiểu là hoàn \nthiện trát/mài 2 mặt bên của dầm trần kết \ncấu , khối lượng này sẽ được cộng vào KL \nhoàn thiện trần, khối lượng sơn được cộng \nvào sơn trần",
+    "lines": [
+      "+ 3:",
+      "Code này áp dụng cho 2 mặt bên hông FW",
+      "BEAM SIDE của dầm trần kết cấu có thể là",
+      "trát hoặc mài tùy theo thông tin bản vẽ",
+      "ví dụ: 3.Ce. TratTranSonTran : hiểu là hoàn",
+      "thiện trát/mài 2 mặt bên của dầm trần kết",
+      "cấu , khối lượng này sẽ được cộng vào KL",
+      "hoàn thiện trần, khối lượng sơn được cộng",
+      "vào sơn trần"
+    ]
+  },
+  {
+    "index": 103,
+    "bbox": [
+      1926.0,
+      3342.8,
+      2149.8,
+      3436.6
+    ],
+    "text": "+ 4: \nCode này áp dụng cho 1 mặt đáy dầm trần, \nvà mặt đáy sàn trần kết cấu\nví dụ: 4.Ce. TratTranSonTran: hiểu là hoàn \nthiện trát/mài trần kết cấu, khối lượng này \ncộng vào kl hoàn thiện trần, kl sơn được \ncộng vào sơn trần",
+    "lines": [
+      "+ 4:",
+      "Code này áp dụng cho 1 mặt đáy dầm trần,",
+      "và mặt đáy sàn trần kết cấu",
+      "ví dụ: 4.Ce. TratTranSonTran: hiểu là hoàn",
+      "thiện trát/mài trần kết cấu, khối lượng này",
+      "cộng vào kl hoàn thiện trần, kl sơn được",
+      "cộng vào sơn trần"
+    ]
+  },
+  {
+    "index": 104,
+    "bbox": [
+      1926.0,
+      3455.3,
+      2144.5,
+      3603.1
+    ],
+    "text": "+ 5: \nCode này áp dụng cho mặt đáy và mặt \ncạnh thang bộ, tam cấp\nví dụ: 5.St. TratThangSonThang, 6.St. \nMaiThangSonThang: hiểu là hoàn thiện \nthang kết cấu trát/mài, khối lượng này \ncộng vào kl hoàn thiện thang bộ/tam cấp, \nkl sơn được cộng vào sơn thang, nếu \nkhông có mục sơn thang trong BoQ thì \ncộng vào sơn trần. đối với tam cấp sơn sẽ \ncộng vào sơn tường ngoài",
+    "lines": [
+      "+ 5:",
+      "Code này áp dụng cho mặt đáy và mặt",
+      "cạnh thang bộ, tam cấp",
+      "ví dụ: 5.St. TratThangSonThang, 6.St.",
+      "MaiThangSonThang: hiểu là hoàn thiện",
+      "thang kết cấu trát/mài, khối lượng này",
+      "cộng vào kl hoàn thiện thang bộ/tam cấp,",
+      "kl sơn được cộng vào sơn thang, nếu",
+      "không có mục sơn thang trong BoQ thì",
+      "cộng vào sơn trần. đối với tam cấp sơn sẽ",
+      "cộng vào sơn tường ngoài"
+    ]
+  },
+  {
+    "index": 105,
+    "bbox": [
+      1926.0,
+      3635.3,
+      2143.2,
+      3729.1
+    ],
+    "text": "+ 6: \nCode này áp dụng cho mặt bậc thang bộ, \ntam cấp\nví dụ: 6.Fs. (vật liệu hoàn thiện thang bộ \nviết hoa chữ đầu: hiểu là hoàn thiện mặt \nbậc thang bộ/tam cấp. bao gồm luôn \nchiếu tới nếu có.",
+    "lines": [
+      "+ 6:",
+      "Code này áp dụng cho mặt bậc thang bộ,",
+      "tam cấp",
+      "ví dụ: 6.Fs. (vật liệu hoàn thiện thang bộ",
+      "viết hoa chữ đầu: hiểu là hoàn thiện mặt",
+      "bậc thang bộ/tam cấp. bao gồm luôn",
+      "chiếu tới nếu có."
+    ]
+  },
+  {
+    "index": 106,
+    "bbox": [
+      587.2,
+      3746.3,
+      787.3,
+      3772.6
+    ],
+    "text": "M. những đầu mục KL nhỏ sẽ bóc trên \nAutocad",
+    "lines": [
+      "M. những đầu mục KL nhỏ sẽ bóc trên",
+      "Autocad"
+    ]
+  },
+  {
+    "index": 107,
+    "bbox": [
+      587.2,
+      3811.6,
+      808.2,
+      3864.9
+    ],
+    "text": "N. Đọc kỹ BoQ của chủ đầu tư => Set up lại \nkhung của bảng thống kê theo cây thư \nmục phù hợp với cấu tạo BoQ để tiện cho \nviệc nhập khối lượng",
+    "lines": [
+      "N. Đọc kỹ BoQ của chủ đầu tư => Set up lại",
+      "khung của bảng thống kê theo cây thư",
+      "mục phù hợp với cấu tạo BoQ để tiện cho",
+      "việc nhập khối lượng"
+    ]
+  },
+  {
+    "index": 108,
+    "bbox": [
+      587.2,
+      3882.1,
+      809.8,
+      3921.9
+    ],
+    "text": "O. Gán thông tin vào parameter của các \nđối tượng theo filter của bảng thống kê đã \ntạo ở mục N",
+    "lines": [
+      "O. Gán thông tin vào parameter của các",
+      "đối tượng theo filter của bảng thống kê đã",
+      "tạo ở mục N"
+    ]
+  },
+  {
+    "index": 109,
+    "bbox": [
+      61.7,
+      3885.6,
+      242.8,
+      3907.5
+    ],
+    "text": "BSV_Arch_Working",
+    "lines": [
+      "BSV_Arch_Working"
+    ]
+  },
+  {
+    "index": 110,
+    "bbox": [
+      117.9,
+      3907.3,
+      186.6,
+      3929.3
+    ],
+    "text": "process",
+    "lines": [
+      "process"
+    ]
+  },
+  {
+    "index": 111,
+    "bbox": [
+      587.2,
+      3939.1,
+      799.0,
+      3965.4
+    ],
+    "text": "P. Kiểm tra từ bảng thống kê và mô hình \nđể đảm bảo k sót đối tượng",
+    "lines": [
+      "P. Kiểm tra từ bảng thống kê và mô hình",
+      "để đảm bảo k sót đối tượng"
+    ]
+  },
+  {
+    "index": 112,
+    "bbox": [
+      1122.8,
+      3982.6,
+      1282.6,
+      3995.4
+    ],
+    "text": "NOTE: Bảng thống kê Quatities",
+    "lines": [
+      "NOTE: Bảng thống kê Quatities"
+    ]
+  },
+  {
+    "index": 113,
+    "bbox": [
+      1122.8,
+      4014.1,
+      1449.2,
+      4026.9
+    ],
+    "text": "0.1.1. Comments\nTuongVach",
+    "lines": [
+      "0.1.1. Comments",
+      "TuongVach"
+    ]
+  },
+  {
+    "index": 114,
+    "bbox": [
+      1391.2,
+      4045.6,
+      1615.5,
+      4098.9
+    ],
+    "text": "Note ghi lại mô tả đối tượng được chia \ntrong BoQ (Tùy dự án sẽ có những đối \ntượng khác nhau) ghi hoa chữ cái đầu tiên: \nví dụ VachThachCao, TuongTrong . . .",
+    "lines": [
+      "Note ghi lại mô tả đối tượng được chia",
+      "trong BoQ (Tùy dự án sẽ có những đối",
+      "tượng khác nhau) ghi hoa chữ cái đầu tiên:",
+      "ví dụ VachThachCao, TuongTrong . . ."
+    ]
+  },
+  {
+    "index": 115,
+    "bbox": [
+      1122.8,
+      4065.8,
+      1174.6,
+      4078.6
+    ],
+    "text": "0.1.2. Note",
+    "lines": [
+      "0.1.2. Note"
+    ]
+  },
+  {
+    "index": 116,
+    "bbox": [
+      1122.8,
+      4117.6,
+      1593.6,
+      4143.9
+    ],
+    "text": "0.1.3. BSV_PhanKhu \nPhân khu xưởng hoặc hạng mục khác: \n\"Khu cần phân\"",
+    "lines": [
+      "0.1.3. BSV_PhanKhu",
+      "Phân khu xưởng hoặc hạng mục khác:",
+      "\"Khu cần phân\""
+    ]
+  },
+  {
+    "index": 117,
+    "bbox": [
+      1122.8,
+      4162.6,
+      1590.4,
+      4188.9
+    ],
+    "text": "0.1.4. BSV_XuongChinh\nĐặt tên xưởng để phân xưởng cho file \ncombine: \"tên xưởng\"",
+    "lines": [
+      "0.1.4. BSV_XuongChinh",
+      "Đặt tên xưởng để phân xưởng cho file",
+      "combine: \"tên xưởng\""
+    ]
+  },
+  {
+    "index": 118,
+    "bbox": [
+      854.2,
+      4202.4,
+      924.9,
+      4215.2
+    ],
+    "text": "0.1. Tường xây",
+    "lines": [
+      "0.1. Tường xây"
+    ]
+  },
+  {
+    "index": 119,
+    "bbox": [
+      1122.8,
+      4422.3,
+      1223.5,
+      4435.1
+    ],
+    "text": "Hình ảnh minh họa",
+    "lines": [
+      "Hình ảnh minh họa"
+    ]
+  },
+  {
+    "index": 120,
+    "bbox": [
+      1391.2,
+      4483.2,
+      1415.0,
+      4496.0
+    ],
+    "text": "filter",
+    "lines": [
+      "filter"
+    ]
+  },
+  {
+    "index": 121,
+    "bbox": [
+      1391.2,
+      4648.6,
+      1427.3,
+      4661.4
+    ],
+    "text": "sorting",
+    "lines": [
+      "sorting"
+    ]
+  },
+  {
+    "index": 122,
+    "bbox": [
+      1659.8,
+      4740.9,
+      1858.1,
+      4753.7
+    ],
+    "text": "Material Name: TruKLHoanThienTuong",
+    "lines": [
+      "Material Name: TruKLHoanThienTuong"
+    ]
+  },
+  {
+    "index": 123,
+    "bbox": [
+      1926.0,
+      4727.4,
+      2144.5,
+      4767.2
+    ],
+    "text": "Phần kl dùng để trừ ra những vị trí k hoàn \nthiện sơn hoặc trát, hoặc cả 2. ghi chú ở \nNote",
+    "lines": [
+      "Phần kl dùng để trừ ra những vị trí k hoàn",
+      "thiện sơn hoặc trát, hoặc cả 2. ghi chú ở",
+      "Note"
+    ]
+  },
+  {
+    "index": 124,
+    "bbox": [
+      854.2,
+      4901.6,
+      1278.2,
+      4914.4
+    ],
+    "text": "0.2. Khối lượng hoàn thiện tường\nNOTE: Bảng thống kê Material",
+    "lines": [
+      "0.2. Khối lượng hoàn thiện tường",
+      "NOTE: Bảng thống kê Material"
+    ]
+  },
+  {
+    "index": 125,
+    "bbox": [
+      1391.2,
+      4964.5,
+      1415.0,
+      4977.3
+    ],
+    "text": "filter",
+    "lines": [
+      "filter"
+    ]
+  },
+  {
+    "index": 126,
+    "bbox": [
+      1391.2,
+      5128.8,
+      1427.3,
+      5141.6
+    ],
+    "text": "sorting",
+    "lines": [
+      "sorting"
+    ]
+  },
+  {
+    "index": 127,
+    "bbox": [
+      1122.8,
+      5160.3,
+      1282.6,
+      5173.1
+    ],
+    "text": "NOTE: Bảng thống kê Quatities",
+    "lines": [
+      "NOTE: Bảng thống kê Quatities"
+    ]
+  },
+  {
+    "index": 128,
+    "bbox": [
+      1122.8,
+      5191.8,
+      1466.5,
+      5204.6
+    ],
+    "text": "0.1.1. Comments\nHoanThienSan",
+    "lines": [
+      "0.1.1. Comments",
+      "HoanThienSan"
+    ]
+  },
+  {
+    "index": 129,
+    "bbox": [
+      1122.8,
+      5223.3,
+      1598.7,
+      5249.6
+    ],
+    "text": "0.1.2. Note\n\"Tên loại sàn hoặc phạm vi sàn cần tách \ntheo BoQ\"",
+    "lines": [
+      "0.1.2. Note",
+      "\"Tên loại sàn hoặc phạm vi sàn cần tách",
+      "theo BoQ\""
+    ]
+  },
+  {
+    "index": 130,
+    "bbox": [
+      1122.8,
+      5268.3,
+      1593.6,
+      5294.6
+    ],
+    "text": "0.1.3. BSV_PhanKhu \nPhân khu xưởng hoặc hạng mục khác: \n\"Khu cần phân\"",
+    "lines": [
+      "0.1.3. BSV_PhanKhu",
+      "Phân khu xưởng hoặc hạng mục khác:",
+      "\"Khu cần phân\""
+    ]
+  },
+  {
+    "index": 131,
+    "bbox": [
+      1122.8,
+      5313.3,
+      1590.4,
+      5339.6
+    ],
+    "text": "0.1.4. BSV_XuongChinh\nĐặt tên xưởng để phân xưởng cho file \ncombine: \"tên xưởng\"",
+    "lines": [
+      "0.1.4. BSV_XuongChinh",
+      "Đặt tên xưởng để phân xưởng cho file",
+      "combine: \"tên xưởng\""
+    ]
+  },
+  {
+    "index": 132,
+    "bbox": [
+      854.2,
+      5333.7,
+      953.1,
+      5346.5
+    ],
+    "text": "0.7. Sàn hoàn thiện",
+    "lines": [
+      "0.7. Sàn hoàn thiện"
+    ]
+  },
+  {
+    "index": 133,
+    "bbox": [
+      1122.8,
+      5507.1,
+      1223.5,
+      5519.9
+    ],
+    "text": "Hình ảnh minh họa",
+    "lines": [
+      "Hình ảnh minh họa"
+    ]
+  },
+  {
+    "index": 134,
+    "bbox": [
+      1391.2,
+      5536.5,
+      1415.0,
+      5549.3
+    ],
+    "text": "filter",
+    "lines": [
+      "filter"
+    ]
+  },
+  {
+    "index": 135,
+    "bbox": [
+      1391.2,
+      5701.8,
+      1427.3,
+      5714.6
+    ],
+    "text": "sorting",
+    "lines": [
+      "sorting"
+    ]
+  },
+  {
+    "index": 136,
+    "bbox": [
+      1122.8,
+      5733.3,
+      1282.6,
+      5746.1
+    ],
+    "text": "NOTE: Bảng thống kê Quatities",
+    "lines": [
+      "NOTE: Bảng thống kê Quatities"
+    ]
+  },
+  {
+    "index": 137,
+    "bbox": [
+      1122.8,
+      5764.8,
+      1468.8,
+      5777.6
+    ],
+    "text": "0.1.1. Comments\nHoanThienTran",
+    "lines": [
+      "0.1.1. Comments",
+      "HoanThienTran"
+    ]
+  },
+  {
+    "index": 138,
+    "bbox": [
+      1122.8,
+      5796.3,
+      1604.9,
+      5822.6
+    ],
+    "text": "0.1.2. Note\n\"Tên loại trần hoặc phạm vi trần cần tách \ntheo BoQ\"",
+    "lines": [
+      "0.1.2. Note",
+      "\"Tên loại trần hoặc phạm vi trần cần tách",
+      "theo BoQ\""
+    ]
+  },
+  {
+    "index": 139,
+    "bbox": [
+      1122.8,
+      5841.3,
+      1593.6,
+      5867.6
+    ],
+    "text": "0.1.3. BSV_PhanKhu \nPhân khu xưởng hoặc hạng mục khác: \n\"Khu cần phân\"",
+    "lines": [
+      "0.1.3. BSV_PhanKhu",
+      "Phân khu xưởng hoặc hạng mục khác:",
+      "\"Khu cần phân\""
+    ]
+  },
+  {
+    "index": 140,
+    "bbox": [
+      854.2,
+      5882.5,
+      955.9,
+      5895.3
+    ],
+    "text": "0.7. Trần hoàn thiện",
+    "lines": [
+      "0.7. Trần hoàn thiện"
+    ]
+  },
+  {
+    "index": 141,
+    "bbox": [
+      1122.8,
+      5886.3,
+      1590.4,
+      5912.6
+    ],
+    "text": "0.1.4. BSV_XuongChinh\nĐặt tên xưởng để phân xưởng cho file \ncombine: \"tên xưởng\"",
+    "lines": [
+      "0.1.4. BSV_XuongChinh",
+      "Đặt tên xưởng để phân xưởng cho file",
+      "combine: \"tên xưởng\""
+    ]
+  },
+  {
+    "index": 142,
+    "bbox": [
+      1122.8,
+      6026.2,
+      1415.0,
+      6044.4
+    ],
+    "text": "Hình ảnh minh họa\nfilter",
+    "lines": [
+      "Hình ảnh minh họa",
+      "filter"
+    ]
+  },
+  {
+    "index": 143,
+    "bbox": [
+      1391.2,
+      6190.5,
+      1427.3,
+      6203.3
+    ],
+    "text": "sorting",
+    "lines": [
+      "sorting"
+    ]
+  },
+  {
+    "index": 144,
+    "bbox": [
+      1122.8,
+      6222.0,
+      1307.7,
+      6234.8
+    ],
+    "text": "NOTE: Bảng thống kê Multi Material",
+    "lines": [
+      "NOTE: Bảng thống kê Multi Material"
+    ]
+  },
+  {
+    "index": 145,
+    "bbox": [
+      1122.8,
+      6253.5,
+      1454.7,
+      6266.3
+    ],
+    "text": "0.1.1. Comments\nChongTham",
+    "lines": [
+      "0.1.1. Comments",
+      "ChongTham"
+    ]
+  },
+  {
+    "index": 146,
+    "bbox": [
+      1122.8,
+      6285.0,
+      1612.7,
+      6311.3
+    ],
+    "text": "0.1.2. Note\n\"Tên loại chống thấm hoặc phạm vi chống \nthấm cần tách theo BoQ\"",
+    "lines": [
+      "0.1.2. Note",
+      "\"Tên loại chống thấm hoặc phạm vi chống",
+      "thấm cần tách theo BoQ\""
+    ]
+  },
+  {
+    "index": 147,
+    "bbox": [
+      1122.8,
+      6330.0,
+      1593.6,
+      6356.3
+    ],
+    "text": "0.1.3. BSV_PhanKhu \nPhân khu xưởng hoặc hạng mục khác: \n\"Khu cần phân\"",
+    "lines": [
+      "0.1.3. BSV_PhanKhu",
+      "Phân khu xưởng hoặc hạng mục khác:",
+      "\"Khu cần phân\""
+    ]
+  },
+  {
+    "index": 148,
+    "bbox": [
+      854.2,
+      6375.9,
+      940.9,
+      6388.7
+    ],
+    "text": "0.8. Chống thấm",
+    "lines": [
+      "0.8. Chống thấm"
+    ]
+  },
+  {
+    "index": 149,
+    "bbox": [
+      1122.8,
+      6375.0,
+      1590.4,
+      6401.3
+    ],
+    "text": "0.1.4. BSV_XuongChinh\nĐặt tên xưởng để phân xưởng cho file \ncombine: \"tên xưởng\"",
+    "lines": [
+      "0.1.4. BSV_XuongChinh",
+      "Đặt tên xưởng để phân xưởng cho file",
+      "combine: \"tên xưởng\""
+    ]
+  },
+  {
+    "index": 150,
+    "bbox": [
+      1122.8,
+      6529.7,
+      1223.5,
+      6542.5
+    ],
+    "text": "Hình ảnh minh họa",
+    "lines": [
+      "Hình ảnh minh họa"
+    ]
+  },
+  {
+    "index": 151,
+    "bbox": [
+      1391.2,
+      6546.5,
+      1415.0,
+      6559.3
+    ],
+    "text": "filter",
+    "lines": [
+      "filter"
+    ]
+  },
+  {
+    "index": 152,
+    "bbox": [
+      1391.2,
+      6652.2,
+      1427.3,
+      6665.0
+    ],
+    "text": "sorting",
+    "lines": [
+      "sorting"
+    ]
+  },
+  {
+    "index": 153,
+    "bbox": [
+      1122.8,
+      6683.7,
+      1289.6,
+      6696.5
+    ],
+    "text": "NOTE: Bảng thống kê Quantities",
+    "lines": [
+      "NOTE: Bảng thống kê Quantities"
+    ]
+  },
+  {
+    "index": 154,
+    "bbox": [
+      1122.8,
+      6724.2,
+      1609.1,
+      6750.5
+    ],
+    "text": "0.9.1. Comments\nĐiền thông tin khối lượng bổ sung sẽ tính \ntheo cửa",
+    "lines": [
+      "0.9.1. Comments",
+      "Điền thông tin khối lượng bổ sung sẽ tính",
+      "theo cửa"
+    ]
+  },
+  {
+    "index": 155,
+    "bbox": [
+      1659.8,
+      6715.2,
+      1696.7,
+      6728.0
+    ],
+    "text": "Sill cửa",
+    "lines": [
+      "Sill cửa"
+    ]
+  },
+  {
+    "index": 156,
+    "bbox": [
+      1659.8,
+      6746.7,
+      1765.3,
+      6759.5
+    ],
+    "text": "Cửa có ốp thạch cao",
+    "lines": [
+      "Cửa có ốp thạch cao"
+    ]
+  },
+  {
+    "index": 157,
+    "bbox": [
+      1391.2,
+      6778.2,
+      1612.0,
+      6831.5
+    ],
+    "text": "Điền 1 nếu cửa nằm trong tường, các cạnh \ncủa cửa đều cần trát        Điền 0 nếu cửa \nnằm trên tường 1m hoặc có chiều cao cố \nđịnh",
+    "lines": [
+      "Điền 1 nếu cửa nằm trong tường, các cạnh",
+      "của cửa đều cần trát        Điền 0 nếu cửa",
+      "nằm trên tường 1m hoặc có chiều cao cố",
+      "định"
+    ]
+  },
+  {
+    "index": 158,
+    "bbox": [
+      1122.8,
+      6798.4,
+      1217.5,
+      6811.2
+    ],
+    "text": "0.9.3. BSV_TratFull",
+    "lines": [
+      "0.9.3. BSV_TratFull"
+    ]
+  },
+  {
+    "index": 159,
+    "bbox": [
+      1391.2,
+      6850.2,
+      1615.6,
+      6903.5
+    ],
+    "text": "Điền 0 nếu cửa nằm trong tường, các cạnh \ncủa cửa đều cần trát        Điền 1 nếu cửa \nnằm trên tường 1m hoặc có chiều cao cố \nđịnh",
+    "lines": [
+      "Điền 0 nếu cửa nằm trong tường, các cạnh",
+      "của cửa đều cần trát        Điền 1 nếu cửa",
+      "nằm trên tường 1m hoặc có chiều cao cố",
+      "định"
+    ]
+  },
+  {
+    "index": 160,
+    "bbox": [
+      1122.8,
+      6870.4,
+      1213.6,
+      6883.2
+    ],
+    "text": "0.9.4. BSV_Trat1m",
+    "lines": [
+      "0.9.4. BSV_Trat1m"
+    ]
+  },
+  {
+    "index": 161,
+    "bbox": [
+      1122.8,
+      6935.7,
+      1594.5,
+      6962.0
+    ],
+    "text": "0.9.5. KL_TratCanhCua\nKL sử dụng đối với những cửa có giá trị \nBSV_TratFull là \"1\"",
+    "lines": [
+      "0.9.5. KL_TratCanhCua",
+      "KL sử dụng đối với những cửa có giá trị",
+      "BSV_TratFull là \"1\""
+    ]
+  },
+  {
+    "index": 162,
+    "bbox": [
+      1667.5,
+      6935.7,
+      1880.8,
+      6962.0
+    ],
+    "text": "thép thì điền BSV_TratFull = 0, \nBSV_Trat1m=0: => những cửa này k lấy KL",
+    "lines": [
+      "thép thì điền BSV_TratFull = 0,",
+      "BSV_Trat1m=0: => những cửa này k lấy KL"
+    ]
+  },
+  {
+    "index": 163,
+    "bbox": [
+      1670.7,
+      6922.2,
+      1877.5,
+      6935.0
+    ],
+    "text": "Những cửa nằm hoàn toàn trên kết cấu",
+    "lines": [
+      "Những cửa nằm hoàn toàn trên kết cấu"
+    ]
+  },
+  {
+    "index": 164,
+    "bbox": [
+      1758.3,
+      6962.7,
+      1789.9,
+      6975.5
+    ],
+    "text": "tô trát",
+    "lines": [
+      "tô trát"
+    ]
+  },
+  {
+    "index": 165,
+    "bbox": [
+      1670.7,
+      6994.2,
+      1877.5,
+      7007.0
+    ],
+    "text": "Những cửa nằm hoàn toàn trên kết cấu",
+    "lines": [
+      "Những cửa nằm hoàn toàn trên kết cấu"
+    ]
+  },
+  {
+    "index": 166,
+    "bbox": [
+      1122.8,
+      7007.7,
+      1594.5,
+      7034.0
+    ],
+    "text": "0.9.5. KL_TratCanhCua1m\nKL sử dụng đối với những cửa có giá trị \nBSV_TratFull là \"0\"",
+    "lines": [
+      "0.9.5. KL_TratCanhCua1m",
+      "KL sử dụng đối với những cửa có giá trị",
+      "BSV_TratFull là \"0\""
+    ]
+  },
+  {
+    "index": 167,
+    "bbox": [
+      1667.5,
+      7007.7,
+      1880.8,
+      7034.0
+    ],
+    "text": "thép thì điền BSV_TratFull = 0, \nBSV_Trat1m=0: => những cửa này k lấy KL",
+    "lines": [
+      "thép thì điền BSV_TratFull = 0,",
+      "BSV_Trat1m=0: => những cửa này k lấy KL"
+    ]
+  },
+  {
+    "index": 168,
+    "bbox": [
+      1758.3,
+      7034.7,
+      1789.9,
+      7047.5
+    ],
+    "text": "tô trát",
+    "lines": [
+      "tô trát"
+    ]
+  },
+  {
+    "index": 169,
+    "bbox": [
+      854.2,
+      7041.9,
+      1052.6,
+      7068.2
+    ],
+    "text": "0.9. Cửa đi và Kl Trát cạnh cửa, Sill cửa \n(tương tự cho cửa sổ)",
+    "lines": [
+      "0.9. Cửa đi và Kl Trát cạnh cửa, Sill cửa",
+      "(tương tự cho cửa sổ)"
+    ]
+  },
+  {
+    "index": 170,
+    "bbox": [
+      1122.8,
+      7072.9,
+      1594.5,
+      7099.2
+    ],
+    "text": "0.9.5. BSV_ChieuDayThachCao\nKL sử dụng đối với những cửa có giá trị \nBSV_ChieuDayThachCao",
+    "lines": [
+      "0.9.5. BSV_ChieuDayThachCao",
+      "KL sử dụng đối với những cửa có giá trị",
+      "BSV_ChieuDayThachCao"
+    ]
+  },
+  {
+    "index": 171,
+    "bbox": [
+      1659.8,
+      7066.2,
+      1881.9,
+      7106.0
+    ],
+    "text": "BSV_ChieuDayThachCao: chính là chiều \ndày tấm thạch cao cho phần ốp cửa (nhập \ntay)",
+    "lines": [
+      "BSV_ChieuDayThachCao: chính là chiều",
+      "dày tấm thạch cao cho phần ốp cửa (nhập",
+      "tay)"
+    ]
+  },
+  {
+    "index": 172,
+    "bbox": [
+      1122.8,
+      7124.7,
+      1606.9,
+      7151.0
+    ],
+    "text": "0.9.5. KL_ThachCaoCua\nKL thạch cao ốp cửa sẽ được cộng vào KL \nVách thạch cao",
+    "lines": [
+      "0.9.5. KL_ThachCaoCua",
+      "KL thạch cao ốp cửa sẽ được cộng vào KL",
+      "Vách thạch cao"
+    ]
+  },
+  {
+    "index": 173,
+    "bbox": [
+      1122.8,
+      7169.7,
+      1604.9,
+      7196.0
+    ],
+    "text": "0.9.2. BSV_ChieuDayTuong\nChạy tool: \nBSV_Arch_LayChieuDayTuongChoCua_V1",
+    "lines": [
+      "0.9.2. BSV_ChieuDayTuong",
+      "Chạy tool:",
+      "BSV_Arch_LayChieuDayTuongChoCua_V1"
+    ]
+  },
+  {
+    "index": 174,
+    "bbox": [
+      1122.8,
+      7214.7,
+      1456.6,
+      7227.5
+    ],
+    "text": "0.9.2. KL_SillCuaDi\nKL Sill cửa đi",
+    "lines": [
+      "0.9.2. KL_SillCuaDi",
+      "KL Sill cửa đi"
+    ]
+  },
+  {
+    "index": 175,
+    "bbox": [
+      1122.8,
+      7246.2,
+      1593.6,
+      7272.5
+    ],
+    "text": "0.9.5. BSV_PhanKhu \nPhân khu xưởng hoặc hạng mục khác: \n\"Khu cần phân\"",
+    "lines": [
+      "0.9.5. BSV_PhanKhu",
+      "Phân khu xưởng hoặc hạng mục khác:",
+      "\"Khu cần phân\""
+    ]
+  },
+  {
+    "index": 176,
+    "bbox": [
+      1122.8,
+      7291.2,
+      1590.4,
+      7317.5
+    ],
+    "text": "0.9.6. BSV_XuongChinh\nĐặt tên xưởng để phân xưởng cho file \ncombine: \"tên xưởng\"",
+    "lines": [
+      "0.9.6. BSV_XuongChinh",
+      "Đặt tên xưởng để phân xưởng cho file",
+      "combine: \"tên xưởng\""
+    ]
+  },
+  {
+    "index": 177,
+    "bbox": [
+      587.2,
+      7348.3,
+      767.1,
+      7361.1
+    ],
+    "text": "0. Quy tắc gắn biến cho parameter",
+    "lines": [
+      "0. Quy tắc gắn biến cho parameter"
+    ]
+  },
+  {
+    "index": 178,
+    "bbox": [
+      330.0,
+      7396.2,
+      535.9,
+      7429.2
+    ],
+    "text": "Step 4: Thống kê khối lượng và \nnhập BoQ",
+    "lines": [
+      "Step 4: Thống kê khối lượng và",
+      "nhập BoQ"
+    ]
+  },
+  {
+    "index": 179,
+    "bbox": [
+      1122.8,
+      7413.5,
+      1223.5,
+      7426.3
+    ],
+    "text": "Hình ảnh minh họa",
+    "lines": [
+      "Hình ảnh minh họa"
+    ]
+  },
+  {
+    "index": 180,
+    "bbox": [
+      1391.2,
+      7537.3,
+      1427.3,
+      7550.1
+    ],
+    "text": "sorting",
+    "lines": [
+      "sorting"
+    ]
+  },
+  {
+    "index": 181,
+    "bbox": [
+      1122.8,
+      7568.8,
+      1286.6,
+      7581.6
+    ],
+    "text": "NOTE: Bảng thống kê Quantites",
+    "lines": [
+      "NOTE: Bảng thống kê Quantites"
+    ]
+  },
+  {
+    "index": 182,
+    "bbox": [
+      1122.8,
+      7600.3,
+      1420.8,
+      7613.1
+    ],
+    "text": "0.1.1. Comments\nBoTru",
+    "lines": [
+      "0.1.1. Comments",
+      "BoTru"
+    ]
+  },
+  {
+    "index": 183,
+    "bbox": [
+      1122.8,
+      7631.8,
+      1593.6,
+      7658.1
+    ],
+    "text": "0.1.3. BSV_PhanKhu \nPhân khu xưởng hoặc hạng mục khác: \n\"Khu cần phân\"",
+    "lines": [
+      "0.1.3. BSV_PhanKhu",
+      "Phân khu xưởng hoặc hạng mục khác:",
+      "\"Khu cần phân\""
+    ]
+  },
+  {
+    "index": 184,
+    "bbox": [
+      1122.8,
+      7676.8,
+      1590.4,
+      7703.1
+    ],
+    "text": "0.1.4. BSV_XuongChinh\nĐặt tên xưởng để phân xưởng cho file \ncombine: \"tên xưởng\"",
+    "lines": [
+      "0.1.4. BSV_XuongChinh",
+      "Đặt tên xưởng để phân xưởng cho file",
+      "combine: \"tên xưởng\""
+    ]
+  },
+  {
+    "index": 185,
+    "bbox": [
+      854.2,
+      7710.2,
+      954.9,
+      7723.0
+    ],
+    "text": "0.10. Bê tông bổ trụ",
+    "lines": [
+      "0.10. Bê tông bổ trụ"
+    ]
+  },
+  {
+    "index": 186,
+    "bbox": [
+      1122.8,
+      7851.5,
+      1415.0,
+      7870.6
+    ],
+    "text": "Hình ảnh minh họa\nfilter",
+    "lines": [
+      "Hình ảnh minh họa",
+      "filter"
+    ]
+  },
+  {
+    "index": 187,
+    "bbox": [
+      1391.2,
+      8022.4,
+      1427.3,
+      8035.2
+    ],
+    "text": "sorting",
+    "lines": [
+      "sorting"
+    ]
+  },
+  {
+    "index": 188,
+    "bbox": [
+      1122.8,
+      8053.9,
+      1289.6,
+      8066.7
+    ],
+    "text": "NOTE: Bảng thống kê Quantities",
+    "lines": [
+      "NOTE: Bảng thống kê Quantities"
+    ]
+  },
+  {
+    "index": 189,
+    "bbox": [
+      1122.8,
+      8085.4,
+      1416.1,
+      8098.2
+    ],
+    "text": "0.10.1. Comments\nLTGT",
+    "lines": [
+      "0.10.1. Comments",
+      "LTGT"
+    ]
+  },
+  {
+    "index": 190,
+    "bbox": [
+      1122.8,
+      8116.9,
+      1593.6,
+      8143.2
+    ],
+    "text": "0.10.2. BSV_PhanKhu \nPhân khu xưởng hoặc hạng mục khác: \n\"Khu cần phân\"",
+    "lines": [
+      "0.10.2. BSV_PhanKhu",
+      "Phân khu xưởng hoặc hạng mục khác:",
+      "\"Khu cần phân\""
+    ]
+  },
+  {
+    "index": 191,
+    "bbox": [
+      1122.8,
+      8161.9,
+      1590.4,
+      8188.2
+    ],
+    "text": "0.10.3. BSV_XuongChinh\nĐặt tên xưởng để phân xưởng cho file \ncombine: \"tên xưởng\"",
+    "lines": [
+      "0.10.3. BSV_XuongChinh",
+      "Đặt tên xưởng để phân xưởng cho file",
+      "combine: \"tên xưởng\""
+    ]
+  },
+  {
+    "index": 192,
+    "bbox": [
+      854.2,
+      8213.3,
+      1026.2,
+      8226.1
+    ],
+    "text": "0.10. Bê tông lanh tô giằng tường",
+    "lines": [
+      "0.10. Bê tông lanh tô giằng tường"
+    ]
+  },
+  {
+    "index": 193,
+    "bbox": [
+      1122.8,
+      8206.9,
+      1600.3,
+      8233.2
+    ],
+    "text": "0.10.4. BSV_HTKC\n\"TratDinhTuong\" gán cho cấu kiện giằng \nđỉnh tường có khối lượng trát",
+    "lines": [
+      "0.10.4. BSV_HTKC",
+      "\"TratDinhTuong\" gán cho cấu kiện giằng",
+      "đỉnh tường có khối lượng trát"
+    ]
+  },
+  {
+    "index": 194,
+    "bbox": [
+      1122.8,
+      8372.8,
+      1415.0,
+      8386.5
+    ],
+    "text": "Hình ảnh minh họa\nfilter",
+    "lines": [
+      "Hình ảnh minh họa",
+      "filter"
+    ]
+  },
+  {
+    "index": 195,
+    "bbox": [
+      1391.2,
+      8536.8,
+      1427.3,
+      8549.6
+    ],
+    "text": "sorting",
+    "lines": [
+      "sorting"
+    ]
+  },
+  {
+    "index": 196,
+    "bbox": [
+      1122.8,
+      8568.3,
+      1289.6,
+      8581.1
+    ],
+    "text": "NOTE: Bảng thống kê Quantities",
+    "lines": [
+      "NOTE: Bảng thống kê Quantities"
+    ]
+  },
+  {
+    "index": 197,
+    "bbox": [
+      1122.8,
+      8599.8,
+      1605.5,
+      8626.1
+    ],
+    "text": "0.1.1. Note\n\"VK_BoTru đối với bổ trụ, VK_LTGT đối với \nlanh tô giằng tường\"",
+    "lines": [
+      "0.1.1. Note",
+      "\"VK_BoTru đối với bổ trụ, VK_LTGT đối với",
+      "lanh tô giằng tường\""
+    ]
+  },
+  {
+    "index": 198,
+    "bbox": [
+      1122.8,
+      8644.8,
+      1593.6,
+      8671.1
+    ],
+    "text": "0.1.3. BSV_PhanKhu \nPhân khu xưởng hoặc hạng mục khác: \n\"Khu cần phân\"",
+    "lines": [
+      "0.1.3. BSV_PhanKhu",
+      "Phân khu xưởng hoặc hạng mục khác:",
+      "\"Khu cần phân\""
+    ]
+  },
+  {
+    "index": 199,
+    "bbox": [
+      854.2,
+      8712.9,
+      994.0,
+      8725.7
+    ],
+    "text": "0.11. Ván khuôn bổ trụ LTGT",
+    "lines": [
+      "0.11. Ván khuôn bổ trụ LTGT"
+    ]
+  },
+  {
+    "index": 200,
+    "bbox": [
+      1122.8,
+      8689.8,
+      1590.4,
+      8716.1
+    ],
+    "text": "0.1.4. BSV_XuongChinh\nĐặt tên xưởng để phân xưởng cho file \ncombine: \"tên xưởng\"",
+    "lines": [
+      "0.1.4. BSV_XuongChinh",
+      "Đặt tên xưởng để phân xưởng cho file",
+      "combine: \"tên xưởng\""
+    ]
+  },
+  {
+    "index": 201,
+    "bbox": [
+      1122.8,
+      8857.4,
+      1415.0,
+      8870.8
+    ],
+    "text": "Hình ảnh minh họa\nfilter",
+    "lines": [
+      "Hình ảnh minh họa",
+      "filter"
+    ]
+  },
+  {
+    "index": 202,
+    "bbox": [
+      1391.2,
+      9022.4,
+      1427.3,
+      9035.2
+    ],
+    "text": "sorting",
+    "lines": [
+      "sorting"
+    ]
+  },
+  {
+    "index": 203,
+    "bbox": [
+      1122.8,
+      9053.9,
+      1289.6,
+      9066.7
+    ],
+    "text": "NOTE: Bảng thống kê Quantities",
+    "lines": [
+      "NOTE: Bảng thống kê Quantities"
+    ]
+  },
+  {
+    "index": 204,
+    "bbox": [
+      1391.2,
+      9085.4,
+      1612.3,
+      9125.2
+    ],
+    "text": "NOTE: Sẽ gán cả trát và sơn vào HTKC kèm \ntheo cấu kiện Host: Ví dụ : \nTratTrongSonTrong_LTBT",
+    "lines": [
+      "NOTE: Sẽ gán cả trát và sơn vào HTKC kèm",
+      "theo cấu kiện Host: Ví dụ :",
+      "TratTrongSonTrong_LTBT"
+    ]
+  },
+  {
+    "index": 205,
+    "bbox": [
+      1659.8,
+      9085.4,
+      1871.6,
+      9125.2
+    ],
+    "text": "Lưu ý mặt tường giao giữa văn phòng và \nxưởng tính cho tường văn phòng và mặt \ngiao đó tính là TratNgoaiSonTrong_LTBT",
+    "lines": [
+      "Lưu ý mặt tường giao giữa văn phòng và",
+      "xưởng tính cho tường văn phòng và mặt",
+      "giao đó tính là TratNgoaiSonTrong_LTBT"
+    ]
+  },
+  {
+    "index": 206,
+    "bbox": [
+      1122.8,
+      9160.8,
+      1202.9,
+      9173.6
+    ],
+    "text": "0.1.1. BSV_HTKC",
+    "lines": [
+      "0.1.1. BSV_HTKC"
+    ]
+  },
+  {
+    "index": 207,
+    "bbox": [
+      1926.0,
+      9143.9,
+      1976.1,
+      9156.7
+    ],
+    "text": "TratNgoai",
+    "lines": [
+      "TratNgoai"
+    ]
+  },
+  {
+    "index": 208,
+    "bbox": [
+      1926.0,
+      9175.4,
+      1975.2,
+      9188.2
+    ],
+    "text": "TratTrong",
+    "lines": [
+      "TratTrong"
+    ]
+  },
+  {
+    "index": 209,
+    "bbox": [
+      1391.2,
+      9215.9,
+      1587.2,
+      9242.2
+    ],
+    "text": "Nguyên tắc gán giá trị cho parameter \nBSV_HTKC",
+    "lines": [
+      "Nguyên tắc gán giá trị cho parameter",
+      "BSV_HTKC"
+    ]
+  },
+  {
+    "index": 210,
+    "bbox": [
+      1659.8,
+      9215.9,
+      1879.1,
+      9242.2
+    ],
+    "text": "Tên công tác viết liền không dấu và in hoa \nchữ cái đầu. Những công tác chính",
+    "lines": [
+      "Tên công tác viết liền không dấu và in hoa",
+      "chữ cái đầu. Những công tác chính"
+    ]
+  },
+  {
+    "index": 211,
+    "bbox": [
+      1926.0,
+      9206.9,
+      1976.4,
+      9219.7
+    ],
+    "text": "SonNgoai",
+    "lines": [
+      "SonNgoai"
+    ]
+  },
+  {
+    "index": 212,
+    "bbox": [
+      1926.0,
+      9238.4,
+      1975.1,
+      9251.2
+    ],
+    "text": "SonTrong",
+    "lines": [
+      "SonTrong"
+    ]
+  },
+  {
+    "index": 213,
+    "bbox": [
+      1926.0,
+      9269.9,
+      1975.4,
+      9282.7
+    ],
+    "text": "MaiNgoai",
+    "lines": [
+      "MaiNgoai"
+    ]
+  },
+  {
+    "index": 214,
+    "bbox": [
+      1926.0,
+      9301.4,
+      1974.5,
+      9314.2
+    ],
+    "text": "MaiTrong",
+    "lines": [
+      "MaiTrong"
+    ]
+  },
+  {
+    "index": 215,
+    "bbox": [
+      1122.8,
+      9332.9,
+      1593.6,
+      9359.2
+    ],
+    "text": "0.1.3. BSV_PhanKhu \nPhân khu xưởng hoặc hạng mục khác: \n\"Khu cần phân\"",
+    "lines": [
+      "0.1.3. BSV_PhanKhu",
+      "Phân khu xưởng hoặc hạng mục khác:",
+      "\"Khu cần phân\""
+    ]
+  },
+  {
+    "index": 216,
+    "bbox": [
+      1122.8,
+      9377.9,
+      1590.4,
+      9404.2
+    ],
+    "text": "0.1.4. BSV_XuongChinh\nĐặt tên xưởng để phân xưởng cho file \ncombine: \"tên xưởng\"",
+    "lines": [
+      "0.1.4. BSV_XuongChinh",
+      "Đặt tên xưởng để phân xưởng cho file",
+      "combine: \"tên xưởng\""
+    ]
+  },
+  {
+    "index": 217,
+    "bbox": [
+      1122.8,
+      9422.9,
+      1613.4,
+      9462.7
+    ],
+    "text": "0.1.4. BSV_PhanLoai\nBSV_PhanLoai sẽ dùng để phân loại các \nloại cấu kiện theo BoQ (tên thang, tên tam \ncấp...)",
+    "lines": [
+      "0.1.4. BSV_PhanLoai",
+      "BSV_PhanLoai sẽ dùng để phân loại các",
+      "loại cấu kiện theo BoQ (tên thang, tên tam",
+      "cấp...)"
+    ]
+  },
+  {
+    "index": 218,
+    "bbox": [
+      1122.8,
+      9481.4,
+      1242.1,
+      9494.2
+    ],
+    "text": "0.1.5. Các bước thực thi",
+    "lines": [
+      "0.1.5. Các bước thực thi"
+    ]
+  },
+  {
+    "index": 219,
+    "bbox": [
+      854.2,
+      9509.5,
+      976.7,
+      9522.3
+    ],
+    "text": "0.12. Hoàn thiện kết cấu",
+    "lines": [
+      "0.12. Hoàn thiện kết cấu"
+    ]
+  },
+  {
+    "index": 220,
+    "bbox": [
+      1926.0,
+      9512.9,
+      2149.0,
+      9552.7
+    ],
+    "text": "Tất cả những đầu mục bắt đầu bằng cos 1 \nsẽ được cộng vào KL hoàn thiện của tường \nxây",
+    "lines": [
+      "Tất cả những đầu mục bắt đầu bằng cos 1",
+      "sẽ được cộng vào KL hoàn thiện của tường",
+      "xây"
+    ]
+  },
+  {
+    "index": 221,
+    "bbox": [
+      2194.5,
+      9571.4,
+      2409.9,
+      9611.2
+    ],
+    "text": "Nếu BoQ có đầu mục riêng cho các phần \nkết cấu như cột, vách. . .  thì nhập đúng \nphạm vi",
+    "lines": [
+      "Nếu BoQ có đầu mục riêng cho các phần",
+      "kết cấu như cột, vách. . .  thì nhập đúng",
+      "phạm vi"
+    ]
+  },
+  {
+    "index": 222,
+    "bbox": [
+      1926.0,
+      9604.0,
+      2146.9,
+      9630.3
+    ],
+    "text": "Tất cả những đầu mục bắt đầu bằng cos 2 \nsẽ được cộng vào KL hoàn thiện kết cấu",
+    "lines": [
+      "Tất cả những đầu mục bắt đầu bằng cos 2",
+      "sẽ được cộng vào KL hoàn thiện kết cấu"
+    ]
+  },
+  {
+    "index": 223,
+    "bbox": [
+      2194.5,
+      9629.9,
+      2391.6,
+      9656.2
+    ],
+    "text": "Nếu BoQ không có đầu mục công tác \nriêng thì bổ sung đầu mục mới ở cuối",
+    "lines": [
+      "Nếu BoQ không có đầu mục công tác",
+      "riêng thì bổ sung đầu mục mới ở cuối"
+    ]
+  },
+  {
+    "index": 224,
+    "bbox": [
+      2194.5,
+      9674.9,
+      2415.3,
+      9714.7
+    ],
+    "text": "Nếu BoQ tách riêng phần hoàn thiện dầm \nvà trần riêng thì cos 3 sẽ được cộng vào \nhoàn thiện dầm",
+    "lines": [
+      "Nếu BoQ tách riêng phần hoàn thiện dầm",
+      "và trần riêng thì cos 3 sẽ được cộng vào",
+      "hoàn thiện dầm"
+    ]
+  },
+  {
+    "index": 225,
+    "bbox": [
+      1659.8,
+      9726.6,
+      1807.1,
+      9739.4
+    ],
+    "text": "Lưu ý cách vào KL trong BoQ",
+    "lines": [
+      "Lưu ý cách vào KL trong BoQ"
+    ]
+  },
+  {
+    "index": 226,
+    "bbox": [
+      1926.0,
+      9707.5,
+      2147.0,
+      9733.8
+    ],
+    "text": "Tất cả những đầu mục bắt đầu bằng cos 3 \nsẽ được cộng vào KL hoàn thiện dầm(trần)",
+    "lines": [
+      "Tất cả những đầu mục bắt đầu bằng cos 3",
+      "sẽ được cộng vào KL hoàn thiện dầm(trần)"
+    ]
+  },
+  {
+    "index": 227,
+    "bbox": [
+      2194.5,
+      9733.4,
+      2411.3,
+      9759.7
+    ],
+    "text": "Nếu BoQ k tác riêng dầm và trần thì cos 3 \nsẽ được cộng vào hoàn thiện trần",
+    "lines": [
+      "Nếu BoQ k tác riêng dầm và trần thì cos 3",
+      "sẽ được cộng vào hoàn thiện trần"
+    ]
+  },
+  {
+    "index": 228,
+    "bbox": [
+      1926.0,
+      9778.4,
+      2147.1,
+      9804.7
+    ],
+    "text": "Tất cả những đầu mục bắt đầu bằng cos 4 \nsẽ được cộng vào KL hoàn thiện trần",
+    "lines": [
+      "Tất cả những đầu mục bắt đầu bằng cos 4",
+      "sẽ được cộng vào KL hoàn thiện trần"
+    ]
+  },
+  {
+    "index": 229,
+    "bbox": [
+      2459.2,
+      9823.4,
+      2662.6,
+      9849.7
+    ],
+    "text": "KL hoàn thiện thang bộ sẽ cộng vào KL \nhoàn thiện trần",
+    "lines": [
+      "KL hoàn thiện thang bộ sẽ cộng vào KL",
+      "hoàn thiện trần"
+    ]
+  },
+  {
+    "index": 230,
+    "bbox": [
+      1926.0,
+      9839.1,
+      2147.3,
+      9878.9
+    ],
+    "text": "Tất cả những đầu mục bắt đầu bằng cos 5 \nsẽ được cộng vào KL hoàn thiện thang \nhoặc tam cấp",
+    "lines": [
+      "Tất cả những đầu mục bắt đầu bằng cos 5",
+      "sẽ được cộng vào KL hoàn thiện thang",
+      "hoặc tam cấp"
+    ]
+  },
+  {
+    "index": 231,
+    "bbox": [
+      2194.5,
+      9845.9,
+      2412.0,
+      9872.2
+    ],
+    "text": "Nếu BoQ không tách riêng công tác hoàn \nthiện thang bộ và tam cấp thì",
+    "lines": [
+      "Nếu BoQ không tách riêng công tác hoàn",
+      "thiện thang bộ và tam cấp thì"
+    ]
+  },
+  {
+    "index": 232,
+    "bbox": [
+      2459.2,
+      9868.4,
+      2671.8,
+      9894.7
+    ],
+    "text": "KL hoàn thiện tam cấp sẽ cộng vào hoàn \nthiện kết cấu (trong hoặc ngoài nhà)",
+    "lines": [
+      "KL hoàn thiện tam cấp sẽ cộng vào hoàn",
+      "thiện kết cấu (trong hoặc ngoài nhà)"
+    ]
+  },
+  {
+    "index": 233,
+    "bbox": [
+      1926.0,
+      9913.4,
+      2147.5,
+      9953.2
+    ],
+    "text": "Tất cả những đầu mục bắt đầu bằng cos 6 \nsẽ được cộng vào KL hoàn thiện sàn thang \nbộ, tam cấp",
+    "lines": [
+      "Tất cả những đầu mục bắt đầu bằng cos 6",
+      "sẽ được cộng vào KL hoàn thiện sàn thang",
+      "bộ, tam cấp"
+    ]
+  },
+  {
+    "index": 234,
+    "bbox": [
+      1122.8,
+      9965.2,
+      1223.5,
+      9978.0
+    ],
+    "text": "Hình ảnh minh họa",
+    "lines": [
+      "Hình ảnh minh họa"
+    ]
+  },
+  {
+    "index": 235,
+    "bbox": [
+      1659.8,
+      10032.1,
+      1861.3,
+      10058.4
+    ],
+    "text": "Những mặt ván khuôn k tận dụng làm \nHTKC sẽ gán biến KHT",
+    "lines": [
+      "Những mặt ván khuôn k tận dụng làm",
+      "HTKC sẽ gán biến KHT"
+    ]
+  },
+  {
+    "index": 236,
+    "bbox": [
+      1391.2,
+      10105.7,
+      1415.0,
+      10118.5
+    ],
+    "text": "filter",
+    "lines": [
+      "filter"
+    ]
+  },
+  {
+    "index": 237,
+    "bbox": [
+      1391.2,
+      10270.1,
+      1427.3,
+      10282.9
+    ],
+    "text": "sorting",
+    "lines": [
+      "sorting"
+    ]
+  },
+  {
+    "index": 238,
+    "bbox": [
+      854.2,
+      10344.4,
+      1344.8,
+      10384.2
+    ],
+    "text": "0.13. Hoàn thiện kết cấu Detail\nbảng này tương tự bảng HTKC nhưng \nbảng này sẽ dùng để quản lí quá trình gán \ntham biến cho parameter BSV_HTKC",
+    "lines": [
+      "0.13. Hoàn thiện kết cấu Detail",
+      "bảng này tương tự bảng HTKC nhưng",
+      "bảng này sẽ dùng để quản lí quá trình gán",
+      "tham biến cho parameter BSV_HTKC"
+    ]
+  },
+  {
+    "index": 239,
+    "bbox": [
+      1122.8,
+      10445.8,
+      1261.9,
+      10458.6
+    ],
+    "text": "- Trát cạnh cửa, đỉnh tường",
+    "lines": [
+      "- Trát cạnh cửa, đỉnh tường"
+    ]
+  },
+  {
+    "index": 240,
+    "bbox": [
+      1122.8,
+      10477.3,
+      1339.4,
+      10517.1
+    ],
+    "text": "- KL giàn giáo xây tô: tính bằng diện tích \ntường full k bao gồm cửa, khoảng trừ cột, \ndầm nhân 2 ( áp dụng tường >3.4m)",
+    "lines": [
+      "- KL giàn giáo xây tô: tính bằng diện tích",
+      "tường full k bao gồm cửa, khoảng trừ cột,",
+      "dầm nhân 2 ( áp dụng tường >3.4m)"
+    ]
+  },
+  {
+    "index": 241,
+    "bbox": [
+      854.2,
+      10494.1,
+      1046.5,
+      10506.9
+    ],
+    "text": "Q.3. Những đầu mục thường bổ sung",
+    "lines": [
+      "Q.3. Những đầu mục thường bổ sung"
+    ]
+  },
+  {
+    "index": 242,
+    "bbox": [
+      1122.8,
+      10535.8,
+      1342.3,
+      10562.1
+    ],
+    "text": "- Trát kết cấu ( những vị trí kết cấu cần trát \nmà k có công tác BoQ)",
+    "lines": [
+      "- Trát kết cấu ( những vị trí kết cấu cần trát",
+      "mà k có công tác BoQ)"
+    ]
+  },
+  {
+    "index": 243,
+    "bbox": [
+      1391.2,
+      10579.3,
+      1492.5,
+      10592.1
+    ],
+    "text": "- KL len chân tường",
+    "lines": [
+      "- KL len chân tường"
+    ]
+  },
+  {
+    "index": 244,
+    "bbox": [
+      1122.8,
+      10619.8,
+      1330.8,
+      10646.1
+    ],
+    "text": "Q.1.1. KL sơn tường trong sẽ trừ đi các KL \nsau",
+    "lines": [
+      "Q.1.1. KL sơn tường trong sẽ trừ đi các KL",
+      "sau"
+    ]
+  },
+  {
+    "index": 245,
+    "bbox": [
+      1391.2,
+      10610.8,
+      1476.5,
+      10623.6
+    ],
+    "text": "- KL ốp gạch WC",
+    "lines": [
+      "- KL ốp gạch WC"
+    ]
+  },
+  {
+    "index": 246,
+    "bbox": [
+      1391.2,
+      10642.3,
+      1615.1,
+      10655.1
+    ],
+    "text": "- KL trên trần hoàn thiện ( nếu có thông tin)",
+    "lines": [
+      "- KL trên trần hoàn thiện ( nếu có thông tin)"
+    ]
+  },
+  {
+    "index": 247,
+    "bbox": [
+      1391.2,
+      10673.8,
+      1610.1,
+      10686.6
+    ],
+    "text": "- Những vị trí bị che khuất, chưa xử lí được",
+    "lines": [
+      "- Những vị trí bị che khuất, chưa xử lí được"
+    ]
+  },
+  {
+    "index": 248,
+    "bbox": [
+      1122.8,
+      10724.4,
+      1346.4,
+      10750.7
+    ],
+    "text": "Q.1.2. KL sơn tường trong sẽ cộng thêm các \nKL sau",
+    "lines": [
+      "Q.1.2. KL sơn tường trong sẽ cộng thêm các",
+      "KL sau"
+    ]
+  },
+  {
+    "index": 249,
+    "bbox": [
+      1391.2,
+      10705.3,
+      1615.3,
+      10731.6
+    ],
+    "text": "- KL hoàn thiện kết cấu mặt trong của lanh \ntô bổ trụ",
+    "lines": [
+      "- KL hoàn thiện kết cấu mặt trong của lanh",
+      "tô bổ trụ"
+    ]
+  },
+  {
+    "index": 250,
+    "bbox": [
+      854.2,
+      10750.3,
+      1069.0,
+      10763.1
+    ],
+    "text": "Q.1. Các lưu ý khối lượng hoàn thiện trong",
+    "lines": [
+      "Q.1. Các lưu ý khối lượng hoàn thiện trong"
+    ]
+  },
+  {
+    "index": 251,
+    "bbox": [
+      1391.2,
+      10750.3,
+      1525.0,
+      10763.1
+    ],
+    "text": "- KL sơn trong của kết cấu",
+    "lines": [
+      "- KL sơn trong của kết cấu"
+    ]
+  },
+  {
+    "index": 252,
+    "bbox": [
+      1391.2,
+      10781.8,
+      1610.1,
+      10794.6
+    ],
+    "text": "- Những vị trí bị che khuất, chưa xử lí được",
+    "lines": [
+      "- Những vị trí bị che khuất, chưa xử lí được"
+    ]
+  },
+  {
+    "index": 253,
+    "bbox": [
+      1122.8,
+      10790.8,
+      1332.7,
+      10817.1
+    ],
+    "text": "Q.1.2. KL trát tường trong sẽ trừ đi các KL \nsau",
+    "lines": [
+      "Q.1.2. KL trát tường trong sẽ trừ đi các KL",
+      "sau"
+    ]
+  },
+  {
+    "index": 254,
+    "bbox": [
+      1391.2,
+      10813.3,
+      1615.1,
+      10826.1
+    ],
+    "text": "- KL trên trần hoàn thiện ( nếu có thông tin)",
+    "lines": [
+      "- KL trên trần hoàn thiện ( nếu có thông tin)"
+    ]
+  },
+  {
+    "index": 255,
+    "bbox": [
+      1391.2,
+      10844.8,
+      1615.3,
+      10871.1
+    ],
+    "text": "- KL hoàn thiện kết cấu mặt trong của lanh \ntô bổ trụ",
+    "lines": [
+      "- KL hoàn thiện kết cấu mặt trong của lanh",
+      "tô bổ trụ"
+    ]
+  },
+  {
+    "index": 256,
+    "bbox": [
+      1122.8,
+      10867.3,
+      1346.0,
+      10893.6
+    ],
+    "text": "Q.1.2. KL trát tường trong sẽ cộng thêm các \nKL sau",
+    "lines": [
+      "Q.1.2. KL trát tường trong sẽ cộng thêm các",
+      "KL sau"
+    ]
+  },
+  {
+    "index": 257,
+    "bbox": [
+      1391.2,
+      10889.8,
+      1591.0,
+      10916.1
+    ],
+    "text": "- KL sơn trong của kết cấu cùng mí với \ntường",
+    "lines": [
+      "- KL sơn trong của kết cấu cùng mí với",
+      "tường"
+    ]
+  },
+  {
+    "index": 258,
+    "bbox": [
+      1391.2,
+      10934.8,
+      1547.1,
+      10947.6
+    ],
+    "text": "- KL len chân tường ngoài nhà",
+    "lines": [
+      "- KL len chân tường ngoài nhà"
+    ]
+  },
+  {
+    "index": 259,
+    "bbox": [
+      1122.8,
+      10943.8,
+      1331.6,
+      10970.1
+    ],
+    "text": "Q.1.1. KL sơn tường ngoài sẽ trừ đi các KL \nsau",
+    "lines": [
+      "Q.1.1. KL sơn tường ngoài sẽ trừ đi các KL",
+      "sau"
+    ]
+  },
+  {
+    "index": 260,
+    "bbox": [
+      587.2,
+      10981.4,
+      760.6,
+      10994.2
+    ],
+    "text": "Q. Nhập BoQ theo đúng đầu mục",
+    "lines": [
+      "Q. Nhập BoQ theo đúng đầu mục"
+    ]
+  },
+  {
+    "index": 261,
+    "bbox": [
+      1391.2,
+      10966.3,
+      1555.6,
+      10979.1
+    ],
+    "text": "- KL vách kính ngoài nhà nếu có",
+    "lines": [
+      "- KL vách kính ngoài nhà nếu có"
+    ]
+  },
+  {
+    "index": 262,
+    "bbox": [
+      1122.8,
+      11016.9,
+      1347.2,
+      11043.2
+    ],
+    "text": "Q.1.2. KL sơn tường ngoài sẽ cộng thêm các \nKL sau",
+    "lines": [
+      "Q.1.2. KL sơn tường ngoài sẽ cộng thêm các",
+      "KL sau"
+    ]
+  },
+  {
+    "index": 263,
+    "bbox": [
+      1391.2,
+      10997.8,
+      1616.1,
+      11024.1
+    ],
+    "text": "- KL hoàn thiện kết cấu mặt ngoài của lanh \ntô bổ trụ",
+    "lines": [
+      "- KL hoàn thiện kết cấu mặt ngoài của lanh",
+      "tô bổ trụ"
+    ]
+  },
+  {
+    "index": 264,
+    "bbox": [
+      854.2,
+      11038.3,
+      1069.8,
+      11051.1
+    ],
+    "text": "Q.1. Các lưu ý khối lượng hoàn thiện ngoài",
+    "lines": [
+      "Q.1. Các lưu ý khối lượng hoàn thiện ngoài"
+    ]
+  },
+  {
+    "index": 265,
+    "bbox": [
+      1391.2,
+      11042.8,
+      1525.8,
+      11055.6
+    ],
+    "text": "- KL sơn ngoài của kết cấu",
+    "lines": [
+      "- KL sơn ngoài của kết cấu"
+    ]
+  },
+  {
+    "index": 266,
+    "bbox": [
+      1122.8,
+      11074.3,
+      1555.6,
+      11100.6
+    ],
+    "text": "Q.1.2. KL trát tường ngoài sẽ trừ đi các KL \nsau\n- KL vách kính ngoài nhà nếu có",
+    "lines": [
+      "Q.1.2. KL trát tường ngoài sẽ trừ đi các KL",
+      "sau",
+      "- KL vách kính ngoài nhà nếu có"
+    ]
+  },
+  {
+    "index": 267,
+    "bbox": [
+      1122.8,
+      11119.3,
+      1346.8,
+      11145.6
+    ],
+    "text": "Q.1.2. KL trát tường ngoài sẽ cộng thêm các \nKL sau",
+    "lines": [
+      "Q.1.2. KL trát tường ngoài sẽ cộng thêm các",
+      "KL sau"
+    ]
+  },
+  {
+    "index": 268,
+    "bbox": [
+      1391.2,
+      11119.3,
+      1616.1,
+      11145.6
+    ],
+    "text": "- KL hoàn thiện kết cấu mặt ngoài của lanh \ntô bổ trụ",
+    "lines": [
+      "- KL hoàn thiện kết cấu mặt ngoài của lanh",
+      "tô bổ trụ"
+    ]
+  },
+  {
+    "index": 269,
+    "bbox": [
+      1122.8,
+      11164.3,
+      1261.9,
+      11177.1
+    ],
+    "text": "- Trát cạnh cửa, đỉnh tường",
+    "lines": [
+      "- Trát cạnh cửa, đỉnh tường"
+    ]
+  },
+  {
+    "index": 270,
+    "bbox": [
+      1122.8,
+      11195.8,
+      1339.4,
+      11235.6
+    ],
+    "text": "- KL giàn giáo xây tô: tính bằng diện tích \ntường full k bao gồm cửa, khoảng trừ cột, \ndầm nhân 2 ( áp dụng tường >3.4m)",
+    "lines": [
+      "- KL giàn giáo xây tô: tính bằng diện tích",
+      "tường full k bao gồm cửa, khoảng trừ cột,",
+      "dầm nhân 2 ( áp dụng tường >3.4m)"
+    ]
+  },
+  {
+    "index": 271,
+    "bbox": [
+      854.2,
+      11212.6,
+      1046.5,
+      11225.4
+    ],
+    "text": "Q.3. Những đầu mục thường bổ sung",
+    "lines": [
+      "Q.3. Những đầu mục thường bổ sung"
+    ]
+  },
+  {
+    "index": 272,
+    "bbox": [
+      1122.8,
+      11254.3,
+      1342.3,
+      11280.6
+    ],
+    "text": "- Trát kết cấu ( những vị trí kết cấu cần trát \nmà k có công tác BoQ)",
+    "lines": [
+      "- Trát kết cấu ( những vị trí kết cấu cần trát",
+      "mà k có công tác BoQ)"
+    ]
+  }
+]

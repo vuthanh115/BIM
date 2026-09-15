@@ -1,0 +1,2477 @@
+[
+  {
+    "index": 0,
+    "bbox": [
+      1062.9,
+      43.5,
+      1243.2,
+      74.2
+    ],
+    "text": "Nền, sàn tính full diện tích\n*Chú ý khe cô lập để tách đà, cột",
+    "lines": [
+      "Nền, sàn tính full diện tích",
+      "*Chú ý khe cô lập để tách đà, cột"
+    ]
+  },
+  {
+    "index": 1,
+    "bbox": [
+      1062.9,
+      93.0,
+      1232.9,
+      108.0
+    ],
+    "text": "Móng tính đủ trừ phần giao sàn",
+    "lines": [
+      "Móng tính đủ trừ phần giao sàn"
+    ]
+  },
+  {
+    "index": 2,
+    "bbox": [
+      270.0,
+      124.0,
+      479.2,
+      170.4
+    ],
+    "text": "A.THỨ TỰ ƯU TIÊN TÍNH TOÁN\n(Quy ước tính khối lượng với QS, xem \nfile excel để hiểu chi tiết)",
+    "lines": [
+      "A.THỨ TỰ ƯU TIÊN TÍNH TOÁN",
+      "(Quy ước tính khối lượng với QS, xem",
+      "file excel để hiểu chi tiết)"
+    ]
+  },
+  {
+    "index": 3,
+    "bbox": [
+      537.8,
+      131.8,
+      778.0,
+      162.5
+    ],
+    "text": "Sàn > móng > cột > dầm > vách > cầu thang\n(Sử dụng Atool để join cấu kiện)",
+    "lines": [
+      "Sàn > móng > cột > dầm > vách > cầu thang",
+      "(Sử dụng Atool để join cấu kiện)"
+    ]
+  },
+  {
+    "index": 4,
+    "bbox": [
+      1062.9,
+      126.8,
+      1220.2,
+      141.7
+    ],
+    "text": "Cột tính đủ trừ phần giao sàn",
+    "lines": [
+      "Cột tính đủ trừ phần giao sàn"
+    ]
+  },
+  {
+    "index": 5,
+    "bbox": [
+      1062.9,
+      160.5,
+      1270.8,
+      175.5
+    ],
+    "text": "Dầm tính trừ phần giao sàn, móng, cột",
+    "lines": [
+      "Dầm tính trừ phần giao sàn, móng, cột"
+    ]
+  },
+  {
+    "index": 6,
+    "bbox": [
+      1062.9,
+      194.3,
+      1303.1,
+      209.2
+    ],
+    "text": "Vách tính trừ phần giao sàn, móng, cột, dầm",
+    "lines": [
+      "Vách tính trừ phần giao sàn, móng, cột, dầm"
+    ]
+  },
+  {
+    "index": 7,
+    "bbox": [
+      1062.9,
+      228.0,
+      1229.9,
+      243.0
+    ],
+    "text": "Cầu thang trừ hết cấu kiện trên",
+    "lines": [
+      "Cầu thang trừ hết cấu kiện trên"
+    ]
+  },
+  {
+    "index": 8,
+    "bbox": [
+      1062.9,
+      282.0,
+      1299.5,
+      328.5
+    ],
+    "text": "Comments: Nhập kiểu phân loại - Phân khu\nVd: [Comments:02.Mong-VanPhonng]\n       [Comments:05.1.CoCot-Xuong]",
+    "lines": [
+      "Comments: Nhập kiểu phân loại - Phân khu",
+      "Vd: [Comments:02.Mong-VanPhonng]",
+      "[Comments:05.1.CoCot-Xuong]"
+    ]
+  },
+  {
+    "index": 9,
+    "bbox": [
+      537.8,
+      289.9,
+      822.0,
+      320.6
+    ],
+    "text": "Khối lượng bê tông\n(Gán biến thật kĩ theo BOQ rồi hãy chạy ván khuôn)",
+    "lines": [
+      "Khối lượng bê tông",
+      "(Gán biến thật kĩ theo BOQ rồi hãy chạy ván khuôn)"
+    ]
+  },
+  {
+    "index": 10,
+    "bbox": [
+      270.0,
+      373.4,
+      486.1,
+      388.3
+    ],
+    "text": "B. PROJECT PARAMETERS (REVIT)",
+    "lines": [
+      "B. PROJECT PARAMETERS (REVIT)"
+    ]
+  },
+  {
+    "index": 11,
+    "bbox": [
+      537.8,
+      361.6,
+      872.0,
+      392.3
+    ],
+    "text": "Khối lượng ván khuôn\n(Chạy tool bimspeed cho tòan bộ cấu kiện-pick đáy+mặt bên)",
+    "lines": [
+      "Khối lượng ván khuôn",
+      "(Chạy tool bimspeed cho tòan bộ cấu kiện-pick đáy+mặt bên)"
+    ]
+  },
+  {
+    "index": 12,
+    "bbox": [
+      1062.9,
+      345.8,
+      1267.6,
+      408.0
+    ],
+    "text": "Comments:  Tự động lấy theo bê tông\nVd: [Comments:02.Mong-VanPhong]\nBSV_PhanLoai: Nhập kiểu phân loại\nVd: [BSV_PhanLoai:VK_Mong]",
+    "lines": [
+      "Comments:  Tự động lấy theo bê tông",
+      "Vd: [Comments:02.Mong-VanPhong]",
+      "BSV_PhanLoai: Nhập kiểu phân loại",
+      "Vd: [BSV_PhanLoai:VK_Mong]"
+    ]
+  },
+  {
+    "index": 13,
+    "bbox": [
+      1062.9,
+      425.3,
+      1267.6,
+      487.5
+    ],
+    "text": "Comments:  Tự động lấy theo bê tông\nVd: [Comments:04.Nen-Xuong]\nBSV_PhanLoai: Nhập kiểu phân loại\nVd: [BSV_PhanLoai:DT_Nen]",
+    "lines": [
+      "Comments:  Tự động lấy theo bê tông",
+      "Vd: [Comments:04.Nen-Xuong]",
+      "BSV_PhanLoai: Nhập kiểu phân loại",
+      "Vd: [BSV_PhanLoai:DT_Nen]"
+    ]
+  },
+  {
+    "index": 14,
+    "bbox": [
+      537.8,
+      441.1,
+      818.5,
+      471.8
+    ],
+    "text": "Khối lượng điện tích\n(Thường sử dụng ván gán diện tích nền,đầm chặt...)",
+    "lines": [
+      "Khối lượng điện tích",
+      "(Thường sử dụng ván gán diện tích nền,đầm chặt...)"
+    ]
+  },
+  {
+    "index": 15,
+    "bbox": [
+      537.8,
+      526.6,
+      1006.8,
+      730.5
+    ],
+    "text": "01.Gán biến bê tông theo BOQ\n(Chia nhỏ để dễ đối chiếu khối lượng)\n02.Chạy join bê tông theo quy ước (Load thứ tự trong Atool)\n03.Chạy ván khuôn (Bim Speed), gán biến ván khuôn (Tool \nBSV_PhanLoaiVanKhuon)\n+Chú ý xem có ván bị lỗi hay không?\n04.Check trùng lặp (Tool BSV_KiemTraTrungNhau)\n+Xem xét có nên xóa hay không?\n05.Kiểm tra bảng thống kê với model 3D và xuất khối lượng ra Excel\n06.Link khối lượng vô BOQ\n+Tuyệt đối không tính toán thêm trong bảng để khi cập nhật không sai sót.\n07.Sum tổng khối lượng lót, ván lót, bê tông, ván khuôn ... giữa số nhập vào và số \ntrên máy xem khớp hay không (đặt mã code để thuận tiện filter)",
+    "lines": [
+      "01.Gán biến bê tông theo BOQ",
+      "(Chia nhỏ để dễ đối chiếu khối lượng)",
+      "02.Chạy join bê tông theo quy ước (Load thứ tự trong Atool)",
+      "03.Chạy ván khuôn (Bim Speed), gán biến ván khuôn (Tool",
+      "BSV_PhanLoaiVanKhuon)",
+      "+Chú ý xem có ván bị lỗi hay không?",
+      "04.Check trùng lặp (Tool BSV_KiemTraTrungNhau)",
+      "+Xem xét có nên xóa hay không?",
+      "05.Kiểm tra bảng thống kê với model 3D và xuất khối lượng ra Excel",
+      "06.Link khối lượng vô BOQ",
+      "+Tuyệt đối không tính toán thêm trong bảng để khi cập nhật không sai sót.",
+      "07.Sum tổng khối lượng lót, ván lót, bê tông, ván khuôn ... giữa số nhập vào và số",
+      "trên máy xem khớp hay không (đặt mã code để thuận tiện filter)"
+    ]
+  },
+  {
+    "index": 16,
+    "bbox": [
+      270.0,
+      621.1,
+      355.5,
+      636.0
+    ],
+    "text": "C.QUY TRÌNH",
+    "lines": [
+      "C.QUY TRÌNH"
+    ]
+  },
+  {
+    "index": 17,
+    "bbox": [
+      1449.2,
+      769.6,
+      1508.4,
+      784.6
+    ],
+    "text": "Cọc đại trà",
+    "lines": [
+      "Cọc đại trà"
+    ]
+  },
+  {
+    "index": 18,
+    "bbox": [
+      1062.9,
+      795.9,
+      1128.9,
+      810.8
+    ],
+    "text": "Tổng số cọc",
+    "lines": [
+      "Tổng số cọc"
+    ]
+  },
+  {
+    "index": 19,
+    "bbox": [
+      1448.7,
+      796.8,
+      1586.9,
+      807.7
+    ],
+    "text": "Tổng số cọc - số cọc thí nghiệm",
+    "lines": [
+      "Tổng số cọc - số cọc thí nghiệm"
+    ]
+  },
+  {
+    "index": 20,
+    "bbox": [
+      1449.2,
+      822.1,
+      1532.4,
+      837.1
+    ],
+    "text": "Cọc thí nghiệm",
+    "lines": [
+      "Cọc thí nghiệm"
+    ]
+  },
+  {
+    "index": 21,
+    "bbox": [
+      537.8,
+      846.9,
+      981.3,
+      956.3
+    ],
+    "text": "Cọc ly tâm \n[Commens:01.Coc]\nQuy ước đặt type: ghi kích thước D\nVD: 300, 350, 400, 500\n(Sau khi dựng móng tiến hành dựng cọc bằng Tool \nBSV_AutoPile_ByCenterPointCricle)\n(Tiếp theo sử dụng Tool BSV_AutoSetElevationPile để đưa cos cọc về đáy móng)",
+    "lines": [
+      "Cọc ly tâm",
+      "[Commens:01.Coc]",
+      "Quy ước đặt type: ghi kích thước D",
+      "VD: 300, 350, 400, 500",
+      "(Sau khi dựng móng tiến hành dựng cọc bằng Tool",
+      "BSV_AutoPile_ByCenterPointCricle)",
+      "(Tiếp theo sử dụng Tool BSV_AutoSetElevationPile để đưa cos cọc về đáy móng)"
+    ]
+  },
+  {
+    "index": 22,
+    "bbox": [
+      1448.5,
+      849.3,
+      1536.8,
+      860.2
+    ],
+    "text": "Theo bản vẽ thiết kế",
+    "lines": [
+      "Theo bản vẽ thiết kế"
+    ]
+  },
+  {
+    "index": 23,
+    "bbox": [
+      1062.9,
+      874.6,
+      1612.7,
+      889.6
+    ],
+    "text": "Xử lý đầu cọc\nBê tông, bản mã, thép đầu cọc",
+    "lines": [
+      "Xử lý đầu cọc",
+      "Bê tông, bản mã, thép đầu cọc"
+    ]
+  },
+  {
+    "index": 24,
+    "bbox": [
+      270.0,
+      894.1,
+      308.7,
+      909.1
+    ],
+    "text": "01.Coc",
+    "lines": [
+      "01.Coc"
+    ]
+  },
+  {
+    "index": 25,
+    "bbox": [
+      1448.6,
+      901.8,
+      1695.7,
+      912.7
+    ],
+    "text": "Theo bản vẽ chi tiết đầu cọc\ndùng file excel có sẵn tính",
+    "lines": [
+      "Theo bản vẽ chi tiết đầu cọc",
+      "dùng file excel có sẵn tính"
+    ]
+  },
+  {
+    "index": 26,
+    "bbox": [
+      1062.9,
+      927.1,
+      1671.6,
+      942.1
+    ],
+    "text": "Cắt đầu cọc\nTổng số cọc (cọc đại trà+cọc thí nghiệm)",
+    "lines": [
+      "Cắt đầu cọc",
+      "Tổng số cọc (cọc đại trà+cọc thí nghiệm)"
+    ]
+  },
+  {
+    "index": 27,
+    "bbox": [
+      1449.2,
+      960.9,
+      1620.1,
+      1038.8
+    ],
+    "text": "TH1:Cos tự nhiên > cos san lấp\nCos san lấp - cos đầu cọc\nTH2:Cos tự nhien < cos san lấp\nCos tự nhiên - cos đầu cọc\n*Chỉ tính âm",
+    "lines": [
+      "TH1:Cos tự nhiên > cos san lấp",
+      "Cos san lấp - cos đầu cọc",
+      "TH2:Cos tự nhien < cos san lấp",
+      "Cos tự nhiên - cos đầu cọc",
+      "*Chỉ tính âm"
+    ]
+  },
+  {
+    "index": 28,
+    "bbox": [
+      1062.9,
+      992.4,
+      1119.9,
+      1007.3
+    ],
+    "text": "Ép âm cọc",
+    "lines": [
+      "Ép âm cọc"
+    ]
+  },
+  {
+    "index": 29,
+    "bbox": [
+      1448.5,
+      1051.1,
+      1545.8,
+      1062.0
+    ],
+    "text": "Chạy Tool BSV_EpAm",
+    "lines": [
+      "Chạy Tool BSV_EpAm"
+    ]
+  },
+  {
+    "index": 30,
+    "bbox": [
+      537.8,
+      1117.2,
+      826.5,
+      1195.1
+    ],
+    "text": "Bê tông \n[Comments:02.Mong]\nQuy ước đặt type: ngắn x dài x cao\nVD: 800x1200x1000\n(Chạy Tool BSV_AutoFoundation_ByLinkCad.Ver3)",
+    "lines": [
+      "Bê tông",
+      "[Comments:02.Mong]",
+      "Quy ước đặt type: ngắn x dài x cao",
+      "VD: 800x1200x1000",
+      "(Chạy Tool BSV_AutoFoundation_ByLinkCad.Ver3)"
+    ]
+  },
+  {
+    "index": 31,
+    "bbox": [
+      1062.9,
+      1117.5,
+      1195.3,
+      1132.4
+    ],
+    "text": "Bê tông lót móng (B7.5)",
+    "lines": [
+      "Bê tông lót móng (B7.5)"
+    ]
+  },
+  {
+    "index": 32,
+    "bbox": [
+      1449.2,
+      1096.6,
+      1593.2,
+      1111.6
+    ],
+    "text": "Chiều dày h, độ mở rộng a",
+    "lines": [
+      "Chiều dày h, độ mở rộng a"
+    ]
+  },
+  {
+    "index": 33,
+    "bbox": [
+      1449.2,
+      1130.4,
+      1602.2,
+      1161.1
+    ],
+    "text": "Diện tích dầm chặt móng \n(Thể tích BTL/chiều dày lót)",
+    "lines": [
+      "Diện tích dầm chặt móng",
+      "(Thể tích BTL/chiều dày lót)"
+    ]
+  },
+  {
+    "index": 34,
+    "bbox": [
+      1062.9,
+      1179.9,
+      1552.1,
+      1194.9
+    ],
+    "text": "Bê tông móng (B25)\nKích thước, cao độ",
+    "lines": [
+      "Bê tông móng (B25)",
+      "Kích thước, cao độ"
+    ]
+  },
+  {
+    "index": 35,
+    "bbox": [
+      1449.2,
+      1212.4,
+      1639.2,
+      1274.6
+    ],
+    "text": "Thép lớp trên\nThép lớp dưới\nThép đai\n(số lượng, đường kính, khoảng rải)",
+    "lines": [
+      "Thép lớp trên",
+      "Thép lớp dưới",
+      "Thép đai",
+      "(số lượng, đường kính, khoảng rải)"
+    ]
+  },
+  {
+    "index": 36,
+    "bbox": [
+      537.8,
+      1228.2,
+      1176.9,
+      1258.9
+    ],
+    "text": "Thép\nTheo mặt cắt thiết kế\nChiều dài neo, lap...",
+    "lines": [
+      "Thép",
+      "Theo mặt cắt thiết kế",
+      "Chiều dài neo, lap..."
+    ]
+  },
+  {
+    "index": 37,
+    "bbox": [
+      270.0,
+      1248.5,
+      322.5,
+      1263.4
+    ],
+    "text": "02.Mong",
+    "lines": [
+      "02.Mong"
+    ]
+  },
+  {
+    "index": 38,
+    "bbox": [
+      1062.9,
+      1291.9,
+      1352.4,
+      1322.6
+    ],
+    "text": "Ván khuôn lót móng [BSV_PhanLoai:VK_LotMong]\n(Lọc theo diện tích hoặc quét chọn ván)",
+    "lines": [
+      "Ván khuôn lót móng [BSV_PhanLoai:VK_LotMong]",
+      "(Lọc theo diện tích hoặc quét chọn ván)"
+    ]
+  },
+  {
+    "index": 39,
+    "bbox": [
+      1062.4,
+      1334.9,
+      1223.1,
+      1345.8
+    ],
+    "text": "Không tính phần giao sàn\nđà kiềng",
+    "lines": [
+      "Không tính phần giao sàn",
+      "đà kiềng"
+    ]
+  },
+  {
+    "index": 40,
+    "bbox": [
+      537.8,
+      1348.3,
+      600.8,
+      1363.2
+    ],
+    "text": "Ván khuôn",
+    "lines": [
+      "Ván khuôn"
+    ]
+  },
+  {
+    "index": 41,
+    "bbox": [
+      1449.2,
+      1360.2,
+      1555.3,
+      1390.9
+    ],
+    "text": "Móng có tính thành\n(Móng thường)",
+    "lines": [
+      "Móng có tính thành",
+      "(Móng thường)"
+    ]
+  },
+  {
+    "index": 42,
+    "bbox": [
+      1062.9,
+      1388.9,
+      1218.9,
+      1419.6
+    ],
+    "text": "Ván khuôn móng \n[BSV_PhanLoai:VK_Mong]",
+    "lines": [
+      "Ván khuôn móng",
+      "[BSV_PhanLoai:VK_Mong]"
+    ]
+  },
+  {
+    "index": 43,
+    "bbox": [
+      1449.2,
+      1409.7,
+      1605.1,
+      1456.2
+    ],
+    "text": "Móng không tính thành\n(Thường là móng vát ngược)\nTính sửa đất hố móng",
+    "lines": [
+      "Móng không tính thành",
+      "(Thường là móng vát ngược)",
+      "Tính sửa đất hố móng"
+    ]
+  },
+  {
+    "index": 44,
+    "bbox": [
+      1062.4,
+      1431.9,
+      1223.1,
+      1442.7
+    ],
+    "text": "Không tính phần giao sàn\nđà kiềng",
+    "lines": [
+      "Không tính phần giao sàn",
+      "đà kiềng"
+    ]
+  },
+  {
+    "index": 45,
+    "bbox": [
+      1449.2,
+      1495.2,
+      1593.2,
+      1510.2
+    ],
+    "text": "Chiều dày h, độ mở rộng a",
+    "lines": [
+      "Chiều dày h, độ mở rộng a"
+    ]
+  },
+  {
+    "index": 46,
+    "bbox": [
+      537.8,
+      1523.6,
+      695.5,
+      1585.8
+    ],
+    "text": "Bê tông  \n[Comments:03.DaKieng]\nQuy ước đặt type: rộng x cao\nVD: 300x500",
+    "lines": [
+      "Bê tông",
+      "[Comments:03.DaKieng]",
+      "Quy ước đặt type: rộng x cao",
+      "VD: 300x500"
+    ]
+  },
+  {
+    "index": 47,
+    "bbox": [
+      1062.9,
+      1516.0,
+      1210.6,
+      1531.0
+    ],
+    "text": "Bê tông lót đà kiềng (B7.5)",
+    "lines": [
+      "Bê tông lót đà kiềng (B7.5)"
+    ]
+  },
+  {
+    "index": 48,
+    "bbox": [
+      1449.2,
+      1529.0,
+      1623.2,
+      1559.7
+    ],
+    "text": "Diện tích đầm chặt đà kiềng\n[BSV_PhanLoai:DT_DamChat]",
+    "lines": [
+      "Diện tích đầm chặt đà kiềng",
+      "[BSV_PhanLoai:DT_DamChat]"
+    ]
+  },
+  {
+    "index": 49,
+    "bbox": [
+      1062.9,
+      1578.5,
+      1552.1,
+      1593.4
+    ],
+    "text": "Bê tông đà kiềng (B25)\nKích thước, cao độ",
+    "lines": [
+      "Bê tông đà kiềng (B25)",
+      "Kích thước, cao độ"
+    ]
+  },
+  {
+    "index": 50,
+    "bbox": [
+      1062.9,
+      1634.4,
+      1262.7,
+      1680.8
+    ],
+    "text": "Theo mặt cắt thiết kế\nChú ý đọc kĩ spect kết cấu \nvề chiều dài neo, lap, vị trí cắt thép...",
+    "lines": [
+      "Theo mặt cắt thiết kế",
+      "Chú ý đọc kĩ spect kết cấu",
+      "về chiều dài neo, lap, vị trí cắt thép..."
+    ]
+  },
+  {
+    "index": 51,
+    "bbox": [
+      1449.2,
+      1610.7,
+      1638.2,
+      1704.4
+    ],
+    "text": "Thép lớp trên+tăng cường gối\nThép lớp dưới+tăng cường bụng\nThép đai\nThép giá\nThép vai bò (nếu có)\n[số lượng, đường kính, khoảng rải]",
+    "lines": [
+      "Thép lớp trên+tăng cường gối",
+      "Thép lớp dưới+tăng cường bụng",
+      "Thép đai",
+      "Thép giá",
+      "Thép vai bò (nếu có)",
+      "[số lượng, đường kính, khoảng rải]"
+    ]
+  },
+  {
+    "index": 52,
+    "bbox": [
+      537.8,
+      1650.1,
+      565.6,
+      1665.1
+    ],
+    "text": "Thép",
+    "lines": [
+      "Thép"
+    ]
+  },
+  {
+    "index": 53,
+    "bbox": [
+      270.0,
+      1709.9,
+      335.6,
+      1724.8
+    ],
+    "text": "03.DaKieng",
+    "lines": [
+      "03.DaKieng"
+    ]
+  },
+  {
+    "index": 54,
+    "bbox": [
+      1062.9,
+      1721.7,
+      1254.1,
+      1752.4
+    ],
+    "text": "Ván khuôn lót \n[BSV_PhanLoai:VK_LotDaKieng]",
+    "lines": [
+      "Ván khuôn lót",
+      "[BSV_PhanLoai:VK_LotDaKieng]"
+    ]
+  },
+  {
+    "index": 55,
+    "bbox": [
+      537.8,
+      1763.7,
+      597.4,
+      1778.7
+    ],
+    "text": "Ván khuôn",
+    "lines": [
+      "Ván khuôn"
+    ]
+  },
+  {
+    "index": 56,
+    "bbox": [
+      1062.2,
+      1764.7,
+      1182.0,
+      1775.6
+    ],
+    "text": "Không tính phần giao móng",
+    "lines": [
+      "Không tính phần giao móng"
+    ]
+  },
+  {
+    "index": 57,
+    "bbox": [
+      1062.9,
+      1790.0,
+      1235.4,
+      1820.7
+    ],
+    "text": "Ván khuôn đà kiềng \n[BSV_PhanLoai:VK_DaKieng]",
+    "lines": [
+      "Ván khuôn đà kiềng",
+      "[BSV_PhanLoai:VK_DaKieng]"
+    ]
+  },
+  {
+    "index": 58,
+    "bbox": [
+      1062.2,
+      1833.0,
+      1208.1,
+      1843.9
+    ],
+    "text": "Không tính phần giao móng\ncột",
+    "lines": [
+      "Không tính phần giao móng",
+      "cột"
+    ]
+  },
+  {
+    "index": 59,
+    "bbox": [
+      537.8,
+      1856.8,
+      652.4,
+      1903.2
+    ],
+    "text": "Trám lỗ ti \n[BSV_LoTi]\nChạy Tool TramLoTi",
+    "lines": [
+      "Trám lỗ ti",
+      "[BSV_LoTi]",
+      "Chạy Tool TramLoTi"
+    ]
+  },
+  {
+    "index": 60,
+    "bbox": [
+      1062.9,
+      1942.3,
+      1207.6,
+      1973.0
+    ],
+    "text": "Tấm PVC \n[BSV_PhanLoai:DT_Nen]",
+    "lines": [
+      "Tấm PVC",
+      "[BSV_PhanLoai:DT_Nen]"
+    ]
+  },
+  {
+    "index": 61,
+    "bbox": [
+      1062.9,
+      1991.8,
+      1295.4,
+      2022.5
+    ],
+    "text": "Lớp đá base\n[BSV_PhanLoai:DT_Nen]*ChieuDayBase",
+    "lines": [
+      "Lớp đá base",
+      "[BSV_PhanLoai:DT_Nen]*ChieuDayBase"
+    ]
+  },
+  {
+    "index": 62,
+    "bbox": [
+      537.8,
+      2045.2,
+      602.3,
+      2060.2
+    ],
+    "text": "Cấu tạo nền",
+    "lines": [
+      "Cấu tạo nền"
+    ]
+  },
+  {
+    "index": 63,
+    "bbox": [
+      1062.9,
+      2041.3,
+      1337.3,
+      2087.7
+    ],
+    "text": "Diện tích đầm chặt \n[BSV_PhanLoai:DT_Nen]\n(Diện tích nền) - (giao đà kiềng, cổ cột, móng nền)",
+    "lines": [
+      "Diện tích đầm chặt",
+      "[BSV_PhanLoai:DT_Nen]",
+      "(Diện tích nền) - (giao đà kiềng, cổ cột, móng nền)"
+    ]
+  },
+  {
+    "index": 64,
+    "bbox": [
+      537.2,
+      2072.4,
+      645.8,
+      2083.3
+    ],
+    "text": "Theo spec\nmặt cắt nền",
+    "lines": [
+      "Theo spec",
+      "mặt cắt nền"
+    ]
+  },
+  {
+    "index": 65,
+    "bbox": [
+      1062.9,
+      2106.5,
+      1123.3,
+      2121.5
+    ],
+    "text": "Chống mối",
+    "lines": [
+      "Chống mối"
+    ]
+  },
+  {
+    "index": 66,
+    "bbox": [
+      1062.9,
+      2140.3,
+      1073.0,
+      2155.2
+    ],
+    "text": "...",
+    "lines": [
+      "..."
+    ]
+  },
+  {
+    "index": 67,
+    "bbox": [
+      1062.9,
+      2172.5,
+      1287.9,
+      2203.2
+    ],
+    "text": "Bê tông lót nền\n[BSV_PhanLoai:DT_Nen]*ChieuDayLot",
+    "lines": [
+      "Bê tông lót nền",
+      "[BSV_PhanLoai:DT_Nen]*ChieuDayLot"
+    ]
+  },
+  {
+    "index": 68,
+    "bbox": [
+      537.8,
+      2186.0,
+      846.6,
+      2264.0
+    ],
+    "text": "Bê tông (B25)\n[Comments:04.Nen]\nQuy ước đặt type: ghi chiều dày H sàn\nVD: 150, 200, 300\nNếu vẽ BTL thì đặt là 50_BTL (nhớ đổi vật liệu về B7.5)",
+    "lines": [
+      "Bê tông (B25)",
+      "[Comments:04.Nen]",
+      "Quy ước đặt type: ghi chiều dày H sàn",
+      "VD: 150, 200, 300",
+      "Nếu vẽ BTL thì đặt là 50_BTL (nhớ đổi vật liệu về B7.5)"
+    ]
+  },
+  {
+    "index": 69,
+    "bbox": [
+      1449.2,
+      2222.1,
+      1650.2,
+      2252.8
+    ],
+    "text": "Bê tông nền đàn hồi,trên nền\n(Thường không liên kết với đà, cột...)",
+    "lines": [
+      "Bê tông nền đàn hồi,trên nền",
+      "(Thường không liên kết với đà, cột...)"
+    ]
+  },
+  {
+    "index": 70,
+    "bbox": [
+      1062.9,
+      2254.7,
+      1163.0,
+      2269.6
+    ],
+    "text": "Bê tông nền (B25)",
+    "lines": [
+      "Bê tông nền (B25)"
+    ]
+  },
+  {
+    "index": 71,
+    "bbox": [
+      1449.2,
+      2271.6,
+      1585.4,
+      2302.3
+    ],
+    "text": "Bê tông nền thường\n(Liên kết với đà, móng...)",
+    "lines": [
+      "Bê tông nền thường",
+      "(Liên kết với đà, móng...)"
+    ]
+  },
+  {
+    "index": 72,
+    "bbox": [
+      1062.9,
+      2319.6,
+      1623.8,
+      2334.5
+    ],
+    "text": "Cốt sợi\nCách tính: Theo CĐT lấy kg/m3",
+    "lines": [
+      "Cốt sợi",
+      "Cách tính: Theo CĐT lấy kg/m3"
+    ]
+  },
+  {
+    "index": 73,
+    "bbox": [
+      1804.7,
+      2353.3,
+      1936.9,
+      2431.3
+    ],
+    "text": "Thép lớp trên\nThép lớp dưới\nThép tăng cường\nChân kê\n[đường tính, khoảng rải]",
+    "lines": [
+      "Thép lớp trên",
+      "Thép lớp dưới",
+      "Thép tăng cường",
+      "Chân kê",
+      "[đường tính, khoảng rải]"
+    ]
+  },
+  {
+    "index": 74,
+    "bbox": [
+      270.0,
+      2363.0,
+      312.8,
+      2377.9
+    ],
+    "text": "04.Nen",
+    "lines": [
+      "04.Nen"
+    ]
+  },
+  {
+    "index": 75,
+    "bbox": [
+      1062.9,
+      2384.8,
+      1653.9,
+      2399.8
+    ],
+    "text": "Cốt thép thường\nChiều dài neo, lap, vị trí rải, bẻ móc...",
+    "lines": [
+      "Cốt thép thường",
+      "Chiều dài neo, lap, vị trí rải, bẻ móc..."
+    ]
+  },
+  {
+    "index": 76,
+    "bbox": [
+      2071.0,
+      2384.8,
+      2158.9,
+      2399.8
+    ],
+    "text": "Hàm lượng thép",
+    "lines": [
+      "Hàm lượng thép"
+    ]
+  },
+  {
+    "index": 77,
+    "bbox": [
+      537.8,
+      2396.6,
+      565.6,
+      2411.6
+    ],
+    "text": "Thép",
+    "lines": [
+      "Thép"
+    ]
+  },
+  {
+    "index": 78,
+    "bbox": [
+      1062.9,
+      2473.7,
+      1636.1,
+      2488.7
+    ],
+    "text": "Lưới thép hàn\nChiều dài từng miếng, lap chồng...",
+    "lines": [
+      "Lưới thép hàn",
+      "Chiều dài từng miếng, lap chồng..."
+    ]
+  },
+  {
+    "index": 79,
+    "bbox": [
+      1804.7,
+      2450.1,
+      1939.9,
+      2512.3
+    ],
+    "text": "Thép lớp trên\nThép lớp dưới\nChân kê\n[đường kính, khoảng rải]",
+    "lines": [
+      "Thép lớp trên",
+      "Thép lớp dưới",
+      "Chân kê",
+      "[đường kính, khoảng rải]"
+    ]
+  },
+  {
+    "index": 80,
+    "bbox": [
+      2071.0,
+      2473.7,
+      2158.9,
+      2488.7
+    ],
+    "text": "Hàm lượng thép",
+    "lines": [
+      "Hàm lượng thép"
+    ]
+  },
+  {
+    "index": 81,
+    "bbox": [
+      1449.2,
+      2529.6,
+      1546.7,
+      2560.3
+    ],
+    "text": "Ván khuôn thành\n(Xung quanh nền)",
+    "lines": [
+      "Ván khuôn thành",
+      "(Xung quanh nền)"
+    ]
+  },
+  {
+    "index": 82,
+    "bbox": [
+      537.8,
+      2554.3,
+      1209.1,
+      2585.0
+    ],
+    "text": "Ván khuôn\nVán khuôn nền \n[BSV_PhanLoai:VK_Nen]",
+    "lines": [
+      "Ván khuôn",
+      "Ván khuôn nền",
+      "[BSV_PhanLoai:VK_Nen]"
+    ]
+  },
+  {
+    "index": 83,
+    "bbox": [
+      1449.2,
+      2579.1,
+      1628.4,
+      2609.8
+    ],
+    "text": "Ván khuôn khe thi công\n(Chạy dọc khe thi công tầng trệt)",
+    "lines": [
+      "Ván khuôn khe thi công",
+      "(Chạy dọc khe thi công tầng trệt)"
+    ]
+  },
+  {
+    "index": 84,
+    "bbox": [
+      1062.9,
+      2630.1,
+      1104.5,
+      2645.0
+    ],
+    "text": "Khe cắt",
+    "lines": [
+      "Khe cắt"
+    ]
+  },
+  {
+    "index": 85,
+    "bbox": [
+      537.8,
+      2680.7,
+      560.3,
+      2695.7
+    ],
+    "text": "Khe",
+    "lines": [
+      "Khe"
+    ]
+  },
+  {
+    "index": 86,
+    "bbox": [
+      1062.9,
+      2663.9,
+      1158.9,
+      2678.8
+    ],
+    "text": "Khe co giãn/nhiệt",
+    "lines": [
+      "Khe co giãn/nhiệt"
+    ]
+  },
+  {
+    "index": 87,
+    "bbox": [
+      1456.7,
+      2680.7,
+      1664.4,
+      2695.7
+    ],
+    "text": "Tính chiều dài, vật liệu hoàn thiện khe",
+    "lines": [
+      "Tính chiều dài, vật liệu hoàn thiện khe"
+    ]
+  },
+  {
+    "index": 88,
+    "bbox": [
+      537.2,
+      2707.9,
+      582.7,
+      2718.8
+    ],
+    "text": "Theo spec",
+    "lines": [
+      "Theo spec"
+    ]
+  },
+  {
+    "index": 89,
+    "bbox": [
+      1062.9,
+      2697.6,
+      1121.4,
+      2712.6
+    ],
+    "text": "Khe cô lập",
+    "lines": [
+      "Khe cô lập"
+    ]
+  },
+  {
+    "index": 90,
+    "bbox": [
+      61.7,
+      2717.6,
+      182.9,
+      2737.6
+    ],
+    "text": "BSV_KẾT CẤU",
+    "lines": [
+      "BSV_KẾT CẤU"
+    ]
+  },
+  {
+    "index": 91,
+    "bbox": [
+      1062.9,
+      2731.4,
+      1132.6,
+      2746.3
+    ],
+    "text": "Khe thi công",
+    "lines": [
+      "Khe thi công"
+    ]
+  },
+  {
+    "index": 92,
+    "bbox": [
+      1449.2,
+      2788.4,
+      1592.5,
+      2819.1
+    ],
+    "text": "Tính tới đáy sàn\n(Với cột không cô lập sàn)",
+    "lines": [
+      "Tính tới đáy sàn",
+      "(Với cột không cô lập sàn)"
+    ]
+  },
+  {
+    "index": 93,
+    "bbox": [
+      1062.9,
+      2813.1,
+      1196.4,
+      2843.8
+    ],
+    "text": "Bê tông cổ cột (B25)\n[Comments:05.1.CoCot]",
+    "lines": [
+      "Bê tông cổ cột (B25)",
+      "[Comments:05.1.CoCot]"
+    ]
+  },
+  {
+    "index": 94,
+    "bbox": [
+      537.8,
+      2842.4,
+      733.7,
+      2904.6
+    ],
+    "text": "Bê tông\nQuy ước đặt type: ngắn x dài\nVD: 500x800\n(Chạy Tool BSV_Str_TaoCot_Ver4)",
+    "lines": [
+      "Bê tông",
+      "Quy ước đặt type: ngắn x dài",
+      "VD: 500x800",
+      "(Chạy Tool BSV_Str_TaoCot_Ver4)"
+    ]
+  },
+  {
+    "index": 95,
+    "bbox": [
+      1449.2,
+      2837.9,
+      1565.4,
+      2868.6
+    ],
+    "text": "Tính tới mặt trên sàn \n(Với cột cô lập sàn)",
+    "lines": [
+      "Tính tới mặt trên sàn",
+      "(Với cột cô lập sàn)"
+    ]
+  },
+  {
+    "index": 96,
+    "bbox": [
+      1062.9,
+      2887.4,
+      1246.6,
+      2949.6
+    ],
+    "text": "Bê tông cột tầng 1, 2, ..., mái\n[Comments:05.2.Cot-T1-Xuong]\n[Comments:05.3.Cot-T2-Xuong]\n[Comments:05.4.Cot-TM-Xuong]",
+    "lines": [
+      "Bê tông cột tầng 1, 2, ..., mái",
+      "[Comments:05.2.Cot-T1-Xuong]",
+      "[Comments:05.3.Cot-T2-Xuong]",
+      "[Comments:05.4.Cot-TM-Xuong]"
+    ]
+  },
+  {
+    "index": 97,
+    "bbox": [
+      1449.2,
+      2911.0,
+      1536.9,
+      2926.0
+    ],
+    "text": "Tính tới đáy sàn",
+    "lines": [
+      "Tính tới đáy sàn"
+    ]
+  },
+  {
+    "index": 98,
+    "bbox": [
+      270.0,
+      2954.8,
+      306.4,
+      2969.7
+    ],
+    "text": "05.Cot",
+    "lines": [
+      "05.Cot"
+    ]
+  },
+  {
+    "index": 99,
+    "bbox": [
+      537.8,
+      2966.9,
+      1892.7,
+      2997.6
+    ],
+    "text": "Thép\nTheo cặt cắt thiết kế\nChiều dài bẻ móc, lap, sole ...\nSố lượng, đường kính, đai, khoảng rải\nHàm lượng thép",
+    "lines": [
+      "Thép",
+      "Theo cặt cắt thiết kế",
+      "Chiều dài bẻ móc, lap, sole ...",
+      "Số lượng, đường kính, đai, khoảng rải",
+      "Hàm lượng thép"
+    ]
+  },
+  {
+    "index": 100,
+    "bbox": [
+      1062.9,
+      3014.9,
+      1221.9,
+      3045.6
+    ],
+    "text": "Ván khuôn cổ cột \n[BSV_PhanLoai:VK_CoCot]",
+    "lines": [
+      "Ván khuôn cổ cột",
+      "[BSV_PhanLoai:VK_CoCot]"
+    ]
+  },
+  {
+    "index": 101,
+    "bbox": [
+      537.8,
+      3043.6,
+      597.4,
+      3058.5
+    ],
+    "text": "Ván khuôn",
+    "lines": [
+      "Ván khuôn"
+    ]
+  },
+  {
+    "index": 102,
+    "bbox": [
+      1062.9,
+      3064.4,
+      1383.1,
+      3079.3
+    ],
+    "text": "Ván khuôn cột tầng 1, 2, ..., mái [BSV_PhanLoai:VK_Cot]",
+    "lines": [
+      "Ván khuôn cột tầng 1, 2, ..., mái [BSV_PhanLoai:VK_Cot]"
+    ]
+  },
+  {
+    "index": 103,
+    "bbox": [
+      537.8,
+      3118.4,
+      740.1,
+      3180.6
+    ],
+    "text": "Bê tông \n[Comments:06.Vach]\nQuy ước đặt type: ghi chiều dày vách\nVD: 100, 200",
+    "lines": [
+      "Bê tông",
+      "[Comments:06.Vach]",
+      "Quy ước đặt type: ghi chiều dày vách",
+      "VD: 100, 200"
+    ]
+  },
+  {
+    "index": 104,
+    "bbox": [
+      1062.9,
+      3142.0,
+      1169.0,
+      3157.0
+    ],
+    "text": "Bê tông vách (B25)",
+    "lines": [
+      "Bê tông vách (B25)"
+    ]
+  },
+  {
+    "index": 105,
+    "bbox": [
+      537.8,
+      3197.9,
+      1866.0,
+      3228.6
+    ],
+    "text": "Thép\nTheo cặt cắt thiết kế\nChiều dài neo, lap...\nSố lượng, đường kính, thép khê, khoảng rải\nHàm lượng",
+    "lines": [
+      "Thép",
+      "Theo cặt cắt thiết kế",
+      "Chiều dài neo, lap...",
+      "Số lượng, đường kính, thép khê, khoảng rải",
+      "Hàm lượng"
+    ]
+  },
+  {
+    "index": 106,
+    "bbox": [
+      270.0,
+      3225.9,
+      317.3,
+      3240.8
+    ],
+    "text": "06.Vach",
+    "lines": [
+      "06.Vach"
+    ]
+  },
+  {
+    "index": 107,
+    "bbox": [
+      537.8,
+      3245.9,
+      1213.6,
+      3276.6
+    ],
+    "text": "Ván khuôn\nVán khuôn vách \n[BSV_PhanLoai:VK_Vach]",
+    "lines": [
+      "Ván khuôn",
+      "Ván khuôn vách",
+      "[BSV_PhanLoai:VK_Vach]"
+    ]
+  },
+  {
+    "index": 108,
+    "bbox": [
+      537.8,
+      3293.9,
+      642.0,
+      3340.4
+    ],
+    "text": "Trám lỗ ti vách\n[BSV_LoTi]\n(Chạy Tool ti vách)",
+    "lines": [
+      "Trám lỗ ti vách",
+      "[BSV_LoTi]",
+      "(Chạy Tool ti vách)"
+    ]
+  },
+  {
+    "index": 109,
+    "bbox": [
+      537.8,
+      3379.4,
+      1253.8,
+      3410.1
+    ],
+    "text": "Bê tông  (B25)\n[Comments:07.Dam]\nBê tông dầm tầng 2, 3, ..., mái, tum",
+    "lines": [
+      "Bê tông  (B25)",
+      "[Comments:07.Dam]",
+      "Bê tông dầm tầng 2, 3, ..., mái, tum"
+    ]
+  },
+  {
+    "index": 110,
+    "bbox": [
+      1449.2,
+      3427.4,
+      1638.2,
+      3521.1
+    ],
+    "text": "Thép lớp trên+tăng cường gối\nThép lớp dưới+tăng cường bụng\nThép đai\nThép giá\nThép vai bò (nếu có)\n[số lượng, đường kính, khoảng rải]",
+    "lines": [
+      "Thép lớp trên+tăng cường gối",
+      "Thép lớp dưới+tăng cường bụng",
+      "Thép đai",
+      "Thép giá",
+      "Thép vai bò (nếu có)",
+      "[số lượng, đường kính, khoảng rải]"
+    ]
+  },
+  {
+    "index": 111,
+    "bbox": [
+      1062.9,
+      3451.1,
+      1262.7,
+      3497.5
+    ],
+    "text": "Theo mặt cắt thiết kế\nChú ý đọc kĩ spect kết cấu \nvề chiều dài neo, lap, vị trí cắt thép...",
+    "lines": [
+      "Theo mặt cắt thiết kế",
+      "Chú ý đọc kĩ spect kết cấu",
+      "về chiều dài neo, lap, vị trí cắt thép..."
+    ]
+  },
+  {
+    "index": 112,
+    "bbox": [
+      270.0,
+      3494.8,
+      313.2,
+      3509.7
+    ],
+    "text": "07.Dam",
+    "lines": [
+      "07.Dam"
+    ]
+  },
+  {
+    "index": 113,
+    "bbox": [
+      537.8,
+      3466.8,
+      565.6,
+      3481.8
+    ],
+    "text": "Thép",
+    "lines": [
+      "Thép"
+    ]
+  },
+  {
+    "index": 114,
+    "bbox": [
+      1804.7,
+      3466.8,
+      1892.7,
+      3481.8
+    ],
+    "text": "Hàm lượng thép",
+    "lines": [
+      "Hàm lượng thép"
+    ]
+  },
+  {
+    "index": 115,
+    "bbox": [
+      537.8,
+      3554.2,
+      597.4,
+      3569.2
+    ],
+    "text": "Ván khuôn",
+    "lines": [
+      "Ván khuôn"
+    ]
+  },
+  {
+    "index": 116,
+    "bbox": [
+      1062.9,
+      3538.4,
+      1274.4,
+      3584.9
+    ],
+    "text": "Ván khuôn dầm tầng 2, 3, ..., mái, tum \n[BSV_PhanLoai:VK_Dam]\n(Không tính phần giao sàn,cột,dầm)",
+    "lines": [
+      "Ván khuôn dầm tầng 2, 3, ..., mái, tum",
+      "[BSV_PhanLoai:VK_Dam]",
+      "(Không tính phần giao sàn,cột,dầm)"
+    ]
+  },
+  {
+    "index": 117,
+    "bbox": [
+      1449.2,
+      3546.3,
+      1729.7,
+      3577.0
+    ],
+    "text": "Cách tính:Ván khuôn 2 bên hông dầm\n(Ván đáy dầm tính vô ván khuôn sàn-quy ước KL)",
+    "lines": [
+      "Cách tính:Ván khuôn 2 bên hông dầm",
+      "(Ván đáy dầm tính vô ván khuôn sàn-quy ước KL)"
+    ]
+  },
+  {
+    "index": 118,
+    "bbox": [
+      537.8,
+      3602.2,
+      591.3,
+      3617.2
+    ],
+    "text": "Trám lỗ ti",
+    "lines": [
+      "Trám lỗ ti"
+    ]
+  },
+  {
+    "index": 119,
+    "bbox": [
+      1062.9,
+      3656.2,
+      1248.5,
+      3734.2
+    ],
+    "text": "Bê tông sàn tầng 2, 3, ..., mái, tum\n[Comment:08.1.San-T2-Xuong]\n[Comment:08.2.San-T3-Xuong]\n[Comment:08.3.San-TM-Xuong]\n[Comment:08.4.San-TT-Xuong]",
+    "lines": [
+      "Bê tông sàn tầng 2, 3, ..., mái, tum",
+      "[Comment:08.1.San-T2-Xuong]",
+      "[Comment:08.2.San-T3-Xuong]",
+      "[Comment:08.3.San-TM-Xuong]",
+      "[Comment:08.4.San-TT-Xuong]"
+    ]
+  },
+  {
+    "index": 120,
+    "bbox": [
+      537.8,
+      3679.8,
+      583.6,
+      3694.8
+    ],
+    "text": "Bê tông",
+    "lines": [
+      "Bê tông"
+    ]
+  },
+  {
+    "index": 121,
+    "bbox": [
+      1804.7,
+      3751.5,
+      1936.9,
+      3829.4
+    ],
+    "text": "Thép lớp trên\nThép lớp dưới\nThép tăng cường\nChân kê\n[đường tính, khoảng rải]",
+    "lines": [
+      "Thép lớp trên",
+      "Thép lớp dưới",
+      "Thép tăng cường",
+      "Chân kê",
+      "[đường tính, khoảng rải]"
+    ]
+  },
+  {
+    "index": 122,
+    "bbox": [
+      1062.9,
+      3783.0,
+      1653.9,
+      3797.9
+    ],
+    "text": "Cốt thép thường\nChiều dài neo, lap, vị trí rải, bẻ móc...",
+    "lines": [
+      "Cốt thép thường",
+      "Chiều dài neo, lap, vị trí rải, bẻ móc..."
+    ]
+  },
+  {
+    "index": 123,
+    "bbox": [
+      2071.0,
+      3783.0,
+      2158.9,
+      3797.9
+    ],
+    "text": "Hàm lượng thép",
+    "lines": [
+      "Hàm lượng thép"
+    ]
+  },
+  {
+    "index": 124,
+    "bbox": [
+      270.0,
+      3815.6,
+      307.2,
+      3830.6
+    ],
+    "text": "08.San",
+    "lines": [
+      "08.San"
+    ]
+  },
+  {
+    "index": 125,
+    "bbox": [
+      537.4,
+      3854.6,
+      597.5,
+      3865.5
+    ],
+    "text": "Tính trên revit",
+    "lines": [
+      "Tính trên revit"
+    ]
+  },
+  {
+    "index": 126,
+    "bbox": [
+      537.8,
+      3827.4,
+      565.6,
+      3842.4
+    ],
+    "text": "Thép",
+    "lines": [
+      "Thép"
+    ]
+  },
+  {
+    "index": 127,
+    "bbox": [
+      1804.7,
+      3848.2,
+      1939.9,
+      3910.4
+    ],
+    "text": "Thép lớp trên\nThép lớp dưới\nChân kê\n[đường kính, khoảng rải]",
+    "lines": [
+      "Thép lớp trên",
+      "Thép lớp dưới",
+      "Chân kê",
+      "[đường kính, khoảng rải]"
+    ]
+  },
+  {
+    "index": 128,
+    "bbox": [
+      1062.9,
+      3871.9,
+      1636.1,
+      3886.8
+    ],
+    "text": "Lưới thép hàn\nChiều dài từng miếng, lap chồng...",
+    "lines": [
+      "Lưới thép hàn",
+      "Chiều dài từng miếng, lap chồng..."
+    ]
+  },
+  {
+    "index": 129,
+    "bbox": [
+      2071.0,
+      3871.9,
+      2158.9,
+      3886.8
+    ],
+    "text": "Hàm lượng thép",
+    "lines": [
+      "Hàm lượng thép"
+    ]
+  },
+  {
+    "index": 130,
+    "bbox": [
+      537.8,
+      3943.5,
+      597.4,
+      3958.4
+    ],
+    "text": "Ván khuôn",
+    "lines": [
+      "Ván khuôn"
+    ]
+  },
+  {
+    "index": 131,
+    "bbox": [
+      1062.9,
+      3927.7,
+      1269.1,
+      3974.2
+    ],
+    "text": "Ván khuôn sàn tầng 2, 3, ..., mái, tum \n[BSV_PhanLoai:VK_San]\n(Không tính phần giao cột)",
+    "lines": [
+      "Ván khuôn sàn tầng 2, 3, ..., mái, tum",
+      "[BSV_PhanLoai:VK_San]",
+      "(Không tính phần giao cột)"
+    ]
+  },
+  {
+    "index": 132,
+    "bbox": [
+      1449.2,
+      3943.5,
+      1755.4,
+      3958.4
+    ],
+    "text": "Cách tính: Ván dáy sàn+ván thành sàn+ván đáy dầm",
+    "lines": [
+      "Cách tính: Ván dáy sàn+ván thành sàn+ván đáy dầm"
+    ]
+  },
+  {
+    "index": 133,
+    "bbox": [
+      1062.9,
+      4029.0,
+      1104.5,
+      4044.0
+    ],
+    "text": "Kết cấu",
+    "lines": [
+      "Kết cấu"
+    ]
+  },
+  {
+    "index": 134,
+    "bbox": [
+      1449.2,
+      4013.3,
+      1671.9,
+      4059.7
+    ],
+    "text": "Bê tông\n[Comments:09.1.CauThang-ST1-Xuong]\n[Comments:09.2.CauThang-ST2-Xuong]",
+    "lines": [
+      "Bê tông",
+      "[Comments:09.1.CauThang-ST1-Xuong]",
+      "[Comments:09.2.CauThang-ST2-Xuong]"
+    ]
+  },
+  {
+    "index": 135,
+    "bbox": [
+      1062.9,
+      4078.5,
+      1305.9,
+      4093.5
+    ],
+    "text": "Ván khuôn [BSV_PhanLoai:VK_CauThang]",
+    "lines": [
+      "Ván khuôn [BSV_PhanLoai:VK_CauThang]"
+    ]
+  },
+  {
+    "index": 136,
+    "bbox": [
+      1449.2,
+      4112.3,
+      1638.2,
+      4206.0
+    ],
+    "text": "Thép lớp trên\nThép lớp dưới\nThép tăng cường\nChân kê\nThép bậc\n[số lượng, đường kính, khoảng rải]",
+    "lines": [
+      "Thép lớp trên",
+      "Thép lớp dưới",
+      "Thép tăng cường",
+      "Chân kê",
+      "Thép bậc",
+      "[số lượng, đường kính, khoảng rải]"
+    ]
+  },
+  {
+    "index": 137,
+    "bbox": [
+      1062.9,
+      4151.6,
+      1090.6,
+      4166.6
+    ],
+    "text": "Thép",
+    "lines": [
+      "Thép"
+    ]
+  },
+  {
+    "index": 138,
+    "bbox": [
+      1804.7,
+      4151.6,
+      1866.0,
+      4166.6
+    ],
+    "text": "Hàm lượng",
+    "lines": [
+      "Hàm lượng"
+    ]
+  },
+  {
+    "index": 139,
+    "bbox": [
+      1062.1,
+      4178.9,
+      1107.1,
+      4189.7
+    ],
+    "text": "Tính excel",
+    "lines": [
+      "Tính excel"
+    ]
+  },
+  {
+    "index": 140,
+    "bbox": [
+      270.0,
+      4201.1,
+      343.2,
+      4216.1
+    ],
+    "text": "09.CauThang",
+    "lines": [
+      "09.CauThang"
+    ]
+  },
+  {
+    "index": 141,
+    "bbox": [
+      537.8,
+      4193.3,
+      742.9,
+      4224.0
+    ],
+    "text": "Cầu thang\n(Có thể bao gồm cầu thang, dầm, cột)",
+    "lines": [
+      "Cầu thang",
+      "(Có thể bao gồm cầu thang, dầm, cột)"
+    ]
+  },
+  {
+    "index": 142,
+    "bbox": [
+      262.0,
+      4229.9,
+      425.1,
+      4240.8
+    ],
+    "text": "(Model in place by Structure Framing)",
+    "lines": [
+      "(Model in place by Structure Framing)"
+    ]
+  },
+  {
+    "index": 143,
+    "bbox": [
+      1449.2,
+      4224.8,
+      1629.2,
+      4255.5
+    ],
+    "text": "Ván khuôn \n[BSV_PhanLoai:VK_CauThang]",
+    "lines": [
+      "Ván khuôn",
+      "[BSV_PhanLoai:VK_CauThang]"
+    ]
+  },
+  {
+    "index": 144,
+    "bbox": [
+      1449.2,
+      4274.3,
+      1499.0,
+      4289.2
+    ],
+    "text": "Bậc gạch",
+    "lines": [
+      "Bậc gạch"
+    ]
+  },
+  {
+    "index": 145,
+    "bbox": [
+      1449.2,
+      4308.0,
+      1553.0,
+      4323.0
+    ],
+    "text": "Gạch len cầu thang",
+    "lines": [
+      "Gạch len cầu thang"
+    ]
+  },
+  {
+    "index": 146,
+    "bbox": [
+      1449.2,
+      4341.8,
+      1624.9,
+      4404.0
+    ],
+    "text": "Gạch, đá ốp mặt bậc, chiếu nghỉ\n[BSV_PhanLoai:DT_MatTren]\n[BSV_PhanLoai:DT_MatTruoc]\n[BSV_PhanLoai:DT_MatHong]",
+    "lines": [
+      "Gạch, đá ốp mặt bậc, chiếu nghỉ",
+      "[BSV_PhanLoai:DT_MatTren]",
+      "[BSV_PhanLoai:DT_MatTruoc]",
+      "[BSV_PhanLoai:DT_MatHong]"
+    ]
+  },
+  {
+    "index": 147,
+    "bbox": [
+      1062.9,
+      4373.3,
+      1122.5,
+      4388.2
+    ],
+    "text": "Hoàn thiện",
+    "lines": [
+      "Hoàn thiện"
+    ]
+  },
+  {
+    "index": 148,
+    "bbox": [
+      1062.2,
+      4400.5,
+      1178.2,
+      4411.4
+    ],
+    "text": "Cách tính tùy thuộc bản vẽ",
+    "lines": [
+      "Cách tính tùy thuộc bản vẽ"
+    ]
+  },
+  {
+    "index": 149,
+    "bbox": [
+      1449.2,
+      4422.8,
+      2027.2,
+      4437.8
+    ],
+    "text": "Sơn\nCách tính:VK_CauThang+DT_MatHong",
+    "lines": [
+      "Sơn",
+      "Cách tính:VK_CauThang+DT_MatHong"
+    ]
+  },
+  {
+    "index": 150,
+    "bbox": [
+      1449.2,
+      4456.6,
+      2021.5,
+      4487.3
+    ],
+    "text": "Lan can, tay vịn\nCách tính: Pline trong bản vẽ cầu thang \n(CAD)",
+    "lines": [
+      "Lan can, tay vịn",
+      "Cách tính: Pline trong bản vẽ cầu thang",
+      "(CAD)"
+    ]
+  },
+  {
+    "index": 151,
+    "bbox": [
+      1449.2,
+      4506.1,
+      2011.7,
+      4536.8
+    ],
+    "text": "Mũi chống trượt\nCách tính: (Đếm số bậc)x(Chiều rộng \nbậc)",
+    "lines": [
+      "Mũi chống trượt",
+      "Cách tính: (Đếm số bậc)x(Chiều rộng",
+      "bậc)"
+    ]
+  },
+  {
+    "index": 152,
+    "bbox": [
+      270.0,
+      4600.6,
+      332.5,
+      4615.5
+    ],
+    "text": "10.TamCap",
+    "lines": [
+      "10.TamCap"
+    ]
+  },
+  {
+    "index": 153,
+    "bbox": [
+      537.8,
+      4592.7,
+      731.7,
+      4623.4
+    ],
+    "text": "Tam cấp\n(Có thể bao gồm tam cấp, cách, đà)",
+    "lines": [
+      "Tam cấp",
+      "(Có thể bao gồm tam cấp, cách, đà)"
+    ]
+  },
+  {
+    "index": 154,
+    "bbox": [
+      1062.9,
+      4575.8,
+      1218.9,
+      4590.8
+    ],
+    "text": "Các lớp cấu tạo nền nếu có...",
+    "lines": [
+      "Các lớp cấu tạo nền nếu có..."
+    ]
+  },
+  {
+    "index": 155,
+    "bbox": [
+      262.0,
+      4629.3,
+      425.1,
+      4640.2
+    ],
+    "text": "(Model in place by Structure Framing)",
+    "lines": [
+      "(Model in place by Structure Framing)"
+    ]
+  },
+  {
+    "index": 156,
+    "bbox": [
+      1062.9,
+      4609.6,
+      1274.9,
+      4656.0
+    ],
+    "text": "Bê tông\n[Comments:10.1.TamCap-ST1-Xuong]\n[Comments:10.2.TamCap...]",
+    "lines": [
+      "Bê tông",
+      "[Comments:10.1.TamCap-ST1-Xuong]",
+      "[Comments:10.2.TamCap...]"
+    ]
+  },
+  {
+    "index": 157,
+    "bbox": [
+      1062.9,
+      4695.1,
+      1626.2,
+      4725.8
+    ],
+    "text": "Các lớp cấu tạo ramp\nPVC, lót, đá base, đầm chặt ...\n[BSV_PhanLoai:DT_NenRamp]",
+    "lines": [
+      "Các lớp cấu tạo ramp",
+      "PVC, lót, đá base, đầm chặt ...",
+      "[BSV_PhanLoai:DT_NenRamp]"
+    ]
+  },
+  {
+    "index": 158,
+    "bbox": [
+      1062.9,
+      4744.6,
+      1182.8,
+      4775.3
+    ],
+    "text": "Bê tông ramp\n[Comments:11.Ramp]",
+    "lines": [
+      "Bê tông ramp",
+      "[Comments:11.Ramp]"
+    ]
+  },
+  {
+    "index": 159,
+    "bbox": [
+      270.0,
+      4756.4,
+      570.1,
+      4771.4
+    ],
+    "text": "11.Ramp \nRamp",
+    "lines": [
+      "11.Ramp",
+      "Ramp"
+    ]
+  },
+  {
+    "index": 160,
+    "bbox": [
+      1062.9,
+      4794.1,
+      1245.9,
+      4840.5
+    ],
+    "text": "Ván khuôn ramp \n[BSV_PhanLoai:VK_Ramp]\n[BSV_PhanLoai:VK_VachRamp]",
+    "lines": [
+      "Ván khuôn ramp",
+      "[BSV_PhanLoai:VK_Ramp]",
+      "[BSV_PhanLoai:VK_VachRamp]"
+    ]
+  },
+  {
+    "index": 161,
+    "bbox": [
+      1062.9,
+      4879.6,
+      1612.7,
+      4910.3
+    ],
+    "text": "Các lớp cấu tạo pit\nPVC, lót, đá base, đầm chặt ...\n[BSV_PhanLoai:DT_NenPit]",
+    "lines": [
+      "Các lớp cấu tạo pit",
+      "PVC, lót, đá base, đầm chặt ...",
+      "[BSV_PhanLoai:DT_NenPit]"
+    ]
+  },
+  {
+    "index": 162,
+    "bbox": [
+      1062.9,
+      4929.1,
+      1166.0,
+      4959.8
+    ],
+    "text": "Bê tông ramp\n[Comments:12.Pit]",
+    "lines": [
+      "Bê tông ramp",
+      "[Comments:12.Pit]"
+    ]
+  },
+  {
+    "index": 163,
+    "bbox": [
+      270.0,
+      4940.9,
+      612.8,
+      4955.9
+    ],
+    "text": "12.Pit\nPit thang máy",
+    "lines": [
+      "12.Pit",
+      "Pit thang máy"
+    ]
+  },
+  {
+    "index": 164,
+    "bbox": [
+      1062.9,
+      4978.6,
+      1228.6,
+      5025.1
+    ],
+    "text": "Ván khuôn ramp \n[BSV_PhanLoai:VK_Pit]\n[BSV_PhanLoai:VK_VachPit]",
+    "lines": [
+      "Ván khuôn ramp",
+      "[BSV_PhanLoai:VK_Pit]",
+      "[BSV_PhanLoai:VK_VachPit]"
+    ]
+  },
+  {
+    "index": 165,
+    "bbox": [
+      1062.9,
+      5064.1,
+      1623.2,
+      5094.8
+    ],
+    "text": "Các lớp cấu tạo dock\nPVC, lót, đá base, đầm chặt ...\n[BSV_PhanLoai:DT_NenDock]",
+    "lines": [
+      "Các lớp cấu tạo dock",
+      "PVC, lót, đá base, đầm chặt ...",
+      "[BSV_PhanLoai:DT_NenDock]"
+    ]
+  },
+  {
+    "index": 166,
+    "bbox": [
+      1062.9,
+      5113.6,
+      1180.3,
+      5144.3
+    ],
+    "text": "Bê tông dock\n[Comments:13.Dock]",
+    "lines": [
+      "Bê tông dock",
+      "[Comments:13.Dock]"
+    ]
+  },
+  {
+    "index": 167,
+    "bbox": [
+      270.0,
+      5125.4,
+      596.7,
+      5140.4
+    ],
+    "text": "13.Dock\nDock hàng",
+    "lines": [
+      "13.Dock",
+      "Dock hàng"
+    ]
+  },
+  {
+    "index": 168,
+    "bbox": [
+      1062.9,
+      5163.1,
+      1242.1,
+      5209.6
+    ],
+    "text": "Ván khuôn dock \n[BSV_PhanLoai:VK_Dock]\n[BSV_PhanLoai:VK_DamDock]",
+    "lines": [
+      "Ván khuôn dock",
+      "[BSV_PhanLoai:VK_Dock]",
+      "[BSV_PhanLoai:VK_DamDock]"
+    ]
+  },
+  {
+    "index": 169,
+    "bbox": [
+      537.8,
+      5248.6,
+      1225.6,
+      5279.3
+    ],
+    "text": "Mương\n[Comments:14.1.Muong]\n[BSV_PhanLoai:VK_Muong]",
+    "lines": [
+      "Mương",
+      "[Comments:14.1.Muong]",
+      "[BSV_PhanLoai:VK_Muong]"
+    ]
+  },
+  {
+    "index": 170,
+    "bbox": [
+      270.0,
+      5300.6,
+      355.9,
+      5315.5
+    ],
+    "text": "14.CauKienPhu",
+    "lines": [
+      "14.CauKienPhu"
+    ]
+  },
+  {
+    "index": 171,
+    "bbox": [
+      537.8,
+      5296.6,
+      1226.4,
+      5327.4
+    ],
+    "text": "Bệ máy\n[Comments:14.2.BeMay]\n[BSV_PhanLoai:VK_BeMay]",
+    "lines": [
+      "Bệ máy",
+      "[Comments:14.2.BeMay]",
+      "[BSV_PhanLoai:VK_BeMay]"
+    ]
+  },
+  {
+    "index": 172,
+    "bbox": [
+      537.8,
+      5344.7,
+      547.9,
+      5359.6
+    ],
+    "text": "...",
+    "lines": [
+      "..."
+    ]
+  },
+  {
+    "index": 173,
+    "bbox": [
+      328.4,
+      6029.9,
+      1685.4,
+      6054.2
+    ],
+    "text": "00.1.2.KL BÊ TÔNG\n00.1.2.KL BÊ TÔNG\n00.2.2.KL VÁN KHUÔN\n00.2.2.KL VÁN KHUÔN",
+    "lines": [
+      "00.1.2.KL BÊ TÔNG",
+      "00.1.2.KL BÊ TÔNG",
+      "00.2.2.KL VÁN KHUÔN",
+      "00.2.2.KL VÁN KHUÔN"
+    ]
+  },
+  {
+    "index": 174,
+    "bbox": [
+      281.5,
+      6266.4,
+      939.7,
+      6282.4
+    ],
+    "text": "00.3.1KL DIỆN TÍCH\n01.1.CỌC\n00.2.1.KL VÁN KHUÔN LÓT",
+    "lines": [
+      "00.3.1KL DIỆN TÍCH",
+      "01.1.CỌC",
+      "00.2.1.KL VÁN KHUÔN LÓT"
+    ]
+  }
+]

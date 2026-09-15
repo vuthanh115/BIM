@@ -1,0 +1,5384 @@
+[
+  {
+    "index": 0,
+    "bbox": [
+      366.0,
+      45.3,
+      861.4,
+      63.6
+    ],
+    "text": "01. Join cấu kiện theo quy tắc \nSàn>Móng>Cột>Dầm>Vách>CầuThang",
+    "lines": [
+      "01. Join cấu kiện theo quy tắc",
+      "Sàn>Móng>Cột>Dầm>Vách>CầuThang"
+    ]
+  },
+  {
+    "index": 1,
+    "bbox": [
+      1139.9,
+      122.6,
+      1225.1,
+      137.3
+    ],
+    "text": "Nhập lớp btbv",
+    "lines": [
+      "Nhập lớp btbv"
+    ]
+  },
+  {
+    "index": 2,
+    "bbox": [
+      940.4,
+      158.4,
+      1001.7,
+      173.1
+    ],
+    "text": "Móng đơn",
+    "lines": [
+      "Móng đơn"
+    ]
+  },
+  {
+    "index": 3,
+    "bbox": [
+      1139.9,
+      154.9,
+      1328.1,
+      169.5
+    ],
+    "text": "Vẽ lớp thép trên , lớp thép dưới",
+    "lines": [
+      "Vẽ lớp thép trên , lớp thép dưới"
+    ]
+  },
+  {
+    "index": 4,
+    "bbox": [
+      1139.9,
+      187.1,
+      1409.4,
+      216.0
+    ],
+    "text": "Lớp giữa, Cốt thép dọc , Cốt thép ngang (Nếu \ncó) ,",
+    "lines": [
+      "Lớp giữa, Cốt thép dọc , Cốt thép ngang (Nếu",
+      "có) ,"
+    ]
+  },
+  {
+    "index": 5,
+    "bbox": [
+      637.4,
+      198.8,
+      819.0,
+      227.6
+    ],
+    "text": "Quy cách vẽ \n(Chạy tool Bimspeed vẽ móng)",
+    "lines": [
+      "Quy cách vẽ",
+      "(Chạy tool Bimspeed vẽ móng)"
+    ]
+  },
+  {
+    "index": 6,
+    "bbox": [
+      940.4,
+      253.3,
+      1076.1,
+      267.9
+    ],
+    "text": "Những loại móng khác",
+    "lines": [
+      "Những loại móng khác"
+    ]
+  },
+  {
+    "index": 7,
+    "bbox": [
+      940.4,
+      284.1,
+      1244.2,
+      298.7
+    ],
+    "text": "Partition\nVd: [Partiotion: F1]",
+    "lines": [
+      "Partition",
+      "Vd: [Partiotion: F1]"
+    ]
+  },
+  {
+    "index": 8,
+    "bbox": [
+      637.4,
+      300.2,
+      769.4,
+      314.8
+    ],
+    "text": "Quy cách đặt tên thép",
+    "lines": [
+      "Quy cách đặt tên thép"
+    ]
+  },
+  {
+    "index": 9,
+    "bbox": [
+      940.4,
+      316.3,
+      1361.4,
+      330.9
+    ],
+    "text": "BSV_PhanLoai\nVd: [BSV_PhanLoai:02.ThepMong_VP]",
+    "lines": [
+      "BSV_PhanLoai",
+      "Vd: [BSV_PhanLoai:02.ThepMong_VP]"
+    ]
+  },
+  {
+    "index": 10,
+    "bbox": [
+      940.4,
+      347.1,
+      1302.0,
+      361.7
+    ],
+    "text": "Gán view teamplate\nBSV_02.1_Detail_Foudation",
+    "lines": [
+      "Gán view teamplate",
+      "BSV_02.1_Detail_Foudation"
+    ]
+  },
+  {
+    "index": 11,
+    "bbox": [
+      1139.9,
+      379.3,
+      1408.4,
+      422.4
+    ],
+    "text": "Quy ước thê hiện mặt cắt bản vẽ\n(Mặt cắt thể hiện vị trí nhìn từ trên xuống , Từ \ntrái qua phải)",
+    "lines": [
+      "Quy ước thê hiện mặt cắt bản vẽ",
+      "(Mặt cắt thể hiện vị trí nhìn từ trên xuống , Từ",
+      "trái qua phải)"
+    ]
+  },
+  {
+    "index": 12,
+    "bbox": [
+      1461.6,
+      393.6,
+      1653.3,
+      408.2
+    ],
+    "text": "Section: BSV_02_Sec_Foudation",
+    "lines": [
+      "Section: BSV_02_Sec_Foudation"
+    ]
+  },
+  {
+    "index": 13,
+    "bbox": [
+      1139.9,
+      440.0,
+      1517.6,
+      454.7
+    ],
+    "text": "Dim\nBSV_Dim",
+    "lines": [
+      "Dim",
+      "BSV_Dim"
+    ]
+  },
+  {
+    "index": 14,
+    "bbox": [
+      940.4,
+      469.8,
+      1000.4,
+      484.4
+    ],
+    "text": "Mặt bằng",
+    "lines": [
+      "Mặt bằng"
+    ]
+  },
+  {
+    "index": 15,
+    "bbox": [
+      1461.6,
+      492.3,
+      1717.2,
+      521.2
+    ],
+    "text": "Tag Thép 2D bằng công cụ:[Rebar bending \ndetail]",
+    "lines": [
+      "Tag Thép 2D bằng công cụ:[Rebar bending",
+      "detail]"
+    ]
+  },
+  {
+    "index": 16,
+    "bbox": [
+      1139.9,
+      546.0,
+      1161.3,
+      560.6
+    ],
+    "text": "Tag",
+    "lines": [
+      "Tag"
+    ]
+  },
+  {
+    "index": 17,
+    "bbox": [
+      1461.6,
+      538.8,
+      1693.0,
+      567.7
+    ],
+    "text": "Tag Thép trên mặt bằng (tắt leadear) :\nVd: [BSV_02.0_TagRebar_Fou_SL_D_a]",
+    "lines": [
+      "Tag Thép trên mặt bằng (tắt leadear) :",
+      "Vd: [BSV_02.0_TagRebar_Fou_SL_D_a]"
+    ]
+  },
+  {
+    "index": 18,
+    "bbox": [
+      1461.6,
+      585.3,
+      1685.8,
+      614.2
+    ],
+    "text": "Tag rebar bending detail (tắt leader)\nVd: [BSV_02.1_TagRebar_Fou_SL_D_a]",
+    "lines": [
+      "Tag rebar bending detail (tắt leader)",
+      "Vd: [BSV_02.1_TagRebar_Fou_SL_D_a]"
+    ]
+  },
+  {
+    "index": 19,
+    "bbox": [
+      637.4,
+      637.0,
+      707.4,
+      651.6
+    ],
+    "text": "Xuất bản vẽ",
+    "lines": [
+      "Xuất bản vẽ"
+    ]
+  },
+  {
+    "index": 20,
+    "bbox": [
+      1139.9,
+      631.8,
+      1532.1,
+      646.5
+    ],
+    "text": "Cao độ\nBSV_CaoDo",
+    "lines": [
+      "Cao độ",
+      "BSV_CaoDo"
+    ]
+  },
+  {
+    "index": 21,
+    "bbox": [
+      1139.9,
+      664.1,
+      1548.2,
+      678.7
+    ],
+    "text": "Nét dừng cấu kiện\nBSV_Bearkline",
+    "lines": [
+      "Nét dừng cấu kiện",
+      "BSV_Bearkline"
+    ]
+  },
+  {
+    "index": 22,
+    "bbox": [
+      1139.9,
+      696.3,
+      1517.6,
+      711.0
+    ],
+    "text": "Dim\nBSV_Dim",
+    "lines": [
+      "Dim",
+      "BSV_Dim"
+    ]
+  },
+  {
+    "index": 23,
+    "bbox": [
+      366.0,
+      710.3,
+      431.3,
+      728.6
+    ],
+    "text": "02.Móng",
+    "lines": [
+      "02.Móng"
+    ]
+  },
+  {
+    "index": 24,
+    "bbox": [
+      940.4,
+      710.6,
+      984.7,
+      725.2
+    ],
+    "text": "Mặt cắt",
+    "lines": [
+      "Mặt cắt"
+    ]
+  },
+  {
+    "index": 25,
+    "bbox": [
+      1461.6,
+      728.6,
+      1717.2,
+      757.4
+    ],
+    "text": "Tag Thép 2D bằng công cụ:[Rebar bending \ndetail]",
+    "lines": [
+      "Tag Thép 2D bằng công cụ:[Rebar bending",
+      "detail]"
+    ]
+  },
+  {
+    "index": 26,
+    "bbox": [
+      1139.9,
+      789.3,
+      1161.3,
+      803.9
+    ],
+    "text": "Tag",
+    "lines": [
+      "Tag"
+    ]
+  },
+  {
+    "index": 27,
+    "bbox": [
+      1461.6,
+      775.1,
+      1704.3,
+      803.9
+    ],
+    "text": "Tag Thép trên mặt cắt (thể hiện leadear) :\nBSV_02.1_TagRebar_Fou_SL_D_a",
+    "lines": [
+      "Tag Thép trên mặt cắt (thể hiện leadear) :",
+      "BSV_02.1_TagRebar_Fou_SL_D_a"
+    ]
+  },
+  {
+    "index": 28,
+    "bbox": [
+      1461.6,
+      821.6,
+      1720.0,
+      878.9
+    ],
+    "text": "Tag Thép trên mặt cắt (thể hiện leadear) :\nMutil-Rebar Annotations:\nVd: \nBSV_02.2_TagRebar_Fou_Opendot_Sl_D_a",
+    "lines": [
+      "Tag Thép trên mặt cắt (thể hiện leadear) :",
+      "Mutil-Rebar Annotations:",
+      "Vd:",
+      "BSV_02.2_TagRebar_Fou_Opendot_Sl_D_a"
+    ]
+  },
+  {
+    "index": 29,
+    "bbox": [
+      1139.9,
+      896.6,
+      1652.5,
+      925.4
+    ],
+    "text": "Mặt bằng:\nBSV_Tittle_Plan_Fou\nBSV_ViewNameVN: [MẶT BẰNG]",
+    "lines": [
+      "Mặt bằng:",
+      "BSV_Tittle_Plan_Fou",
+      "BSV_ViewNameVN: [MẶT BẰNG]"
+    ]
+  },
+  {
+    "index": 30,
+    "bbox": [
+      940.4,
+      926.9,
+      994.1,
+      941.6
+    ],
+    "text": "Viewport",
+    "lines": [
+      "Viewport"
+    ]
+  },
+  {
+    "index": 31,
+    "bbox": [
+      1139.9,
+      943.1,
+      1639.7,
+      971.9
+    ],
+    "text": "Mặt cắt:\nBSV_Title_Sec_Fou\nBSV_ViewNameVN: [MẶT CẮT]",
+    "lines": [
+      "Mặt cắt:",
+      "BSV_Title_Sec_Fou",
+      "BSV_ViewNameVN: [MẶT CẮT]"
+    ]
+  },
+  {
+    "index": 32,
+    "bbox": [
+      1139.9,
+      991.0,
+      1512.0,
+      1005.7
+    ],
+    "text": "Partitions\nSỐ HIỆU",
+    "lines": [
+      "Partitions",
+      "SỐ HIỆU"
+    ]
+  },
+  {
+    "index": 33,
+    "bbox": [
+      1139.9,
+      1023.3,
+      1533.3,
+      1037.9
+    ],
+    "text": "Bending detail\nHÌNH DẠNG",
+    "lines": [
+      "Bending detail",
+      "HÌNH DẠNG"
+    ]
+  },
+  {
+    "index": 34,
+    "bbox": [
+      1139.9,
+      1055.5,
+      1471.4,
+      1070.2
+    ],
+    "text": "Bar Diameter\nØ",
+    "lines": [
+      "Bar Diameter",
+      "Ø"
+    ]
+  },
+  {
+    "index": 35,
+    "bbox": [
+      637.4,
+      1080.7,
+      1085.7,
+      1109.5
+    ],
+    "text": "Bảng thống kê\nTHỐNG KÊ THÉP MÓNG \nF1",
+    "lines": [
+      "Bảng thống kê",
+      "THỐNG KÊ THÉP MÓNG",
+      "F1"
+    ]
+  },
+  {
+    "index": 36,
+    "bbox": [
+      1139.9,
+      1087.8,
+      1475.3,
+      1102.4
+    ],
+    "text": "Quantities\nSL",
+    "lines": [
+      "Quantities",
+      "SL"
+    ]
+  },
+  {
+    "index": 37,
+    "bbox": [
+      1139.9,
+      1120.0,
+      1540.4,
+      1134.7
+    ],
+    "text": "BSV_SoCauKien\nSỐ CẤU KIỆN",
+    "lines": [
+      "BSV_SoCauKien",
+      "SỐ CẤU KIỆN"
+    ]
+  },
+  {
+    "index": 38,
+    "bbox": [
+      1139.9,
+      1152.3,
+      1562.4,
+      1166.9
+    ],
+    "text": "TỔNG CHIỀU DÀI(mm)\nTỔNG CHIỀU DÀI",
+    "lines": [
+      "TỔNG CHIỀU DÀI(mm)",
+      "TỔNG CHIỀU DÀI"
+    ]
+  },
+  {
+    "index": 39,
+    "bbox": [
+      1139.9,
+      1184.5,
+      1578.1,
+      1199.2
+    ],
+    "text": "TỔNG KHỐI LƯỢNG(Kg)\nTỔNG KHỐI LƯỢNG",
+    "lines": [
+      "TỔNG KHỐI LƯỢNG(Kg)",
+      "TỔNG KHỐI LƯỢNG"
+    ]
+  },
+  {
+    "index": 40,
+    "bbox": [
+      637.4,
+      1218.3,
+      1276.7,
+      1232.9
+    ],
+    "text": "Key Plan\nGán view teamplate\nBSV_02_KP_Foudation",
+    "lines": [
+      "Key Plan",
+      "Gán view teamplate",
+      "BSV_02_KP_Foudation"
+    ]
+  },
+  {
+    "index": 41,
+    "bbox": [
+      1139.9,
+      1286.9,
+      1279.5,
+      1301.5
+    ],
+    "text": "Nhập/Kiểm tra lớp btbv",
+    "lines": [
+      "Nhập/Kiểm tra lớp btbv"
+    ]
+  },
+  {
+    "index": 42,
+    "bbox": [
+      637.4,
+      1328.1,
+      811.1,
+      1357.0
+    ],
+    "text": "Quy cách vẽ \n(Chạy tool Bimspeed vẽ dầm)",
+    "lines": [
+      "Quy cách vẽ",
+      "(Chạy tool Bimspeed vẽ dầm)"
+    ]
+  },
+  {
+    "index": 43,
+    "bbox": [
+      940.4,
+      1321.0,
+      1095.1,
+      1364.1
+    ],
+    "text": "Theo mặt cắt chi tiết .Nếu \nmặt cắt không thể hiện\nTheo Spec",
+    "lines": [
+      "Theo mặt cắt chi tiết .Nếu",
+      "mặt cắt không thể hiện",
+      "Theo Spec"
+    ]
+  },
+  {
+    "index": 44,
+    "bbox": [
+      1139.9,
+      1319.1,
+      1332.8,
+      1333.7
+    ],
+    "text": "Thép lớp dưới + tăng cường dưới",
+    "lines": [
+      "Thép lớp dưới + tăng cường dưới"
+    ]
+  },
+  {
+    "index": 45,
+    "bbox": [
+      1139.9,
+      1351.4,
+      1327.2,
+      1366.0
+    ],
+    "text": "Thép lớp trên + tăng cường trên",
+    "lines": [
+      "Thép lớp trên + tăng cường trên"
+    ]
+  },
+  {
+    "index": 46,
+    "bbox": [
+      1139.9,
+      1383.6,
+      1253.3,
+      1398.2
+    ],
+    "text": "Thép giá + Thép đai",
+    "lines": [
+      "Thép giá + Thép đai"
+    ]
+  },
+  {
+    "index": 47,
+    "bbox": [
+      637.4,
+      1446.6,
+      769.4,
+      1461.2
+    ],
+    "text": "Quy cách đặt tên thép",
+    "lines": [
+      "Quy cách đặt tên thép"
+    ]
+  },
+  {
+    "index": 48,
+    "bbox": [
+      940.4,
+      1430.5,
+      1314.0,
+      1445.1
+    ],
+    "text": "Partition\nVd: [Partiotion: B1_Caodo_VP]",
+    "lines": [
+      "Partition",
+      "Vd: [Partiotion: B1_Caodo_VP]"
+    ]
+  },
+  {
+    "index": 49,
+    "bbox": [
+      940.4,
+      1462.7,
+      1378.0,
+      1477.3
+    ],
+    "text": "BSV_PhanLoai\nVd: [BSV_PhanLoai:03.ThepDaKieng_VP]",
+    "lines": [
+      "BSV_PhanLoai",
+      "Vd: [BSV_PhanLoai:03.ThepDaKieng_VP]"
+    ]
+  },
+  {
+    "index": 50,
+    "bbox": [
+      1139.9,
+      1493.5,
+      1330.4,
+      1522.3
+    ],
+    "text": "Áp dụng cho mặt bằng key plan\n[BSV_03.1_KP_GroundBeam]",
+    "lines": [
+      "Áp dụng cho mặt bằng key plan",
+      "[BSV_03.1_KP_GroundBeam]"
+    ]
+  },
+  {
+    "index": 51,
+    "bbox": [
+      1139.9,
+      1539.9,
+      1331.5,
+      1568.8
+    ],
+    "text": "Áp dụng cho mặt cắt dọc\n[BSV_03.2_Detail_GroundBeam]",
+    "lines": [
+      "Áp dụng cho mặt cắt dọc",
+      "[BSV_03.2_Detail_GroundBeam]"
+    ]
+  },
+  {
+    "index": 52,
+    "bbox": [
+      940.4,
+      1547.1,
+      1058.9,
+      1561.7
+    ],
+    "text": "Gán view teamplate",
+    "lines": [
+      "Gán view teamplate"
+    ]
+  },
+  {
+    "index": 53,
+    "bbox": [
+      1139.9,
+      1586.4,
+      1344.8,
+      1615.3
+    ],
+    "text": "Áp dụng cho mặt cắt ngang\n[BSV_03.3_Sectionl_GroundBeam]",
+    "lines": [
+      "Áp dụng cho mặt cắt ngang",
+      "[BSV_03.3_Sectionl_GroundBeam]"
+    ]
+  },
+  {
+    "index": 54,
+    "bbox": [
+      1770.6,
+      1632.9,
+      1936.8,
+      1690.3
+    ],
+    "text": "Thép chủ theo Spec:\nVd: Neo 40d,Lap 40d so le, \nThép tăng cường theo Spec:\nVd: Neo 40d, L/4,",
+    "lines": [
+      "Thép chủ theo Spec:",
+      "Vd: Neo 40d,Lap 40d so le,",
+      "Thép tăng cường theo Spec:",
+      "Vd: Neo 40d, L/4,"
+    ]
+  },
+  {
+    "index": 55,
+    "bbox": [
+      1461.6,
+      1674.0,
+      1711.1,
+      1702.9
+    ],
+    "text": "Neo, lap, cắt, khoảng cách giữa 2 lớp thép \nchủ và tăng cường",
+    "lines": [
+      "Neo, lap, cắt, khoảng cách giữa 2 lớp thép",
+      "chủ và tăng cường"
+    ]
+  },
+  {
+    "index": 56,
+    "bbox": [
+      1770.6,
+      1707.9,
+      1961.3,
+      1722.6
+    ],
+    "text": "Khoảng cách rải thép đai thép C",
+    "lines": [
+      "Khoảng cách rải thép đai thép C"
+    ]
+  },
+  {
+    "index": 57,
+    "bbox": [
+      1461.6,
+      1740.2,
+      1717.9,
+      1769.1
+    ],
+    "text": "Quy ước thể hiện mặt cắt bản vẽ\n(Mặt cắt thể hiện vị trí nhìn từ trái qua phải)",
+    "lines": [
+      "Quy ước thể hiện mặt cắt bản vẽ",
+      "(Mặt cắt thể hiện vị trí nhìn từ trái qua phải)"
+    ]
+  },
+  {
+    "index": 58,
+    "bbox": [
+      1461.6,
+      1786.7,
+      1841.0,
+      1801.3
+    ],
+    "text": "CaoDo\nBSV_CaoDo",
+    "lines": [
+      "CaoDo",
+      "BSV_CaoDo"
+    ]
+  },
+  {
+    "index": 59,
+    "bbox": [
+      1461.6,
+      1818.9,
+      1857.2,
+      1833.6
+    ],
+    "text": "Nét dừng cấu kiện\nBSV_Bearkline",
+    "lines": [
+      "Nét dừng cấu kiện",
+      "BSV_Bearkline"
+    ]
+  },
+  {
+    "index": 60,
+    "bbox": [
+      1461.6,
+      1851.2,
+      1889.9,
+      1865.8
+    ],
+    "text": "Nét cắt thép\nBSV_DauThep_Dam",
+    "lines": [
+      "Nét cắt thép",
+      "BSV_DauThep_Dam"
+    ]
+  },
+  {
+    "index": 61,
+    "bbox": [
+      637.4,
+      1880.8,
+      707.4,
+      1895.4
+    ],
+    "text": "Xuất bản vẽ",
+    "lines": [
+      "Xuất bản vẽ"
+    ]
+  },
+  {
+    "index": 62,
+    "bbox": [
+      1461.6,
+      1883.4,
+      1826.6,
+      1898.0
+    ],
+    "text": "Dim\nBSV_Dim",
+    "lines": [
+      "Dim",
+      "BSV_Dim"
+    ]
+  },
+  {
+    "index": 63,
+    "bbox": [
+      1770.6,
+      1918.7,
+      2050.3,
+      1961.8
+    ],
+    "text": "Tag Thép chủ,tăng cường, thép giá, thép vai bò \n(thể hiện leadear) :\nVd: [BSV_03.1_Tag Rebar_Beam_SL_D]",
+    "lines": [
+      "Tag Thép chủ,tăng cường, thép giá, thép vai bò",
+      "(thể hiện leadear) :",
+      "Vd: [BSV_03.1_Tag Rebar_Beam_SL_D]"
+    ]
+  },
+  {
+    "index": 64,
+    "bbox": [
+      1139.9,
+      1949.6,
+      1209.7,
+      1964.3
+    ],
+    "text": "Mặt cắt dọc",
+    "lines": [
+      "Mặt cắt dọc"
+    ]
+  },
+  {
+    "index": 65,
+    "bbox": [
+      1461.6,
+      1983.0,
+      1483.1,
+      1997.6
+    ],
+    "text": "Tag",
+    "lines": [
+      "Tag"
+    ]
+  },
+  {
+    "index": 66,
+    "bbox": [
+      1770.6,
+      1979.4,
+      2013.2,
+      2008.3
+    ],
+    "text": "Tag Thép đai, thép giá (thể hiện leadear) :\nBSV_03.3_Tag Reabar Shear_Sl_D_a",
+    "lines": [
+      "Tag Thép đai, thép giá (thể hiện leadear) :",
+      "BSV_03.3_Tag Reabar Shear_Sl_D_a"
+    ]
+  },
+  {
+    "index": 67,
+    "bbox": [
+      1770.6,
+      2025.9,
+      2048.2,
+      2054.8
+    ],
+    "text": "Tag Thép C (thể hiện leadear) :\nBSV_03.2_Tag Rebar_Beam_Open dot_SL_D_a",
+    "lines": [
+      "Tag Thép C (thể hiện leadear) :",
+      "BSV_03.2_Tag Rebar_Beam_Open dot_SL_D_a"
+    ]
+  },
+  {
+    "index": 68,
+    "bbox": [
+      1770.6,
+      2091.3,
+      1925.5,
+      2105.9
+    ],
+    "text": "Theo thứ tự từ trên xuống",
+    "lines": [
+      "Theo thứ tự từ trên xuống"
+    ]
+  },
+  {
+    "index": 69,
+    "bbox": [
+      1461.6,
+      2123.5,
+      1721.2,
+      2152.4
+    ],
+    "text": "Kéo thép chủ, thép tăng cường, thép vai bò \nthép giá, 2D bending detail",
+    "lines": [
+      "Kéo thép chủ, thép tăng cường, thép vai bò",
+      "thép giá, 2D bending detail"
+    ]
+  },
+  {
+    "index": 70,
+    "bbox": [
+      1770.6,
+      2123.5,
+      1981.7,
+      2152.4
+    ],
+    "text": "Thép chủ bending detail:\nBSV_03.4_Tag Rebar_Beam_Sl_D_L",
+    "lines": [
+      "Thép chủ bending detail:",
+      "BSV_03.4_Tag Rebar_Beam_Sl_D_L"
+    ]
+  },
+  {
+    "index": 71,
+    "bbox": [
+      1770.6,
+      2170.0,
+      1928.0,
+      2184.7
+    ],
+    "text": "Dim khoảng cách nối thép",
+    "lines": [
+      "Dim khoảng cách nối thép"
+    ]
+  },
+  {
+    "index": 72,
+    "bbox": [
+      940.4,
+      2214.4,
+      984.7,
+      2229.1
+    ],
+    "text": "Mặt cắt",
+    "lines": [
+      "Mặt cắt"
+    ]
+  },
+  {
+    "index": 73,
+    "bbox": [
+      1461.6,
+      2218.2,
+      2371.5,
+      2232.8
+    ],
+    "text": "Viewport\nBSV_Title_Large_Sec_Beam\nBSV_ViewNameVN: [ B2a_(SL=2)_(L=12220) ]",
+    "lines": [
+      "Viewport",
+      "BSV_Title_Large_Sec_Beam",
+      "BSV_ViewNameVN: [ B2a_(SL=2)_(L=12220) ]"
+    ]
+  },
+  {
+    "index": 74,
+    "bbox": [
+      1461.6,
+      2250.4,
+      1841.0,
+      2265.0
+    ],
+    "text": "CaoDo\nBSV_CaoDo",
+    "lines": [
+      "CaoDo",
+      "BSV_CaoDo"
+    ]
+  },
+  {
+    "index": 75,
+    "bbox": [
+      366.0,
+      2275.4,
+      455.9,
+      2293.6
+    ],
+    "text": "03.Đà Kiềng",
+    "lines": [
+      "03.Đà Kiềng"
+    ]
+  },
+  {
+    "index": 76,
+    "bbox": [
+      1461.6,
+      2282.7,
+      1857.2,
+      2297.3
+    ],
+    "text": "Nét dừng cấu kiện\nBSV_Bearkline",
+    "lines": [
+      "Nét dừng cấu kiện",
+      "BSV_Bearkline"
+    ]
+  },
+  {
+    "index": 77,
+    "bbox": [
+      1461.6,
+      2314.9,
+      1826.6,
+      2329.5
+    ],
+    "text": "Dim\nBSV_Dim",
+    "lines": [
+      "Dim",
+      "BSV_Dim"
+    ]
+  },
+  {
+    "index": 78,
+    "bbox": [
+      1770.6,
+      2356.3,
+      1834.4,
+      2370.9
+    ],
+    "text": "Subtopic 3",
+    "lines": [
+      "Subtopic 3"
+    ]
+  },
+  {
+    "index": 79,
+    "bbox": [
+      1461.6,
+      2406.3,
+      1483.1,
+      2420.9
+    ],
+    "text": "Tag",
+    "lines": [
+      "Tag"
+    ]
+  },
+  {
+    "index": 80,
+    "bbox": [
+      1770.6,
+      2388.5,
+      2034.7,
+      2431.6
+    ],
+    "text": "Tag Thép chủ,tăng cường, thép giá (thể hiện \nleadear) :\nBSV_03.4_Tag Rebar_Beam_Sl_D",
+    "lines": [
+      "Tag Thép chủ,tăng cường, thép giá (thể hiện",
+      "leadear) :",
+      "BSV_03.4_Tag Rebar_Beam_Sl_D"
+    ]
+  },
+  {
+    "index": 81,
+    "bbox": [
+      1770.6,
+      2449.2,
+      1985.5,
+      2478.1
+    ],
+    "text": "Tag thép đai, thép C\nBSV_03.5_Tag Rebar_Beam_SL_D_a",
+    "lines": [
+      "Tag thép đai, thép C",
+      "BSV_03.5_Tag Rebar_Beam_SL_D_a"
+    ]
+  },
+  {
+    "index": 82,
+    "bbox": [
+      1139.9,
+      2479.2,
+      1225.5,
+      2493.9
+    ],
+    "text": "Mặt cắt ngang",
+    "lines": [
+      "Mặt cắt ngang"
+    ]
+  },
+  {
+    "index": 83,
+    "bbox": [
+      1461.6,
+      2599.3,
+      1995.9,
+      2628.2
+    ],
+    "text": "Kéo thép đai 2D bending detail\nThép đai, thép C bending detail:\nBSV_03.6_Tag Rebar_Beam_Sl_D_a_L",
+    "lines": [
+      "Kéo thép đai 2D bending detail",
+      "Thép đai, thép C bending detail:",
+      "BSV_03.6_Tag Rebar_Beam_Sl_D_a_L"
+    ]
+  },
+  {
+    "index": 84,
+    "bbox": [
+      1461.6,
+      2708.1,
+      2313.9,
+      2722.7
+    ],
+    "text": "Viewport\nBSV_Title_Medium_Sec_Beam\nBSV_ViewNameVN: [MẶT CẮT 1-1 ]",
+    "lines": [
+      "Viewport",
+      "BSV_Title_Medium_Sec_Beam",
+      "BSV_ViewNameVN: [MẶT CẮT 1-1 ]"
+    ]
+  },
+  {
+    "index": 85,
+    "bbox": [
+      940.4,
+      2750.3,
+      1082.2,
+      2765.0
+    ],
+    "text": "Vẽ bằng nét hidden line",
+    "lines": [
+      "Vẽ bằng nét hidden line"
+    ]
+  },
+  {
+    "index": 86,
+    "bbox": [
+      637.4,
+      2800.4,
+      881.5,
+      2829.3
+    ],
+    "text": "Vẽ đường giống thể hiện phạm vi nối cắt \nthép",
+    "lines": [
+      "Vẽ đường giống thể hiện phạm vi nối cắt",
+      "thép"
+    ]
+  },
+  {
+    "index": 87,
+    "bbox": [
+      940.4,
+      2782.6,
+      1081.6,
+      2825.7
+    ],
+    "text": "Theo Spec để vẽ đường \ngiống:\nVd: L/4 hoặc L/6",
+    "lines": [
+      "Theo Spec để vẽ đường",
+      "giống:",
+      "Vd: L/4 hoặc L/6"
+    ]
+  },
+  {
+    "index": 88,
+    "bbox": [
+      940.4,
+      2843.3,
+      1085.5,
+      2900.7
+    ],
+    "text": "Spec không thê hiện thì \nvẽ :\nL/4 nối thép trên ở bụng\nL/6 nối thép dưới ở gối",
+    "lines": [
+      "Spec không thê hiện thì",
+      "vẽ :",
+      "L/4 nối thép trên ở bụng",
+      "L/6 nối thép dưới ở gối"
+    ]
+  },
+  {
+    "index": 89,
+    "bbox": [
+      1139.9,
+      2933.2,
+      1512.0,
+      2947.9
+    ],
+    "text": "Partitions\nSỐ HIỆU",
+    "lines": [
+      "Partitions",
+      "SỐ HIỆU"
+    ]
+  },
+  {
+    "index": 90,
+    "bbox": [
+      1139.9,
+      2965.5,
+      1533.3,
+      2980.1
+    ],
+    "text": "Bending detail\nHÌNH DẠNG",
+    "lines": [
+      "Bending detail",
+      "HÌNH DẠNG"
+    ]
+  },
+  {
+    "index": 91,
+    "bbox": [
+      1139.9,
+      2997.7,
+      1471.4,
+      3012.4
+    ],
+    "text": "Bar Diameter\nØ",
+    "lines": [
+      "Bar Diameter",
+      "Ø"
+    ]
+  },
+  {
+    "index": 92,
+    "bbox": [
+      637.4,
+      3030.0,
+      1076.2,
+      3044.6
+    ],
+    "text": "Bảng thống kê\nThống kê thép Dầm B2",
+    "lines": [
+      "Bảng thống kê",
+      "Thống kê thép Dầm B2"
+    ]
+  },
+  {
+    "index": 93,
+    "bbox": [
+      1139.9,
+      3030.0,
+      1475.3,
+      3044.6
+    ],
+    "text": "Quantities\nSL",
+    "lines": [
+      "Quantities",
+      "SL"
+    ]
+  },
+  {
+    "index": 94,
+    "bbox": [
+      1139.9,
+      3062.2,
+      1540.4,
+      3076.9
+    ],
+    "text": "BSV_SoCauKien\nSỐ CẤU KIỆN",
+    "lines": [
+      "BSV_SoCauKien",
+      "SỐ CẤU KIỆN"
+    ]
+  },
+  {
+    "index": 95,
+    "bbox": [
+      1139.9,
+      3094.5,
+      1562.4,
+      3109.1
+    ],
+    "text": "TỔNG CHIỀU DÀI(mm)\nTỔNG CHIỀU DÀI",
+    "lines": [
+      "TỔNG CHIỀU DÀI(mm)",
+      "TỔNG CHIỀU DÀI"
+    ]
+  },
+  {
+    "index": 96,
+    "bbox": [
+      1139.9,
+      3126.7,
+      1578.1,
+      3141.4
+    ],
+    "text": "TỔNG KHỐI LƯỢNG(Kg)\nTỔNG KHỐI LƯỢNG",
+    "lines": [
+      "TỔNG KHỐI LƯỢNG(Kg)",
+      "TỔNG KHỐI LƯỢNG"
+    ]
+  },
+  {
+    "index": 97,
+    "bbox": [
+      940.4,
+      3165.4,
+      1079.6,
+      3194.3
+    ],
+    "text": "Dulicate level cùng cao \nđộ dầm",
+    "lines": [
+      "Dulicate level cùng cao",
+      "độ dầm"
+    ]
+  },
+  {
+    "index": 98,
+    "bbox": [
+      637.4,
+      3219.0,
+      688.5,
+      3233.6
+    ],
+    "text": "Key plan",
+    "lines": [
+      "Key plan"
+    ]
+  },
+  {
+    "index": 99,
+    "bbox": [
+      940.4,
+      3211.9,
+      1310.7,
+      3226.5
+    ],
+    "text": "Add view teamplate\n[BSV_03.1_KP_GroundBeam]",
+    "lines": [
+      "Add view teamplate",
+      "[BSV_03.1_KP_GroundBeam]"
+    ]
+  },
+  {
+    "index": 100,
+    "bbox": [
+      940.4,
+      3244.1,
+      1056.7,
+      3301.5
+    ],
+    "text": "BSV_ThuMucChinh:\n[SHOP THÉP DẦM]\nBSV_ThuMucPhu:\n[01.KEY PLAN]",
+    "lines": [
+      "BSV_ThuMucChinh:",
+      "[SHOP THÉP DẦM]",
+      "BSV_ThuMucPhu:",
+      "[01.KEY PLAN]"
+    ]
+  },
+  {
+    "index": 101,
+    "bbox": [
+      1139.9,
+      3345.4,
+      1279.5,
+      3360.0
+    ],
+    "text": "Nhập/Kiểm tra lớp btbv",
+    "lines": [
+      "Nhập/Kiểm tra lớp btbv"
+    ]
+  },
+  {
+    "index": 102,
+    "bbox": [
+      1139.9,
+      3377.6,
+      1327.2,
+      3392.3
+    ],
+    "text": "Thép lớp trên + tăng cường trên",
+    "lines": [
+      "Thép lớp trên + tăng cường trên"
+    ]
+  },
+  {
+    "index": 103,
+    "bbox": [
+      637.4,
+      3413.4,
+      803.9,
+      3442.3
+    ],
+    "text": "Quy cách vẽ \n(Chạy tool Bimspeed vẽ sàn)",
+    "lines": [
+      "Quy cách vẽ",
+      "(Chạy tool Bimspeed vẽ sàn)"
+    ]
+  },
+  {
+    "index": 104,
+    "bbox": [
+      940.4,
+      3406.3,
+      1095.1,
+      3449.4
+    ],
+    "text": "Theo mặt cắt chi tiết .Nếu \nmặt cắt không thể hiện\nTheo Spec",
+    "lines": [
+      "Theo mặt cắt chi tiết .Nếu",
+      "mặt cắt không thể hiện",
+      "Theo Spec"
+    ]
+  },
+  {
+    "index": 105,
+    "bbox": [
+      1139.9,
+      3409.9,
+      1332.8,
+      3424.5
+    ],
+    "text": "Thép lớp dưới + tăng cường dưới",
+    "lines": [
+      "Thép lớp dưới + tăng cường dưới"
+    ]
+  },
+  {
+    "index": 106,
+    "bbox": [
+      1139.9,
+      3442.1,
+      1311.5,
+      3471.0
+    ],
+    "text": "L1=Chiều dày sàn - 2 lớp btbv\nL2=Chiều dày sàn - 2 lớp btbv",
+    "lines": [
+      "L1=Chiều dày sàn - 2 lớp btbv",
+      "L2=Chiều dày sàn - 2 lớp btbv"
+    ]
+  },
+  {
+    "index": 107,
+    "bbox": [
+      1139.9,
+      3488.6,
+      1400.1,
+      3517.5
+    ],
+    "text": "Chọn những biên dạng khác nhấn vào hình \nảnh",
+    "lines": [
+      "Chọn những biên dạng khác nhấn vào hình",
+      "ảnh"
+    ]
+  },
+  {
+    "index": 108,
+    "bbox": [
+      637.4,
+      3552.7,
+      769.4,
+      3567.4
+    ],
+    "text": "Quy cách đặt tên thép",
+    "lines": [
+      "Quy cách đặt tên thép"
+    ]
+  },
+  {
+    "index": 109,
+    "bbox": [
+      940.4,
+      3536.6,
+      1326.9,
+      3551.2
+    ],
+    "text": "Partition\nVd: [Partiotion: Slab_Caodo_VP]",
+    "lines": [
+      "Partition",
+      "Vd: [Partiotion: Slab_Caodo_VP]"
+    ]
+  },
+  {
+    "index": 110,
+    "bbox": [
+      940.4,
+      3568.9,
+      1351.8,
+      3583.5
+    ],
+    "text": "BSV_PhanLoai\nVd: [BSV_PhanLoai:04.ThepNen_VP]",
+    "lines": [
+      "BSV_PhanLoai",
+      "Vd: [BSV_PhanLoai:04.ThepNen_VP]"
+    ]
+  },
+  {
+    "index": 111,
+    "bbox": [
+      1139.9,
+      3599.6,
+      1327.7,
+      3628.5
+    ],
+    "text": "Áp dụng với mặt bằng key plan:\nBSV_04.1_KP_Slab",
+    "lines": [
+      "Áp dụng với mặt bằng key plan:",
+      "BSV_04.1_KP_Slab"
+    ]
+  },
+  {
+    "index": 112,
+    "bbox": [
+      1139.9,
+      3646.1,
+      1356.3,
+      3675.0
+    ],
+    "text": "Áp dụng với mặt bằng thép lớp trên:\nBSV_04.2_PlanSlabTop",
+    "lines": [
+      "Áp dụng với mặt bằng thép lớp trên:",
+      "BSV_04.2_PlanSlabTop"
+    ]
+  },
+  {
+    "index": 113,
+    "bbox": [
+      940.4,
+      3676.5,
+      1058.9,
+      3691.1
+    ],
+    "text": "Gán view teamplate",
+    "lines": [
+      "Gán view teamplate"
+    ]
+  },
+  {
+    "index": 114,
+    "bbox": [
+      1139.9,
+      3692.6,
+      1359.1,
+      3721.5
+    ],
+    "text": "Áp dụng với mặt bằng thép lớp dưới:\nBSV_04.3_PlanSlabBot",
+    "lines": [
+      "Áp dụng với mặt bằng thép lớp dưới:",
+      "BSV_04.3_PlanSlabBot"
+    ]
+  },
+  {
+    "index": 115,
+    "bbox": [
+      1139.9,
+      3739.1,
+      1317.4,
+      3768.0
+    ],
+    "text": "Áp dụng với mặt cắt thép sàn:\nBSV_04.4__Sec_Slab",
+    "lines": [
+      "Áp dụng với mặt cắt thép sàn:",
+      "BSV_04.4__Sec_Slab"
+    ]
+  },
+  {
+    "index": 116,
+    "bbox": [
+      2483.5,
+      3785.6,
+      2649.7,
+      3843.0
+    ],
+    "text": "Thép chủ theo Spec:\nVd: Neo 40d,Lap 40d so le, \nThép tăng cường theo Spec:\nVd: Neo 40d, L/4,",
+    "lines": [
+      "Thép chủ theo Spec:",
+      "Vd: Neo 40d,Lap 40d so le,",
+      "Thép tăng cường theo Spec:",
+      "Vd: Neo 40d, L/4,"
+    ]
+  },
+  {
+    "index": 117,
+    "bbox": [
+      2230.1,
+      3807.0,
+      2451.9,
+      3821.6
+    ],
+    "text": "Neo, lap, cắt,  thép chủ và tăng cường",
+    "lines": [
+      "Neo, lap, cắt,  thép chủ và tăng cường"
+    ]
+  },
+  {
+    "index": 118,
+    "bbox": [
+      2230.1,
+      3860.6,
+      2422.7,
+      3903.7
+    ],
+    "text": "Quy ước thê hiện mặt cắt bản vẽ\n(Mặt cắt thể hiện vị trí nhìn từ \ntrái qua phải)",
+    "lines": [
+      "Quy ước thê hiện mặt cắt bản vẽ",
+      "(Mặt cắt thể hiện vị trí nhìn từ",
+      "trái qua phải)"
+    ]
+  },
+  {
+    "index": 119,
+    "bbox": [
+      2230.1,
+      3921.3,
+      2527.7,
+      3936.0
+    ],
+    "text": "Cao độ\nBSV_CaoDo",
+    "lines": [
+      "Cao độ",
+      "BSV_CaoDo"
+    ]
+  },
+  {
+    "index": 120,
+    "bbox": [
+      2230.1,
+      3953.6,
+      2541.6,
+      3968.2
+    ],
+    "text": "Nét dừng cấu kiện\nBSV_Bearkline",
+    "lines": [
+      "Nét dừng cấu kiện",
+      "BSV_Bearkline"
+    ]
+  },
+  {
+    "index": 121,
+    "bbox": [
+      2230.1,
+      3985.8,
+      2569.8,
+      4000.5
+    ],
+    "text": "Nét cắt thép\nBSV_DauThep_Dam",
+    "lines": [
+      "Nét cắt thép",
+      "BSV_DauThep_Dam"
+    ]
+  },
+  {
+    "index": 122,
+    "bbox": [
+      637.4,
+      4010.7,
+      707.4,
+      4025.3
+    ],
+    "text": "Xuất bản vẽ",
+    "lines": [
+      "Xuất bản vẽ"
+    ]
+  },
+  {
+    "index": 123,
+    "bbox": [
+      2230.1,
+      4018.1,
+      2502.8,
+      4032.7
+    ],
+    "text": "Dim\nBSV_Dim",
+    "lines": [
+      "Dim",
+      "BSV_Dim"
+    ]
+  },
+  {
+    "index": 124,
+    "bbox": [
+      2230.1,
+      4050.3,
+      2694.0,
+      4079.2
+    ],
+    "text": "Tag\nTag Thép chủ,tăng cường,  (tắt leadear) :\nVd: [BSV_04.1_Tag Rebar_Slab_SL_D_a_L]",
+    "lines": [
+      "Tag",
+      "Tag Thép chủ,tăng cường,  (tắt leadear) :",
+      "Vd: [BSV_04.1_Tag Rebar_Slab_SL_D_a_L]"
+    ]
+  },
+  {
+    "index": 125,
+    "bbox": [
+      1139.9,
+      4114.6,
+      1196.7,
+      4129.3
+    ],
+    "text": "Mặt bằng",
+    "lines": [
+      "Mặt bằng"
+    ]
+  },
+  {
+    "index": 126,
+    "bbox": [
+      1461.6,
+      4098.5,
+      1602.6,
+      4113.1
+    ],
+    "text": "Mặt bằng thép lớp trên",
+    "lines": [
+      "Mặt bằng thép lớp trên"
+    ]
+  },
+  {
+    "index": 127,
+    "bbox": [
+      2447.5,
+      4096.8,
+      2602.4,
+      4111.4
+    ],
+    "text": "Theo thứ tự từ trên xuống",
+    "lines": [
+      "Theo thứ tự từ trên xuống"
+    ]
+  },
+  {
+    "index": 128,
+    "bbox": [
+      1461.6,
+      4130.8,
+      1602.3,
+      4145.4
+    ],
+    "text": "Mặt bằng thép lớp dưới",
+    "lines": [
+      "Mặt bằng thép lớp dưới"
+    ]
+  },
+  {
+    "index": 129,
+    "bbox": [
+      2230.1,
+      4129.1,
+      2380.0,
+      4157.9
+    ],
+    "text": "Kéo thép chủ, thép tăng \ncường, 2D bending detail",
+    "lines": [
+      "Kéo thép chủ, thép tăng",
+      "cường, 2D bending detail"
+    ]
+  },
+  {
+    "index": 130,
+    "bbox": [
+      2447.5,
+      4129.1,
+      2671.1,
+      4157.9
+    ],
+    "text": "Thép chủ bending detail:\n[BSV_04.1_Tag Rebar_Slab_SL_D_a_L]",
+    "lines": [
+      "Thép chủ bending detail:",
+      "[BSV_04.1_Tag Rebar_Slab_SL_D_a_L]"
+    ]
+  },
+  {
+    "index": 131,
+    "bbox": [
+      2447.5,
+      4175.6,
+      2605.0,
+      4190.2
+    ],
+    "text": "Dim khoảng cách nối thép",
+    "lines": [
+      "Dim khoảng cách nối thép"
+    ]
+  },
+  {
+    "index": 132,
+    "bbox": [
+      2230.1,
+      4207.8,
+      2591.3,
+      4236.7
+    ],
+    "text": "Thể hiện khoảng rải\nDùng Detail Annnotation\n[BSV_Symbol_RaiThep]",
+    "lines": [
+      "Thể hiện khoảng rải",
+      "Dùng Detail Annnotation",
+      "[BSV_Symbol_RaiThep]"
+    ]
+  },
+  {
+    "index": 133,
+    "bbox": [
+      366.0,
+      4260.0,
+      419.2,
+      4278.3
+    ],
+    "text": "04.Nền",
+    "lines": [
+      "04.Nền"
+    ]
+  },
+  {
+    "index": 134,
+    "bbox": [
+      2230.1,
+      4322.2,
+      2658.9,
+      4336.8
+    ],
+    "text": "Hatch cao độ \nOverride graphic in view> by element",
+    "lines": [
+      "Hatch cao độ",
+      "Override graphic in view> by element"
+    ]
+  },
+  {
+    "index": 135,
+    "bbox": [
+      940.4,
+      4345.0,
+      1055.7,
+      4359.6
+    ],
+    "text": "Mặt bằng & Mặt cắt",
+    "lines": [
+      "Mặt bằng & Mặt cắt"
+    ]
+  },
+  {
+    "index": 136,
+    "bbox": [
+      2230.1,
+      4422.3,
+      2899.4,
+      4436.9
+    ],
+    "text": "Viewport\nBSV_04.1_Title_Large_Plan_Slab\nBSV_ViewNameVN: [ MB THÉP LỚP TRÊN ]",
+    "lines": [
+      "Viewport",
+      "BSV_04.1_Title_Large_Plan_Slab",
+      "BSV_ViewNameVN: [ MB THÉP LỚP TRÊN ]"
+    ]
+  },
+  {
+    "index": 137,
+    "bbox": [
+      2220.7,
+      4454.5,
+      2492.1,
+      4469.2
+    ],
+    "text": "CaoDo\nBSV_CaoDo",
+    "lines": [
+      "CaoDo",
+      "BSV_CaoDo"
+    ]
+  },
+  {
+    "index": 138,
+    "bbox": [
+      2220.7,
+      4486.8,
+      2503.7,
+      4501.4
+    ],
+    "text": "Nét dừng cấu kiện\nBSV_Bearkline",
+    "lines": [
+      "Nét dừng cấu kiện",
+      "BSV_Bearkline"
+    ]
+  },
+  {
+    "index": 139,
+    "bbox": [
+      2220.7,
+      4519.0,
+      2468.6,
+      4533.7
+    ],
+    "text": "Dim\nBSV_Dim",
+    "lines": [
+      "Dim",
+      "BSV_Dim"
+    ]
+  },
+  {
+    "index": 140,
+    "bbox": [
+      2412.7,
+      4572.7,
+      2494.8,
+      4587.3
+    ],
+    "text": "Thép Lớp trên",
+    "lines": [
+      "Thép Lớp trên"
+    ]
+  },
+  {
+    "index": 141,
+    "bbox": [
+      2526.7,
+      4556.5,
+      2585.2,
+      4571.2
+    ],
+    "text": "Phương X",
+    "lines": [
+      "Phương X"
+    ]
+  },
+  {
+    "index": 142,
+    "bbox": [
+      2636.9,
+      4551.3,
+      2915.6,
+      4608.7
+    ],
+    "text": "Áp dụng với thép song song (thể hiện leadear) :\n[BSV_04.2_Tag Rebar_Slab_SL_D_a]\nÁp dụng với thép vuông góc ( thể hiện leader):\n[BSV_04.3_Tag Rebar_Slab_OpenDot_Sl_D_a]",
+    "lines": [
+      "Áp dụng với thép song song (thể hiện leadear) :",
+      "[BSV_04.2_Tag Rebar_Slab_SL_D_a]",
+      "Áp dụng với thép vuông góc ( thể hiện leader):",
+      "[BSV_04.3_Tag Rebar_Slab_OpenDot_Sl_D_a]"
+    ]
+  },
+  {
+    "index": 143,
+    "bbox": [
+      1139.9,
+      4575.3,
+      1547.2,
+      4589.9
+    ],
+    "text": "Mặt cắt \nMặt cắt ngang",
+    "lines": [
+      "Mặt cắt",
+      "Mặt cắt ngang"
+    ]
+  },
+  {
+    "index": 144,
+    "bbox": [
+      2526.7,
+      4588.8,
+      2584.6,
+      4603.4
+    ],
+    "text": "Phương Y",
+    "lines": [
+      "Phương Y"
+    ]
+  },
+  {
+    "index": 145,
+    "bbox": [
+      2220.7,
+      4607.5,
+      2242.1,
+      4622.2
+    ],
+    "text": "Tag",
+    "lines": [
+      "Tag"
+    ]
+  },
+  {
+    "index": 146,
+    "bbox": [
+      2529.7,
+      4626.3,
+      2588.2,
+      4640.9
+    ],
+    "text": "Phương X",
+    "lines": [
+      "Phương X"
+    ]
+  },
+  {
+    "index": 147,
+    "bbox": [
+      2639.9,
+      4621.0,
+      2918.6,
+      4678.4
+    ],
+    "text": "Áp dụng với thép song song (thể hiện leadear) :\n[BSV_04.2_Tag Rebar_Slab_SL_D_a]\nÁp dụng với thép vuông góc ( thể hiện leader):\n[BSV_04.3_Tag Rebar_Slab_OpenDot_Sl_D_a]",
+    "lines": [
+      "Áp dụng với thép song song (thể hiện leadear) :",
+      "[BSV_04.2_Tag Rebar_Slab_SL_D_a]",
+      "Áp dụng với thép vuông góc ( thể hiện leader):",
+      "[BSV_04.3_Tag Rebar_Slab_OpenDot_Sl_D_a]"
+    ]
+  },
+  {
+    "index": 148,
+    "bbox": [
+      2412.7,
+      4642.4,
+      2497.6,
+      4657.0
+    ],
+    "text": "Thép Lớp dưới",
+    "lines": [
+      "Thép Lớp dưới"
+    ]
+  },
+  {
+    "index": 149,
+    "bbox": [
+      2529.7,
+      4658.5,
+      2587.6,
+      4673.2
+    ],
+    "text": "Phương Y",
+    "lines": [
+      "Phương Y"
+    ]
+  },
+  {
+    "index": 150,
+    "bbox": [
+      2220.7,
+      4696.0,
+      2854.4,
+      4710.6
+    ],
+    "text": "Viewport\nBSV_04.2_Title_Medium_Sec_Slab\nBSV_ViewNameVN: [MẶT CẮT 6-6 ]",
+    "lines": [
+      "Viewport",
+      "BSV_04.2_Title_Medium_Sec_Slab",
+      "BSV_ViewNameVN: [MẶT CẮT 6-6 ]"
+    ]
+  },
+  {
+    "index": 151,
+    "bbox": [
+      1139.9,
+      4773.3,
+      1512.0,
+      4787.9
+    ],
+    "text": "Partitions\nSỐ HIỆU",
+    "lines": [
+      "Partitions",
+      "SỐ HIỆU"
+    ]
+  },
+  {
+    "index": 152,
+    "bbox": [
+      1139.9,
+      4805.5,
+      1533.3,
+      4820.1
+    ],
+    "text": "Bending detail\nHÌNH DẠNG",
+    "lines": [
+      "Bending detail",
+      "HÌNH DẠNG"
+    ]
+  },
+  {
+    "index": 153,
+    "bbox": [
+      1139.9,
+      4837.8,
+      1471.4,
+      4852.4
+    ],
+    "text": "Bar Diameter\nØ",
+    "lines": [
+      "Bar Diameter",
+      "Ø"
+    ]
+  },
+  {
+    "index": 154,
+    "bbox": [
+      637.4,
+      4870.0,
+      1077.0,
+      4884.6
+    ],
+    "text": "Bảng thống kê\nThống kê thép Sàn Vp2",
+    "lines": [
+      "Bảng thống kê",
+      "Thống kê thép Sàn Vp2"
+    ]
+  },
+  {
+    "index": 155,
+    "bbox": [
+      1139.9,
+      4870.0,
+      1475.3,
+      4884.6
+    ],
+    "text": "Quantities\nSL",
+    "lines": [
+      "Quantities",
+      "SL"
+    ]
+  },
+  {
+    "index": 156,
+    "bbox": [
+      1139.9,
+      4902.3,
+      1540.4,
+      4916.9
+    ],
+    "text": "BSV_SoCauKien\nSỐ CẤU KIỆN",
+    "lines": [
+      "BSV_SoCauKien",
+      "SỐ CẤU KIỆN"
+    ]
+  },
+  {
+    "index": 157,
+    "bbox": [
+      1139.9,
+      4934.5,
+      1562.4,
+      4949.1
+    ],
+    "text": "TỔNG CHIỀU DÀI(mm)\nTỔNG CHIỀU DÀI",
+    "lines": [
+      "TỔNG CHIỀU DÀI(mm)",
+      "TỔNG CHIỀU DÀI"
+    ]
+  },
+  {
+    "index": 158,
+    "bbox": [
+      1139.9,
+      4966.8,
+      1578.1,
+      4981.4
+    ],
+    "text": "TỔNG KHỐI LƯỢNG(Kg)\nTỔNG KHỐI LƯỢNG",
+    "lines": [
+      "TỔNG KHỐI LƯỢNG(Kg)",
+      "TỔNG KHỐI LƯỢNG"
+    ]
+  },
+  {
+    "index": 159,
+    "bbox": [
+      940.4,
+      5049.5,
+      1079.6,
+      5078.3
+    ],
+    "text": "Dulicate level cùng cao \nđộ dầm",
+    "lines": [
+      "Dulicate level cùng cao",
+      "độ dầm"
+    ]
+  },
+  {
+    "index": 160,
+    "bbox": [
+      637.4,
+      5103.1,
+      688.5,
+      5117.7
+    ],
+    "text": "Key plan",
+    "lines": [
+      "Key plan"
+    ]
+  },
+  {
+    "index": 161,
+    "bbox": [
+      940.4,
+      5096.0,
+      1249.1,
+      5110.6
+    ],
+    "text": "Add view teamplate\nBSV_04.1_KP_Slab",
+    "lines": [
+      "Add view teamplate",
+      "BSV_04.1_KP_Slab"
+    ]
+  },
+  {
+    "index": 162,
+    "bbox": [
+      940.4,
+      5128.2,
+      1056.7,
+      5185.6
+    ],
+    "text": "BSV_ThuMucChinh:\n[SHOP THÉP SÀN]\nBSV_ThuMucPhu:\n[01.KEY PLAN]",
+    "lines": [
+      "BSV_ThuMucChinh:",
+      "[SHOP THÉP SÀN]",
+      "BSV_ThuMucPhu:",
+      "[01.KEY PLAN]"
+    ]
+  },
+  {
+    "index": 163,
+    "bbox": [
+      1139.9,
+      5293.0,
+      1389.0,
+      5350.4
+    ],
+    "text": "Hiệu chỉnh cốt thép theo phương cạnh x,y\nTiết diện & loại đai\nThông tin cột\nNhập/Kiểm tra lớp btbv",
+    "lines": [
+      "Hiệu chỉnh cốt thép theo phương cạnh x,y",
+      "Tiết diện & loại đai",
+      "Thông tin cột",
+      "Nhập/Kiểm tra lớp btbv"
+    ]
+  },
+  {
+    "index": 164,
+    "bbox": [
+      1139.9,
+      5495.2,
+      1297.2,
+      5552.5
+    ],
+    "text": "Thép đai:\nĐoạn rải cốt thép\nQuy tắc rải cốt đai chính\nQuy tắc rải cốt đai bổ sung",
+    "lines": [
+      "Thép đai:",
+      "Đoạn rải cốt thép",
+      "Quy tắc rải cốt đai chính",
+      "Quy tắc rải cốt đai bổ sung"
+    ]
+  },
+  {
+    "index": 165,
+    "bbox": [
+      637.4,
+      5610.7,
+      803.9,
+      5639.6
+    ],
+    "text": "Quy cách vẽ \n(Chạy tool Bimspeed vẽ Cột)",
+    "lines": [
+      "Quy cách vẽ",
+      "(Chạy tool Bimspeed vẽ Cột)"
+    ]
+  },
+  {
+    "index": 166,
+    "bbox": [
+      940.4,
+      5603.6,
+      1095.1,
+      5646.7
+    ],
+    "text": "Theo mặt cắt chi tiết .Nếu \nmặt cắt không thể hiện\nTheo Spec",
+    "lines": [
+      "Theo mặt cắt chi tiết .Nếu",
+      "mặt cắt không thể hiện",
+      "Theo Spec"
+    ]
+  },
+  {
+    "index": 167,
+    "bbox": [
+      1139.9,
+      5718.7,
+      1233.6,
+      5733.3
+    ],
+    "text": "Thép chờ móng",
+    "lines": [
+      "Thép chờ móng"
+    ]
+  },
+  {
+    "index": 168,
+    "bbox": [
+      1139.9,
+      5871.3,
+      1312.3,
+      5985.7
+    ],
+    "text": "Cài đặt chung:\nĐoạn be móc cốt thép\nCài đặt cốt thép trên đỉnh \nGán thông tin cho thép\nChiều dài neo và nối thép cột\nĐiều kiện uốn hoặc cắt thép\nVị trí nối cốt thép\nTùy chọn ở vị trí dầm sàn",
+    "lines": [
+      "Cài đặt chung:",
+      "Đoạn be móc cốt thép",
+      "Cài đặt cốt thép trên đỉnh",
+      "Gán thông tin cho thép",
+      "Chiều dài neo và nối thép cột",
+      "Điều kiện uốn hoặc cắt thép",
+      "Vị trí nối cốt thép",
+      "Tùy chọn ở vị trí dầm sàn"
+    ]
+  },
+  {
+    "index": 169,
+    "bbox": [
+      940.4,
+      6036.6,
+      1314.0,
+      6051.2
+    ],
+    "text": "Partition\nVd: [Partiotion: B1_Caodo_VP]",
+    "lines": [
+      "Partition",
+      "Vd: [Partiotion: B1_Caodo_VP]"
+    ]
+  },
+  {
+    "index": 170,
+    "bbox": [
+      637.4,
+      6052.7,
+      769.4,
+      6067.3
+    ],
+    "text": "Quy cách đặt tên thép",
+    "lines": [
+      "Quy cách đặt tên thép"
+    ]
+  },
+  {
+    "index": 171,
+    "bbox": [
+      940.4,
+      6068.8,
+      1347.6,
+      6083.4
+    ],
+    "text": "BSV_PhanLoai\nVd: [BSV_PhanLoai:05.ThepCot_C5]",
+    "lines": [
+      "BSV_PhanLoai",
+      "Vd: [BSV_PhanLoai:05.ThepCot_C5]"
+    ]
+  },
+  {
+    "index": 172,
+    "bbox": [
+      1139.9,
+      6099.6,
+      1330.4,
+      6128.4
+    ],
+    "text": "Áp dụng cho mặt bằng key plan\n[BSV_05.1_KP_Column]",
+    "lines": [
+      "Áp dụng cho mặt bằng key plan",
+      "[BSV_05.1_KP_Column]"
+    ]
+  },
+  {
+    "index": 173,
+    "bbox": [
+      61.6,
+      6122.0,
+      278.8,
+      6143.9
+    ],
+    "text": "SHOP DRAWING REBAR",
+    "lines": [
+      "SHOP DRAWING REBAR"
+    ]
+  },
+  {
+    "index": 174,
+    "bbox": [
+      940.4,
+      6129.9,
+      1058.9,
+      6144.6
+    ],
+    "text": "Gán view teamplate",
+    "lines": [
+      "Gán view teamplate"
+    ]
+  },
+  {
+    "index": 175,
+    "bbox": [
+      1139.9,
+      6146.1,
+      1299.2,
+      6174.9
+    ],
+    "text": "Áp dụng cho mặt cắt dọc\n[BSV_05.2_Detail_Column]",
+    "lines": [
+      "Áp dụng cho mặt cắt dọc",
+      "[BSV_05.2_Detail_Column]"
+    ]
+  },
+  {
+    "index": 176,
+    "bbox": [
+      1770.6,
+      6195.6,
+      1928.9,
+      6224.4
+    ],
+    "text": "Thép chủ theo Spec:\nVd: Neo 40d,Lap 40d so le,",
+    "lines": [
+      "Thép chủ theo Spec:",
+      "Vd: Neo 40d,Lap 40d so le,"
+    ]
+  },
+  {
+    "index": 177,
+    "bbox": [
+      1461.6,
+      6233.1,
+      1714.1,
+      6247.7
+    ],
+    "text": "Neo, lap, cắt, khoảng cách giữa thanh thép",
+    "lines": [
+      "Neo, lap, cắt, khoảng cách giữa thanh thép"
+    ]
+  },
+  {
+    "index": 178,
+    "bbox": [
+      1770.6,
+      6256.3,
+      2048.1,
+      6270.9
+    ],
+    "text": "Khoảng cách rải thép đai, thép C, thép lồng kín",
+    "lines": [
+      "Khoảng cách rải thép đai, thép C, thép lồng kín"
+    ]
+  },
+  {
+    "index": 179,
+    "bbox": [
+      1461.6,
+      6288.5,
+      1717.9,
+      6317.4
+    ],
+    "text": "Quy ước thê hiện mặt cắt bản vẽ\n(Mặt cắt thể hiện vị trí nhìn từ trái qua phải)",
+    "lines": [
+      "Quy ước thê hiện mặt cắt bản vẽ",
+      "(Mặt cắt thể hiện vị trí nhìn từ trái qua phải)"
+    ]
+  },
+  {
+    "index": 180,
+    "bbox": [
+      1461.6,
+      6335.0,
+      1841.0,
+      6349.7
+    ],
+    "text": "CaoDo\nBSV_CaoDo",
+    "lines": [
+      "CaoDo",
+      "BSV_CaoDo"
+    ]
+  },
+  {
+    "index": 181,
+    "bbox": [
+      1461.6,
+      6367.3,
+      1857.2,
+      6381.9
+    ],
+    "text": "Nét dừng cấu kiện\nBSV_Bearkline",
+    "lines": [
+      "Nét dừng cấu kiện",
+      "BSV_Bearkline"
+    ]
+  },
+  {
+    "index": 182,
+    "bbox": [
+      637.4,
+      6382.2,
+      707.4,
+      6396.8
+    ],
+    "text": "Xuất bản vẽ",
+    "lines": [
+      "Xuất bản vẽ"
+    ]
+  },
+  {
+    "index": 183,
+    "bbox": [
+      1461.6,
+      6399.5,
+      1881.4,
+      6414.2
+    ],
+    "text": "Nét cắt thép\nBSV_DauThep_Cot",
+    "lines": [
+      "Nét cắt thép",
+      "BSV_DauThep_Cot"
+    ]
+  },
+  {
+    "index": 184,
+    "bbox": [
+      366.0,
+      6432.7,
+      414.5,
+      6451.0
+    ],
+    "text": "05.Cột",
+    "lines": [
+      "05.Cột"
+    ]
+  },
+  {
+    "index": 185,
+    "bbox": [
+      1461.6,
+      6431.8,
+      1826.6,
+      6446.4
+    ],
+    "text": "Dim\nBSV_Dim",
+    "lines": [
+      "Dim",
+      "BSV_Dim"
+    ]
+  },
+  {
+    "index": 186,
+    "bbox": [
+      1139.9,
+      6450.5,
+      1209.7,
+      6465.2
+    ],
+    "text": "Mặt cắt dọc",
+    "lines": [
+      "Mặt cắt dọc"
+    ]
+  },
+  {
+    "index": 187,
+    "bbox": [
+      1770.6,
+      6464.0,
+      1981.7,
+      6492.9
+    ],
+    "text": "Tag Thép chủ (thể hiện leadear) :\nBSV_05.1_Tag Rebar _Column_Sl_D",
+    "lines": [
+      "Tag Thép chủ (thể hiện leadear) :",
+      "BSV_05.1_Tag Rebar _Column_Sl_D"
+    ]
+  },
+  {
+    "index": 188,
+    "bbox": [
+      1461.6,
+      6494.4,
+      1483.1,
+      6509.0
+    ],
+    "text": "Tag",
+    "lines": [
+      "Tag"
+    ]
+  },
+  {
+    "index": 189,
+    "bbox": [
+      1770.6,
+      6510.5,
+      2028.5,
+      6539.4
+    ],
+    "text": "Tag Thép đai, thép giá (tắt leadear) :\nBSV_05.2_TagRebarShear_Column_SL_D_a",
+    "lines": [
+      "Tag Thép đai, thép giá (tắt leadear) :",
+      "BSV_05.2_TagRebarShear_Column_SL_D_a"
+    ]
+  },
+  {
+    "index": 190,
+    "bbox": [
+      1770.6,
+      6557.0,
+      1940.8,
+      6571.7
+    ],
+    "text": "Theo thứ tự từ trái sang phải",
+    "lines": [
+      "Theo thứ tự từ trái sang phải"
+    ]
+  },
+  {
+    "index": 191,
+    "bbox": [
+      1461.6,
+      6596.4,
+      1650.9,
+      6611.0
+    ],
+    "text": "Kéo thép chủ 2D bending detail",
+    "lines": [
+      "Kéo thép chủ 2D bending detail"
+    ]
+  },
+  {
+    "index": 192,
+    "bbox": [
+      1770.6,
+      6589.3,
+      1987.8,
+      6618.1
+    ],
+    "text": "Thép chủ bending detail:\nBSV_05.3_TagRebar_Column_SL_2D",
+    "lines": [
+      "Thép chủ bending detail:",
+      "BSV_05.3_TagRebar_Column_SL_2D"
+    ]
+  },
+  {
+    "index": 193,
+    "bbox": [
+      940.4,
+      6634.5,
+      984.7,
+      6649.1
+    ],
+    "text": "Mặt cắt",
+    "lines": [
+      "Mặt cắt"
+    ]
+  },
+  {
+    "index": 194,
+    "bbox": [
+      1770.6,
+      6635.8,
+      1928.0,
+      6650.4
+    ],
+    "text": "Dim khoảng cách nối thép",
+    "lines": [
+      "Dim khoảng cách nối thép"
+    ]
+  },
+  {
+    "index": 195,
+    "bbox": [
+      1461.6,
+      6668.0,
+      2344.8,
+      6682.6
+    ],
+    "text": "Viewport\nBSV_Title_Large_Sec_Column\nBSV_ViewNameVN: [ CHI TIẾT CỘT C5 ]",
+    "lines": [
+      "Viewport",
+      "BSV_Title_Large_Sec_Column",
+      "BSV_ViewNameVN: [ CHI TIẾT CỘT C5 ]"
+    ]
+  },
+  {
+    "index": 196,
+    "bbox": [
+      1461.6,
+      6700.3,
+      1841.0,
+      6714.9
+    ],
+    "text": "CaoDo\nBSV_CaoDo",
+    "lines": [
+      "CaoDo",
+      "BSV_CaoDo"
+    ]
+  },
+  {
+    "index": 197,
+    "bbox": [
+      1461.6,
+      6732.5,
+      1857.2,
+      6747.1
+    ],
+    "text": "Nét dừng cấu kiện\nBSV_Bearkline",
+    "lines": [
+      "Nét dừng cấu kiện",
+      "BSV_Bearkline"
+    ]
+  },
+  {
+    "index": 198,
+    "bbox": [
+      1461.6,
+      6764.8,
+      1826.6,
+      6779.4
+    ],
+    "text": "Dim\nBSV_Dim",
+    "lines": [
+      "Dim",
+      "BSV_Dim"
+    ]
+  },
+  {
+    "index": 199,
+    "bbox": [
+      1139.9,
+      6818.4,
+      1225.5,
+      6833.0
+    ],
+    "text": "Mặt cắt ngang",
+    "lines": [
+      "Mặt cắt ngang"
+    ]
+  },
+  {
+    "index": 200,
+    "bbox": [
+      1461.6,
+      6797.0,
+      1981.2,
+      6825.9
+    ],
+    "text": "Tag\nTag Thép chủ (thể hiện leadear) :\nBSV_05.4_Tag Rebar_Column_Sl_D",
+    "lines": [
+      "Tag",
+      "Tag Thép chủ (thể hiện leadear) :",
+      "BSV_05.4_Tag Rebar_Column_Sl_D"
+    ]
+  },
+  {
+    "index": 201,
+    "bbox": [
+      1770.6,
+      6843.5,
+      2028.5,
+      6872.4
+    ],
+    "text": "Tag thép đai, thép C, thép lồng kín\nBSV_05.2_TagRebarShear_Column_SL_D_a",
+    "lines": [
+      "Tag thép đai, thép C, thép lồng kín",
+      "BSV_05.2_TagRebarShear_Column_SL_D_a"
+    ]
+  },
+  {
+    "index": 202,
+    "bbox": [
+      1461.6,
+      6873.9,
+      1646.8,
+      6888.5
+    ],
+    "text": "Kéo thép đai 2D bending detail",
+    "lines": [
+      "Kéo thép đai 2D bending detail"
+    ]
+  },
+  {
+    "index": 203,
+    "bbox": [
+      1770.6,
+      6890.0,
+      2007.6,
+      6918.9
+    ],
+    "text": "Thép đai, thép C bending detail:\nBSV_05.4_TagRebar_Column_SL_D_a_L",
+    "lines": [
+      "Thép đai, thép C bending detail:",
+      "BSV_05.4_TagRebar_Column_SL_D_a_L"
+    ]
+  },
+  {
+    "index": 204,
+    "bbox": [
+      1461.6,
+      6936.5,
+      2313.9,
+      6951.1
+    ],
+    "text": "Viewport\nBSV_Title_Medium_Sec_Column\nBSV_ViewNameVN: [MẶT CẮT 1-1 ]",
+    "lines": [
+      "Viewport",
+      "BSV_Title_Medium_Sec_Column",
+      "BSV_ViewNameVN: [MẶT CẮT 1-1 ]"
+    ]
+  },
+  {
+    "index": 205,
+    "bbox": [
+      1139.9,
+      6970.2,
+      1512.0,
+      6984.9
+    ],
+    "text": "Partitions\nSỐ HIỆU",
+    "lines": [
+      "Partitions",
+      "SỐ HIỆU"
+    ]
+  },
+  {
+    "index": 206,
+    "bbox": [
+      1139.9,
+      7002.5,
+      1533.3,
+      7017.1
+    ],
+    "text": "Bending detail\nHÌNH DẠNG",
+    "lines": [
+      "Bending detail",
+      "HÌNH DẠNG"
+    ]
+  },
+  {
+    "index": 207,
+    "bbox": [
+      1139.9,
+      7034.7,
+      1471.4,
+      7049.4
+    ],
+    "text": "Bar Diameter\nØ",
+    "lines": [
+      "Bar Diameter",
+      "Ø"
+    ]
+  },
+  {
+    "index": 208,
+    "bbox": [
+      637.4,
+      7067.0,
+      1086.5,
+      7081.6
+    ],
+    "text": "Bảng thống kê\nTHỐNG KÊ THÉP CỘT C5",
+    "lines": [
+      "Bảng thống kê",
+      "THỐNG KÊ THÉP CỘT C5"
+    ]
+  },
+  {
+    "index": 209,
+    "bbox": [
+      1139.9,
+      7067.0,
+      1475.3,
+      7081.6
+    ],
+    "text": "Quantities\nSL",
+    "lines": [
+      "Quantities",
+      "SL"
+    ]
+  },
+  {
+    "index": 210,
+    "bbox": [
+      1139.9,
+      7099.2,
+      1540.4,
+      7113.9
+    ],
+    "text": "BSV_SoCauKien\nSỐ CẤU KIỆN",
+    "lines": [
+      "BSV_SoCauKien",
+      "SỐ CẤU KIỆN"
+    ]
+  },
+  {
+    "index": 211,
+    "bbox": [
+      1139.9,
+      7131.5,
+      1562.4,
+      7146.1
+    ],
+    "text": "TỔNG CHIỀU DÀI(mm)\nTỔNG CHIỀU DÀI",
+    "lines": [
+      "TỔNG CHIỀU DÀI(mm)",
+      "TỔNG CHIỀU DÀI"
+    ]
+  },
+  {
+    "index": 212,
+    "bbox": [
+      1139.9,
+      7163.7,
+      1578.1,
+      7178.4
+    ],
+    "text": "TỔNG KHỐI LƯỢNG(Kg)\nTỔNG KHỐI LƯỢNG",
+    "lines": [
+      "TỔNG KHỐI LƯỢNG(Kg)",
+      "TỔNG KHỐI LƯỢNG"
+    ]
+  },
+  {
+    "index": 213,
+    "bbox": [
+      940.4,
+      7197.5,
+      1079.6,
+      7226.3
+    ],
+    "text": "Dulicate level cùng cao \nđộ dầm",
+    "lines": [
+      "Dulicate level cùng cao",
+      "độ dầm"
+    ]
+  },
+  {
+    "index": 214,
+    "bbox": [
+      940.4,
+      7244.0,
+      1278.3,
+      7258.6
+    ],
+    "text": "Add view teamplate\n[BSV_05.1_KP_Column]",
+    "lines": [
+      "Add view teamplate",
+      "[BSV_05.1_KP_Column]"
+    ]
+  },
+  {
+    "index": 215,
+    "bbox": [
+      637.4,
+      7251.1,
+      688.5,
+      7265.7
+    ],
+    "text": "Key plan",
+    "lines": [
+      "Key plan"
+    ]
+  },
+  {
+    "index": 216,
+    "bbox": [
+      940.4,
+      7276.2,
+      1056.7,
+      7333.6
+    ],
+    "text": "BSV_ThuMucChinh:\n[SHOP THÉP CỘT]\nBSV_ThuMucPhu:\n[01.KEY PLAN]",
+    "lines": [
+      "BSV_ThuMucChinh:",
+      "[SHOP THÉP CỘT]",
+      "BSV_ThuMucPhu:",
+      "[01.KEY PLAN]"
+    ]
+  },
+  {
+    "index": 217,
+    "bbox": [
+      1139.9,
+      7379.0,
+      1279.5,
+      7393.6
+    ],
+    "text": "Nhập/Kiểm tra lớp btbv",
+    "lines": [
+      "Nhập/Kiểm tra lớp btbv"
+    ]
+  },
+  {
+    "index": 218,
+    "bbox": [
+      637.4,
+      7420.3,
+      811.1,
+      7449.1
+    ],
+    "text": "Quy cách vẽ \n(Chạy tool Bimspeed vẽ vách)",
+    "lines": [
+      "Quy cách vẽ",
+      "(Chạy tool Bimspeed vẽ vách)"
+    ]
+  },
+  {
+    "index": 219,
+    "bbox": [
+      940.4,
+      7413.1,
+      1095.1,
+      7456.3
+    ],
+    "text": "Theo mặt cắt chi tiết .Nếu \nmặt cắt không thể hiện\nTheo Spec",
+    "lines": [
+      "Theo mặt cắt chi tiết .Nếu",
+      "mặt cắt không thể hiện",
+      "Theo Spec"
+    ]
+  },
+  {
+    "index": 220,
+    "bbox": [
+      1139.9,
+      7411.3,
+      1332.8,
+      7425.9
+    ],
+    "text": "Thép lớp dưới + tăng cường dưới",
+    "lines": [
+      "Thép lớp dưới + tăng cường dưới"
+    ]
+  },
+  {
+    "index": 221,
+    "bbox": [
+      1139.9,
+      7443.5,
+      1327.2,
+      7458.1
+    ],
+    "text": "Thép lớp trên + tăng cường trên",
+    "lines": [
+      "Thép lớp trên + tăng cường trên"
+    ]
+  },
+  {
+    "index": 222,
+    "bbox": [
+      1139.9,
+      7475.8,
+      1253.3,
+      7490.4
+    ],
+    "text": "Thép giá + Thép đai",
+    "lines": [
+      "Thép giá + Thép đai"
+    ]
+  },
+  {
+    "index": 223,
+    "bbox": [
+      940.4,
+      7514.1,
+      1314.0,
+      7528.7
+    ],
+    "text": "Partition\nVd: [Partiotion: B1_Caodo_VP]",
+    "lines": [
+      "Partition",
+      "Vd: [Partiotion: B1_Caodo_VP]"
+    ]
+  },
+  {
+    "index": 224,
+    "bbox": [
+      637.4,
+      7530.2,
+      769.4,
+      7544.8
+    ],
+    "text": "Quy cách đặt tên thép",
+    "lines": [
+      "Quy cách đặt tên thép"
+    ]
+  },
+  {
+    "index": 225,
+    "bbox": [
+      940.4,
+      7546.3,
+      1356.4,
+      7560.9
+    ],
+    "text": "BSV_PhanLoai\nVd: [BSV_PhanLoai:06.ThepVach_VP]",
+    "lines": [
+      "BSV_PhanLoai",
+      "Vd: [BSV_PhanLoai:06.ThepVach_VP]"
+    ]
+  },
+  {
+    "index": 226,
+    "bbox": [
+      1139.9,
+      7577.1,
+      1330.4,
+      7605.9
+    ],
+    "text": "Áp dụng cho mặt bằng key plan\nBSV_06.1_KP_StrWall",
+    "lines": [
+      "Áp dụng cho mặt bằng key plan",
+      "BSV_06.1_KP_StrWall"
+    ]
+  },
+  {
+    "index": 227,
+    "bbox": [
+      940.4,
+      7630.7,
+      1058.9,
+      7645.3
+    ],
+    "text": "Gán view teamplate",
+    "lines": [
+      "Gán view teamplate"
+    ]
+  },
+  {
+    "index": 228,
+    "bbox": [
+      1139.9,
+      7623.5,
+      1290.9,
+      7652.4
+    ],
+    "text": "Áp dụng cho mặt cắt dọc\nBSV_06.2_Detail_StrWall",
+    "lines": [
+      "Áp dụng cho mặt cắt dọc",
+      "BSV_06.2_Detail_StrWall"
+    ]
+  },
+  {
+    "index": 229,
+    "bbox": [
+      1139.9,
+      7670.0,
+      1306.7,
+      7698.9
+    ],
+    "text": "Áp dụng cho mặt cắt ngang\nBSV_06.3_Sectionl_StrWall",
+    "lines": [
+      "Áp dụng cho mặt cắt ngang",
+      "BSV_06.3_Sectionl_StrWall"
+    ]
+  },
+  {
+    "index": 230,
+    "bbox": [
+      1770.6,
+      7719.5,
+      1936.8,
+      7776.9
+    ],
+    "text": "Thép chủ theo Spec:\nVd: Neo 40d,Lap 40d so le, \nThép tăng cường theo Spec:\nVd: Neo 40d, L/4,",
+    "lines": [
+      "Thép chủ theo Spec:",
+      "Vd: Neo 40d,Lap 40d so le,",
+      "Thép tăng cường theo Spec:",
+      "Vd: Neo 40d, L/4,"
+    ]
+  },
+  {
+    "index": 231,
+    "bbox": [
+      1461.6,
+      7760.6,
+      1711.1,
+      7789.5
+    ],
+    "text": "Neo, lap, cắt, khoảng cách giữa 2 lớp thép \nchủ và tăng cường",
+    "lines": [
+      "Neo, lap, cắt, khoảng cách giữa 2 lớp thép",
+      "chủ và tăng cường"
+    ]
+  },
+  {
+    "index": 232,
+    "bbox": [
+      1770.6,
+      7794.5,
+      1961.3,
+      7809.2
+    ],
+    "text": "Khoảng cách rải thép đai thép C",
+    "lines": [
+      "Khoảng cách rải thép đai thép C"
+    ]
+  },
+  {
+    "index": 233,
+    "bbox": [
+      1461.6,
+      7826.8,
+      1717.9,
+      7855.7
+    ],
+    "text": "Quy ước thể hiện mặt cắt bản vẽ\n(Mặt cắt thể hiện vị trí nhìn từ trái qua phải)",
+    "lines": [
+      "Quy ước thể hiện mặt cắt bản vẽ",
+      "(Mặt cắt thể hiện vị trí nhìn từ trái qua phải)"
+    ]
+  },
+  {
+    "index": 234,
+    "bbox": [
+      1461.6,
+      7873.3,
+      1841.0,
+      7887.9
+    ],
+    "text": "CaoDo\nBSV_CaoDo",
+    "lines": [
+      "CaoDo",
+      "BSV_CaoDo"
+    ]
+  },
+  {
+    "index": 235,
+    "bbox": [
+      637.4,
+      7910.4,
+      707.4,
+      7925.0
+    ],
+    "text": "Xuất bản vẽ",
+    "lines": [
+      "Xuất bản vẽ"
+    ]
+  },
+  {
+    "index": 236,
+    "bbox": [
+      1461.6,
+      7905.5,
+      1857.2,
+      7920.2
+    ],
+    "text": "Nét dừng cấu kiện\nBSV_Bearkline",
+    "lines": [
+      "Nét dừng cấu kiện",
+      "BSV_Bearkline"
+    ]
+  },
+  {
+    "index": 237,
+    "bbox": [
+      1461.6,
+      7937.8,
+      1889.9,
+      7952.4
+    ],
+    "text": "Nét cắt thép\nBSV_DauThep_Dam",
+    "lines": [
+      "Nét cắt thép",
+      "BSV_DauThep_Dam"
+    ]
+  },
+  {
+    "index": 238,
+    "bbox": [
+      1139.9,
+      7994.1,
+      1209.7,
+      8008.7
+    ],
+    "text": "Mặt cắt dọc",
+    "lines": [
+      "Mặt cắt dọc"
+    ]
+  },
+  {
+    "index": 239,
+    "bbox": [
+      1461.6,
+      7970.0,
+      1826.6,
+      7984.6
+    ],
+    "text": "Dim\nBSV_Dim",
+    "lines": [
+      "Dim",
+      "BSV_Dim"
+    ]
+  },
+  {
+    "index": 240,
+    "bbox": [
+      1770.6,
+      8002.3,
+      2050.3,
+      8045.4
+    ],
+    "text": "Tag Thép chủ,tăng cường, thép giá, thép vai bò \n(thể hiện leadear) :\nBSV_06.1_Tag Rebar_StrWall_SL_D",
+    "lines": [
+      "Tag Thép chủ,tăng cường, thép giá, thép vai bò",
+      "(thể hiện leadear) :",
+      "BSV_06.1_Tag Rebar_StrWall_SL_D"
+    ]
+  },
+  {
+    "index": 241,
+    "bbox": [
+      1461.6,
+      8043.3,
+      1483.1,
+      8058.0
+    ],
+    "text": "Tag",
+    "lines": [
+      "Tag"
+    ]
+  },
+  {
+    "index": 242,
+    "bbox": [
+      1770.6,
+      8063.0,
+      2058.3,
+      8091.9
+    ],
+    "text": "Tag Thép đai, thép giá, thép C (thể hiện leadear) :\nBSV_06.3_Tag Reabar Shear_StrWall_Sl_D_a",
+    "lines": [
+      "Tag Thép đai, thép giá, thép C (thể hiện leadear) :",
+      "BSV_06.3_Tag Reabar Shear_StrWall_Sl_D_a"
+    ]
+  },
+  {
+    "index": 243,
+    "bbox": [
+      1770.6,
+      8109.5,
+      1925.5,
+      8124.1
+    ],
+    "text": "Theo thứ tự từ trên xuống",
+    "lines": [
+      "Theo thứ tự từ trên xuống"
+    ]
+  },
+  {
+    "index": 244,
+    "bbox": [
+      366.0,
+      8127.6,
+      425.8,
+      8145.9
+    ],
+    "text": "06.Vách",
+    "lines": [
+      "06.Vách"
+    ]
+  },
+  {
+    "index": 245,
+    "bbox": [
+      1461.6,
+      8141.8,
+      1721.2,
+      8170.6
+    ],
+    "text": "Kéo thép chủ, thép tăng cường, thép vai bò \nthép giá, 2D bending detail",
+    "lines": [
+      "Kéo thép chủ, thép tăng cường, thép vai bò",
+      "thép giá, 2D bending detail"
+    ]
+  },
+  {
+    "index": 246,
+    "bbox": [
+      1770.6,
+      8141.8,
+      1989.4,
+      8170.6
+    ],
+    "text": "Thép chủ bending detail:\nBSV_06.2_Tag Rebar_StrWall_Sl_D_L",
+    "lines": [
+      "Thép chủ bending detail:",
+      "BSV_06.2_Tag Rebar_StrWall_Sl_D_L"
+    ]
+  },
+  {
+    "index": 247,
+    "bbox": [
+      940.4,
+      8190.2,
+      984.7,
+      8204.8
+    ],
+    "text": "Mặt cắt",
+    "lines": [
+      "Mặt cắt"
+    ]
+  },
+  {
+    "index": 248,
+    "bbox": [
+      1770.6,
+      8188.3,
+      1976.8,
+      8202.9
+    ],
+    "text": "Dim khoảng cách nối thép(Nếu có)",
+    "lines": [
+      "Dim khoảng cách nối thép(Nếu có)"
+    ]
+  },
+  {
+    "index": 249,
+    "bbox": [
+      1461.6,
+      8220.5,
+      2366.3,
+      8235.1
+    ],
+    "text": "Viewport\nBSV_Title_Large_Sec_StrWall\nBSV_ViewNameVN: [ B2a_(SL=2)_(L=1400) ]",
+    "lines": [
+      "Viewport",
+      "BSV_Title_Large_Sec_StrWall",
+      "BSV_ViewNameVN: [ B2a_(SL=2)_(L=1400) ]"
+    ]
+  },
+  {
+    "index": 250,
+    "bbox": [
+      1461.6,
+      8284.2,
+      1841.0,
+      8298.9
+    ],
+    "text": "CaoDo\nBSV_CaoDo",
+    "lines": [
+      "CaoDo",
+      "BSV_CaoDo"
+    ]
+  },
+  {
+    "index": 251,
+    "bbox": [
+      1461.6,
+      8316.5,
+      1857.2,
+      8331.1
+    ],
+    "text": "Nét dừng cấu kiện\nBSV_Bearkline",
+    "lines": [
+      "Nét dừng cấu kiện",
+      "BSV_Bearkline"
+    ]
+  },
+  {
+    "index": 252,
+    "bbox": [
+      1461.6,
+      8348.7,
+      1826.6,
+      8363.4
+    ],
+    "text": "Dim\nBSV_Dim",
+    "lines": [
+      "Dim",
+      "BSV_Dim"
+    ]
+  },
+  {
+    "index": 253,
+    "bbox": [
+      1770.6,
+      8381.0,
+      2034.7,
+      8424.1
+    ],
+    "text": "Tag Thép chủ,tăng cường, thép giá (thể hiện \nleadear) :\nBSV_06.1_Tag Rebar_StrWall_SL_D",
+    "lines": [
+      "Tag Thép chủ,tăng cường, thép giá (thể hiện",
+      "leadear) :",
+      "BSV_06.1_Tag Rebar_StrWall_SL_D"
+    ]
+  },
+  {
+    "index": 254,
+    "bbox": [
+      1139.9,
+      8386.2,
+      1225.5,
+      8400.9
+    ],
+    "text": "Mặt cắt ngang",
+    "lines": [
+      "Mặt cắt ngang"
+    ]
+  },
+  {
+    "index": 255,
+    "bbox": [
+      1461.6,
+      8422.0,
+      1483.1,
+      8436.7
+    ],
+    "text": "Tag",
+    "lines": [
+      "Tag"
+    ]
+  },
+  {
+    "index": 256,
+    "bbox": [
+      1770.6,
+      8441.7,
+      2034.3,
+      8470.6
+    ],
+    "text": "Tag thép đai, thép C, thép lồng kín:\nBSV_06.3_Tag Reabar Shear_StrWall_Sl_D_a",
+    "lines": [
+      "Tag thép đai, thép C, thép lồng kín:",
+      "BSV_06.3_Tag Reabar Shear_StrWall_Sl_D_a"
+    ]
+  },
+  {
+    "index": 257,
+    "bbox": [
+      1461.6,
+      8488.2,
+      2313.9,
+      8502.8
+    ],
+    "text": "Viewport\nBSV_Title_Medium_Sec_StrWall\nBSV_ViewNameVN: [MẶT CẮT 1-1 ]",
+    "lines": [
+      "Viewport",
+      "BSV_Title_Medium_Sec_StrWall",
+      "BSV_ViewNameVN: [MẶT CẮT 1-1 ]"
+    ]
+  },
+  {
+    "index": 258,
+    "bbox": [
+      1139.9,
+      8550.5,
+      1512.0,
+      8565.1
+    ],
+    "text": "Partitions\nSỐ HIỆU",
+    "lines": [
+      "Partitions",
+      "SỐ HIỆU"
+    ]
+  },
+  {
+    "index": 259,
+    "bbox": [
+      1139.9,
+      8582.7,
+      1533.3,
+      8597.3
+    ],
+    "text": "Bending detail\nHÌNH DẠNG",
+    "lines": [
+      "Bending detail",
+      "HÌNH DẠNG"
+    ]
+  },
+  {
+    "index": 260,
+    "bbox": [
+      1139.9,
+      8615.0,
+      1471.4,
+      8629.6
+    ],
+    "text": "Bar Diameter\nØ",
+    "lines": [
+      "Bar Diameter",
+      "Ø"
+    ]
+  },
+  {
+    "index": 261,
+    "bbox": [
+      637.4,
+      8647.2,
+      1076.9,
+      8661.8
+    ],
+    "text": "Bảng thống kê\nTHỐNG KÊ THÉP VÁCH",
+    "lines": [
+      "Bảng thống kê",
+      "THỐNG KÊ THÉP VÁCH"
+    ]
+  },
+  {
+    "index": 262,
+    "bbox": [
+      1139.9,
+      8647.2,
+      1475.3,
+      8661.8
+    ],
+    "text": "Quantities\nSL",
+    "lines": [
+      "Quantities",
+      "SL"
+    ]
+  },
+  {
+    "index": 263,
+    "bbox": [
+      1139.9,
+      8679.4,
+      1540.4,
+      8694.1
+    ],
+    "text": "BSV_SoCauKien\nSỐ CẤU KIỆN",
+    "lines": [
+      "BSV_SoCauKien",
+      "SỐ CẤU KIỆN"
+    ]
+  },
+  {
+    "index": 264,
+    "bbox": [
+      1139.9,
+      8711.7,
+      1562.4,
+      8726.3
+    ],
+    "text": "TỔNG CHIỀU DÀI(mm)\nTỔNG CHIỀU DÀI",
+    "lines": [
+      "TỔNG CHIỀU DÀI(mm)",
+      "TỔNG CHIỀU DÀI"
+    ]
+  },
+  {
+    "index": 265,
+    "bbox": [
+      1139.9,
+      8743.9,
+      1578.1,
+      8758.6
+    ],
+    "text": "TỔNG KHỐI LƯỢNG(Kg)\nTỔNG KHỐI LƯỢNG",
+    "lines": [
+      "TỔNG KHỐI LƯỢNG(Kg)",
+      "TỔNG KHỐI LƯỢNG"
+    ]
+  },
+  {
+    "index": 266,
+    "bbox": [
+      940.4,
+      8777.7,
+      1079.6,
+      8806.6
+    ],
+    "text": "Dulicate level cùng cao \nđộ dầm",
+    "lines": [
+      "Dulicate level cùng cao",
+      "độ dầm"
+    ]
+  },
+  {
+    "index": 267,
+    "bbox": [
+      637.4,
+      8831.3,
+      688.5,
+      8845.9
+    ],
+    "text": "Key plan",
+    "lines": [
+      "Key plan"
+    ]
+  },
+  {
+    "index": 268,
+    "bbox": [
+      940.4,
+      8824.2,
+      1273.8,
+      8838.8
+    ],
+    "text": "Add view teamplate\n[BSV_06.1_KP_StrWall]",
+    "lines": [
+      "Add view teamplate",
+      "[BSV_06.1_KP_StrWall]"
+    ]
+  },
+  {
+    "index": 269,
+    "bbox": [
+      940.4,
+      8856.4,
+      1056.7,
+      8913.8
+    ],
+    "text": "BSV_ThuMucChinh:\n[SHOP THÉP VÁCH]\nBSV_ThuMucPhu:\n[01.KEY PLAN]",
+    "lines": [
+      "BSV_ThuMucChinh:",
+      "[SHOP THÉP VÁCH]",
+      "BSV_ThuMucPhu:",
+      "[01.KEY PLAN]"
+    ]
+  },
+  {
+    "index": 270,
+    "bbox": [
+      366.0,
+      8953.3,
+      496.7,
+      8989.6
+    ],
+    "text": "07.Dầm\n(Như 03.ĐàKiêng)",
+    "lines": [
+      "07.Dầm",
+      "(Như 03.ĐàKiêng)"
+    ]
+  },
+  {
+    "index": 271,
+    "bbox": [
+      366.0,
+      9030.5,
+      464.0,
+      9066.8
+    ],
+    "text": "08.Sàn\n(Như 04.Nền)",
+    "lines": [
+      "08.Sàn",
+      "(Như 04.Nền)"
+    ]
+  },
+  {
+    "index": 272,
+    "bbox": [
+      637.4,
+      9131.3,
+      734.2,
+      9160.2
+    ],
+    "text": "Quy cách vẽ \n(Stucture Rebar)",
+    "lines": [
+      "Quy cách vẽ",
+      "(Stucture Rebar)"
+    ]
+  },
+  {
+    "index": 273,
+    "bbox": [
+      940.4,
+      9124.2,
+      1095.1,
+      9167.3
+    ],
+    "text": "Theo mặt cắt chi tiết .Nếu \nmặt cắt không thể hiện\nTheo Spec",
+    "lines": [
+      "Theo mặt cắt chi tiết .Nếu",
+      "mặt cắt không thể hiện",
+      "Theo Spec"
+    ]
+  },
+  {
+    "index": 274,
+    "bbox": [
+      1139.9,
+      9106.2,
+      1279.5,
+      9120.8
+    ],
+    "text": "Nhập/Kiểm tra lớp btbv",
+    "lines": [
+      "Nhập/Kiểm tra lớp btbv"
+    ]
+  },
+  {
+    "index": 275,
+    "bbox": [
+      1139.9,
+      9138.4,
+      1327.2,
+      9153.0
+    ],
+    "text": "Thép lớp trên + tăng cường trên",
+    "lines": [
+      "Thép lớp trên + tăng cường trên"
+    ]
+  },
+  {
+    "index": 276,
+    "bbox": [
+      1139.9,
+      9170.7,
+      1332.8,
+      9185.3
+    ],
+    "text": "Thép lớp dưới + tăng cường dưới",
+    "lines": [
+      "Thép lớp dưới + tăng cường dưới"
+    ]
+  },
+  {
+    "index": 277,
+    "bbox": [
+      637.4,
+      9217.5,
+      769.4,
+      9232.2
+    ],
+    "text": "Quy cách đặt tên thép",
+    "lines": [
+      "Quy cách đặt tên thép"
+    ]
+  },
+  {
+    "index": 278,
+    "bbox": [
+      940.4,
+      9201.4,
+      1326.9,
+      9216.0
+    ],
+    "text": "Partition\nVd: [Partiotion: Slab_Caodo_VP]",
+    "lines": [
+      "Partition",
+      "Vd: [Partiotion: Slab_Caodo_VP]"
+    ]
+  },
+  {
+    "index": 279,
+    "bbox": [
+      940.4,
+      9233.7,
+      1387.1,
+      9248.3
+    ],
+    "text": "BSV_PhanLoai\nVd: [BSV_PhanLoai:09.ThepCauThang_VP]",
+    "lines": [
+      "BSV_PhanLoai",
+      "Vd: [BSV_PhanLoai:09.ThepCauThang_VP]"
+    ]
+  },
+  {
+    "index": 280,
+    "bbox": [
+      1139.9,
+      9264.4,
+      1327.7,
+      9293.3
+    ],
+    "text": "Áp dụng với mặt bằng key plan:\nBSV_09.1_KP_Stair",
+    "lines": [
+      "Áp dụng với mặt bằng key plan:",
+      "BSV_09.1_KP_Stair"
+    ]
+  },
+  {
+    "index": 281,
+    "bbox": [
+      940.4,
+      9294.8,
+      1058.9,
+      9309.4
+    ],
+    "text": "Gán view teamplate",
+    "lines": [
+      "Gán view teamplate"
+    ]
+  },
+  {
+    "index": 282,
+    "bbox": [
+      1139.9,
+      9310.9,
+      1343.2,
+      9339.8
+    ],
+    "text": "Áp dụng với mặt bằng và mặt cắt :\nBSV_09.1_Detail_Stair",
+    "lines": [
+      "Áp dụng với mặt bằng và mặt cắt :",
+      "BSV_09.1_Detail_Stair"
+    ]
+  },
+  {
+    "index": 283,
+    "bbox": [
+      2294.8,
+      9357.4,
+      2461.0,
+      9414.8
+    ],
+    "text": "Thép chủ theo Spec:\nVd: Neo 40d,Lap 40d so le, \nThép tăng cường theo Spec:\nVd: Neo 40d, L/4,",
+    "lines": [
+      "Thép chủ theo Spec:",
+      "Vd: Neo 40d,Lap 40d so le,",
+      "Thép tăng cường theo Spec:",
+      "Vd: Neo 40d, L/4,"
+    ]
+  },
+  {
+    "index": 284,
+    "bbox": [
+      2041.3,
+      9378.8,
+      2263.2,
+      9393.4
+    ],
+    "text": "Neo, lap, cắt,  thép chủ và tăng cường",
+    "lines": [
+      "Neo, lap, cắt,  thép chủ và tăng cường"
+    ]
+  },
+  {
+    "index": 285,
+    "bbox": [
+      2041.3,
+      9432.4,
+      2234.0,
+      9475.5
+    ],
+    "text": "Quy ước thê hiện mặt cắt bản vẽ\n(Mặt cắt thể hiện vị trí nhìn từ \ntrái qua phải)",
+    "lines": [
+      "Quy ước thê hiện mặt cắt bản vẽ",
+      "(Mặt cắt thể hiện vị trí nhìn từ",
+      "trái qua phải)"
+    ]
+  },
+  {
+    "index": 286,
+    "bbox": [
+      2041.3,
+      9493.1,
+      2339.0,
+      9507.8
+    ],
+    "text": "Cao độ\nBSV_CaoDo",
+    "lines": [
+      "Cao độ",
+      "BSV_CaoDo"
+    ]
+  },
+  {
+    "index": 287,
+    "bbox": [
+      637.4,
+      9525.0,
+      707.4,
+      9539.6
+    ],
+    "text": "Xuất bản vẽ",
+    "lines": [
+      "Xuất bản vẽ"
+    ]
+  },
+  {
+    "index": 288,
+    "bbox": [
+      1461.6,
+      9541.5,
+      1602.6,
+      9556.1
+    ],
+    "text": "Mặt bằng thép lớp trên",
+    "lines": [
+      "Mặt bằng thép lớp trên"
+    ]
+  },
+  {
+    "index": 289,
+    "bbox": [
+      2041.3,
+      9525.4,
+      2352.9,
+      9540.0
+    ],
+    "text": "Nét dừng cấu kiện\nBSV_Bearkline",
+    "lines": [
+      "Nét dừng cấu kiện",
+      "BSV_Bearkline"
+    ]
+  },
+  {
+    "index": 290,
+    "bbox": [
+      1139.9,
+      9557.6,
+      1196.7,
+      9572.3
+    ],
+    "text": "Mặt bằng",
+    "lines": [
+      "Mặt bằng"
+    ]
+  },
+  {
+    "index": 291,
+    "bbox": [
+      1461.6,
+      9573.8,
+      1602.3,
+      9588.4
+    ],
+    "text": "Mặt bằng thép lớp dưới",
+    "lines": [
+      "Mặt bằng thép lớp dưới"
+    ]
+  },
+  {
+    "index": 292,
+    "bbox": [
+      2041.3,
+      9557.6,
+      2314.0,
+      9572.3
+    ],
+    "text": "Dim\nBSV_Dim",
+    "lines": [
+      "Dim",
+      "BSV_Dim"
+    ]
+  },
+  {
+    "index": 293,
+    "bbox": [
+      2258.8,
+      9589.9,
+      2429.0,
+      9604.5
+    ],
+    "text": "Theo thứ tự từ trái sang phải",
+    "lines": [
+      "Theo thứ tự từ trái sang phải"
+    ]
+  },
+  {
+    "index": 294,
+    "bbox": [
+      2041.3,
+      9629.2,
+      2227.0,
+      9643.9
+    ],
+    "text": "Tag thép chủ, thép tăng cường,",
+    "lines": [
+      "Tag thép chủ, thép tăng cường,"
+    ]
+  },
+  {
+    "index": 295,
+    "bbox": [
+      2258.8,
+      9622.1,
+      2470.4,
+      9651.0
+    ],
+    "text": "Tag Thép chủ:\n[BSV_09.1_Tag Rebar_Stair_SL_D_a]",
+    "lines": [
+      "Tag Thép chủ:",
+      "[BSV_09.1_Tag Rebar_Stair_SL_D_a]"
+    ]
+  },
+  {
+    "index": 296,
+    "bbox": [
+      2258.8,
+      9668.6,
+      2416.2,
+      9683.2
+    ],
+    "text": "Dim khoảng cách nối thép",
+    "lines": [
+      "Dim khoảng cách nối thép"
+    ]
+  },
+  {
+    "index": 297,
+    "bbox": [
+      2041.3,
+      9700.9,
+      2766.8,
+      9729.7
+    ],
+    "text": "Viewport\nBSV_09.1_Title_Large_Plan_Stair\nBSV_ViewNameVN: [ MẶT BẰNG CẦU THANG TÂNG \n1-2 ]",
+    "lines": [
+      "Viewport",
+      "BSV_09.1_Title_Large_Plan_Stair",
+      "BSV_ViewNameVN: [ MẶT BẰNG CẦU THANG TÂNG",
+      "1-2 ]"
+    ]
+  },
+  {
+    "index": 298,
+    "bbox": [
+      940.4,
+      9755.2,
+      1055.7,
+      9769.9
+    ],
+    "text": "Mặt bằng & Mặt cắt",
+    "lines": [
+      "Mặt bằng & Mặt cắt"
+    ]
+  },
+  {
+    "index": 299,
+    "bbox": [
+      2088.7,
+      9776.6,
+      2360.1,
+      9791.2
+    ],
+    "text": "CaoDo\nBSV_CaoDo",
+    "lines": [
+      "CaoDo",
+      "BSV_CaoDo"
+    ]
+  },
+  {
+    "index": 300,
+    "bbox": [
+      366.0,
+      9799.6,
+      467.9,
+      9817.9
+    ],
+    "text": "09.Cầu Thang",
+    "lines": [
+      "09.Cầu Thang"
+    ]
+  },
+  {
+    "index": 301,
+    "bbox": [
+      2088.7,
+      9808.9,
+      2371.8,
+      9823.5
+    ],
+    "text": "Nét dừng cấu kiện\nBSV_Bearkline",
+    "lines": [
+      "Nét dừng cấu kiện",
+      "BSV_Bearkline"
+    ]
+  },
+  {
+    "index": 302,
+    "bbox": [
+      2088.7,
+      9841.1,
+      2336.7,
+      9855.7
+    ],
+    "text": "Dim\nBSV_Dim",
+    "lines": [
+      "Dim",
+      "BSV_Dim"
+    ]
+  },
+  {
+    "index": 303,
+    "bbox": [
+      2394.7,
+      9878.6,
+      2453.2,
+      9893.2
+    ],
+    "text": "Phương X",
+    "lines": [
+      "Phương X"
+    ]
+  },
+  {
+    "index": 304,
+    "bbox": [
+      2504.9,
+      9873.4,
+      2783.6,
+      9930.7
+    ],
+    "text": "Áp dụng với thép song song (thể hiện leadear) :\n[BSV_09.2_Tag Rebar_Stair_SL_D_a]\nÁp dụng với thép vuông góc ( thể hiện leader):\n[BSV_09.3_TagRebar_Stair_OpenDot_SL_D_a]",
+    "lines": [
+      "Áp dụng với thép song song (thể hiện leadear) :",
+      "[BSV_09.2_Tag Rebar_Stair_SL_D_a]",
+      "Áp dụng với thép vuông góc ( thể hiện leader):",
+      "[BSV_09.3_TagRebar_Stair_OpenDot_SL_D_a]"
+    ]
+  },
+  {
+    "index": 305,
+    "bbox": [
+      2280.7,
+      9894.7,
+      2362.8,
+      9909.4
+    ],
+    "text": "Thép Lớp trên",
+    "lines": [
+      "Thép Lớp trên"
+    ]
+  },
+  {
+    "index": 306,
+    "bbox": [
+      2394.7,
+      9910.9,
+      2452.7,
+      9925.5
+    ],
+    "text": "Phương Y",
+    "lines": [
+      "Phương Y"
+    ]
+  },
+  {
+    "index": 307,
+    "bbox": [
+      2088.7,
+      9929.6,
+      2110.2,
+      9944.2
+    ],
+    "text": "Tag",
+    "lines": [
+      "Tag"
+    ]
+  },
+  {
+    "index": 308,
+    "bbox": [
+      2507.9,
+      9943.1,
+      2786.6,
+      10000.5
+    ],
+    "text": "Áp dụng với thép song song (thể hiện leadear) :\n[BSV_09.2_Tag Rebar_Stair_SL_D_a]\nÁp dụng với thép vuông góc ( thể hiện leader):\n[BSV_09.3_TagRebar_Stair_OpenDot_SL_D_a]",
+    "lines": [
+      "Áp dụng với thép song song (thể hiện leadear) :",
+      "[BSV_09.2_Tag Rebar_Stair_SL_D_a]",
+      "Áp dụng với thép vuông góc ( thể hiện leader):",
+      "[BSV_09.3_TagRebar_Stair_OpenDot_SL_D_a]"
+    ]
+  },
+  {
+    "index": 309,
+    "bbox": [
+      1139.9,
+      9952.9,
+      1547.2,
+      9967.5
+    ],
+    "text": "Mặt cắt \nMặt cắt ngang",
+    "lines": [
+      "Mặt cắt",
+      "Mặt cắt ngang"
+    ]
+  },
+  {
+    "index": 310,
+    "bbox": [
+      2280.7,
+      9964.5,
+      2365.6,
+      9979.1
+    ],
+    "text": "Thép Lớp dưới",
+    "lines": [
+      "Thép Lớp dưới"
+    ]
+  },
+  {
+    "index": 311,
+    "bbox": [
+      2397.7,
+      9948.4,
+      2456.2,
+      9963.0
+    ],
+    "text": "Phương X",
+    "lines": [
+      "Phương X"
+    ]
+  },
+  {
+    "index": 312,
+    "bbox": [
+      2397.7,
+      9980.6,
+      2455.7,
+      9995.2
+    ],
+    "text": "Phương Y",
+    "lines": [
+      "Phương Y"
+    ]
+  },
+  {
+    "index": 313,
+    "bbox": [
+      2310.0,
+      10018.1,
+      2461.7,
+      10032.7
+    ],
+    "text": "Theo thứ tự từ trên xuống",
+    "lines": [
+      "Theo thứ tự từ trên xuống"
+    ]
+  },
+  {
+    "index": 314,
+    "bbox": [
+      2088.7,
+      10057.5,
+      2278.0,
+      10072.1
+    ],
+    "text": "Kéo thép chủ 2D bending detail",
+    "lines": [
+      "Kéo thép chủ 2D bending detail"
+    ]
+  },
+  {
+    "index": 315,
+    "bbox": [
+      2310.0,
+      10050.3,
+      2562.5,
+      10079.2
+    ],
+    "text": "Thép chủ, thép tăng cường bending detail:\n[BSV_09.4_TagRebar_Stair_ SL_D_a_L]",
+    "lines": [
+      "Thép chủ, thép tăng cường bending detail:",
+      "[BSV_09.4_TagRebar_Stair_ SL_D_a_L]"
+    ]
+  },
+  {
+    "index": 316,
+    "bbox": [
+      2310.0,
+      10096.8,
+      2517.7,
+      10111.5
+    ],
+    "text": "Dim khoảng cách nối thép (nếu có)",
+    "lines": [
+      "Dim khoảng cách nối thép (nếu có)"
+    ]
+  },
+  {
+    "index": 317,
+    "bbox": [
+      2088.7,
+      10129.1,
+      2722.6,
+      10143.7
+    ],
+    "text": "Viewport\nBSV_09.2_Title_Medium_Sec_Stair\nBSV_ViewNameVN: [MẶT CẮT 2-2 ]",
+    "lines": [
+      "Viewport",
+      "BSV_09.2_Title_Medium_Sec_Stair",
+      "BSV_ViewNameVN: [MẶT CẮT 2-2 ]"
+    ]
+  },
+  {
+    "index": 318,
+    "bbox": [
+      1139.9,
+      10162.8,
+      1512.0,
+      10177.5
+    ],
+    "text": "Partitions\nSỐ HIỆU",
+    "lines": [
+      "Partitions",
+      "SỐ HIỆU"
+    ]
+  },
+  {
+    "index": 319,
+    "bbox": [
+      1139.9,
+      10195.1,
+      1533.3,
+      10209.7
+    ],
+    "text": "Bending detail\nHÌNH DẠNG",
+    "lines": [
+      "Bending detail",
+      "HÌNH DẠNG"
+    ]
+  },
+  {
+    "index": 320,
+    "bbox": [
+      1139.9,
+      10227.3,
+      1471.4,
+      10242.0
+    ],
+    "text": "Bar Diameter\nØ",
+    "lines": [
+      "Bar Diameter",
+      "Ø"
+    ]
+  },
+  {
+    "index": 321,
+    "bbox": [
+      637.4,
+      10252.5,
+      1072.1,
+      10281.3
+    ],
+    "text": "Bảng thống kê\nTHỐNG KÊ THÉP CẦU \nTHANG",
+    "lines": [
+      "Bảng thống kê",
+      "THỐNG KÊ THÉP CẦU",
+      "THANG"
+    ]
+  },
+  {
+    "index": 322,
+    "bbox": [
+      1139.9,
+      10259.6,
+      1475.3,
+      10274.2
+    ],
+    "text": "Quantities\nSL",
+    "lines": [
+      "Quantities",
+      "SL"
+    ]
+  },
+  {
+    "index": 323,
+    "bbox": [
+      1139.9,
+      10291.8,
+      1235.4,
+      10306.5
+    ],
+    "text": "BSV_SoCauKien",
+    "lines": [
+      "BSV_SoCauKien"
+    ]
+  },
+  {
+    "index": 324,
+    "bbox": [
+      1139.9,
+      10324.1,
+      1562.4,
+      10338.7
+    ],
+    "text": "TỔNG CHIỀU DÀI(mm)\nTỔNG CHIỀU DÀI",
+    "lines": [
+      "TỔNG CHIỀU DÀI(mm)",
+      "TỔNG CHIỀU DÀI"
+    ]
+  },
+  {
+    "index": 325,
+    "bbox": [
+      1139.9,
+      10356.3,
+      1578.1,
+      10370.9
+    ],
+    "text": "TỔNG KHỐI LƯỢNG(Kg)\nTỔNG KHỐI LƯỢNG",
+    "lines": [
+      "TỔNG KHỐI LƯỢNG(Kg)",
+      "TỔNG KHỐI LƯỢNG"
+    ]
+  },
+  {
+    "index": 326,
+    "bbox": [
+      940.4,
+      10410.8,
+      1079.6,
+      10439.7
+    ],
+    "text": "Dulicate level cùng cao \nđộ dầm",
+    "lines": [
+      "Dulicate level cùng cao",
+      "độ dầm"
+    ]
+  },
+  {
+    "index": 327,
+    "bbox": [
+      637.4,
+      10464.4,
+      688.5,
+      10479.0
+    ],
+    "text": "Key plan",
+    "lines": [
+      "Key plan"
+    ]
+  },
+  {
+    "index": 328,
+    "bbox": [
+      940.4,
+      10457.3,
+      1250.7,
+      10471.9
+    ],
+    "text": "Add view teamplate\nBSV_09.1_KP_Stair",
+    "lines": [
+      "Add view teamplate",
+      "BSV_09.1_KP_Stair"
+    ]
+  },
+  {
+    "index": 329,
+    "bbox": [
+      940.4,
+      10489.5,
+      1093.9,
+      10546.9
+    ],
+    "text": "BSV_ThuMucChinh:\n[SHOP THÉP CẦU THANG]\nBSV_ThuMucPhu:\n[01.KEY PLAN]",
+    "lines": [
+      "BSV_ThuMucChinh:",
+      "[SHOP THÉP CẦU THANG]",
+      "BSV_ThuMucPhu:",
+      "[01.KEY PLAN]"
+    ]
+  },
+  {
+    "index": 330,
+    "bbox": [
+      366.0,
+      10607.1,
+      512.7,
+      10643.3
+    ],
+    "text": "10.Tam Cấp\n(Như 09.Cầu Thang)",
+    "lines": [
+      "10.Tam Cấp",
+      "(Như 09.Cầu Thang)"
+    ]
+  },
+  {
+    "index": 331,
+    "bbox": [
+      637.4,
+      10691.7,
+      734.2,
+      10720.6
+    ],
+    "text": "Quy cách vẽ \n(Stucture Rebar)",
+    "lines": [
+      "Quy cách vẽ",
+      "(Stucture Rebar)"
+    ]
+  },
+  {
+    "index": 332,
+    "bbox": [
+      940.4,
+      10684.6,
+      1095.1,
+      10727.7
+    ],
+    "text": "Theo mặt cắt chi tiết .Nếu \nmặt cắt không thể hiện\nTheo Spec",
+    "lines": [
+      "Theo mặt cắt chi tiết .Nếu",
+      "mặt cắt không thể hiện",
+      "Theo Spec"
+    ]
+  },
+  {
+    "index": 333,
+    "bbox": [
+      1139.9,
+      10682.7,
+      1327.2,
+      10697.3
+    ],
+    "text": "Thép lớp trên + tăng cường trên",
+    "lines": [
+      "Thép lớp trên + tăng cường trên"
+    ]
+  },
+  {
+    "index": 334,
+    "bbox": [
+      1139.9,
+      10715.0,
+      1332.8,
+      10729.6
+    ],
+    "text": "Thép lớp dưới + tăng cường dưới",
+    "lines": [
+      "Thép lớp dưới + tăng cường dưới"
+    ]
+  },
+  {
+    "index": 335,
+    "bbox": [
+      940.4,
+      10745.7,
+      1326.9,
+      10760.3
+    ],
+    "text": "Partition\nVd: [Partiotion: Slab_Caodo_VP]",
+    "lines": [
+      "Partition",
+      "Vd: [Partiotion: Slab_Caodo_VP]"
+    ]
+  },
+  {
+    "index": 336,
+    "bbox": [
+      637.4,
+      10761.8,
+      769.4,
+      10776.5
+    ],
+    "text": "Quy cách đặt tên thép",
+    "lines": [
+      "Quy cách đặt tên thép"
+    ]
+  },
+  {
+    "index": 337,
+    "bbox": [
+      940.4,
+      10778.0,
+      1356.8,
+      10792.6
+    ],
+    "text": "BSV_PhanLoai\nVd: [BSV_PhanLoai:11.ThepRamp_VP]",
+    "lines": [
+      "BSV_PhanLoai",
+      "Vd: [BSV_PhanLoai:11.ThepRamp_VP]"
+    ]
+  },
+  {
+    "index": 338,
+    "bbox": [
+      1139.9,
+      10808.7,
+      1327.7,
+      10837.6
+    ],
+    "text": "Áp dụng với mặt bằng key plan:\nBSV_11.1_KP_Slab",
+    "lines": [
+      "Áp dụng với mặt bằng key plan:",
+      "BSV_11.1_KP_Slab"
+    ]
+  },
+  {
+    "index": 339,
+    "bbox": [
+      940.4,
+      10869.5,
+      1058.9,
+      10884.1
+    ],
+    "text": "Gán view teamplate",
+    "lines": [
+      "Gán view teamplate"
+    ]
+  },
+  {
+    "index": 340,
+    "bbox": [
+      1139.9,
+      10855.2,
+      1404.1,
+      10898.3
+    ],
+    "text": "Áp dụng với mặt bằng thép lớp trên và thép \nlớp dưới:\nBSV_11.2_PlanSlabTop",
+    "lines": [
+      "Áp dụng với mặt bằng thép lớp trên và thép",
+      "lớp dưới:",
+      "BSV_11.2_PlanSlabTop"
+    ]
+  },
+  {
+    "index": 341,
+    "bbox": [
+      1139.9,
+      10915.9,
+      1317.4,
+      10944.8
+    ],
+    "text": "Áp dụng với mặt cắt thép sàn:\nBSV_11.3__Sec_Slab",
+    "lines": [
+      "Áp dụng với mặt cắt thép sàn:",
+      "BSV_11.3__Sec_Slab"
+    ]
+  },
+  {
+    "index": 342,
+    "bbox": [
+      2116.3,
+      10962.4,
+      2282.5,
+      11019.8
+    ],
+    "text": "Thép chủ theo Spec:\nVd: Neo 40d,Lap 40d so le, \nThép tăng cường theo Spec:\nVd: Neo 40d, L/4,",
+    "lines": [
+      "Thép chủ theo Spec:",
+      "Vd: Neo 40d,Lap 40d so le,",
+      "Thép tăng cường theo Spec:",
+      "Vd: Neo 40d, L/4,"
+    ]
+  },
+  {
+    "index": 343,
+    "bbox": [
+      1770.6,
+      10983.8,
+      1992.5,
+      10998.4
+    ],
+    "text": "Neo, lap, cắt,  thép chủ và tăng cường",
+    "lines": [
+      "Neo, lap, cắt,  thép chủ và tăng cường"
+    ]
+  },
+  {
+    "index": 344,
+    "bbox": [
+      1770.6,
+      11037.4,
+      2026.9,
+      11066.3
+    ],
+    "text": "Quy ước thê hiện mặt cắt bản vẽ\n(Mặt cắt thể hiện vị trí nhìn từ trái qua phải)",
+    "lines": [
+      "Quy ước thê hiện mặt cắt bản vẽ",
+      "(Mặt cắt thể hiện vị trí nhìn từ trái qua phải)"
+    ]
+  },
+  {
+    "index": 345,
+    "bbox": [
+      637.4,
+      11083.2,
+      707.4,
+      11097.9
+    ],
+    "text": "Xuất bản vẽ",
+    "lines": [
+      "Xuất bản vẽ"
+    ]
+  },
+  {
+    "index": 346,
+    "bbox": [
+      1770.6,
+      11083.9,
+      2186.8,
+      11098.6
+    ],
+    "text": "Cao độ\nBSV_CaoDo",
+    "lines": [
+      "Cao độ",
+      "BSV_CaoDo"
+    ]
+  },
+  {
+    "index": 347,
+    "bbox": [
+      1139.9,
+      11121.6,
+      1699.4,
+      11136.2
+    ],
+    "text": "Mặt bằng\nMặt bằng thép lớp trên và thép lớp dưới",
+    "lines": [
+      "Mặt bằng",
+      "Mặt bằng thép lớp trên và thép lớp dưới"
+    ]
+  },
+  {
+    "index": 348,
+    "bbox": [
+      1770.6,
+      11116.2,
+      2202.9,
+      11130.8
+    ],
+    "text": "Nét dừng cấu kiện\nBSV_Bearkline",
+    "lines": [
+      "Nét dừng cấu kiện",
+      "BSV_Bearkline"
+    ]
+  },
+  {
+    "index": 349,
+    "bbox": [
+      1770.6,
+      11148.4,
+      2235.6,
+      11163.1
+    ],
+    "text": "Nét cắt thép\nBSV_DauThep_Dam",
+    "lines": [
+      "Nét cắt thép",
+      "BSV_DauThep_Dam"
+    ]
+  },
+  {
+    "index": 350,
+    "bbox": [
+      1770.6,
+      11180.7,
+      2172.3,
+      11195.3
+    ],
+    "text": "Dim\nBSV_Dim",
+    "lines": [
+      "Dim",
+      "BSV_Dim"
+    ]
+  },
+  {
+    "index": 351,
+    "bbox": [
+      1770.6,
+      11212.9,
+      2357.5,
+      11241.8
+    ],
+    "text": "Tag\nTag Thép chủ,tăng cường,  (tắt leadear) :\nVd: [BSV_11.1_Tag Rebar_Slab_SL_D_a_L]",
+    "lines": [
+      "Tag",
+      "Tag Thép chủ,tăng cường,  (tắt leadear) :",
+      "Vd: [BSV_11.1_Tag Rebar_Slab_SL_D_a_L]"
+    ]
+  },
+  {
+    "index": 352,
+    "bbox": [
+      1770.6,
+      11259.4,
+      2644.3,
+      11274.0
+    ],
+    "text": "Viewport\nBSV_11.1_Title_Large_Plan_Ramp\nBSV_ViewNameVN: [ MB THÉP RAMP ]",
+    "lines": [
+      "Viewport",
+      "BSV_11.1_Title_Large_Plan_Ramp",
+      "BSV_ViewNameVN: [ MB THÉP RAMP ]"
+    ]
+  },
+  {
+    "index": 353,
+    "bbox": [
+      1770.6,
+      11291.7,
+      2186.8,
+      11306.3
+    ],
+    "text": "CaoDo\nBSV_CaoDo",
+    "lines": [
+      "CaoDo",
+      "BSV_CaoDo"
+    ]
+  },
+  {
+    "index": 354,
+    "bbox": [
+      940.4,
+      11297.0,
+      1055.7,
+      11311.6
+    ],
+    "text": "Mặt bằng & Mặt cắt",
+    "lines": [
+      "Mặt bằng & Mặt cắt"
+    ]
+  },
+  {
+    "index": 355,
+    "bbox": [
+      1770.6,
+      11323.9,
+      2202.9,
+      11338.5
+    ],
+    "text": "Nét dừng cấu kiện\nBSV_Bearkline",
+    "lines": [
+      "Nét dừng cấu kiện",
+      "BSV_Bearkline"
+    ]
+  },
+  {
+    "index": 356,
+    "bbox": [
+      366.0,
+      11328.5,
+      425.5,
+      11346.8
+    ],
+    "text": "11.Ramp",
+    "lines": [
+      "11.Ramp"
+    ]
+  },
+  {
+    "index": 357,
+    "bbox": [
+      1770.6,
+      11356.2,
+      2172.3,
+      11370.8
+    ],
+    "text": "Dim\nBSV_Dim",
+    "lines": [
+      "Dim",
+      "BSV_Dim"
+    ]
+  },
+  {
+    "index": 358,
+    "bbox": [
+      2116.3,
+      11409.8,
+      2198.5,
+      11424.4
+    ],
+    "text": "Thép Lớp trên",
+    "lines": [
+      "Thép Lớp trên"
+    ]
+  },
+  {
+    "index": 359,
+    "bbox": [
+      2417.1,
+      11393.7,
+      2475.6,
+      11408.3
+    ],
+    "text": "Phương X",
+    "lines": [
+      "Phương X"
+    ]
+  },
+  {
+    "index": 360,
+    "bbox": [
+      2720.0,
+      11388.4,
+      2998.7,
+      11445.8
+    ],
+    "text": "Áp dụng với thép song song (thể hiện leadear) :\n[BSV_11.2_Tag Rebar_Ramp_SL_D_a]\nÁp dụng với thép vuông góc ( thể hiện leader):\n[BSV_11.3_Tag Rebar_Ramp_OpenDot_Sl_D_a]",
+    "lines": [
+      "Áp dụng với thép song song (thể hiện leadear) :",
+      "[BSV_11.2_Tag Rebar_Ramp_SL_D_a]",
+      "Áp dụng với thép vuông góc ( thể hiện leader):",
+      "[BSV_11.3_Tag Rebar_Ramp_OpenDot_Sl_D_a]"
+    ]
+  },
+  {
+    "index": 361,
+    "bbox": [
+      2417.1,
+      11425.9,
+      2475.0,
+      11440.5
+    ],
+    "text": "Phương Y",
+    "lines": [
+      "Phương Y"
+    ]
+  },
+  {
+    "index": 362,
+    "bbox": [
+      1139.9,
+      11472.4,
+      1547.2,
+      11487.0
+    ],
+    "text": "Mặt cắt \nMặt cắt ngang",
+    "lines": [
+      "Mặt cắt",
+      "Mặt cắt ngang"
+    ]
+  },
+  {
+    "index": 363,
+    "bbox": [
+      2417.1,
+      11463.4,
+      2475.6,
+      11478.0
+    ],
+    "text": "Phương X",
+    "lines": [
+      "Phương X"
+    ]
+  },
+  {
+    "index": 364,
+    "bbox": [
+      2720.0,
+      11458.2,
+      2998.7,
+      11515.5
+    ],
+    "text": "Áp dụng với thép song song (thể hiện leadear) :\n[BSV_11.2_Tag Rebar_Ramp_SL_D_a]\nÁp dụng với thép vuông góc ( thể hiện leader):\n[BSV_11.3_Tag Rebar_Ramp_OpenDot_Sl_D_a]",
+    "lines": [
+      "Áp dụng với thép song song (thể hiện leadear) :",
+      "[BSV_11.2_Tag Rebar_Ramp_SL_D_a]",
+      "Áp dụng với thép vuông góc ( thể hiện leader):",
+      "[BSV_11.3_Tag Rebar_Ramp_OpenDot_Sl_D_a]"
+    ]
+  },
+  {
+    "index": 365,
+    "bbox": [
+      1770.6,
+      11492.1,
+      1792.0,
+      11506.7
+    ],
+    "text": "Tag",
+    "lines": [
+      "Tag"
+    ]
+  },
+  {
+    "index": 366,
+    "bbox": [
+      2116.3,
+      11479.5,
+      2201.3,
+      11494.2
+    ],
+    "text": "Thép Lớp dưới",
+    "lines": [
+      "Thép Lớp dưới"
+    ]
+  },
+  {
+    "index": 367,
+    "bbox": [
+      2417.1,
+      11495.6,
+      2475.0,
+      11510.3
+    ],
+    "text": "Phương Y",
+    "lines": [
+      "Phương Y"
+    ]
+  },
+  {
+    "index": 368,
+    "bbox": [
+      2417.1,
+      11527.9,
+      2568.8,
+      11542.5
+    ],
+    "text": "Theo thứ tự từ trên xuống",
+    "lines": [
+      "Theo thứ tự từ trên xuống"
+    ]
+  },
+  {
+    "index": 369,
+    "bbox": [
+      2417.1,
+      11560.1,
+      2646.9,
+      11603.3
+    ],
+    "text": "Thép chủ, thép tăng cường bending \ndetail:\n[BSV_11.4_TagRebar_Ramp_ SL_D_a_L]",
+    "lines": [
+      "Thép chủ, thép tăng cường bending",
+      "detail:",
+      "[BSV_11.4_TagRebar_Ramp_ SL_D_a_L]"
+    ]
+  },
+  {
+    "index": 370,
+    "bbox": [
+      2116.3,
+      11574.4,
+      2305.6,
+      11589.0
+    ],
+    "text": "Kéo thép chủ 2D bending detail",
+    "lines": [
+      "Kéo thép chủ 2D bending detail"
+    ]
+  },
+  {
+    "index": 371,
+    "bbox": [
+      2417.1,
+      11620.9,
+      2624.7,
+      11635.5
+    ],
+    "text": "Dim khoảng cách nối thép (nếu có)",
+    "lines": [
+      "Dim khoảng cách nối thép (nếu có)"
+    ]
+  },
+  {
+    "index": 372,
+    "bbox": [
+      1770.6,
+      11653.1,
+      2614.7,
+      11667.8
+    ],
+    "text": "Viewport\nBSV_04.2_Title_Medium_Sec_Ramp\nBSV_ViewNameVN: [MẶT CẮT 1-1 ]",
+    "lines": [
+      "Viewport",
+      "BSV_04.2_Title_Medium_Sec_Ramp",
+      "BSV_ViewNameVN: [MẶT CẮT 1-1 ]"
+    ]
+  },
+  {
+    "index": 373,
+    "bbox": [
+      1139.9,
+      11683.9,
+      1512.0,
+      11698.5
+    ],
+    "text": "Partitions\nSỐ HIỆU",
+    "lines": [
+      "Partitions",
+      "SỐ HIỆU"
+    ]
+  },
+  {
+    "index": 374,
+    "bbox": [
+      1139.9,
+      11716.1,
+      1533.3,
+      11730.8
+    ],
+    "text": "Bending detail\nHÌNH DẠNG",
+    "lines": [
+      "Bending detail",
+      "HÌNH DẠNG"
+    ]
+  },
+  {
+    "index": 375,
+    "bbox": [
+      1139.9,
+      11748.4,
+      1471.4,
+      11763.0
+    ],
+    "text": "Bar Diameter\nØ",
+    "lines": [
+      "Bar Diameter",
+      "Ø"
+    ]
+  },
+  {
+    "index": 376,
+    "bbox": [
+      637.4,
+      11780.6,
+      1079.7,
+      11795.3
+    ],
+    "text": "Bảng thống kê\nTHỐNG KÊ THÉP RAMP",
+    "lines": [
+      "Bảng thống kê",
+      "THỐNG KÊ THÉP RAMP"
+    ]
+  },
+  {
+    "index": 377,
+    "bbox": [
+      1139.9,
+      11780.6,
+      1475.3,
+      11795.3
+    ],
+    "text": "Quantities\nSL",
+    "lines": [
+      "Quantities",
+      "SL"
+    ]
+  },
+  {
+    "index": 378,
+    "bbox": [
+      1139.9,
+      11812.9,
+      1540.4,
+      11827.5
+    ],
+    "text": "BSV_SoCauKien\nSỐ CẤU KIỆN",
+    "lines": [
+      "BSV_SoCauKien",
+      "SỐ CẤU KIỆN"
+    ]
+  },
+  {
+    "index": 379,
+    "bbox": [
+      1139.9,
+      11845.1,
+      1562.4,
+      11859.7
+    ],
+    "text": "TỔNG CHIỀU DÀI(mm)\nTỔNG CHIỀU DÀI",
+    "lines": [
+      "TỔNG CHIỀU DÀI(mm)",
+      "TỔNG CHIỀU DÀI"
+    ]
+  },
+  {
+    "index": 380,
+    "bbox": [
+      1139.9,
+      11877.4,
+      1578.1,
+      11892.0
+    ],
+    "text": "TỔNG KHỐI LƯỢNG(Kg)\nTỔNG KHỐI LƯỢNG",
+    "lines": [
+      "TỔNG KHỐI LƯỢNG(Kg)",
+      "TỔNG KHỐI LƯỢNG"
+    ]
+  },
+  {
+    "index": 381,
+    "bbox": [
+      940.4,
+      11908.1,
+      1079.6,
+      11937.0
+    ],
+    "text": "Dulicate level cùng cao \nđộ dầm",
+    "lines": [
+      "Dulicate level cùng cao",
+      "độ dầm"
+    ]
+  },
+  {
+    "index": 382,
+    "bbox": [
+      940.4,
+      11954.6,
+      1252.7,
+      11969.2
+    ],
+    "text": "Add view teamplate\nBSV_11.1_KP_Ramp",
+    "lines": [
+      "Add view teamplate",
+      "BSV_11.1_KP_Ramp"
+    ]
+  },
+  {
+    "index": 383,
+    "bbox": [
+      637.4,
+      11961.7,
+      688.5,
+      11976.4
+    ],
+    "text": "Key plan",
+    "lines": [
+      "Key plan"
+    ]
+  },
+  {
+    "index": 384,
+    "bbox": [
+      940.4,
+      11986.9,
+      1058.0,
+      12044.2
+    ],
+    "text": "BSV_ThuMucChinh:\n[SHOP THÉP RAMP]\nBSV_ThuMucPhu:\n[01.KEY PLAN]",
+    "lines": [
+      "BSV_ThuMucChinh:",
+      "[SHOP THÉP RAMP]",
+      "BSV_ThuMucPhu:",
+      "[01.KEY PLAN]"
+    ]
+  },
+  {
+    "index": 385,
+    "bbox": [
+      366.0,
+      12083.7,
+      403.4,
+      12102.0
+    ],
+    "text": "12.Pit",
+    "lines": [
+      "12.Pit"
+    ]
+  },
+  {
+    "index": 386,
+    "bbox": [
+      366.0,
+      12142.9,
+      421.6,
+      12161.2
+    ],
+    "text": "13.Dock",
+    "lines": [
+      "13.Dock"
+    ]
+  },
+  {
+    "index": 387,
+    "bbox": [
+      366.0,
+      12202.2,
+      481.7,
+      12220.5
+    ],
+    "text": "14.Cấu kiện phụ",
+    "lines": [
+      "14.Cấu kiện phụ"
+    ]
+  }
+]

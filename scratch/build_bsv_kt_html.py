@@ -1,0 +1,1363 @@
+import sys
+
+sys.stdout.reconfigure(encoding='utf-8')
+
+html_content = """<!DOCTYPE html>
+<html lang="vi" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BSV_KIẾN TRÚC - Sổ Tay Quy Trình Chuẩn Hóa Dựng Hình & Bóc Tách Khối Lượng BIM Kiến Trúc</title>
+  
+  <!-- Google Fonts & Font Awesome -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <style>
+    :root[data-theme="dark"] {
+      --bg-body: #080c14;
+      --bg-surface: #0f172a;
+      --bg-card: #141e33;
+      --bg-card-hover: #192640;
+      --bg-accent: #1e293b;
+      --border-color: #202d45;
+      --border-highlight: #334668;
+      --text-primary: #f8fafc;
+      --text-secondary: #94a3b8;
+      --text-muted: #64748b;
+      
+      --primary: #38bdf8;
+      --primary-hover: #0ea5e9;
+      --primary-glow: rgba(56, 189, 248, 0.15);
+      
+      --accent: #f59e0b;
+      --accent-glow: rgba(245, 158, 11, 0.15);
+      
+      --success: #10b981;
+      --success-glow: rgba(16, 185, 129, 0.15);
+      
+      --danger: #f43f5e;
+      --danger-glow: rgba(244, 63, 94, 0.15);
+      
+      --purple: #a855f7;
+      --purple-glow: rgba(168, 85, 247, 0.15);
+      
+      --box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
+    }
+
+    :root[data-theme="light"] {
+      --bg-body: #f8fafc;
+      --bg-surface: #ffffff;
+      --bg-card: #ffffff;
+      --bg-card-hover: #f1f5f9;
+      --bg-accent: #f1f5f9;
+      --border-color: #e2e8f0;
+      --border-highlight: #cbd5e1;
+      --text-primary: #0f172a;
+      --text-secondary: #475569;
+      --text-muted: #94a3b8;
+      
+      --primary: #0284c7;
+      --primary-hover: #0369a1;
+      --primary-glow: rgba(2, 132, 199, 0.12);
+      
+      --accent: #d97706;
+      --accent-glow: rgba(217, 119, 6, 0.12);
+      
+      --success: #16a34a;
+      --success-glow: rgba(22, 163, 74, 0.12);
+      
+      --danger: #e11d48;
+      --danger-glow: rgba(225, 29, 72, 0.12);
+      
+      --purple: #7e22ce;
+      --purple-glow: rgba(126, 34, 206, 0.12);
+      
+      --box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background-color: var(--bg-body);
+      color: var(--text-primary);
+      line-height: 1.6;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    /* Top Sticky Navigation */
+    .navbar {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: rgba(15, 23, 42, 0.92);
+      backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--border-color);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.85rem 2.5rem;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .brand-badge {
+      background: linear-gradient(135deg, #0ea5e9, #6366f1);
+      color: white;
+      font-weight: 800;
+      font-size: 0.8rem;
+      padding: 6px 12px;
+      border-radius: 8px;
+      letter-spacing: 0.5px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .brand-text h1 {
+      font-size: 1.05rem;
+      font-weight: 800;
+      letter-spacing: 0.5px;
+      color: var(--text-primary);
+    }
+
+    .brand-text p {
+      font-size: 0.75rem;
+      color: var(--text-secondary);
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      list-style: none;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: var(--text-secondary);
+      font-weight: 600;
+      font-size: 0.85rem;
+      padding: 8px 12px;
+      border-radius: 8px;
+      transition: all 0.2s ease;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .nav-links a:hover, .nav-links a.active {
+      color: var(--primary);
+      background: var(--primary-glow);
+    }
+
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 7px 14px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      border-radius: 8px;
+      border: 1px solid transparent;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      text-decoration: none;
+    }
+
+    .btn-outline {
+      background: transparent;
+      border-color: var(--border-color);
+      color: var(--text-secondary);
+    }
+
+    .btn-outline:hover {
+      border-color: var(--primary);
+      color: var(--primary);
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, var(--primary), #2563eb);
+      color: white;
+    }
+
+    .theme-toggle-btn {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      color: var(--accent);
+      width: 38px;
+      height: 38px;
+      border-radius: 8px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.05rem;
+      transition: all 0.2s ease;
+    }
+
+    .theme-toggle-btn:hover {
+      border-color: var(--accent);
+      transform: rotate(15deg);
+    }
+
+    /* Container */
+    .main-container {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 2.5rem 2rem 5rem 2rem;
+    }
+
+    /* Hero Banner */
+    .hero-banner {
+      background: linear-gradient(135deg, rgba(14, 165, 233, 0.1), rgba(99, 102, 241, 0.05));
+      border: 1px solid var(--border-color);
+      border-radius: 20px;
+      padding: 2.5rem;
+      margin-bottom: 2rem;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--primary-glow);
+      color: var(--primary);
+      border: 1px solid rgba(56, 189, 248, 0.3);
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-size: 0.8rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-bottom: 1rem;
+    }
+
+    .hero-title {
+      font-size: 2.3rem;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      margin-bottom: 0.75rem;
+      line-height: 1.25;
+    }
+
+    .hero-title span {
+      background: linear-gradient(135deg, var(--primary), #818cf8);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero-subtitle {
+      font-size: 1.05rem;
+      color: var(--text-secondary);
+      max-width: 950px;
+      margin-bottom: 1.8rem;
+    }
+
+    .hero-meta-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 15px;
+      border-top: 1px solid var(--border-color);
+      padding-top: 1.5rem;
+    }
+
+    .meta-box {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 1rem 1.25rem;
+    }
+
+    .meta-label {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+
+    .meta-val {
+      font-size: 1.1rem;
+      font-weight: 800;
+      color: var(--text-primary);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .meta-val i {
+      color: var(--primary);
+    }
+
+    /* Quick Tool Adjustment Navigator */
+    .quick-jump-bar {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 14px;
+      padding: 14px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-bottom: 2.5rem;
+      box-shadow: var(--box-shadow);
+    }
+
+    .jump-btn {
+      font-size: 0.8rem;
+      font-weight: 700;
+      padding: 7px 14px;
+      border-radius: 8px;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s ease;
+    }
+
+    .jump-btn-atool {
+      background: rgba(245, 158, 11, 0.15);
+      border: 1px solid rgba(245, 158, 11, 0.4);
+      color: #fbbf24;
+    }
+
+    .jump-btn-atool:hover {
+      background: #f59e0b;
+      color: #000;
+    }
+
+    .jump-btn-dynamo {
+      background: rgba(168, 85, 247, 0.15);
+      border: 1px solid rgba(168, 85, 247, 0.4);
+      color: #c084fc;
+    }
+
+    .jump-btn-dynamo:hover {
+      background: #a855f7;
+      color: #000;
+    }
+
+    /* Highlight box for tools */
+    .tool-highlight {
+      position: relative;
+      border: 2px dashed #f59e0b !important;
+      background: rgba(245, 158, 11, 0.08) !important;
+      border-radius: 12px;
+      padding: 1.25rem 1.5rem;
+      margin: 1.25rem 0;
+      transition: all 0.3s ease;
+      box-shadow: 0 0 20px rgba(245, 158, 11, 0.15);
+    }
+
+    .tool-highlight-purple {
+      border-color: #a855f7 !important;
+      background: rgba(168, 85, 247, 0.08) !important;
+      box-shadow: 0 0 20px rgba(168, 85, 247, 0.15);
+    }
+
+    .edit-marker {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.75rem;
+      font-weight: 800;
+      padding: 4px 10px;
+      border-radius: 6px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 8px;
+    }
+
+    .marker-atool {
+      background: #f59e0b;
+      color: #000;
+      box-shadow: 0 0 10px rgba(245, 158, 11, 0.4);
+    }
+
+    .marker-dynamo {
+      background: #a855f7;
+      color: #fff;
+      box-shadow: 0 0 10px rgba(168, 85, 247, 0.4);
+    }
+
+    /* Section Headers */
+    .section-header {
+      margin-bottom: 2rem;
+    }
+
+    .section-tag {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.8rem;
+      color: var(--primary);
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+
+    .section-title {
+      font-size: 1.75rem;
+      font-weight: 800;
+      color: var(--text-primary);
+      margin-top: 4px;
+    }
+
+    .section-desc {
+      color: var(--text-secondary);
+      font-size: 0.95rem;
+      margin-top: 6px;
+    }
+
+    /* Process Flow 4 Steps Navigation */
+    .step-flow-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 15px;
+      margin-bottom: 3.5rem;
+    }
+
+    .step-flow-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 16px;
+      padding: 1.6rem;
+      position: relative;
+      transition: all 0.25s ease;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .step-flow-card:hover {
+      border-color: var(--primary);
+      transform: translateY(-3px);
+      box-shadow: 0 10px 25px var(--primary-glow);
+    }
+
+    .step-badge {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.75rem;
+      font-weight: 800;
+      padding: 3px 8px;
+      border-radius: 6px;
+      width: fit-content;
+      margin-bottom: 0.75rem;
+    }
+
+    .step-badge-1 { background: rgba(56, 189, 248, 0.15); color: #38bdf8; border: 1px solid rgba(56, 189, 248, 0.3); }
+    .step-badge-2 { background: rgba(245, 158, 11, 0.15); color: #f59e0b; border: 1px solid rgba(245, 158, 11, 0.3); }
+    .step-badge-3 { background: rgba(168, 85, 247, 0.15); color: #c084fc; border: 1px solid rgba(168, 85, 247, 0.3); }
+    .step-badge-4 { background: rgba(16, 185, 129, 0.15); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.3); }
+
+    .step-title {
+      font-size: 1.15rem;
+      font-weight: 800;
+      color: var(--text-primary);
+      margin-bottom: 0.5rem;
+    }
+
+    .step-summary {
+      font-size: 0.85rem;
+      color: var(--text-secondary);
+      line-height: 1.5;
+      flex-grow: 1;
+    }
+
+    .step-link-btn {
+      margin-top: 1rem;
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: var(--primary);
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    /* Accordion / Content Box */
+    .content-box {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 18px;
+      padding: 2rem;
+      margin-bottom: 3.5rem;
+      box-shadow: var(--box-shadow);
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+    }
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.25rem;
+    }
+
+    .sub-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: 14px;
+      padding: 1.4rem;
+    }
+
+    .sub-card-title {
+      font-size: 1rem;
+      font-weight: 800;
+      color: var(--text-primary);
+      margin-bottom: 0.85rem;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      border-bottom: 1px solid var(--border-color);
+      padding-bottom: 8px;
+    }
+
+    .sub-card-list {
+      list-style: none;
+      font-size: 0.85rem;
+      color: var(--text-secondary);
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .sub-card-list li {
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+      line-height: 1.5;
+    }
+
+    .sub-card-list li i {
+      color: var(--primary);
+      font-size: 0.75rem;
+      margin-top: 5px;
+      flex-shrink: 0;
+    }
+
+    .code-tag {
+      font-family: 'JetBrains Mono', monospace;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--border-color);
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 0.78rem;
+      color: var(--primary);
+    }
+
+    .tool-badge {
+      background: var(--primary);
+      color: #000;
+      font-weight: 800;
+      font-family: 'JetBrains Mono', monospace;
+      padding: 3px 8px;
+      border-radius: 6px;
+      font-size: 0.75rem;
+    }
+
+    /* Codes Table */
+    .codes-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+      font-size: 0.875rem;
+    }
+
+    .codes-table th {
+      background: var(--bg-surface);
+      color: var(--text-primary);
+      padding: 12px 16px;
+      text-align: left;
+      border: 1px solid var(--border-color);
+      font-weight: 700;
+    }
+
+    .codes-table td {
+      padding: 12px 16px;
+      border: 1px solid var(--border-color);
+      color: var(--text-secondary);
+      line-height: 1.5;
+    }
+
+    .codes-table tr:hover td {
+      background: rgba(255, 255, 255, 0.02);
+    }
+
+    /* Schedules Gallery */
+    .sched-gallery {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+
+    .sched-item {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      overflow: hidden;
+      cursor: pointer;
+      transition: all 0.25s ease;
+    }
+
+    .sched-item:hover {
+      border-color: var(--primary);
+      transform: translateY(-2px);
+    }
+
+    .sched-thumb {
+      height: 140px;
+      background: #000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+
+    .sched-thumb img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    .sched-label {
+      padding: 8px 12px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: var(--text-secondary);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    /* Mindmap Banner */
+    .mindmap-banner {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 18px;
+      padding: 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 2rem;
+      margin-bottom: 3rem;
+    }
+
+    /* Modal Image Lightbox */
+    .image-modal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.9);
+      backdrop-filter: blur(10px);
+      z-index: 2000;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+
+    .image-modal.active {
+      display: flex;
+    }
+
+    .modal-content-box {
+      max-width: 95vw;
+      max-height: 90vh;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .modal-content-box img {
+      max-width: 100%;
+      max-height: 85vh;
+      border-radius: 8px;
+      border: 1px solid var(--border-color);
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+      object-fit: contain;
+    }
+
+    .modal-close-btn {
+      position: absolute;
+      top: -40px;
+      right: 0;
+      color: white;
+      font-size: 1.8rem;
+      cursor: pointer;
+      background: none;
+      border: none;
+    }
+
+    .modal-caption {
+      color: var(--text-secondary);
+      font-size: 0.85rem;
+      margin-top: 10px;
+      text-align: center;
+    }
+
+    /* Footer */
+    footer {
+      border-top: 1px solid var(--border-color);
+      padding: 2.5rem 0 1.5rem 0;
+      margin-top: 4rem;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      text-align: center;
+    }
+
+    /* Responsive */
+    @media (max-width: 1100px) {
+      .hero-meta-grid { grid-template-columns: repeat(2, 1fr); }
+      .step-flow-grid { grid-template-columns: repeat(2, 1fr); }
+      .grid-2, .grid-3 { grid-template-columns: 1fr; }
+      .sched-gallery { grid-template-columns: repeat(2, 1fr); }
+    }
+
+    @media (max-width: 768px) {
+      .navbar { padding: 0.8rem 1.25rem; }
+      .nav-links { display: none; }
+      .hero-title { font-size: 1.8rem; }
+      .hero-meta-grid { grid-template-columns: 1fr; }
+      .step-flow-grid { grid-template-columns: 1fr; }
+      .sched-gallery { grid-template-columns: 1fr; }
+      .mindmap-banner { flex-direction: column; align-items: flex-start; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Sticky Top Navbar -->
+  <nav class="navbar">
+    <a href="index.html" class="brand" title="Quay lại Trang chủ BIM Management Platform">
+      <div class="brand-badge"><i class="fa-solid fa-building-columns"></i> BIM KT</div>
+      <div class="brand-text">
+        <h1>BSV_KIẾN TRÚC (ARC)</h1>
+        <p>Quy Trình Chuẩn Hóa Dựng Hình & Hoàn Thiện BOQ</p>
+      </div>
+    </a>
+
+    <ul class="nav-links">
+      <li><a href="#step-1"><i class="fa-solid fa-folder-tree"></i> Step 1: Bản Vẽ</a></li>
+      <li><a href="#step-2"><i class="fa-solid fa-ruler-combined"></i> Step 2: Xử Lý CAD</a></li>
+      <li><a href="#step-3"><i class="fa-solid fa-cubes"></i> Step 3: Dựng Model</a></li>
+      <li><a href="#step-4"><i class="fa-solid fa-file-invoice-dollar"></i> Step 4: Khối Lượng BOQ</a></li>
+      <li><a href="#schedules-kt"><i class="fa-solid fa-table-cells"></i> Schedules</a></li>
+    </ul>
+
+    <div class="nav-actions">
+      <button class="theme-toggle-btn" id="themeToggleBtn" onclick="toggleTheme()" title="Chuyển chế độ Sáng / Tối">
+        <i class="fa-solid fa-sun" id="themeIcon"></i>
+      </button>
+      <a href="BSV_BimKetCauVer2.html" class="btn btn-outline" style="border-color: rgba(245, 158, 11, 0.4); color: #fbbf24;" title="Mở Sổ tay Kết cấu"><i class="fa-solid fa-cube"></i> Sang Sổ Tay KC</a>
+      <a href="index.html" class="btn btn-outline"><i class="fa-solid fa-arrow-left"></i> Về Portal BIM</a>
+      <button class="btn btn-primary" onclick="window.print()"><i class="fa-solid fa-print"></i> In Sổ Tay</button>
+    </div>
+  </nav>
+
+  <div class="main-container">
+
+    <!-- Hero Banner -->
+    <header class="hero-banner">
+      <div class="hero-badge"><i class="fa-solid fa-compass-drafting"></i> Standard Operating Procedure (SOP) • Revit Architecture</div>
+      <h1 class="hero-title">SỔ TAY QUY TRÌNH <span>BSV_KIẾN TRÚC (ARC)</span></h1>
+      <p class="hero-subtitle">
+        Chuẩn hóa 4 bước tiếp cận bản vẽ, xử lý CAD (lệnh BURST), mô hình hóa tường vách – cửa – lanh tô bổ trụ giằng tường, hoàn thiện kết cấu (HTKC) và gán biến tham số liên kết trực tiếp với bảng dự toán BOQ.
+      </p>
+
+      <div class="hero-meta-grid">
+        <div class="meta-box">
+          <div class="meta-label">4 Bước Chuẩn Hóa</div>
+          <div class="meta-val"><i class="fa-solid fa-arrow-progress"></i> Step 1 &rarr; Step 4</div>
+        </div>
+        <div class="meta-box">
+          <div class="meta-label">Quy Tắc Tách CAD</div>
+          <div class="meta-val"><i class="fa-solid fa-shield-check"></i> Chỉ Dùng BURST</div>
+        </div>
+        <div class="meta-box">
+          <div class="meta-label">Bộ Công Cụ Add-in</div>
+          <div class="meta-val"><i class="fa-solid fa-screwdriver-wrench"></i> ATool & Dynamo KT</div>
+        </div>
+        <div class="meta-box">
+          <div class="meta-label">Hệ Thống Mã Code</div>
+          <div class="meta-val"><i class="fa-solid fa-barcode"></i> 6 Nhóm Code HTKC</div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Quick Tool Adjustment Navigator -->
+    <div class="quick-jump-bar">
+      <div style="display: flex; align-items: center; gap: 10px;">
+        <span style="font-size: 1.25rem; color: var(--accent);"><i class="fa-solid fa-highlighter"></i></span>
+        <div>
+          <span style="font-weight: 800; font-size: 0.9rem; color: var(--text-primary); display: block;">VỊ TRÍ ĐÁNH DẤU CÔNG CỤ TỰ ĐỘNG (ATOOL & DYNAMO KT):</span>
+          <span style="font-size: 0.775rem; color: var(--text-muted);">Bấm vào từng nút bên dưới để nhảy trực tiếp đến vị trí cấu hình/thay thế công cụ sau này:</span>
+        </div>
+      </div>
+      <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+        <a href="#edit-atool-san" class="jump-btn jump-btn-atool"><i class="fa-solid fa-arrow-down"></i> [1] ATool: Dựng Sàn/Trần theo Room</a>
+        <a href="#edit-atool-lanhto" class="jump-btn jump-btn-atool"><i class="fa-solid fa-arrow-down"></i> [2] ATool: Dựng Lanh Tô & Bổ Trụ</a>
+        <a href="#edit-atool-hoanthien" class="jump-btn jump-btn-atool"><i class="fa-solid fa-arrow-down"></i> [3] ATool: Chống Thấm & Tường</a>
+        <a href="#edit-dynamo-htkc" class="jump-btn jump-btn-dynamo"><i class="fa-solid fa-arrow-down"></i> [4] Dynamo: Hoàn Thiện Kết Cấu</a>
+        <a href="#edit-dynamo-cuong" class="jump-btn jump-btn-dynamo"><i class="fa-solid fa-arrow-down"></i> [5] Dynamo: Bổ Trụ & Giằng Tường</a>
+      </div>
+    </div>
+
+    <!-- 4-STEP OVERVIEW FLOW -->
+    <div class="step-flow-grid">
+      <div class="step-flow-card">
+        <span class="step-badge step-badge-1">STEP 01</span>
+        <div class="step-title">Tiếp Cận Bản Vẽ</div>
+        <div class="step-summary">
+          Khởi tạo thư mục server, cấu trúc file RVT Central từ template chuẩn ARC, đọc Sheet "Schedules Finishing" và quy cách lanh tô, bổ trụ, giằng tường.
+        </div>
+        <a href="#step-1" class="step-link-btn">Xem chi tiết Step 1 &rarr;</a>
+      </div>
+
+      <div class="step-flow-card">
+        <span class="step-badge step-badge-2">STEP 02</span>
+        <div class="step-title">Xử Lý CAD & Cửa</div>
+        <div class="step-summary">
+          Tách CAD bằng lệnh <strong>BURST</strong> (nghiêm cấm dùng X), đồng bộ hệ lưới trục Level giữa các bộ môn, khởi tạo family cửa theo quy cách <code>Tên(WxH)</code> và gán Cost.
+        </div>
+        <a href="#step-2" class="step-link-btn">Xem chi tiết Step 2 &rarr;</a>
+      </div>
+
+      <div class="step-flow-card">
+        <span class="step-badge step-badge-3">STEP 03</span>
+        <div class="step-title">Triển Khai Dựng Model</div>
+        <div class="step-summary">
+          Dựng 9 lớp tường vách, ATool sàn/trần theo Room, ATool lanh tô, 4 Tool giằng tường tự động, quy trình 7 bước chuyển đổi Link kết cấu thành hoàn thiện kết cấu (HTKC).
+        </div>
+        <a href="#step-3" class="step-link-btn">Xem chi tiết Step 3 &rarr;</a>
+      </div>
+
+      <div class="step-flow-card">
+        <span class="step-badge step-badge-4">STEP 04</span>
+        <div class="step-title">Thống Kê Khối Lượng BOQ</div>
+        <div class="step-summary">
+          Gán tham biến chuẩn <code>Comments</code>, <code>Note</code>, <code>BSV_HTKC</code>, <code>BSV_TratFull</code>, quy tắc cộng trừ diện tích sơn/trát tường trong/ngoài và xuất link BOQ.
+        </div>
+        <a href="#step-4" class="step-link-btn">Xem chi tiết Step 4 &rarr;</a>
+      </div>
+    </div>
+
+    <!-- STEP 1: TIẾP CẬN BẢN VẼ -->
+    <section id="step-1" class="content-box" style="scroll-margin-top: 90px;">
+      <div class="section-header">
+        <span class="section-tag">GIAI ĐOẠN 1</span>
+        <h2 class="section-title">Step 1: Tiếp Cận Bản Vẽ & Khởi Tạo Thư Mục Dự Án</h2>
+        <p class="section-desc">
+          Quy hoạch hệ thống thư mục mạng, kiểm tra bản vẽ chỉ mục chung (Schedules Finishing) để không bỏ sót các khối lượng nhỏ ngoài BoQ.
+        </p>
+      </div>
+
+      <div class="grid-3">
+        <div class="sub-card">
+          <div class="sub-card-title"><i class="fa-solid fa-folder-open" style="color: var(--primary);"></i> 0. Khởi Tạo Folder Trên Server</div>
+          <ul class="sub-card-list">
+            <li><i class="fa-solid fa-check"></i> <strong>0.1. Architech:</strong> Thư mục chính bộ môn Kiến trúc.</li>
+            <li><i class="fa-solid fa-check"></i> <strong>0.1.1. Cad template:</strong> Chứa các file CAD đã bóc tách (Mặt bằng, Mặt đứng, Mặt cắt, Mặt cắt thang bộ).</li>
+            <li><i class="fa-solid fa-check"></i> <strong>0.1.2. Rvt file:</strong> Khởi tạo file mới từ template: <code>Z:\BIM_BSV_Project\0.BSV_TaiLieuThamChieu\0.Template_Rvt_R20\ARC</code>. Sau đó tạo Central file.</li>
+            <li><i class="fa-solid fa-check"></i> <strong>0.1.3. BoQ Architech:</strong> Lưu bản sao BoQ dự án, đổi đuôi thành <code>_Arch_Version</code>.</li>
+          </ul>
+        </div>
+
+        <div class="sub-card">
+          <div class="sub-card-title"><i class="fa-solid fa-eye" style="color: var(--accent);"></i> A. Đọc Tổng Quan Bản Vẽ</div>
+          <ul class="sub-card-list">
+            <li><i class="fa-solid fa-check"></i> <strong>A.1. Nắm các hạng mục:</strong> Phân định rõ hạng mục chính và hạng mục phụ.</li>
+            <li><i class="fa-solid fa-check"></i> <strong>A.2. Thông tin quy mô:</strong> Tổng diện tích sàn, số tầng, kiểu kiến trúc xưởng (vách tole, vách gạch, vật liệu trang trí mặt đứng/mặt cắt).</li>
+            <li><i class="fa-solid fa-check"></i> <strong>Ghi chú:</strong> Nắm chắc cấu tạo bao che trước khi bắt tay vào dựng hình.</li>
+          </ul>
+        </div>
+
+        <div class="sub-card">
+          <div class="sub-card-title"><i class="fa-solid fa-table-list" style="color: var(--success);"></i> B. Sheet "Schedules Finishing"</div>
+          <ul class="sub-card-list">
+            <li><i class="fa-solid fa-check"></i> <strong>B.1. Chỉ mục chung:</strong> Chứa thông tin hoàn thiện chung, chi tiết điển hình ít thể hiện ở bản vẽ chi tiết &rarr; Phát hiện đầu mục thiếu để bổ sung vào BoQ.</li>
+            <li><i class="fa-solid fa-check"></i> <strong>B.2. Sheet Schedules Finishing:</strong> Bảng danh mục vật liệu theo phòng (sàn, tường, trần). Kiểm tra các hạng mục đá nhau giữa kiến trúc và kết cấu.</li>
+            <li><i class="fa-solid fa-check"></i> <strong>B.3. Cấu kiện phụ:</strong> Kích thước, quy cách lanh tô, bổ trụ, giằng tường và thép gia cường trong thuyết minh kết cấu.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- STEP 2: XỬ LÝ CAD & CỬA -->
+    <section id="step-2" class="content-box" style="scroll-margin-top: 90px;">
+      <div class="section-header">
+        <span class="section-tag">GIAI ĐOẠN 2</span>
+        <h2 class="section-title">Step 2: Xử Lý Thông Tin Bản Vẽ CAD & Dữ Liệu Cửa</h2>
+        <p class="section-desc">
+          Kỹ thuật bóc tách CAD, lệnh BURST an toàn, kiểm tra đồng bộ hệ lưới trục Level và khởi tạo dữ liệu cửa.
+        </p>
+      </div>
+
+      <div class="grid-2">
+        <div class="sub-card">
+          <div class="sub-card-title"><i class="fa-solid fa-file-cad" style="color: var(--danger);"></i> C. Tách Bản Vẽ CAD & Import Central File</div>
+          <ul class="sub-card-list">
+            <li><i class="fa-solid fa-triangle-exclamation" style="color: var(--danger);"></i> <strong>QUY TẮC BẮT BUỘC:</strong> Chỉ được dùng lệnh <code>BURST</code> trong AutoCAD để phá khối. <strong>TUYỆT ĐỐI KHÔNG DÙNG LỆNH <code>X</code> (EXPLODE)</strong> nhằm tránh mất mát các thuộc tính Attribute và thông tin bản vẽ!</li>
+            <li><i class="fa-solid fa-check"></i> <strong>C.1.1. Import vào Central:</strong> Đưa các file CAD mặt bằng, mặt cắt vào đúng cao độ Level.</li>
+            <li><i class="fa-solid fa-check"></i> <strong>C.1.1.1. Đồng bộ Lưới trục (Grid) & Level:</strong> So sánh hệ lưới trục giữa Kết cấu, Kiến trúc, Cơ điện. Nếu có sai lệch, bắt buộc thống nhất một tên chung đồng nhất.</li>
+            <li><i class="fa-solid fa-check"></i> Kiểm tra đúng vị trí tọa độ, kích thước tỷ lệ 1:1.</li>
+          </ul>
+        </div>
+
+        <div class="sub-card">
+          <div class="sub-card-title"><i class="fa-solid fa-door-open" style="color: var(--primary);"></i> D. Xử Lý Bảng Thống Kê & Dữ Liệu Cửa</div>
+          <ul class="sub-card-list">
+            <li><i class="fa-solid fa-check"></i> <strong>D.1. File nguồn:</strong> Trong thư mục kiến trúc có mặt bằng bố trí cửa và bảng thống kê cửa.</li>
+            <li><i class="fa-solid fa-check"></i> <strong>D.1.1. Quy cách đặt tên Family Cửa:</strong><br><code>Tên cửa(Width x Height)</code> &rarr; Ví dụ: <code>SD(1000x2100)</code>, <code>MD(1800x2400)</code>, <code>W(1200x1500)</code>.</li>
+            <li><i class="fa-solid fa-check"></i> <strong>D.1.2. Gán biến chi phí:</strong> Set parameter <span class="code-tag">Cost</span> của mỗi loại cửa bằng đúng số lượng trong bảng thống kê của Chủ đầu tư để đối soát khối lượng.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- STEP 3: TRIỂN KHAI DỰNG MODEL TRÊN CENTRAL FILE -->
+    <section id="step-3" class="content-box" style="scroll-margin-top: 90px;">
+      <div class="section-header">
+        <span class="section-tag">GIAI ĐOẠN 3</span>
+        <h2 class="section-title">Step 3: Triển Khai Dựng Model Chi Tiết & Tự Động Hóa</h2>
+        <p class="section-desc">
+          Mô hình hóa tường vách, Room, sàn trần bằng ATool, bố trí lanh tô bổ trụ giằng tường và quy trình 7 bước hoàn thiện kết cấu (HTKC).
+        </p>
+      </div>
+
+      <!-- E. DỰNG TƯỜNG -->
+      <div style="margin-bottom: 2rem;">
+        <h3 style="font-size: 1.25rem; font-weight: 800; margin-bottom: 1rem; color: var(--primary);"><i class="fa-solid fa-cubes"></i> E. Dựng Tường, Vách & Phân Loại 9 Lớp Template</h3>
+        
+        <div class="grid-3">
+          <div class="sub-card">
+            <div class="sub-card-title"><i class="fa-solid fa-layer-group"></i> 9 Lớp Vật Liệu Trong Template</div>
+            <ul class="sub-card-list">
+              <li><code>1</code>: Sơn tường trong</li>
+              <li><code>2</code>: Trát tường trong</li>
+              <li><code>3</code>: Trát tường ngoài</li>
+              <li><code>4</code>: Sơn tường ngoài</li>
+              <li><code>5</code>: Trát kết cấu trong nhà</li>
+              <li><code>6</code>: Trát kết cấu ngoài nhà</li>
+              <li><code>7</code>: Mài mịn kết cấu trong nhà</li>
+              <li><code>8</code>: Mài mịn kết cấu ngoài nhà</li>
+              <li><code>9</code>: Lớp trừ sơn trên trần: <span class="code-tag">BSV_TruSonTrat_010_0900</span></li>
+            </ul>
+          </div>
+
+          <div class="sub-card">
+            <div class="sub-card-title"><i class="fa-solid fa-barcode"></i> Quy Ước Tên Family Tường</div>
+            <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 8px;">
+              Cú pháp chuẩn: <code>BSV_ExWall_100_1231</code>
+            </p>
+            <ul class="sub-card-list">
+              <li><i class="fa-solid fa-tag"></i> <strong>ExWall / InWall:</strong> Tường ngoài / Tường trong.</li>
+              <li><i class="fa-solid fa-tag"></i> <strong>100 / 200:</strong> Chiều dày tường (mm).</li>
+              <li><i class="fa-solid fa-tag"></i> <strong>1231:</strong> Thứ tự 4 lớp hoàn thiện (Sơn trong - Trát trong - Trát ngoài - Sơn ngoài).</li>
+              <li><i class="fa-solid fa-check"></i> Base / Top Constraint đúng Level dưới và trên.</li>
+            </ul>
+          </div>
+
+          <div class="sub-card">
+            <div class="sub-card-title"><i class="fa-solid fa-restroom"></i> Các Loại Vách Chuyên Dụng</div>
+            <ul class="sub-card-list">
+              <li><i class="fa-solid fa-check"></i> <strong>Vách Compact WC:</strong> Base Constraint đặt đúng Level dưới, luôn <em>Offset +100mm</em> so với mặt hoàn thiện sàn.</li>
+              <li><i class="fa-solid fa-check"></i> <strong>Vách Panel:</strong> Chia tấm theo kích thước chuẩn.</li>
+              <li><i class="fa-solid fa-check"></i> <strong>Vách Thạch Cao:</strong> Chia theo khung xương chuẩn.</li>
+              <li><i class="fa-solid fa-triangle-exclamation"></i> Mặt che khuất không thi công được thì không làm hoàn thiện.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Tool va chạm tường -->
+        <div class="tool-highlight tool-highlight-purple" id="edit-dynamo-cuong">
+          <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px;">
+            <span class="edit-marker marker-dynamo"><i class="fa-solid fa-highlighter"></i> [VỊ TRÍ 5: DYNAMO - XỬ LÝ VA CHẠM TƯỜNG & KẾT CẤU]</span>
+            <span style="font-size: 0.75rem; color: var(--text-muted); font-family: 'JetBrains Mono', monospace;">Mục E.1.3 & I.2, I.3</span>
+          </div>
+          <div style="font-size: 0.875rem; color: var(--text-primary); margin-top: 6px; line-height: 1.6;">
+            <strong>Các Tool Dynamo tự động kiểm soát va chạm và bố trí cấu kiện:</strong><br>
+            • <code class="code-tag">BSV_Arch_DieuChinhOffsetTuongtheoKetCau</code>: Tự động hạ đỉnh tường tránh đâm xuyên dầm sàn kết cấu.<br>
+            • <code class="code-tag">BSV_Arch_GiaoCatTuongtheoKetCau</code>: Tự động đục lỗ mở hoặc cắt giao tường với cột vách.<br>
+            • <code class="code-tag">BSV_Arch_BoTriBoTruTuDong_V2</code>: Tự động cấy bổ trụ BTCT theo khoảng cách tiêu chuẩn.<br>
+            • <code class="code-tag">BSV_Arch_RaiGiangDinhTuong_V1</code>, <code class="code-tag">BSV_Arch_RaiGiangChanTuong_V1</code>, <code class="code-tag">BSV_Arch_RaiGiangTuong_V1</code>: Rải giằng tường tự động.
+          </div>
+        </div>
+      </div>
+
+      <!-- F, G, H, I, K: ATOOL AUTOMATION SPOTS -->
+      <div style="margin-bottom: 2.5rem;">
+        <h3 style="font-size: 1.25rem; font-weight: 800; margin-bottom: 1rem; color: var(--primary);"><i class="fa-solid fa-robot"></i> F &rarr; K. Ứng Dụng ATool & Tự Động Hóa Dựng Model</h3>
+
+        <!-- EDIT ATOOL SAN -->
+        <div class="tool-highlight" id="edit-atool-san" style="scroll-margin-top: 120px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px;">
+            <span class="edit-marker marker-atool"><i class="fa-solid fa-highlighter"></i> [VỊ TRÍ 1: ATOOL - DỰNG SÀN & TRẦN THEO ROOM]</span>
+            <span style="font-size: 0.75rem; color: var(--text-muted); font-family: 'JetBrains Mono', monospace;">Mục G.1.1 & G.1.2</span>
+          </div>
+          <div style="font-size: 0.875rem; color: var(--text-primary); margin-top: 6px; line-height: 1.6;">
+            <strong>Văn bản gốc:</strong><br>
+            • <code style="background: rgba(0,0,0,0.4); padding: 2px 6px; border-radius: 4px; color: #fbbf24; font-weight: 700;">G.1.1. Dựng sàn bằng Atool theo Room</code> (sau khi đã đặt tên Room và cao độ hoàn thiện trần Ceiling Height).<br>
+            • <code style="background: rgba(0,0,0,0.4); padding: 2px 6px; border-radius: 4px; color: #fbbf24; font-weight: 700;">G.1.2. Dựng trần bằng sàn đã tạo ở mục G.1.1 bằng Atool</code>.
+          </div>
+          <div style="margin-top: 6px; font-size: 0.75rem; color: #fbbf24;">
+            <i class="fa-solid fa-pen-to-square"></i> <em>Điểm chỉnh sửa: Tùy chỉnh quy trình sinh sàn hoàn thiện hoặc tool Dynamo tạo sàn đa Room.</em>
+          </div>
+        </div>
+
+        <!-- EDIT ATOOL LANH TO -->
+        <div class="tool-highlight" id="edit-atool-lanhto" style="scroll-margin-top: 120px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px;">
+            <span class="edit-marker marker-atool"><i class="fa-solid fa-highlighter"></i> [VỊ TRÍ 2: ATOOL - DỰNG LANH TÔ & BỔ TRỤ]</span>
+            <span style="font-size: 0.75rem; color: var(--text-muted); font-family: 'JetBrains Mono', monospace;">Mục I.1 & I.2</span>
+          </div>
+          <div style="font-size: 0.875rem; color: var(--text-primary); margin-top: 6px; line-height: 1.6;">
+            <strong>Văn bản gốc:</strong><br>
+            • <code style="background: rgba(0,0,0,0.4); padding: 2px 6px; border-radius: 4px; color: #fbbf24; font-weight: 700;">I.1. Dựng bằng Atool cho lanh tô</code> trên các đầu cửa đi, cửa sổ.<br>
+            • <code style="background: rgba(0,0,0,0.4); padding: 2px 6px; border-radius: 4px; color: #fbbf24; font-weight: 700;">I.2. Dựng bổ trụ bằng Tool: BSV_Arch_BoTriBoTruTuDong_V2</code>.
+          </div>
+        </div>
+
+        <!-- EDIT ATOOL CHONG THAM -->
+        <div class="tool-highlight" id="edit-atool-hoanthien" style="scroll-margin-top: 120px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px;">
+            <span class="edit-marker marker-atool"><i class="fa-solid fa-highlighter"></i> [VỊ TRÍ 3: ATOOL - CHỐNG THẤM & HOÀN THIỆN TƯỜNG]</span>
+            <span style="font-size: 0.75rem; color: var(--text-muted); font-family: 'JetBrains Mono', monospace;">Mục K.1</span>
+          </div>
+          <div style="font-size: 0.875rem; color: var(--text-primary); margin-top: 6px; line-height: 1.6;">
+            <strong>Văn bản gốc:</strong> <code style="background: rgba(0,0,0,0.4); padding: 2px 6px; border-radius: 4px; color: #fbbf24; font-weight: 700;">K.1. Dựng các lớp chống thấm, hoàn thiện tường bằng Atool theo Room</code>.
+          </div>
+        </div>
+      </div>
+
+      <!-- L. QUY TRÌNH 7 BƯỚC HOÀN THIỆN KẾT CẤU (HTKC) -->
+      <div id="edit-dynamo-htkc" style="scroll-margin-top: 120px;">
+        <h3 style="font-size: 1.25rem; font-weight: 800; margin-bottom: 0.5rem; color: var(--primary);">
+          <i class="fa-solid fa-paint-roller"></i> L. Quy Trình 7 Bước Hoàn Thiện Kết Cấu (HTKC) & Tận Dụng Ván Khuôn
+        </h3>
+        <p style="font-size: 0.875rem; color: var(--text-secondary); margin-bottom: 1.25rem;">
+          Tool thực hiện: <span class="tool-badge">BSV_Arch_HoanThienCotTranKetCauDungSan_V1</span> kết hợp lớp Special Equipment.
+        </p>
+
+        <div style="background: var(--bg-surface); border: 1px solid var(--border-color); border-radius: 14px; padding: 1.5rem; margin-bottom: 1.5rem;">
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 12px;">
+            <div style="background: var(--bg-card); padding: 12px 14px; border-radius: 10px; border-left: 3px solid var(--primary);">
+              <strong>B1:</strong> Mở View 3D (1) full không ẩn cấu kiện &rarr; chạy tool join tường với cột, tường với dầm.
+            </div>
+            <div style="background: var(--bg-card); padding: 12px 14px; border-radius: 10px; border-left: 3px solid var(--primary);">
+              <strong>B2:</strong> Quét chọn toàn bộ categories Cột, Dầm, Special Equipment (ván khuôn LTBT) &rarr; ẩn bằng lệnh <code>EH</code>.
+            </div>
+            <div style="background: var(--bg-card); padding: 12px 14px; border-radius: 10px; border-left: 3px solid var(--primary);">
+              <strong>B3:</strong> Tạo 3D View mới tên <strong>View KC (2)</strong>, tạo filter parameter <code>BSV_XuongChinh : TenXuong_KC</code>.
+            </div>
+            <div style="background: var(--bg-card); padding: 12px 14px; border-radius: 10px; border-left: 3px solid var(--primary);">
+              <strong>B4:</strong> Vào View 3D (1) <code>HI</code> (Isolate) file Kết cấu &rarr; chạy tool Dynamo <strong>Convertlinktomodel</strong>.
+            </div>
+            <div style="background: var(--bg-card); padding: 12px 14px; border-radius: 10px; border-left: 3px solid var(--primary);">
+              <strong>B5:</strong> Convert xong quét chọn toàn bộ đối tượng gắn biến <code>BSV_XuongChinh : TenXuong_KC</code>.
+            </div>
+            <div style="background: var(--bg-card); padding: 12px 14px; border-radius: 10px; border-left: 3px solid var(--primary);">
+              <strong>B6:</strong> Qua View 3D (2) quét chọn toàn bộ ván khuôn &rarr; xóa bỏ.
+            </div>
+            <div style="background: var(--bg-card); padding: 12px 14px; border-radius: 10px; border-left: 3px solid var(--primary); grid-column: 1 / -1;">
+              <strong>B7:</strong> Qua View 3D (1) gõ <code>HR</code> để hiện lại tường &rarr; chạy ván khuôn lại cho kết cấu và lấy phần này làm hoàn thiện kết cấu.
+            </div>
+          </div>
+        </div>
+
+        <!-- 6 Mã Code Nguyên Tắc Gán Tham Số -->
+        <h4 style="font-size: 1.05rem; font-weight: 800; margin-bottom: 0.75rem; color: var(--text-primary);">
+          Hệ Thống 6 Mã Code Phân Loại Hoàn Thiện Kết Cấu (HTKC):
+        </h4>
+        <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 1rem;">
+          Quy ước tiền tố: <code>Ex</code> (Mặt ngoài), <code>In</code> (Mặt trong), <code>Ce</code> (Trần), <code>St</code> (Thang, tam cấp).
+        </p>
+
+        <table class="codes-table">
+          <thead>
+            <tr>
+              <th style="width: 10%;">Mã Code</th>
+              <th style="width: 25%;">Cú pháp mẫu</th>
+              <th>Phạm vi áp dụng & Quy tắc cộng trừ vào BoQ</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><span class="badge" style="background:#38bdf8; color:#000; font-weight:800;">CODE 1</span></td>
+              <td><code>1.In.TratTrongSonTrong</code><br><code>1.Ex.TratNgoaiSonNgoai</code></td>
+              <td>Trát kết cấu cùng mặt với tường xây hoặc diện tích nhỏ trong Room &rarr; <strong>Cộng vào khối lượng trát tường trong / ngoài</strong>. Áp dụng cho cả phần lanh tô bổ trụ.</td>
+            </tr>
+            <tr>
+              <td><span class="badge" style="background:#f59e0b; color:#000; font-weight:800;">CODE 2</span></td>
+              <td><code>2.Ex.TratNgoaiSonNgoai</code><br><code>2.In.MaiTrongSonTrong</code></td>
+              <td>Trát/mài kết cấu riêng (Chân tường ngoài bằng bê tông, vách parapet mái, vách bê tông, vách bể) &rarr; <strong>Tách thành đầu mục công tác riêng nếu BoQ yêu cầu</strong>. Phần sơn cộng vào sơn tường.</td>
+            </tr>
+            <tr>
+              <td><span class="badge" style="background:#a855f7; color:#fff; font-weight:800;">CODE 3</span></td>
+              <td><code>3.Ce.TratTranSonTran</code></td>
+              <td>Áp dụng cho <strong>2 mặt bên hông dầm trần kết cấu (FW Beam Side)</strong> &rarr; Trát/mài cộng vào hoàn thiện trần, sơn cộng vào sơn trần.</td>
+            </tr>
+            <tr>
+              <td><span class="badge" style="background:#10b981; color:#000; font-weight:800;">CODE 4</span></td>
+              <td><code>4.Ce.TratTranSonTran</code></td>
+              <td>Áp dụng cho <strong>1 mặt đáy dầm trần và mặt đáy sàn trần kết cấu</strong> &rarr; Khối lượng trát/sơn cộng vào hoàn thiện trần.</td>
+            </tr>
+            <tr>
+              <td><span class="badge" style="background:#ec4899; color:#fff; font-weight:800;">CODE 5</span></td>
+              <td><code>5.St.TratThangSonThang</code><br><code>6.St.MaiThangSonThang</code></td>
+              <td>Mặt đáy và mặt cạnh thang bộ, tam cấp &rarr; Cộng vào hoàn thiện thang/tam cấp (nếu BoQ không tách thì cộng vào sơn trần / sơn tường ngoài).</td>
+            </tr>
+            <tr>
+              <td><span class="badge" style="background:#6366f1; color:#fff; font-weight:800;">CODE 6</span></td>
+              <td><code>6.Fs.Granite...</code></td>
+              <td>Mặt bậc thang bộ, tam cấp (bao gồm chiếu nghỉ, chiếu tới) &rarr; Cộng vào khối lượng hoàn thiện mặt bậc.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- STEP 4: THỐNG KÊ KHỐI LƯỢNG & NHẬP BOQ -->
+    <section id="step-4" class="content-box" style="scroll-margin-top: 90px;">
+      <div class="section-header">
+        <span class="section-tag">GIAI ĐOẠN 4</span>
+        <h2 class="section-title">Step 4: Thống Kê Khối Lượng, Gán Biến Parameter & Khấu Trừ BoQ</h2>
+        <p class="section-desc">
+          Chi tiết danh mục tham số bắt buộc cho từng loại cấu kiện, công thức tính trát cạnh cửa, sill cửa và quy tắc khấu trừ sơn trát chuẩn QS.
+        </p>
+      </div>
+
+      <!-- Tham biến cấu kiện -->
+      <div class="grid-3" style="margin-bottom: 2rem;">
+        <div class="sub-card">
+          <div class="sub-card-title"><i class="fa-solid fa-cube"></i> Tường Xây & Hoàn Thiện</div>
+          <ul class="sub-card-list">
+            <li><code>Comments</code>: <span class="code-tag">TuongVach</span></li>
+            <li><code>Note</code>: Mô tả đối tượng chia trong BoQ (VD: <code>VachThachCao</code>, <code>TuongTrong</code>).</li>
+            <li><code>BSV_PhanKhu</code>: Phân khu xưởng.</li>
+            <li><code>BSV_XuongChinh</code>: Tên xưởng cho file combine.</li>
+            <li>Trừ hoàn thiện: <span class="code-tag">TruKLHoanThienTuong</span>.</li>
+          </ul>
+        </div>
+
+        <div class="sub-card">
+          <div class="sub-card-title"><i class="fa-solid fa-border-all"></i> Sàn, Trần & Chống Thấm</div>
+          <ul class="sub-card-list">
+            <li>Sàn hoàn thiện: <code>Comments: HoanThienSan</code></li>
+            <li>Trần hoàn thiện: <code>Comments: HoanThienTran</code></li>
+            <li>Chống thấm: <code>Comments: ChongTham</code></li>
+            <li><code>Note</code>: Tên loại vật liệu hoặc phạm vi bóc tách theo BoQ.</li>
+          </ul>
+        </div>
+
+        <div class="sub-card">
+          <div class="sub-card-title"><i class="fa-solid fa-door-closed"></i> Cửa Đi & Trát Cạnh Cửa</div>
+          <ul class="sub-card-list">
+            <li><code>BSV_TratFull = 1</code>: Cửa trong tường, trát tất cả các cạnh.</li>
+            <li><code>BSV_Trat1m = 1</code>: Cửa trên tường 1m hoặc cao độ cố định.</li>
+            <li>Cửa trên khung thép: <code>BSV_TratFull = 0</code>, <code>BSV_Trat1m = 0</code> (không tính trát).</li>
+            <li>Chạy tool: <span class="tool-badge">BSV_Arch_LayChieuDayTuongChoCua_V1</span> để lấy chiều dày tường tự động.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Bổ trụ, Lanh tô & Quy tắc cộng trừ BoQ -->
+      <div class="grid-2">
+        <div class="sub-card">
+          <div class="sub-card-title"><i class="fa-solid fa-cubes"></i> Bổ Trụ & Lanh Tô Giằng Tường</div>
+          <ul class="sub-card-list">
+            <li><strong>Bê tông Bổ trụ:</strong> <code>Comments: BoTru</code></li>
+            <li><strong>Bê tông LTGT:</strong> <code>Comments: LTGT</code>, <code>BSV_HTKC: TratDinhTuong</code></li>
+            <li><strong>Ván khuôn:</strong> <code>Note: VK_BoTru</code> đối với bổ trụ, <code>VK_LTGT</code> đối với lanh tô giằng tường.</li>
+            <li><strong>Hoàn thiện kết cấu:</strong> Gán <code>BSV_HTKC: TratTrongSonTrong_LTBT</code>...</li>
+          </ul>
+        </div>
+
+        <div class="sub-card">
+          <div class="sub-card-title"><i class="fa-solid fa-calculator" style="color: var(--accent);"></i> Quy Tắc Cộng Trừ Sơn Trát Chuẩn BoQ</div>
+          <ul class="sub-card-list">
+            <li><i class="fa-solid fa-minus" style="color: var(--danger);"></i> <strong>Sơn tường trong TRỪ:</strong> Len chân tường, ốp gạch WC, phần trên trần hoàn thiện, vị trí che khuất.</li>
+            <li><i class="fa-solid fa-plus" style="color: var(--success);"></i> <strong>Sơn tường trong CỘNG:</strong> Mặt trong lanh tô bổ trụ, sơn trong của kết cấu.</li>
+            <li><i class="fa-solid fa-minus" style="color: var(--danger);"></i> <strong>Sơn tường ngoài TRỪ:</strong> Len chân tường ngoài nhà, vách kính mặt dựng ngoài nhà.</li>
+            <li><i class="fa-solid fa-plus" style="color: var(--success);"></i> <strong>Sơn tường ngoài CỘNG:</strong> Mặt ngoài lanh tô bổ trụ, sơn ngoài kết cấu.</li>
+            <li><i class="fa-solid fa-plus-circle" style="color: var(--primary);"></i> <strong>Đầu mục thường bổ sung:</strong> Trát cạnh cửa, trát đỉnh tường, giàn giáo xây tô (diện tích tường full không gồm cửa, trừ cột dầm x 2, tường > 3.4m).</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: BẢNG THỐNG KÊ REVIT SCHEDULES -->
+    <section id="schedules-kt" class="content-box" style="scroll-margin-top: 90px;">
+      <div class="section-header">
+        <span class="section-tag">THƯ VIỆN BẢNG BIỂU</span>
+        <h2 class="section-title">Hệ Thống Biểu Mẫu Revit Schedules Mẫu Bộ Môn Kiến Trúc</h2>
+        <p class="section-desc">
+          Trích xuất 31 biểu mẫu bảng thống kê cấu kiện kiến trúc, bộ lọc Filter & Sorting chuẩn từ tài liệu gốc. Nhấp vào từng ảnh để phóng to.
+        </p>
+      </div>
+
+      <div class="sched-gallery">
+        <div class="sched-item" onclick="openModal('assets/bsv_kt/kt_img_1.png', 'Thống kê Tường xây - Filter & Sorting')">
+          <div class="sched-thumb"><img src="assets/bsv_kt/kt_img_1.png" alt="Schedules 1"></div>
+          <div class="sched-label">01. Tường Xây (Quantities)</div>
+        </div>
+        <div class="sched-item" onclick="openModal('assets/bsv_kt/kt_img_2.png', 'Thống kê Hoàn thiện tường - Filter')">
+          <div class="sched-thumb"><img src="assets/bsv_kt/kt_img_2.png" alt="Schedules 2"></div>
+          <div class="sched-label">02. Hoàn Thiện Tường (Filter)</div>
+        </div>
+        <div class="sched-item" onclick="openModal('assets/bsv_kt/kt_img_3.png', 'Thống kê Hoàn thiện tường - Sorting')">
+          <div class="sched-thumb"><img src="assets/bsv_kt/kt_img_3.png" alt="Schedules 3"></div>
+          <div class="sched-label">03. Hoàn Thiện Tường (Sorting)</div>
+        </div>
+        <div class="sched-item" onclick="openModal('assets/bsv_kt/kt_img_4.png', 'Thống kê Sàn hoàn thiện - Quantities')">
+          <div class="sched-thumb"><img src="assets/bsv_kt/kt_img_4.png" alt="Schedules 4"></div>
+          <div class="sched-label">04. Sàn Hoàn Thiện</div>
+        </div>
+        <div class="sched-item" onclick="openModal('assets/bsv_kt/kt_img_7.png', 'Thống kê Trần hoàn thiện - Quantities')">
+          <div class="sched-thumb"><img src="assets/bsv_kt/kt_img_7.png" alt="Schedules 7"></div>
+          <div class="sched-label">05. Trần Hoàn Thiện</div>
+        </div>
+        <div class="sched-item" onclick="openModal('assets/bsv_kt/kt_img_10.png', 'Thống kê Chống thấm - Multi Material')">
+          <div class="sched-thumb"><img src="assets/bsv_kt/kt_img_10.png" alt="Schedules 10"></div>
+          <div class="sched-label">06. Khối Lượng Chống Thấm</div>
+        </div>
+        <div class="sched-item" onclick="openModal('assets/bsv_kt/kt_img_13.png', 'Thống kê Cửa đi & Trát cạnh cửa')">
+          <div class="sched-thumb"><img src="assets/bsv_kt/kt_img_13.png" alt="Schedules 13"></div>
+          <div class="sched-label">07. Cửa Đi & Trát Cạnh Cửa</div>
+        </div>
+        <div class="sched-item" onclick="openModal('assets/bsv_kt/kt_img_16.png', 'Thống kê Bê tông Bổ trụ')">
+          <div class="sched-thumb"><img src="assets/bsv_kt/kt_img_16.png" alt="Schedules 16"></div>
+          <div class="sched-label">08. Bê Tông Bổ Trụ</div>
+        </div>
+        <div class="sched-item" onclick="openModal('assets/bsv_kt/kt_img_18.png', 'Thống kê Bê tông Lanh tô Giằng tường')">
+          <div class="sched-thumb"><img src="assets/bsv_kt/kt_img_18.png" alt="Schedules 18"></div>
+          <div class="sched-label">09. Bê Tông LTGT</div>
+        </div>
+        <div class="sched-item" onclick="openModal('assets/bsv_kt/kt_img_21.png', 'Thống kê Ván khuôn Bổ trụ LTGT')">
+          <div class="sched-thumb"><img src="assets/bsv_kt/kt_img_21.png" alt="Schedules 21"></div>
+          <div class="sched-label">10. Ván Khuôn Bổ Trụ LTGT</div>
+        </div>
+        <div class="sched-item" onclick="openModal('assets/bsv_kt/kt_img_24.png', 'Thống kê Hoàn thiện kết cấu HTKC')">
+          <div class="sched-thumb"><img src="assets/bsv_kt/kt_img_24.png" alt="Schedules 24"></div>
+          <div class="sched-label">11. Hoàn Thiện Kết Cấu (HTKC)</div>
+        </div>
+        <div class="sched-item" onclick="openModal('assets/bsv_kt/kt_img_27.png', 'Thống kê Hoàn thiện kết cấu Detail')">
+          <div class="sched-thumb"><img src="assets/bsv_kt/kt_img_27.png" alt="Schedules 27"></div>
+          <div class="sched-label">12. HTKC Detail Management</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MINDMAP FULL CANVAS BANNER -->
+    <div class="mindmap-banner">
+      <div>
+        <h3 style="font-size: 1.35rem; font-weight: 800; margin-bottom: 0.5rem;"><i class="fa-solid fa-diagram-project" style="color: var(--primary);"></i> Bản Đồ Tư Duy Gốc BSV_Arch_Working_process (Full Canvas)</h3>
+        <p style="font-size: 0.9rem; color: var(--text-secondary);">
+          Xem bản vẽ đồ họa gốc siêu nét độ phân giải cực cao <strong>5659 x 23817 px</strong> bao quát toàn bộ 4 Step và hệ thống nhánh chi tiết.
+        </p>
+      </div>
+      <button class="btn btn-primary" onclick="openModal('assets/bsv_kt/bsv_kientruc_full.png', 'BSV_Arch_Working process - Bản vẽ đồ họa gốc siêu nét')" style="padding: 12px 24px; font-weight: 700; white-space: nowrap;">
+        <i class="fa-solid fa-expand"></i> Mở Mindmap Gốc Full
+      </button>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2026 BIM Management Platform • Bộ môn Kiến Trúc (BSV_Arch_Working process)</p>
+      <p style="margin-top: 4px; font-size: 0.775rem;">Được số hóa từ tài liệu kỹ thuật <code>BSV_Arch_Working process-1.pdf</code> phục vụ công tác chuẩn hóa quy trình BIM Kiến trúc.</p>
+    </footer>
+
+  </div>
+
+  <!-- Lightbox Image Modal -->
+  <div class="image-modal" id="imageModal" onclick="closeModal()">
+    <div class="modal-content-box" onclick="event.stopPropagation()">
+      <button class="modal-close-btn" onclick="closeModal()">&times;</button>
+      <img id="modalImg" src="" alt="Schedule Preview">
+      <div class="modal-caption" id="modalCaption"></div>
+    </div>
+  </div>
+
+  <script>
+    // Theme Toggle
+    function toggleTheme() {
+      const html = document.documentElement;
+      const currentTheme = html.getAttribute('data-theme') || 'dark';
+      const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+      html.setAttribute('data-theme', newTheme);
+      localStorage.setItem('bim_theme_preference', newTheme);
+      updateThemeIcon(newTheme);
+    }
+
+    function updateThemeIcon(theme) {
+      const icon = document.getElementById('themeIcon');
+      if (icon) {
+        icon.className = theme === 'dark' ? 'fa-solid fa-sun' : 'fa-solid fa-moon';
+      }
+    }
+
+    // Image Modal Lightbox
+    function openModal(imgSrc, caption) {
+      const modal = document.getElementById('imageModal');
+      const modalImg = document.getElementById('modalImg');
+      const modalCap = document.getElementById('modalCaption');
+      modalImg.src = imgSrc;
+      modalCap.innerText = caption || '';
+      modal.classList.add('active');
+    }
+
+    function closeModal() {
+      const modal = document.getElementById('imageModal');
+      modal.classList.remove('active');
+    }
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeModal();
+    });
+
+    // Load Theme Preference
+    window.addEventListener('DOMContentLoaded', () => {
+      const savedTheme = localStorage.getItem('bim_theme_preference') || 'dark';
+      document.documentElement.setAttribute('data-theme', savedTheme);
+      updateThemeIcon(savedTheme);
+    });
+  </script>
+</body>
+</html>
+"""
+
+with open('BSV_BimKienTruc.html', 'w', encoding='utf-8') as f:
+    f.write(html_content)
+
+print("Created BSV_BimKienTruc.html successfully!")

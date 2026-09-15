@@ -1205,17 +1205,6 @@
     </ul>
 
     <div class="nav-actions">
-      <!-- Direct SOP Structural Handbook Link -->
-      <a href="BSV_BimKienTruc.html" target="_blank" class="btn btn-outline" style="border-color: rgba(14, 165, 233, 0.5); color: var(--primary); font-weight: 700;" title="Mở Sổ tay Quy trình BIM Kiến Trúc (ARC)">
-        <i class="fa-solid fa-building-columns"></i> Sổ Tay KT
-      </a>
-      <a href="BSV_BimKetCauVer2.html" target="_blank" class="btn btn-outline" style="border-color: rgba(245, 158, 11, 0.4); color: #fbbf24; font-weight: 700;" title="Mở Sổ tay Quy trình Dựng hình & Bóc tách Khối lượng BIM Kết Cấu">
-        <i class="fa-solid fa-cube"></i> Sổ Tay KC
-      </a>
-      <a href="BSV_ShopDrawingRebar.html" target="_blank" class="btn btn-outline" style="border-color: rgba(239, 68, 68, 0.4); color: #f87171; font-weight: 700;" title="Mở Sổ tay Triển khai Shop Drawing Cốt Thép">
-        <i class="fa-solid fa-sheet-plastic"></i> Sổ Tay Shop Rebar
-      </a>
-
       <!-- Dark/Light Mode Switcher -->
       <button class="theme-toggle-btn" id="themeToggleBtn" onclick="toggleTheme()" title="Chuyển chế độ Sáng / Tối">
         <i class="fa-solid fa-sun" id="themeIcon"></i>
@@ -1235,21 +1224,6 @@
         <p class="hero-subtitle">
           "From Data to Better Building" – Hệ sinh thái quản trị dữ liệu BIM thống nhất xuyên suốt toàn bộ vòng đời công trình: Lập kế hoạch $\rightarrow$ Thiết kế $\rightarrow$ Thi công $\rightarrow$ Bàn giao số & Quản lý vận hành tài sản trong 50 năm.
         </p>
-
-        <div style="margin-bottom: 1.5rem; display: flex; gap: 12px; flex-wrap: wrap;">
-          <a href="BSV_BimKienTruc.html" target="_blank" style="display: inline-flex; align-items: center; gap: 8px; background: rgba(14, 165, 233, 0.15); border: 1px solid rgba(56, 189, 248, 0.4); color: var(--primary); padding: 8px 18px; border-radius: 30px; font-size: 0.875rem; font-weight: 700; text-decoration: none; transition: all 0.2s ease; box-shadow: 0 0 15px var(--primary-glow);">
-            <i class="fa-solid fa-building-columns"></i> Sổ Tay: BSV_KIẾN TRÚC &rarr;
-          </a>
-          <a href="BSV_BimKetCauVer2.html" target="_blank" style="display: inline-flex; align-items: center; gap: 8px; background: rgba(245, 158, 11, 0.12); border: 1px solid rgba(245, 158, 11, 0.35); color: #fbbf24; padding: 8px 18px; border-radius: 30px; font-size: 0.875rem; font-weight: 700; text-decoration: none; transition: all 0.2s ease;">
-            <i class="fa-solid fa-cube"></i> Sổ Tay: BSV_KẾT CẤU &rarr;
-          </a>
-          <a href="BSV_ShopDrawingRebar.html" target="_blank" style="display: inline-flex; align-items: center; gap: 8px; background: rgba(239, 68, 68, 0.12); border: 1px solid rgba(239, 68, 68, 0.35); color: #f87171; padding: 8px 18px; border-radius: 30px; font-size: 0.875rem; font-weight: 700; text-decoration: none; transition: all 0.2s ease;">
-            <i class="fa-solid fa-sheet-plastic"></i> Sổ Tay: SHOP REBAR &rarr;
-          </a>
-          <span style="display: inline-flex; align-items: center; gap: 6px; font-size: 0.8rem; color: var(--text-muted);">
-            <i class="fa-solid fa-circle-check" style="color: var(--success);"></i> Đã tích hợp Atool, BimSpeed & 14 Cấu kiện
-          </span>
-        </div>
 
         <div class="hero-stats">
           <div class="stat-item">
@@ -1404,11 +1378,6 @@
                 <h4>Bóc tách khối lượng tự động & Đánh giá chi phí (BIM 5D)</h4>
                 <p>Liên kết khối lượng bóc tách từ mô hình với đơn giá để lập dự toán và so sánh biến động chi phí khi có thay đổi phương án.</p>
                 <span class="check-tag">BIM 5D Cost</span>
-                <div style="margin-top: 10px;">
-                  <a href="BSV_BimKetCauVer2.html" target="_blank" onclick="event.stopPropagation();" style="color: var(--primary); font-size: 0.82rem; font-weight: 700; text-decoration: underline; display: inline-flex; align-items: center; gap: 5px;">
-                    <i class="fa-solid fa-file-invoice-dollar"></i> Xem Quy trình 7 bước gán biến BOQ & Khấu trừ QS (BSV_KẾT CẤU) &rarr;
-                  </a>
-                </div>
               </div>
             </label>
 
@@ -1609,43 +1578,6 @@ ightarrow$ LOD 500 phục vụ bóc tách khối lượng 5D, tiến độ 4D v�
 
       <!-- PANE 1: ARC (KIẾN TRÚC) -->
       <div class="disc-pane active" id="disc-arc">
-        <!-- SOP Direct Link Banner for Architecture -->
-        <div style="background: linear-gradient(135deg, rgba(14, 165, 233, 0.14), rgba(99, 102, 241, 0.08)); border: 1px solid rgba(56, 189, 248, 0.35); border-radius: 16px; padding: 1.5rem 1.8rem; margin-bottom: 2rem; box-shadow: 0 6px 20px rgba(0,0,0,0.3);">
-          <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 15px; margin-bottom: 1rem;">
-            <div>
-              <span style="font-size: 0.75rem; font-weight: 800; color: var(--primary); background: var(--primary-glow); padding: 3px 10px; border-radius: 6px; text-transform: uppercase; letter-spacing: 0.5px;">SOP TIÊU CHUẨN REVIT ARCHITECTURE</span>
-              <h4 style="font-size: 1.2rem; font-weight: 800; color: var(--text-primary); margin-top: 4px;">
-                <i class="fa-solid fa-building-columns" style="color: var(--primary);"></i> Sổ Tay Quy Trình Dựng Hình & Hoàn Thiện: BSV_KIẾN TRÚC (ARC)
-              </h4>
-              <p style="font-size: 0.875rem; color: var(--text-secondary); margin-top: 4px;">
-                Chuẩn hóa 4 bước tiếp cận bản vẽ, tách CAD lệnh BURST, 9 lớp vật liệu tường, tự động hóa ATool, quy trình 7 bước hoàn thiện kết cấu (HTKC) và gán mã code liên kết BOQ.
-              </p>
-            </div>
-            <a href="BSV_BimKienTruc.html" target="_blank" class="btn btn-primary" style="font-weight: 700; white-space: nowrap; padding: 10px 20px; font-size: 0.95rem; box-shadow: 0 0 20px var(--primary-glow);">
-              <i class="fa-solid fa-arrow-up-right-from-square"></i> Mở Sổ Tay Kiến Trúc (HTML) &rarr;
-            </a>
-          </div>
-
-          <!-- Shortcuts -->
-          <div style="display: flex; gap: 10px; flex-wrap: wrap; border-top: 1px solid var(--border-color); padding-top: 1rem;">
-            <a href="BSV_BimKienTruc.html#step-1" target="_blank" style="font-size: 0.8rem; font-weight: 700; color: var(--text-secondary); background: var(--bg-card); border: 1px solid var(--border-color); padding: 6px 12px; border-radius: 8px; text-decoration: none; display: inline-flex; align-items: center; gap: 6px;">
-              <i class="fa-solid fa-folder-tree" style="color: var(--primary);"></i> Step 1: Bản vẽ & Finishing
-            </a>
-            <a href="BSV_BimKienTruc.html#step-2" target="_blank" style="font-size: 0.8rem; font-weight: 700; color: var(--text-secondary); background: var(--bg-card); border: 1px solid var(--border-color); padding: 6px 12px; border-radius: 8px; text-decoration: none; display: inline-flex; align-items: center; gap: 6px;">
-              <i class="fa-solid fa-file-cad" style="color: var(--danger);"></i> Step 2: Lệnh BURST & Cửa
-            </a>
-            <a href="BSV_BimKienTruc.html#step-3" target="_blank" style="font-size: 0.8rem; font-weight: 700; color: var(--text-secondary); background: var(--bg-card); border: 1px solid var(--border-color); padding: 6px 12px; border-radius: 8px; text-decoration: none; display: inline-flex; align-items: center; gap: 6px;">
-              <i class="fa-solid fa-cubes" style="color: var(--accent);"></i> Step 3: Dựng Tường & ATool
-            </a>
-            <a href="BSV_BimKienTruc.html#step-4" target="_blank" style="font-size: 0.8rem; font-weight: 700; color: var(--text-secondary); background: var(--bg-card); border: 1px solid var(--border-color); padding: 6px 12px; border-radius: 8px; text-decoration: none; display: inline-flex; align-items: center; gap: 6px;">
-              <i class="fa-solid fa-barcode" style="color: var(--success);"></i> Step 4: 6 Mã Code HTKC & BOQ
-            </a>
-            <a href="BSV_BimKienTruc.html#schedules-kt" target="_blank" style="font-size: 0.8rem; font-weight: 700; color: var(--text-secondary); background: var(--bg-card); border: 1px solid var(--border-color); padding: 6px 12px; border-radius: 8px; text-decoration: none; display: inline-flex; align-items: center; gap: 6px;">
-              <i class="fa-solid fa-table-cells" style="color: #c084fc;"></i> Thư viện Schedules
-            </a>
-          </div>
-        </div>
-
         <div class="wbs-card-grid">
           <div class="wbs-box">
             <div class="wbs-header">
@@ -1735,43 +1667,6 @@ ightarrow$ LOD 500 phục vụ bóc tách khối lượng 5D, tiến độ 4D v�
 
       <!-- PANE 2: STR (KẾT CẤU) -->
       <div class="disc-pane" id="disc-str">
-        <!-- SOP Direct Link Banner with Section Shortcuts -->
-        <div style="background: linear-gradient(135deg, rgba(56, 189, 248, 0.14), rgba(37, 99, 235, 0.08)); border: 1px solid rgba(56, 189, 248, 0.35); border-radius: 16px; padding: 1.5rem 1.8rem; margin-bottom: 2rem; box-shadow: 0 6px 20px rgba(0,0,0,0.3);">
-          <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 15px; margin-bottom: 1rem;">
-            <div>
-              <span style="font-size: 0.75rem; font-weight: 800; color: var(--primary); background: var(--primary-glow); padding: 3px 10px; border-radius: 6px; text-transform: uppercase; letter-spacing: 0.5px;">SOP TIÊU CHUẨN REVIT STRUCTURE</span>
-              <h4 style="font-size: 1.2rem; font-weight: 800; color: var(--text-primary); margin-top: 4px;">
-                <i class="fa-solid fa-book-bookmark" style="color: var(--primary);"></i> Sổ Tay Quy Trình Dựng Hình & Bóc Tách: BSV_KẾT CẤU (VER 2)
-              </h4>
-              <p style="font-size: 0.875rem; color: var(--text-secondary); margin-top: 4px;">
-                Chuẩn hóa quy ước tính khối lượng với QS, thứ tự ưu tiên Join cấu kiện (Atool), quy trình 7 bước gán biến BOQ, chi tiết 14 cấu kiện & 7 bảng biểu mẫu Revit Schedules.
-              </p>
-            </div>
-            <a href="BSV_BimKetCauVer2.html" target="_blank" class="btn btn-primary" style="font-weight: 700; white-space: nowrap; padding: 10px 20px; font-size: 0.95rem; box-shadow: 0 0 20px var(--primary-glow);">
-              <i class="fa-solid fa-arrow-up-right-from-square"></i> Mở Toàn Bộ Sổ Tay (HTML) &rarr;
-            </a>
-          </div>
-
-          <!-- Quick Navigation Pills to BSV_BimKetCauVer2.html sections -->
-          <div style="display: flex; gap: 10px; flex-wrap: wrap; border-top: 1px solid var(--border-color); padding-top: 1rem;">
-            <a href="BSV_BimKetCauVer2.html#thu-tu-tinh" target="_blank" style="font-size: 0.8rem; font-weight: 700; color: var(--text-secondary); background: var(--bg-card); border: 1px solid var(--border-color); padding: 6px 12px; border-radius: 8px; text-decoration: none; display: inline-flex; align-items: center; gap: 6px;">
-              <i class="fa-solid fa-arrows-split-up-and-left" style="color: var(--primary);"></i> 1. Thứ tự Join QS (Atool)
-            </a>
-            <a href="BSV_BimKetCauVer2.html#quy-trinh-7-buoc" target="_blank" style="font-size: 0.8rem; font-weight: 700; color: var(--text-secondary); background: var(--bg-card); border: 1px solid var(--border-color); padding: 6px 12px; border-radius: 8px; text-decoration: none; display: inline-flex; align-items: center; gap: 6px;">
-              <i class="fa-solid fa-list-check" style="color: var(--accent);"></i> 2. Quy trình 7 bước gán biến BOQ
-            </a>
-            <a href="BSV_BimKetCauVer2.html#14-cau-kien" target="_blank" style="font-size: 0.8rem; font-weight: 700; color: var(--text-secondary); background: var(--bg-card); border: 1px solid var(--border-color); padding: 6px 12px; border-radius: 8px; text-decoration: none; display: inline-flex; align-items: center; gap: 6px;">
-              <i class="fa-solid fa-sitemap" style="color: var(--success);"></i> 3. 14 Hạng mục Cấu kiện
-            </a>
-            <a href="BSV_BimKetCauVer2.html#bang-thong-ke" target="_blank" style="font-size: 0.8rem; font-weight: 700; color: var(--text-secondary); background: var(--bg-card); border: 1px solid var(--border-color); padding: 6px 12px; border-radius: 8px; text-decoration: none; display: inline-flex; align-items: center; gap: 6px;">
-              <i class="fa-solid fa-table-cells" style="color: var(--primary);"></i> 4. 7 Bảng Revit Schedules
-            </a>
-            <a href="BSV_BimKetCauVer2.html#mindmap-view" target="_blank" style="font-size: 0.8rem; font-weight: 700; color: var(--text-secondary); background: var(--bg-card); border: 1px solid var(--border-color); padding: 6px 12px; border-radius: 8px; text-decoration: none; display: inline-flex; align-items: center; gap: 6px;">
-              <i class="fa-solid fa-diagram-project" style="color: var(--accent);"></i> 5. Sơ đồ Mindmap gốc
-            </a>
-          </div>
-        </div>
-
         <div class="wbs-card-grid">
           <div class="wbs-box">
             <div class="wbs-header">
@@ -2276,24 +2171,6 @@ ightarrow$ LOD 500 phục vụ bóc tách khối lượng 5D, tiến độ 4D v�
         </p>
       </div>
 
-      <!-- Shop Drawing Rebar SOP Banner in Thi Cong Section -->
-      <div style="background: linear-gradient(135deg, rgba(239, 68, 68, 0.12), rgba(245, 158, 11, 0.08)); border: 1px solid rgba(239, 68, 68, 0.35); border-radius: 16px; padding: 1.5rem 1.8rem; margin-bottom: 2rem; box-shadow: 0 6px 20px rgba(0,0,0,0.3);">
-        <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 15px;">
-          <div>
-            <span style="font-size: 0.75rem; font-weight: 800; color: #f87171; background: rgba(239, 68, 68, 0.15); padding: 3px 10px; border-radius: 6px; text-transform: uppercase; letter-spacing: 0.5px;">SOP THI CÔNG & CHẾ TẠO CỐT THÉP</span>
-            <h4 style="font-size: 1.2rem; font-weight: 800; color: var(--text-primary); margin-top: 4px;">
-              <i class="fa-solid fa-sheet-plastic" style="color: #f87171;"></i> Sổ Tay Quy Trình Triển Khai: BSV_SHOP DRAWING REBAR
-            </h4>
-            <p style="font-size: 0.875rem; color: var(--text-secondary); margin-top: 4px;">
-              Quy cách đặt tên Partition, nối so le dầm cột móng, kéo hình dạng uốn 2D Bending Detail, Multi-Rebar Annotation (MRA) và xuất bảng thống kê chế tạo thép thi công.
-            </p>
-          </div>
-          <a href="BSV_ShopDrawingRebar.html" target="_blank" class="btn btn-primary" style="background: linear-gradient(135deg, #ef4444, #ea580c); font-weight: 700; white-space: nowrap; padding: 10px 20px; font-size: 0.95rem; box-shadow: 0 0 20px rgba(239, 68, 68, 0.3);">
-            <i class="fa-solid fa-arrow-up-right-from-square"></i> Mở Sổ Tay Shop Rebar (HTML) &rarr;
-          </a>
-        </div>
-      </div>
-
       <!-- Slide 11: Change & RFI Management Workflow -->
       <div class="slide-card reverse">
         <div class="slide-img-box" onclick="openModal('assets/pages/page_11.png')">
@@ -2608,9 +2485,6 @@ ightarrow$ LOD 500 phục vụ bóc tách khối lượng 5D, tiến độ 4D v�
         <h4>Năng Lực Cốt Lõi</h4>
         <ul>
           <li><a href="#thiet-ke">• Architecture & Structure Modeling</a></li>
-          <li><a href="BSV_BimKienTruc.html" target="_blank" style="color: var(--primary); font-weight: 700;">• Sổ Tay BSV_KIẾN TRÚC (ARC) <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.7rem;"></i></a></li>
-          <li><a href="BSV_BimKetCauVer2.html" target="_blank" style="color: #fbbf24; font-weight: 700;">• Sổ Tay BSV_KẾT CẤU (VER 2) <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.7rem;"></i></a></li>
-          <li><a href="BSV_ShopDrawingRebar.html" target="_blank" style="color: #f87171; font-weight: 700;">• Sổ Tay BSV_SHOP DRAWING REBAR <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.7rem;"></i></a></li>
           <li><a href="#thiet-ke">• MEP Systems & Clash Detection</a></li>
           <li><a href="#thiet-ke">• 4D Scheduling & 5D Quantity Takeoff</a></li>
           <li><a href="#thi-cong">• Site Management & Inspection QA/QC</a></li>
